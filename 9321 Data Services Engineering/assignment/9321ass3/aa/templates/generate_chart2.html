@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+    <title>chart.js 2.x</title>
+</head>
+<body>
+<!-- 展示canvas -->
+aaa
+<div style="width:500px;height:500px;" id="radar">
+    <canvas id="myChart"></canvas>
+</div>
+<!--引入 chartjs-->
+<script src="../static/js/Chart.js"></script>
+
+
+<script type="text/javascript">
+    // 设置数据和参数
+    var myRadarChart = new Chart(ctx, {
+        type: 'radar',
+        data: data,
+        options: options
+    });
+</script>
+</body>
+</html>

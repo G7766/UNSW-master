@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+    <title>chart.js 2.x</title>
+</head>
+<body>
+<!-- 展示canvas -->
+aaa
+<div style="width:500px;height:500px;" id="radar">
+    <canvas id="myChart"></canvas>
+</div>
+<!--引入 chartjs-->
+<script src="../static/js/Chart.js"></script>
+
+
+<script type="text/javascript">
+    // 设置数据和参数
+    var radarChartData = {
+        labels: ["星期一", "星期二", "星期三", "星期四", "星期五","星期六","星期日"],
+        datasets: [
+            {
+                pointBorderColor:"#C064A7",//描点颜色
+                pointBackgroundColor:"#fff",//描点背景颜色
+                borderColor:"#C064A7",//画线颜色
+                data: [15,25,35,45,55,65,75]
+            }
+            ,
+            {
+                pointBorderColor:"#C064A7",//描点颜色
+                pointBackgroundColor:"#A8FF24",//描点背景颜色
+                borderColor:"#F9F900",//画线颜色
+                data: [33,40,5,66,40,77,90]
+            }
+        ]
+
+    };
+    //设置选项
+    var options = {
+        legend:false,//数据项
+        scale: {
+            ticks: {
+                beginAtZero: true,
+                stepSize:20,//Y轴间隔
+                max:100,//Y轴最大值
+                min:0,
+                callback:function(value) { return value + '%'; }//Y轴格式化
+            },
+            angleLines:{
+                display:false//雷达辐射轴
+            },
+            pointLabels:{
+                fontSize:13//x轴文字
+            },
+
+        },
+        animation:{
+            onComplete:function(){
+                document.getElementById("radar").innerHTML = "<img src='" + myBarChart.toBase64Image() + "' />";
+            }
+        }
+    }
+    var ctx = document.getElementById("myChart").getContext("2d");
+    var myBarChart = new Chart(ctx, {type: 'radar',data: radarChartData,options:options});
+
+</script>
+</body>
+</html>

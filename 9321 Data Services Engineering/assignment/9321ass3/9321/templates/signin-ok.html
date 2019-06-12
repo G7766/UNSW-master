@@ -1,0 +1,34 @@
+<html>
+<head>
+  <title>Welcome, {{ username }}</title>
+  <link href="../static/bootstrap/css/bootstrap.min.css" rel="stylesheet" >
+  <link href="../static/css/sb-admin-2.css" rel="stylesheet">
+</head>
+<body>
+
+  <p>Welcome, {{ username }}!</p>
+  <p>Instructions:</p>
+  <form action="/predictions" method="GET">
+    <legend>GET  /prediction:</legend>
+    <p><button type="submit">GET</button></p>
+  </form>
+  <p>{{ data }}</p>
+  <form action="/predictions" method="POST">
+    <legend>POST  /prediction:</legend>
+    <p><input name="team1" placeholder="Team1" type="team1"></p>
+    <p><input name="team2" placeholder="Team2" type="team2"></p>
+    <p><input name="team1speed" placeholder="Team1speed" type="team1speed"></p>
+    <p><input name="team2speed" placeholder="Team2speed" type="team2speed"></p>
+    <p><input name="team1crossing" placeholder="Team1crossing" type="team1crossing"></p>
+    <p><input name="team2crossing" placeholder="Team2crossing" type="team2crossing"></p>
+    <p><button type="submit">POST</button></p>
+  </form>
+  <p>{{ data2 }}</p>
+  <form action="/predictions/"+{{pid}} method="GET">
+    <legend>GET  /prediction/pid:</legend>
+    <p><input name="p_id" value={{p_id}} type="p_id"></p>
+    <p><button type="submit">GET</button></p>
+  </form>
+  <p>{{ data3 }}</p>
+</body>
+</html>

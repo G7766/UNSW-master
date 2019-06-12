@@ -1,0 +1,37 @@
+Meeting One Document
+
+Group member:
+-Yuexuan Liu z5093599
+-Xiaodan Wang z5145114
+-Lianshuai Song z5146256github
+-Hongkai Hu	z5153912
+-Peiguo Guan z5143964
+
+What is the aim of the service?  
+  Scenario:
+  API design
+    1. Using team attributes and match goals training Machine Learning Model
+    2. Realize match result prediction between 2 teams given by client
+    Optional: 
+    3. Using players’ attributes and match goals 
+    4. prediction between 2 teams with selected players given by client
+
+What are the datasets?  
+  European Soccer Database
+  https://www.kaggle.com/hugomathien/soccer
+
+What is your communication channel?  
+  WeChet Group
+
+What is your code repository?  
+  GitHub
+  https://github.com/xpxpxpLilac/404BrainNotFound
+  
+A very brief description of each member’s role in the project
+  tasks assignment:
+  1. data pre-processing
+  2. ML model
+  3. API Design
+  4. client
+
+??‐ Has the group identified the (high‐level) system architecture and components necessary for the group work?  (not to be detailed, high‐level plan)

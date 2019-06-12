@@ -1,0 +1,228 @@
+{% extends "base.html" %}
+
+{% block body_contents %}
+
+
+<style>
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: 550px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+        
+    /* On small screens, set height to 'auto' for the grid */
+    @media screen and (max-width: 767px) {
+      .row.content {height: auto;} 
+    }
+    
+    .bg {
+        /* The image used */
+        background-image: url('/static/team.jpg');
+        /* Full height */
+        height: 100%; 
+
+        /* Center and scale the image nicely */
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    /*		opacity: 0.5;*/
+    /*    filter: alpha(opacity=50);  For IE8 and earlier */
+    }
+</style>
+
+<!--
+<nav class="navbar navbar-inverse visible-xs">
+  <div class="container-fluid bg" >
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Logo</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Dashboard</a></li>
+        <li><a href="#">Age</a></li>
+        <li><a href="#">Gender</a></li>
+        <li><a href="#">Geo</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+-->
+<div class="bg" style="height:75%;">
+<div class="container">
+    <div class="row content">
+
+    <br>
+    
+    <div class="row" style="margin-left:150px; margin-right: 150px;">
+			<div style="margin-top: 80px;">
+        <h3 style="text-align: center; font-family: 'Rock Salt', cursive; font-size: 90px; color: floralwhite">Let's start to form your team!</h3>
+			</div>
+    </div>
+      
+      
+      
+         
+      
+      
+    {% if message %}
+    <p style="color:red">{{ message }}</p>
+    {% endif %}      
+    </div>
+    <form action="/predictions" method="post">
+        <div class="form-group">
+            <label for="pid">Prediction ID:</label>
+            <input type="pid" class="form-control" name="pid">
+        </div>
+        <div class="row" style="margin: 50px;">
+					<div class="row">	
+						<div class="col-md-3">
+<!--           <div class="col-lg-3 col-md-6">-->
+                    <div class="panel panel-primary">
+                        <div class="panel-body" style="background-color: darkorange; height: 150px;">
+                            <div class="row" style="margin-top: 30px;" >
+                                <div class="col-xs-3">
+                                    <i class="fa fa-camera-retro fa-5x"></i> 
+                                </div>
+                                <div class="col-xs-9 text-center" style="margin-top:10px;">
+                                    <div style="font-family: 'Anton', sans-serif;font-size: 40px;">HOME</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                        </div>
+                <div class="col-md-3" style="margin-top:40px">
+                    <div class="form-group">
+                        <label for="H_name">H_name:</label>
+                        <input type="H_name" class="form-control" name="H_name">
+                    </div>
+                </div>
+<!--				           <div class="col-lg-3 col-md-6">-->
+						<div class="col-md-3">
+                    <div class="panel panel-primary">
+                        <div class="panel-body" style="background-color: aquamarine; height: 150px;">
+                            <div class="row" style="margin-top: 30px;" >
+                                <div class="col-xs-3">
+                                    <i class="fa fa-camera-retro fa-5x"></i> 
+                                </div>
+                                <div class="col-xs-9 text-center" style="margin-top:10px;">
+                                    <div style="font-family: 'Anton', sans-serif;font-size: 40px;">AWAY</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3" style="margin-top:40px">
+                    <div class="form-group">
+                        <label for="A_name">A_name:</label>
+                        <input type="A_name" class="form-control" name="A_name">
+                    </div>
+                </div>
+				    </div>
+        
+				<div class="row">
+					<div class="col-sm-3">
+<!--								<form action="/action_page.php">-->
+                    
+                    <div class="form-group">
+                        <label for="email">H_buildUpPlaySpeed:</label>
+                        <input type="H_buildUpPlaySpeed" class="form-control" name="H_buildUpPlaySpeed">
+                    </div>
+                    <div class="form-group">
+                        <label for="pwd">H_buildUpPlayDribbling:</label>
+                        <input type="H_buildUpPlayDribbling" class="form-control" name="H_buildUpPlayDribbling">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">A_buildUpPlayDribbling:</label>
+                        <input type="A_buildUpPlayDribbling" class="form-control" name="A_buildUpPlayDribbling">
+                    </div>
+                    <div class="form-group">
+                        <label for="pwd">A_buildUpPlaySpeed:</label>
+                        <input type="A_buildUpPlaySpeed" class="form-control" name="A_buildUpPlaySpeed">
+                    </div>
+                    
+<!--                    <button type="submit" class="btn btn-default">Submit</button>-->
+<!--					       </form>-->
+					</div>
+				    <div class="col-sm-3">
+<!--				        <form action="/action_page.php">-->
+                    <div class="form-group">
+                      <label for="email">H_buildUpPlayPassing:</label>
+                      <input type="H_buildUpPlayPassing" class="form-control" name="H_buildUpPlayPassing">
+                    </div>
+                    <div class="form-group">
+                      <label for="pwd">H_chanceCreationPassing:</label>
+                      <input type="H_chanceCreationPassing" class="form-control" name="H_chanceCreationPassing">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">A_buildUpPlayPassing:</label>
+                        <input type="A_buildUpPlayPassing" class="form-control" name="A_buildUpPlayPassing">
+                    </div>
+                    <div class="form-group">
+                        <label for="pwd">A_chanceCreationPassing:</label>
+                        <input type="A_chanceCreationPassing" class="form-control" name="A_chanceCreationPassing">
+                    </div>
+                    
+<!--                  <button type="submit" class="btn btn-default">Submit</button>-->
+<!--					       </form>-->
+				    </div>
+            <div class="col-sm-3">
+<!--								<form action="/action_page.php">-->
+                    <div class="form-group">
+                        <label for="email">H_chanceCreationCrossing:</label>
+                        <input type="H_chanceCreationCrossing" class="form-control" name="H_chanceCreationCrossing">
+                    </div>
+                    <div class="form-group">
+                        <label for="pwd">H_chanceCreationShooting:</label>
+                        <input type="H_chanceCreationShooting" class="form-control" name="H_chanceCreationShooting">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">A_chanceCreationCrossing:</label>
+                        <input type="A_chanceCreationCrossing" class="form-control" name="A_chanceCreationCrossing">
+                    </div>
+                    <div class="form-group">
+                        <label for="pwd">A_chanceCreationShooting:</label>
+                        <input type="A_chanceCreationShooting" class="form-control" name="A_chanceCreationShooting">
+                    </div>
+                    
+<!--                    <button type="submit" class="btn btn-default">Submit</button>-->
+<!--					       </form>-->
+			</div>
+            <div class="col-sm-3">
+<!--								<form action="/action_page.php">-->
+                    <div class="form-group">
+                        <label for="email">H_defencePressure:</label>
+                        <input type="H_defencePressure" class="form-control" name="H_defencePressure">
+                    </div>
+                    <div class="form-group">
+                        <label for="pwd">H_defenceAggression:</label>
+                        <input type="H_defenceAggression" class="form-control" name="H_defenceAggression">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">A_defencePressure:</label>
+                        <input type="A_defencePressure" class="form-control" name="A_defencePressure">
+                    </div>
+                    <div class="form-group">
+                        <label for="pwd">A_defenceAggression:</label>
+                        <input type="A_defenceAggression" class="form-control" name="A_defenceAggression">
+                    </div>
+                   
+                    
+<!--					       </form>-->
+			</div>
+				</div>
+        <div>
+            <button type="submit" class="btn btn-default">Submit</button>
+        </div>
+</div>
+    </form>
+</div>
+{% endblock %}

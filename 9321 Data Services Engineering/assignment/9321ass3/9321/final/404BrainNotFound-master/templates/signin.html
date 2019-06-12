@@ -1,0 +1,86 @@
+{% extends "base.html" %}
+
+{% block body_contents %}
+<style>
+.bg {
+    /* The image used */
+    background-image: url('/static/signin_back_1.jpg');
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	
+/*		opacity: 0.5;*/
+/*    filter: alpha(opacity=50);  For IE8 and earlier */
+}
+
+</style>
+<div class="bg" style="height:100%;">
+	
+	<div class="container" style="width:400px;margin: auto;padding-top: 100px; color: beige;">
+		<h2>Welcome to Soccer 1v1</h2>
+		{% if message %}
+		<p style="color:red">{{ message }}</p>
+		{% endif %}
+	<!--  <form action="/action_page.php">-->
+		<form action="/" method="post">
+			<div class="form-group">
+				<label for="email">Username</label>
+				<input type="username" class="form-control" id="username" name="username" placeholder="Username" value="{{ username }}">
+			</div>
+			<div class="form-group">
+				<label for="pwd">Password:</label>
+				<input type="password" class="form-control" id="pwd" placeholder="Enter password" name="password">
+			</div>
+			<div class="checkbox">
+				<label><input type="checkbox" name="remember"> Remember me</label>
+			</div>
+			<button type="submit" class="btn btn-default">Submit</button>
+		</form>
+	</div>
+	
+</div>
+
+
+<!--
+{% if message %}
+  <p style="color:red">{{ message }}</p>
+  {% endif %}
+  <form action="/" method="post">
+    <legend>Please sign in:</legend>
+    <p><input name="username" placeholder="Username" value="{{ username }}"></p>
+    <p><input name="password" placeholder="Password" type="password"></p>
+    <p><button type="submit">Sign In</button></p>
+	</form>
+-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{% endblock %}
