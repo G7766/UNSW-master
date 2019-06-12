@@ -1,0 +1,289 @@
+
+
+<!doctype html>
+<html lang="en">
+    <head>
+        
+            <!-- ****** faviconit.com favicons ****** -->
+            <link rel="shortcut icon" href="https://6a261cf03ce6ab0f3a73-9b284f858357b47bd93dd880907f452b.ssl.cf4.rackcdn.com/favicon/favicon.png?v=2">
+            <link rel="icon" sizes="16x16 32x32 96x96" href="https://6a261cf03ce6ab0f3a73-9b284f858357b47bd93dd880907f452b.ssl.cf4.rackcdn.com/favicon/favicon.png?v=2">
+
+            <link rel="icon" type="image/png" sizes="36x36" href="https://6a261cf03ce6ab0f3a73-9b284f858357b47bd93dd880907f452b.ssl.cf4.rackcdn.com/favicon/android-icon-36x36.png?v=2">
+            <link rel="icon" type="image/png" sizes="48x48" href="https://6a261cf03ce6ab0f3a73-9b284f858357b47bd93dd880907f452b.ssl.cf4.rackcdn.com/favicon/android-icon-48x48.png?v=2">
+            <link rel="icon" type="image/png" sizes="72x72" href="https://6a261cf03ce6ab0f3a73-9b284f858357b47bd93dd880907f452b.ssl.cf4.rackcdn.com/favicon/android-icon-72x72.png?v=2">
+            <link rel="icon" type="image/png" sizes="96x96" href="https://6a261cf03ce6ab0f3a73-9b284f858357b47bd93dd880907f452b.ssl.cf4.rackcdn.com/favicon/android-icon-96x96.png?v=2">
+            <link rel="icon" type="image/png" sizes="144x144" href="https://6a261cf03ce6ab0f3a73-9b284f858357b47bd93dd880907f452b.ssl.cf4.rackcdn.com/favicon/android-icon-144x144.png?v=2">
+            <link rel="icon" type="image/png" sizes="192x192" href="https://6a261cf03ce6ab0f3a73-9b284f858357b47bd93dd880907f452b.ssl.cf4.rackcdn.com/favicon/android-icon-192x192.png?v=2">
+
+            <link rel="apple-touch-icon" href="https://6a261cf03ce6ab0f3a73-9b284f858357b47bd93dd880907f452b.ssl.cf4.rackcdn.com/favicon/apple-icon.png?v=2">
+            <link rel="apple-touch-icon" sizes="57x57" href="https://6a261cf03ce6ab0f3a73-9b284f858357b47bd93dd880907f452b.ssl.cf4.rackcdn.com/favicon/apple-icon-57x57.png?v=2">
+            <link rel="apple-touch-icon" sizes="60x60" href="https://6a261cf03ce6ab0f3a73-9b284f858357b47bd93dd880907f452b.ssl.cf4.rackcdn.com/favicon/apple-icon-60x60.png?v=2">
+            <link rel="apple-touch-icon" sizes="72x72" href="https://6a261cf03ce6ab0f3a73-9b284f858357b47bd93dd880907f452b.ssl.cf4.rackcdn.com/favicon/apple-icon-72x72.png?v=2">
+            <link rel="apple-touch-icon" sizes="76x76" href="https://6a261cf03ce6ab0f3a73-9b284f858357b47bd93dd880907f452b.ssl.cf4.rackcdn.com/favicon/apple-icon-76x76.png?v=2">
+            <link rel="apple-touch-icon" sizes="114x114" href="https://6a261cf03ce6ab0f3a73-9b284f858357b47bd93dd880907f452b.ssl.cf4.rackcdn.com/favicon/apple-icon-114x114.png?v=2">
+            <link rel="apple-touch-icon" sizes="120x120" href="https://6a261cf03ce6ab0f3a73-9b284f858357b47bd93dd880907f452b.ssl.cf4.rackcdn.com/favicon/apple-icon-120x120.png?v=2">
+            <link rel="apple-touch-icon" sizes="144x144" href="https://6a261cf03ce6ab0f3a73-9b284f858357b47bd93dd880907f452b.ssl.cf4.rackcdn.com/favicon/apple-icon-144x144.png?v=2">
+            <link rel="apple-touch-icon" sizes="152x152" href="https://6a261cf03ce6ab0f3a73-9b284f858357b47bd93dd880907f452b.ssl.cf4.rackcdn.com/favicon/apple-icon-152x152.png?v=2">
+            <link rel="apple-touch-icon" sizes="180x180" href="https://6a261cf03ce6ab0f3a73-9b284f858357b47bd93dd880907f452b.ssl.cf4.rackcdn.com/favicon/apple-icon-180x180.png?v=2">
+            <link rel="apple-touch-icon" sizes="180x180" href="https://6a261cf03ce6ab0f3a73-9b284f858357b47bd93dd880907f452b.ssl.cf4.rackcdn.com/favicon/apple-icon-precomposed.png?v=2">
+
+            <meta name="msapplication-TileColor" content="#FFFFFF">
+            <meta name="msapplication-TileImage" content="https://6a261cf03ce6ab0f3a73-9b284f858357b47bd93dd880907f452b.ssl.cf4.rackcdn.com/favicon/ms-icon-144x144.png?v=2">
+            <meta name="msapplication-config" content="https://6a261cf03ce6ab0f3a73-9b284f858357b47bd93dd880907f452b.ssl.cf4.rackcdn.com/favicon/browserconfig.xml">
+            <!-- ****** faviconit.com favicons ****** -->
+        
+
+        <meta charset="utf-8" />
+        <meta http-equiv="x-ua-compatible" content="ie=edge"><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"XA8AWVNaGwICXFVVAgkA"};window.NREUM||(NREUM={}),__nr_require=function(t,n,e){function r(e){if(!n[e]){var o=n[e]={exports:{}};t[e][0].call(o.exports,function(n){var o=t[e][1][n];return r(o||n)},o,o.exports)}return n[e].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<e.length;o++)r(e[o]);return r}({1:[function(t,n,e){function r(t){try{s.console&&console.log(t)}catch(n){}}var o,i=t("ee"),a=t(15),s={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(s.console=!0,o.indexOf("dev")!==-1&&(s.dev=!0),o.indexOf("nr_dev")!==-1&&(s.nrDev=!0))}catch(c){}s.nrDev&&i.on("internal-error",function(t){r(t.stack)}),s.dev&&i.on("fn-err",function(t,n,e){r(e.stack)}),s.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(s,function(t,n){return t}).join(", ")))},{}],2:[function(t,n,e){function r(t,n,e,r,s){try{p?p-=1:o(s||new UncaughtException(t,n,e),!0)}catch(f){try{i("ierr",[f,c.now(),!0])}catch(d){}}return"function"==typeof u&&u.apply(this,a(arguments))}function UncaughtException(t,n,e){this.message=t||"Uncaught error with no additional information",this.sourceURL=n,this.line=e}function o(t,n){var e=n?null:c.now();i("err",[t,e])}var i=t("handle"),a=t(16),s=t("ee"),c=t("loader"),f=t("gos"),u=window.onerror,d=!1,l="nr@seenError",p=0;c.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(h){"stack"in h&&(t(8),t(7),"addEventListener"in window&&t(5),c.xhrWrappable&&t(9),d=!0)}s.on("fn-start",function(t,n,e){d&&(p+=1)}),s.on("fn-err",function(t,n,e){d&&!e[l]&&(f(e,l,function(){return!0}),this.thrown=!0,o(e))}),s.on("fn-end",function(){d&&!this.thrown&&p>0&&(p-=1)}),s.on("internal-error",function(t){i("ierr",[t,c.now(),!0])})},{}],3:[function(t,n,e){t("loader").features.ins=!0},{}],4:[function(t,n,e){function r(t){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var o=t("ee"),i=t("handle"),a=t(8),s=t(7),c="learResourceTimings",f="addEventListener",u="resourcetimingbufferfull",d="bstResource",l="resource",p="-start",h="-end",m="fn"+p,w="fn"+h,v="bstTimer",y="pushState",g=t("loader");g.features.stn=!0,t(6);var b=NREUM.o.EV;o.on(m,function(t,n){var e=t[0];e instanceof b&&(this.bstStart=g.now())}),o.on(w,function(t,n){var e=t[0];e instanceof b&&i("bst",[e,n,this.bstStart,g.now()])}),a.on(m,function(t,n,e){this.bstStart=g.now(),this.bstType=e}),a.on(w,function(t,n){i(v,[n,this.bstStart,g.now(),this.bstType])}),s.on(m,function(){this.bstStart=g.now()}),s.on(w,function(t,n){i(v,[n,this.bstStart,g.now(),"requestAnimationFrame"])}),o.on(y+p,function(t){this.time=g.now(),this.startPath=location.pathname+location.hash}),o.on(y+h,function(t){i("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),f in window.performance&&(window.performance["c"+c]?window.performance[f](u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["c"+c]()},!1):window.performance[f]("webkit"+u,function(t){i(d,[window.performance.getEntriesByType(l)]),window.performance["webkitC"+c]()},!1)),document[f]("scroll",r,{passive:!0}),document[f]("keypress",r,!1),document[f]("click",r,!1)}},{}],5:[function(t,n,e){function r(t){for(var n=t;n&&!n.hasOwnProperty(u);)n=Object.getPrototypeOf(n);n&&o(n)}function o(t){s.inPlace(t,[u,d],"-",i)}function i(t,n){return t[1]}var a=t("ee").get("events"),s=t(18)(a,!0),c=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";n.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,n){var e=t[1],r=c(e,"nr@wrapped",function(){function t(){if("function"==typeof e.handleEvent)return e.handleEvent.apply(e,arguments)}var n={object:t,"function":e}[typeof e];return n?s(n,"fn-",null,n.name||"anonymous"):e});this.wrapped=t[1]=r}),a.on(d+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],6:[function(t,n,e){var r=t("ee").get("history"),o=t(18)(r);n.exports=r,o.inPlace(window.history,["pushState","replaceState"],"-")},{}],7:[function(t,n,e){var r=t("ee").get("raf"),o=t(18)(r),i="equestAnimationFrame";n.exports=r,o.inPlace(window,["r"+i,"mozR"+i,"webkitR"+i,"msR"+i],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],8:[function(t,n,e){function r(t,n,e){t[0]=a(t[0],"fn-",null,e)}function o(t,n,e){this.method=e,this.timerDuration=isNaN(t[1])?0:+t[1],t[0]=a(t[0],"fn-",this,e)}var i=t("ee").get("timer"),a=t(18)(i),s="setTimeout",c="setInterval",f="clearTimeout",u="-start",d="-";n.exports=i,a.inPlace(window,[s,"setImmediate"],s+d),a.inPlace(window,[c],c+d),a.inPlace(window,[f,"clearImmediate"],f+d),i.on(c+u,r),i.on(s+u,o)},{}],9:[function(t,n,e){function r(t,n){d.inPlace(n,["onreadystatechange"],"fn-",s)}function o(){var t=this,n=u.context(t);t.readyState>3&&!n.resolved&&(n.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,y,"fn-",s)}function i(t){g.push(t),h&&(x?x.then(a):w?w(a):(E=-E,O.data=E))}function a(){for(var t=0;t<g.length;t++)r([],g[t]);g.length&&(g=[])}function s(t,n){return n}function c(t,n){for(var e in t)n[e]=t[e];return n}t(5);var f=t("ee"),u=f.get("xhr"),d=t(18)(u),l=NREUM.o,p=l.XHR,h=l.MO,m=l.PR,w=l.SI,v="readystatechange",y=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],g=[];n.exports=u;var b=window.XMLHttpRequest=function(t){var n=new p(t);try{u.emit("new-xhr",[n],n),n.addEventListener(v,o,!1)}catch(e){try{u.emit("internal-error",[e])}catch(r){}}return n};if(c(p,b),b.prototype=p.prototype,d.inPlace(b.prototype,["open","send"],"-xhr-",s),u.on("send-xhr-start",function(t,n){r(t,n),i(n)}),u.on("open-xhr-start",r),h){var x=m&&m.resolve();if(!w&&!m){var E=1,O=document.createTextNode(E);new h(a).observe(O,{characterData:!0})}}else f.on("fn-end",function(t){t[0]&&t[0].type===v||a()})},{}],10:[function(t,n,e){function r(t){var n=this.params,e=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<d;r++)t.removeEventListener(u[r],this.listener,!1);if(!n.aborted){if(e.duration=a.now()-this.startTime,4===t.readyState){n.status=t.status;var i=o(t,this.lastSize);if(i&&(e.rxSize=i),this.sameOrigin){var c=t.getResponseHeader("X-NewRelic-App-Data");c&&(n.cat=c.split(", ").pop())}}else n.status=0;e.cbTime=this.cbTime,f.emit("xhr-done",[t],t),s("xhr",[n,e,this.startTime])}}}function o(t,n){var e=t.responseType;if("json"===e&&null!==n)return n;var r="arraybuffer"===e||"blob"===e||"json"===e?t.response:t.responseText;return h(r)}function i(t,n){var e=c(n),r=t.params;r.host=e.hostname+":"+e.port,r.pathname=e.pathname,t.sameOrigin=e.sameOrigin}var a=t("loader");if(a.xhrWrappable){var s=t("handle"),c=t(11),f=t("ee"),u=["load","error","abort","timeout"],d=u.length,l=t("id"),p=t(14),h=t(13),m=window.XMLHttpRequest;a.features.xhr=!0,t(9),f.on("new-xhr",function(t){var n=this;n.totalCbs=0,n.called=0,n.cbTime=0,n.end=r,n.ended=!1,n.xhrGuids={},n.lastSize=null,p&&(p>34||p<10)||window.opera||t.addEventListener("progress",function(t){n.lastSize=t.loaded},!1)}),f.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),f.on("open-xhr-end",function(t,n){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&n.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),f.on("send-xhr-start",function(t,n){var e=this.metrics,r=t[0],o=this;if(e&&r){var i=h(r);i&&(e.txSize=i)}this.startTime=a.now(),this.listener=function(t){try{"abort"===t.type&&(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof n.onload))&&o.end(n)}catch(e){try{f.emit("internal-error",[e])}catch(r){}}};for(var s=0;s<d;s++)n.addEventListener(u[s],this.listener,!1)}),f.on("xhr-cb-time",function(t,n,e){this.cbTime+=t,n?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof e.onload||this.end(e)}),f.on("xhr-load-added",function(t,n){var e=""+l(t)+!!n;this.xhrGuids&&!this.xhrGuids[e]&&(this.xhrGuids[e]=!0,this.totalCbs+=1)}),f.on("xhr-load-removed",function(t,n){var e=""+l(t)+!!n;this.xhrGuids&&this.xhrGuids[e]&&(delete this.xhrGuids[e],this.totalCbs-=1)}),f.on("addEventListener-end",function(t,n){n instanceof m&&"load"===t[0]&&f.emit("xhr-load-added",[t[1],t[2]],n)}),f.on("removeEventListener-end",function(t,n){n instanceof m&&"load"===t[0]&&f.emit("xhr-load-removed",[t[1],t[2]],n)}),f.on("fn-start",function(t,n,e){n instanceof m&&("onload"===e&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=a.now()))}),f.on("fn-end",function(t,n){this.xhrCbStart&&f.emit("xhr-cb-time",[a.now()-this.xhrCbStart,this.onload,n],n)})}},{}],11:[function(t,n,e){n.exports=function(t){var n=document.createElement("a"),e=window.location,r={};n.href=t,r.port=n.port;var o=n.href.split("://");!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=n.hostname||e.hostname,r.pathname=n.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname);var i=!n.protocol||":"===n.protocol||n.protocol===e.protocol,a=n.hostname===document.domain&&n.port===e.port;return r.sameOrigin=i&&(!n.hostname||a),r}},{}],12:[function(t,n,e){function r(){}function o(t,n,e){return function(){return i(t,[f.now()].concat(s(arguments)),n?null:this,e),n?void 0:this}}var i=t("handle"),a=t(15),s=t(16),c=t("ee").get("tracer"),f=t("loader"),u=NREUM;"undefined"==typeof window.newrelic&&(newrelic=u);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",p=l+"ixn-";a(d,function(t,n){u[n]=o(l+n,!0,"api")}),u.addPageAction=o(l+"addPageAction",!0),u.setCurrentRouteName=o(l+"routeName",!0),n.exports=newrelic,u.interaction=function(){return(new r).get()};var h=r.prototype={createTracer:function(t,n){var e={},r=this,o="function"==typeof n;return i(p+"tracer",[f.now(),t,e],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],e),o)try{return n.apply(this,arguments)}catch(t){throw c.emit("fn-err",[arguments,this,t],e),t}finally{c.emit("fn-end",[f.now()],e)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,n){h[n]=o(p+n)}),newrelic.noticeError=function(t){"string"==typeof t&&(t=new Error(t)),i("err",[t,f.now()])}},{}],13:[function(t,n,e){n.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(n){return}}}},{}],14:[function(t,n,e){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),n.exports=r},{}],15:[function(t,n,e){function r(t,n){var e=[],r="",i=0;for(r in t)o.call(t,r)&&(e[i]=n(r,t[r]),i+=1);return e}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],16:[function(t,n,e){function r(t,n,e){n||(n=0),"undefined"==typeof e&&(e=t?t.length:0);for(var r=-1,o=e-n||0,i=Array(o<0?0:o);++r<o;)i[r]=t[n+r];return i}n.exports=r},{}],17:[function(t,n,e){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],18:[function(t,n,e){function r(t){return!(t&&t instanceof Function&&t.apply&&!t[a])}var o=t("ee"),i=t(16),a="nr@original",s=Object.prototype.hasOwnProperty,c=!1;n.exports=function(t,n){function e(t,n,e,o){function nrWrapper(){var r,a,s,c;try{a=this,r=i(arguments),s="function"==typeof e?e(r,a):e||{}}catch(f){l([f,"",[r,a,o],s])}u(n+"start",[r,a,o],s);try{return c=t.apply(a,r)}catch(d){throw u(n+"err",[r,a,d],s),d}finally{u(n+"end",[r,a,c],s)}}return r(t)?t:(n||(n=""),nrWrapper[a]=t,d(t,nrWrapper),nrWrapper)}function f(t,n,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<n.length;c++)s=n[c],a=t[s],r(a)||(t[s]=e(a,f?s+o:o,i,s))}function u(e,r,o){if(!c||n){var i=c;c=!0;try{t.emit(e,r,o,n)}catch(a){l([a,e,r,o])}c=i}}function d(t,n){if(Object.defineProperty&&Object.keys)try{var e=Object.keys(t);return e.forEach(function(e){Object.defineProperty(n,e,{get:function(){return t[e]},set:function(n){return t[e]=n,n}})}),n}catch(r){l([r])}for(var o in t)s.call(t,o)&&(n[o]=t[o]);return n}function l(n){try{t.emit("internal-error",n)}catch(e){}}return t||(t=o),e.inPlace=f,e.flag=a,e}},{}],ee:[function(t,n,e){function r(){}function o(t){function n(t){return t&&t instanceof r?t:t?c(t,s,i):i()}function e(e,r,o,i){if(!l.aborted||i){t&&t(e,r,o);for(var a=n(o),s=h(e),c=s.length,f=0;f<c;f++)s[f].apply(a,r);var d=u[y[e]];return d&&d.push([g,e,r,a]),a}}function p(t,n){v[t]=h(t).concat(n)}function h(t){return v[t]||[]}function m(t){return d[t]=d[t]||o(e)}function w(t,n){f(t,function(t,e){n=n||"feature",y[e]=n,n in u||(u[n]=[])})}var v={},y={},g={on:p,emit:e,get:m,listeners:h,context:n,buffer:w,abort:a,aborted:!1};return g}function i(){return new r}function a(){(u.api||u.feature)&&(l.aborted=!0,u=l.backlog={})}var s="nr@context",c=t("gos"),f=t(15),u={},d={},l=n.exports=o();l.backlog=u},{}],gos:[function(t,n,e){function r(t,n,e){if(o.call(t,n))return t[n];var r=e();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(t,n,e){function r(t,n,e,r){o.buffer([t],r),o.emit(t,n,e)}var o=t("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(t,n,e){function r(t){var n=typeof t;return!t||"object"!==n&&"function"!==n?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");n.exports=r},{}],loader:[function(t,n,e){function r(){if(!x++){var t=b.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&n))return u.abort();f(y,function(n,e){t[n]||(t[n]=e)}),c("mark",["onload",a()+b.offset],null,"api");var e=l.createElement("script");e.src="https://"+t.agent,n.parentNode.insertBefore(e,n)}}function o(){"complete"===l.readyState&&i()}function i(){c("mark",["domContent",a()+b.offset],null,"api")}function a(){return E.exists&&performance.now?Math.round(performance.now()):(s=Math.max((new Date).getTime(),s))-b.offset}var s=(new Date).getTime(),c=t("handle"),f=t(15),u=t("ee"),d=window,l=d.document,p="addEventListener",h="attachEvent",m=d.XMLHttpRequest,w=m&&m.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:m,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var v=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1071.min.js"},g=m&&w&&w[p]&&!/CriOS/.test(navigator.userAgent),b=n.exports={offset:s,now:a,origin:v,features:{},xhrWrappable:g};t(12),l[p]?(l[p]("DOMContentLoaded",i,!1),d[p]("load",r,!1)):(l[h]("onreadystatechange",o),d[h]("onload",r)),c("mark",["firstbyte",s],null,"api");var x=0,E=t(17)},{}]},{},["loader",2,10,4,3]);</script><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","queueTime":0,"licenseKey":"ea97b07fc4","agent":"","transactionName":"YgdQZ0YEDBdSBxVQWFtNYlJTADIWVhcEV0NQEB1DVQIHO0UNBE4NVAFGWlsLWBJaARY=","applicationID":"12847587","errorBeacon":"bam.nr-data.net","applicationTime":380}</script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="None" />
+        <meta property="og:url" content="https://www.openlearning.com/unswmed/courses/comp9021" />
+        <meta property="og:title" content="COMP9021 Principles of Programming | UNSW Centre for Big Data Research in Health" />
+        <meta property="og:description" content="None" />
+        <meta property="og:site_name" content="www.openlearning.com" />
+        
+            <meta property="og:image" content="https://de8964361f4bb909de8d-fe8b524ce0801bda0a4b2a48b0c06837.ssl.cf4.rackcdn.com/HoeVnDzD3huAazH2eVZZCiKYjC4veVrT6u9HktCe5bacf6yyvzmFMUMy2or2Anro.1509072135/thumbnailsArtboard6.png" />
+        
+        
+        <meta property="fb:app_id" content="203356799790933" />
+
+        <title>COMP9021 Principles of Programming | UNSW Centre for Big Data Research in Health</title>
+        
+        <script type="text/javascript">
+            !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","page","once","off","on"];analytics.factory=function(t){return function(){var e=Array.prototype.slice.call(arguments);e.unshift(t);analytics.push(e);return analytics}};for(var t=0;t<analytics.methods.length;t++){var e=analytics.methods[t];analytics[e]=analytics.factory(e)}analytics.load=function(t){var e=document.createElement("script");e.type="text/javascript";e.async=!0;e.src=("https:"===document.location.protocol?"https://":"http://")+"cdn.segment.com/analytics.js/v1/"+t+"/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(e,n)};analytics.SNIPPET_VERSION="3.1.0";
+                analytics.load("gZUJfCaNLAI624oQBIqhDeM4i96M6Bbx");
+                analytics.page({}, {
+                    integrations: {
+                        All: true,
+                        Vero: false
+                    }
+                });
+            }}();
+        </script>
+        
+        
+            <!-- Google Tag Manager -->
+            <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+                    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+                    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+                    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+            })(window,document,'script','dataLayer','GTM-K2DFGWW');</script>
+            <!-- End Google Tag Manager -->
+        
+        <script id="portal-data" type="application/json">{"course": {"startDate": "2018-02-23T06:00:00Z", "furtherInformation": "", "certification": {"data": {}, "code": "", "type": "no_certificate"}, "studentPrice": 0, "overlayOpacity": null, "defaultCohort": "unswmed/courses/comp9021/cohorts/classof18s1", "outcomes": [], "currency": null, "isOffline": false, "id": "59a8f205117bd0778f3b5631", "overlayColour": null, "timeCommitment": "", "introduction": "", "creator": {"smallAvatar": "https://openlearning-cdn.s3.amazonaws.com/centreforbigdata-avatar-24-ts1516143150.jpg", "externalIds": {}, "standardAvatarPath": "centreforbigdata-avatar-48-ts1516143148.jpg", "userId": "5a5e81d9a6d3135ac2c42389", "managedBy": [], "standardAvatar": "https://openlearning-cdn.s3.amazonaws.com/centreforbigdata-avatar-48-ts1516143148.jpg", "privacyOptions": {}, "avatar@3x": "https://openlearning-cdn.s3.amazonaws.com/centreforbigdata-avatar-120-ts1516143152.jpg", "profileLink": "https://www.openlearning.com/u/centreforbigdata", "profileName": "centreforbigdata", "fullName": "Centre for Big Data", "id": "5a5e81d9a6d3135ac2c42389"}, "topBarLinks": [{"link": "#about", "title": "About"}, {"link": "#outcomes", "title": "Outcomes"}, {"link": "#faq", "title": "FAQ"}], "content": null, "objective": "", "requiresAccessCode": false, "blurb": null, "pageSections": [{"data": {"content": null, "objective": "", "furtherInformation": "", "outcomes": []}, "type": "outcomes", "name": "outcomes", "title": "What You Will Learn"}, {"data": {"team": [{"smallAvatar": "https://openlearning-cdn.s3.amazonaws.com/ericandremartin-avatar-24-ts1506661479.jpg", "externalIds": {}, "standardAvatarPath": "ericandremartin-avatar-48-ts1506661477.jpg", "userId": "59cdd465cc50f818508d63d6", "profilePicture": "https://openlearning-cdn.s3.amazonaws.com/ericandremartin-avatar-120-ts1506661480.jpg", "managedBy": ["unswmed"], "standardAvatar": "https://openlearning-cdn.s3.amazonaws.com/ericandremartin-avatar-48-ts1506661477.jpg", "privacyOptions": {}, "profileName": "ericandremartin", "profileLink": "https://www.openlearning.com/u/ericandremartin", "avatar@3x": "https://openlearning-cdn.s3.amazonaws.com/ericandremartin-avatar-120-ts1506661480.jpg", "fullName": "Eric Andre Martin", "id": "59cdd465cc50f818508d63d6", "profileSummary": ""}]}, "type": "team", "name": "team", "title": "Who is Supporting You"}], "paidCohort": false, "qualifications": {}, "path": "unswmed/courses/comp9021", "name": "COMP9021 Principles of Programming", "videoUrl": null, "isInviteOnly": true, "studentSummary": {"totalComments": 26, "randomUsers": [{"avatar": "https://openlearning-cdn.s3.amazonaws.com/sarahkazemi-avatar-120-ts1519695482.jpg"}, {"avatar": "https://openlearning-cdn.s3.amazonaws.com/therunipethiyagoda-avatar-120-ts1519693249.jpg"}, {"avatar": "https://openlearning-cdn.s3.amazonaws.com/zhenyanglu-avatar-120-ts1519620699.jpg"}, {"avatar": "https://openlearning-cdn.s3.amazonaws.com/yuchenli-avatar-120-ts1519618146.jpg"}, {"avatar": "https://openlearning-cdn.s3.amazonaws.com/paulspaw-avatar-120-ts1519554406.jpg"}, {"avatar": "https://openlearning-cdn.s3.amazonaws.com/martafredestorres-avatar-120-ts1519558472.jpg"}, {"avatar": "https://openlearning-cdn.s3.amazonaws.com/xiaoyingcui-avatar-120-ts1519695675.jpg"}, {"avatar": "https://openlearning-cdn.s3.amazonaws.com/siweilin-avatar-120-ts1519599403.jpg"}, {"avatar": "https://openlearning-cdn.s3.amazonaws.com/ryanschiff-avatar-120-ts1519517253.jpg"}, {"avatar": "https://openlearning-cdn.s3.amazonaws.com/neillannandapalan-avatar-120-ts1519516721.jpg"}, {"avatar": "https://openlearning-cdn.s3.amazonaws.com/rorydenham-avatar-120-ts1519561118.jpg"}, {"avatar": "https://openlearning-cdn.s3.amazonaws.com/wenxinwang-avatar-120-ts1519385104.jpg"}, {"avatar": "https://openlearning-cdn.s3.amazonaws.com/coinbron-avatar-120-ts1519376108.jpg"}, {"avatar": "https://openlearning-cdn.s3.amazonaws.com/guanxiongzhai-avatar-120-ts1519363630.jpg"}, {"avatar": "https://openlearning-cdn.s3.amazonaws.com/tenglong12138-avatar-120-ts1519611008.jpg"}, {"avatar": "https://openlearning-cdn.s3.amazonaws.com/shanedonohoe-avatar-120-ts1519370653.jpg"}, {"avatar": "https://openlearning-cdn.s3.amazonaws.com/michelletaitz-avatar-120-ts1519339938.jpg"}, {"avatar": "https://openlearning-cdn.s3.amazonaws.com/jaronbailey-avatar-120-ts1519382592.jpg"}, {"avatar": "https://openlearning-cdn.s3.amazonaws.com/hyekyungkim-avatar-120-ts1519625567.jpg"}, {"avatar": "https://openlearning-cdn.s3.amazonaws.com/kuanglilu-avatar-120-ts1519301441.jpg"}, {"avatar": "https://openlearning-cdn.s3.amazonaws.com/jiahengni-avatar-120-ts1519338963.jpg"}, {"avatar": "https://openlearning-cdn.s3.amazonaws.com/yingzhengwang-avatar-120-ts1519436111.jpg"}, {"avatar": "https://openlearning-cdn.s3.amazonaws.com/yanjiachen-avatar-120-ts1519691369.jpg"}, {"avatar": "https://openlearning-cdn.s3.amazonaws.com/xufeisun-avatar-120-ts1519642554.jpg"}, {"avatar": "https://openlearning-cdn.s3.amazonaws.com/z512297-avatar-120-ts1519306590.jpg"}, {"avatar": "https://openlearning-cdn.s3.amazonaws.com/mariavetsikas-avatar-120-ts1519610492.jpg"}, {"avatar": "https://openlearning-cdn.s3.amazonaws.com/mattjoass-avatar-120-ts1519680536.jpg"}, {"avatar": "https://openlearning-cdn.s3.amazonaws.com/oscarperezconcha-avatar-120-ts1516577126.jpg"}, {"avatar": "https://openlearning-cdn.s3.amazonaws.com/sanjalujic-avatar-120-ts1514847560.jpg"}, {"avatar": "https://openlearning-cdn.s3.amazonaws.com/amygibson-avatar-120-ts1505340791.jpg"}, {"avatar": "https://openlearning-cdn.s3.amazonaws.com/timchurches-avatar-120-ts1505280810.jpg"}, {"avatar": "https://openlearning-cdn.s3.amazonaws.com/peterstraka-avatar-120-ts1518505983.jpg"}, {"avatar": "https://openlearning-cdn.s3.amazonaws.com/strakaps-avatar-120-ts1498716554.jpg"}, {"avatar": "https://openlearning-cdn.s3.amazonaws.com/mengxu-avatar-120-ts1489922836.jpg"}, {"avatar": "https://openlearning-cdn.s3.amazonaws.com/jiahefu-avatar-120-ts1488190949.jpg"}, {"avatar": "https://openlearning-cdn.s3.amazonaws.com/chuhancai-avatar-120-ts1488062437.jpg"}, {"avatar": "https://openlearning-cdn.s3.amazonaws.com/kevinhuang-avatar-120-ts1435145838.jpg"}, {"avatar": "https://openlearning-cdn.s3.amazonaws.com/stevennie-avatar-120-ts1435202662.jpg"}], "totalStudents": 162}, "url": "https://www.openlearning.com/unswmed/courses/comp9021", "imageUrl": "https://de8964361f4bb909de8d-fe8b524ce0801bda0a4b2a48b0c06837.ssl.cf4.rackcdn.com/HoeVnDzD3huAazH2eVZZCiKYjC4veVrT6u9HktCe5bacf6yyvzmFMUMy2or2Anro.1509072135/thumbnailsArtboard6.png", "summary": null, "closedCohort": false, "promoImage": "https://openlearning-cdn.s3.amazonaws.com/course__unswmed_courses_comp9021__course-promo-image-1509072083.85.jpg"}, "institution": {"footer": [{"links": ["[UNSW Medicine](http://med.unsw.edu.au/)", "[OpenLearning](https://www.openlearning.com)", "[Contact Us](https://cbdrh.med.unsw.edu.au/)", "[Press](https://cbdrh.med.unsw.edu.au/news-events)"], "title": "About"}, {"links": ["[:fa-facebook-square: Facebook]()", "[:fa-twitter-square: Twitter]()", "[:fa-linkedin-square: LinkedIn](https://www.linkedin.com/in/robert-parker-35203318/)", "[:fa-instagram: Instagram]()", "[:fa-youtube: Youtube]()"], "title": "Connect"}, {"links": [], "title": ""}], "domain": "www.openlearning.com", "strings": {"course": "course", "course objective": "course objective", "qualification": "qualification", "course outcomes": "course outcomes"}, "institutionDescription": null, "name": "unswmed", "autoAddNewUsersToPortal": true, "googleTagManagerCode": "GTM-K2DFGWW", "url": "https://www.openlearning.com/unswmed", "media": {"promoImageUrl": "https://de8964361f4bb909de8d-fe8b524ce0801bda0a4b2a48b0c06837.ssl.cf4.rackcdn.com/89fku3gYSNSmh8YindMoZ9e9FcBmAbmMrNchAAZja2zctth5Q7bGsXdkXeZTWUrW.1509410128/medicalbannerrepositioned.jpg", "promoVideoUrl": ""}, "institutionTagline": null, "faviconImage": null, "institutionName": "UNSW Centre for Big Data Research in Health", "faqs": [{"mongo_id": "58db0e5002d18500000c60ac", "answer": "Each module in the HDA DoH program should take around 2 hours to complete. We expect each stream to take around 15-20 hours to complete.", "question": "How long will it take to complete a course?"}, {"mongo_id": "58db0e5102d18500000c60ad", "answer": "The HDA DoH courses are delivered by experts who have led the development of the UNSW MSc HDS will also lead the development and delivery of the HDA DoH. They include leading researchers in use of administrative and linked data (including MBS and PBS) for policy-relevant research, experts in curriculum development and educational design, and content experts in health data science, health informatics, statistics, biostatistics, mathematics and computing", "question": "Who are our facilitators?"}, {"mongo_id": "58db0e5202d18500000c60ae", "answer": "Our courses are taught on OpenLearning, which is a social learning platform, where you can share, like, comment, reflect and chat with a community of like-minded business owners. Learning experiences throughout our courses can be applied directly to your own business situation, which means you can learn, apply and reflect in real time.", "question": "What can I expect within the course?"}, {"mongo_id": "58db0e5302d18500000c60af", "answer": "The UNSW CBDRH has 19 academic staff and nine professional staff with high-level expertise in the management, use and analysis of large-scale health data. \n\n", "question": "What does the CBDRH do?"}], "isLive": true, "externalEnrolmentLink": "", "cssUrl": "https://ol-theme-css.scdn3.secure.raxcdn.com/portal-css/unswmed-1490927633.css", "logoUrl": "https://de8964361f4bb909de8d-fe8b524ce0801bda0a4b2a48b0c06837.ssl.cf4.rackcdn.com/u9LuFnYUTmxgzPLpMs2tqZuRZ2WFrHU5MTstUE5ZqUhAh45HBPQGKn8M6vpwaabg.1490761529/logo-gov-dep-healthwhitewithpadding.png", "sellingPoints": [{"mongo_id": "58db0d5a9f30c2000070e643", "content": "The Health Data Analytics Department of Health Training package has been developed to build competency in several areas including Australian health context, programming code (R, Python), exploratory data analysis, manipulation and curation of health data, data linkage, statistical models and machine learning to name a few. The courses are custom developed for the Department of Health with work-place type training exercises using real or synthesised Australian health data.", "imageUrl": "https://de8964361f4bb909de8d-fe8b524ce0801bda0a4b2a48b0c06837.ssl.cf4.rackcdn.com/P8BEMm7bRF5F9kJRtRiFVCGCYFQbvrkpVp8KhSXavbs3Z73PraA4VPpAoic6v3m4.1490760797/fotolia_112468227.jpg", "title": "Skills Development"}, {"mongo_id": "58db0d9f9f30c2000070e644", "content": "The courses are delivered by UNSW Sydney experts in Health Data Science, computer science and statistics from the Centre for Big Data Research in Health, School of Computer Science and Engineering and School of Mathematics and Statistics. They include leading researchers in the use of administrative and linked data (including MBS and PBS) for policy-relevant research, experts in curriculum development and educational design, and content experts in health data science, biostatistics and computing. Many of our educators are leading researchers in their areas of specialisation for over 20 years.", "imageUrl": "https://de8964361f4bb909de8d-fe8b524ce0801bda0a4b2a48b0c06837.ssl.cf4.rackcdn.com/ynYrTapdG9ixVBg8uTT6RTAyhcyoG8knswhzPFVk6yPtYuCK3nFzC5mdydpVHShb.1490758450/fotolia_141045261.jpg", "title": "Experienced Trainers"}, {"mongo_id": "58db0da49f30c2000070e645", "content": "These courses are all online, self-paced, and delivered on the OpenLearning Platform where students complete a variety of activities and share their work with their peers in a highly engaging learning community.", "imageUrl": "https://de8964361f4bb909de8d-fe8b524ce0801bda0a4b2a48b0c06837.ssl.cf4.rackcdn.com/Ywa38TfiyHgQCR9RebCziPoRNy9GcZ6R94euur97paTTUbAoHFeEyNJtg9wVxd8A.1490758732/effectivecommunication.jpeg", "title": "OpenLearning Student Experience"}], "navBarLinks": [{"link": "courses", "title": "Courses"}, {"link": "institutionsellingpoints", "title": "About"}, {"link": "team", "title": "Team"}, {"link": "faqs", "title": "FAQ"}, {"link": "richtext", "title": "Timetable"}], "id": "unswmed"}}</script>
+        
+
+<script type="application/json" id="standalone-blockpage-data">
+    {
+        "chunkURLS": {"richTextDisplayStyles": ["richTextDisplayStyles.fa075858df56ff8ae397.js", "richTextDisplayStyles.fa075858df56ff8ae397.js.map"], "chunkIDs": ["chunkIDs.2af76dbbb3aa9d31020d.js", "chunkIDs.2af76dbbb3aa9d31020d.js.map"], "OLTopBarLoader": ["OLTopBarLoader.bd52a7bb6b0305bf2650.js", "OLTopBarLoader.bd52a7bb6b0305bf2650.js.map"], "portalInstitutionPageLoader": ["portalInstitutionPageLoader.0bc332f87dc2f4c44fc6.js", "portalInstitutionPageLoader.0bc332f87dc2f4c44fc6.js.map"], "teachPageLoader": ["teachPageLoader.32d549e102f8841303be.js", "teachPageLoader.32d549e102f8841303be.js.map"], "contactPageLoader": ["contactPageLoader.e0ebcd7be7212a474d7a.js", "contactPageLoader.e0ebcd7be7212a474d7a.js.map"], "blockPage": ["blockPage.a0baf60c1234a03160e8.js", "blockPage.a0baf60c1234a03160e8.js.map"], "course": ["course.bc84e0d15703c3804251.js", "course.bc84e0d15703c3804251.js.map"], "malaysiaHomepage": ["malaysiaHomepage.7d6044699f1c2f4645ee.js", "malaysiaHomepage.7d6044699f1c2f4645ee.js.map"], "AboutPage": ["async/AboutPage.24b14df25e34cd7e8fba.js", "async/AboutPage.24b14df25e34cd7e8fba.js.map"], "ChatLoader": ["async/ChatLoader.695990ec76b40e659e58.js", "async/ChatLoader.695990ec76b40e659e58.js.map"], "raven": ["raven.eb7c5f1230224a855b80.js", "raven.eb7c5f1230224a855b80.js.map"], "CourseAdminExports": ["async/CourseAdminExports.7cbe4d321b6e2be849ee.js", "async/CourseAdminExports.7cbe4d321b6e2be849ee.js.map"], "CourseAdmin": ["CourseAdmin.08967f7bbf80bb37d0df.js", "CourseAdmin.08967f7bbf80bb37d0df.js.map"], "previewFeedPageLoader": ["previewFeedPageLoader.3168dc478decaf4029bc.js", "previewFeedPageLoader.3168dc478decaf4029bc.js.map"], "sso": ["sso.517474f838e784bfa823.js", "sso.517474f838e784bfa823.js.map"], "portalAdminInstitutionFooterPageLoader": ["portalAdminInstitutionFooterPageLoader.4b9b295cdac3b8704b12.js", "portalAdminInstitutionFooterPageLoader.4b9b295cdac3b8704b12.js.map"], "navigationSetup": ["navigationSetup.ebb2b1013dbd35dc1697.js", "navigationSetup.ebb2b1013dbd35dc1697.js.map"], "linkedNotificationLoader": ["linkedNotificationLoader.6a2a270f081fa6b860dc.js", "linkedNotificationLoader.6a2a270f081fa6b860dc.js.map"], "chatHistory": ["chatHistory.8fce2fc8d4667c848d3e.js", "chatHistory.8fce2fc8d4667c848d3e.js.map"], "RichTextEditor": ["async/RichTextEditor.1d4727d62015ce6e65fe.js", "async/RichTextEditor.1d4727d62015ce6e65fe.js.map"], "starterPageLoader": ["starterPageLoader.738b886112ded8f85c6f.js", "starterPageLoader.738b886112ded8f85c6f.js.map"], "LearningServicesPage": ["async/LearningServicesPage.9c5859c8d1b98c3bc487.js", "async/LearningServicesPage.9c5859c8d1b98c3bc487.js.map"], "richTextEditorStyles": ["richTextEditorStyles.4eae97d40aa9800cf891.js", "richTextEditorStyles.4eae97d40aa9800cf891.js.map"], "metrics": ["metrics.b114bda34c4631f3db62.js", "metrics.b114bda34c4631f3db62.js.map"], "portalCoursePageLoader": ["portalCoursePageLoader.9035bd03eabf72764579.js", "portalCoursePageLoader.9035bd03eabf72764579.js.map"], "analytics": ["analytics.74b729bc52320d2c2a8d.js", "analytics.74b729bc52320d2c2a8d.js.map"], "imagetools": ["imagetools.22f63a0a2afd7b662470.js", "imagetools.22f63a0a2afd7b662470.js.map"], "thankYouPageLoader": ["thankYouPageLoader.9bb26da46b263c60ab39.js", "thankYouPageLoader.9bb26da46b263c60ab39.js.map"], "overlay": ["overlay.ffaf8b1789670102f892.js", "overlay.ffaf8b1789670102f892.js.map"], "richTextDisplay": ["richTextDisplay.0ef6387e2fc7316a39e8.js", "richTextDisplay.0ef6387e2fc7316a39e8.js.map"], "courseGroupsLoader": ["courseGroupsLoader.d60ae1acb74c55f1c9f4.js", "courseGroupsLoader.d60ae1acb74c55f1c9f4.js.map"], "molpayResponsePageLoader": ["molpayResponsePageLoader.e75b349a6ea76e57be64.js", "molpayResponsePageLoader.e75b349a6ea76e57be64.js.map"], "landingPageSetupLoader": ["landingPageSetupLoader.530528f0ace7f13caa82.js", "landingPageSetupLoader.530528f0ace7f13caa82.js.map"], "portalAdminQualificationsPageLoader": ["portalAdminQualificationsPageLoader.72655e89d852968aaab4.js", "portalAdminQualificationsPageLoader.72655e89d852968aaab4.js.map"], "jobs": ["jobs.a234d673b4d938a5abbe.js", "jobs.a234d673b4d938a5abbe.js.map"], "notificationHistory": ["notificationHistory.37f650ef6943ee19f23b.js", "notificationHistory.37f650ef6943ee19f23b.js.map"], "courseCertificationAppearanceLoader": ["courseCertificationAppearanceLoader.573b984294a8f765b9c5.js", "courseCertificationAppearanceLoader.573b984294a8f765b9c5.js.map"], "OLTopBar": ["async/OLTopBar.3b769a602319b8baa3b6.js", "async/OLTopBar.3b769a602319b8baa3b6.js.map"], "oldie": ["oldie.46c73019c5d23d8297cb.js", "oldie.46c73019c5d23d8297cb.js.map"], "teach": ["teach.5ab1df39823128142c6c.js", "teach.5ab1df39823128142c6c.js.map"], "portalAdminQualificationsLandingPageLoader": ["portalAdminQualificationsLandingPageLoader.33d216fb8f4940a9996c.js", "portalAdminQualificationsLandingPageLoader.33d216fb8f4940a9996c.js.map"], "portalAdminInstitutionSellingPointsPageLoader": ["portalAdminInstitutionSellingPointsPageLoader.db67f355f525dcf2b3cc.js", "portalAdminInstitutionSellingPointsPageLoader.db67f355f525dcf2b3cc.js.map"], "reactCollapse": ["reactCollapse.4ad265f9da8e38a409b0.js", "reactCollapse.4ad265f9da8e38a409b0.js.map"], "courseContentEditorLoader": ["courseContentEditorLoader.14037c537f5d925aa40c.js", "courseContentEditorLoader.14037c537f5d925aa40c.js.map"], "anon": ["anon.55c264640dff0048c874.js", "anon.55c264640dff0048c874.js.map"], "progressPage": ["progressPage.94673955a059714b89a8.js", "progressPage.94673955a059714b89a8.js.map"], "ssoProvisioningLoader": ["ssoProvisioningLoader.edbef661536c1b856b39.js", "ssoProvisioningLoader.edbef661536c1b856b39.js.map"], "CourseAdminOutcomes": ["async/CourseAdminOutcomes.90cd901faca579455290.js", "async/CourseAdminOutcomes.90cd901faca579455290.js.map"], "courseOnBoarding": ["courseOnBoarding.0f82a251f16177ad6578.js", "courseOnBoarding.0f82a251f16177ad6578.js.map"], "oldTopBar": ["oldTopBar.164054e643e1548a3048.js", "oldTopBar.164054e643e1548a3048.js.map"], "testimonialLoder": ["testimonialLoder.0ae22c8ba360be010cef.js", "testimonialLoder.0ae22c8ba360be010cef.js.map"], "portalUserCommon": ["portalUserCommon.a4889e235d0e7ebec66e.js", "portalUserCommon.a4889e235d0e7ebec66e.js.map"], "courseWalkThrough": ["courseWalkThrough.580774d7b3ab94fb6a31.js", "courseWalkThrough.580774d7b3ab94fb6a31.js.map"], "molpayLoader": ["molpayLoader.0c2313e3e075e7371eb4.js", "molpayLoader.0c2313e3e075e7371eb4.js.map"], "institutionReports": ["institutionReports.212dcae33e9d073d6b98.js", "institutionReports.212dcae33e9d073d6b98.js.map"], "ASICInformationCaptureForm": ["async/ASICInformationCaptureForm.593b05ed4fde2062b70b.js", "async/ASICInformationCaptureForm.593b05ed4fde2062b70b.js.map"], "isoldie": ["async/isoldie.b2b6571835e547682e5f.js", "async/isoldie.b2b6571835e547682e5f.js.map"], "UploadProfilePhoto": ["async/UploadProfilePhoto.19ea0253d780c7944bdd.js", "async/UploadProfilePhoto.19ea0253d780c7944bdd.js.map"], "courseCertificationSetupLoader": ["courseCertificationSetupLoader.204fa1076bb0d632c29b.js", "courseCertificationSetupLoader.204fa1076bb0d632c29b.js.map"], "initializeReduxFromDom": ["initializeReduxFromDom.835c83d3cf4e6fd7d41c.js", "initializeReduxFromDom.835c83d3cf4e6fd7d41c.js.map"], "assessment": ["assessment.d41780feadb66b795ad5.js", "assessment.d41780feadb66b795ad5.js.map"], "institutionLTIPageLoader": ["institutionLTIPageLoader.9b4a2f818672a0d26708.js", "institutionLTIPageLoader.9b4a2f818672a0d26708.js.map"], "cohortScheduleAdmin": ["cohortScheduleAdmin.fcf7e7b91b12e5224af7.js", "cohortScheduleAdmin.fcf7e7b91b12e5224af7.js.map"], "homepageLoader": ["homepageLoader.ef7d3887978816766519.js", "homepageLoader.ef7d3887978816766519.js.map"], "portalAdminInstitutionPageSectionsPageLoader": ["portalAdminInstitutionPageSectionsPageLoader.666d42eff13d450b2a5f.js", "portalAdminInstitutionPageSectionsPageLoader.666d42eff13d450b2a5f.js.map"], "LinkedNotificationLoader": ["async/LinkedNotificationLoader.581d23bd2dd96e8f2417.js", "async/LinkedNotificationLoader.581d23bd2dd96e8f2417.js.map"], "certificateVerificationLoader": ["certificateVerificationLoader.2185d026b6f30e071c63.js", "certificateVerificationLoader.2185d026b6f30e071c63.js.map"], "xcomponent": ["xcomponent.db3e79e76431e9598dd1.js", "xcomponent.db3e79e76431e9598dd1.js.map"], "jquery": ["jquery.fc66883aaac197279369.js", "jquery.fc66883aaac197279369.js.map"], "teachathon": ["teachathon.735d41c4f952503062a2.js", "teachathon.735d41c4f952503062a2.js.map"], "portalAdminInstitutionFaqsPageLoader": ["portalAdminInstitutionFaqsPageLoader.d9bee02b1fc068400b01.js", "portalAdminInstitutionFaqsPageLoader.d9bee02b1fc068400b01.js.map"], "institutionProgress": ["institutionProgress.1d37a7d353d47ed0c785.js", "institutionProgress.1d37a7d353d47ed0c785.js.map"], "patternLibraryLoader": ["patternLibraryLoader.9c03a93affc55fb602df.js", "patternLibraryLoader.9c03a93affc55fb602df.js.map"], "fullamarks": ["fullamarks.f73f9a65ddab3f036825.js", "fullamarks.f73f9a65ddab3f036825.js.map"], "classCertificationLoader": ["classCertificationLoader.004782eeda02b23d0b98.js", "classCertificationLoader.004782eeda02b23d0b98.js.map"], "oldLaunchChangeProfilePictureModalLoader": ["oldLaunchChangeProfilePictureModalLoader.c1e0159fcffb7beb4d8b.js", "oldLaunchChangeProfilePictureModalLoader.c1e0159fcffb7beb4d8b.js.map"], "UserAutocomplete": ["async/UserAutocomplete.eff636aeb428ad986018.js", "async/UserAutocomplete.eff636aeb428ad986018.js.map"], "portalQualificationPageLoader": ["portalQualificationPageLoader.fd0ba04998a6dea5ff8f.js", "portalQualificationPageLoader.fd0ba04998a6dea5ff8f.js.map"], "portalAdminInstitutionGeneralSettingsPageLoader": ["portalAdminInstitutionGeneralSettingsPageLoader.8960fa082926fdc965fa.js", "portalAdminInstitutionGeneralSettingsPageLoader.8960fa082926fdc965fa.js.map"], "PricingPage": ["async/PricingPage.4ddf93812bd7113b5d69.js", "async/PricingPage.4ddf93812bd7113b5d69.js.map"], "basePageLoader": ["basePageLoader.43c8dd0c18dfb21675a3.js", "basePageLoader.43c8dd0c18dfb21675a3.js.map"], "chat": ["chat.11d33d72abcae8bb66fe.js", "chat.11d33d72abcae8bb66fe.js.map"], "reduxStorage": ["reduxStorage.bce7cf1c03a3cd943019.js", "reduxStorage.bce7cf1c03a3cd943019.js.map"], "ReduxFormElement": ["ReduxFormElement.3be21ba4b28cc0a110e0.js", "ReduxFormElement.3be21ba4b28cc0a110e0.js.map"], "reactAux": ["reactAux.cce1fa54a66214969b72.js", "reactAux.cce1fa54a66214969b72.js.map"], "publicProgress": ["publicProgress.82310194bb68f39885ee.js", "publicProgress.82310194bb68f39885ee.js.map"], "teamPageLoader": ["teamPageLoader.5b34d07579351bc71bba.js", "teamPageLoader.5b34d07579351bc71bba.js.map"], "paymentPageLoader": ["paymentPageLoader.967a9174bac192306593.js", "paymentPageLoader.967a9174bac192306593.js.map"], "clearCourseCache": ["clearCourseCache.fb75fc858ec5c3f135b4.js", "clearCourseCache.fb75fc858ec5c3f135b4.js.map"], "CourseAdminRoles": ["async/CourseAdminRoles.2b7c34489595d6555bb9.js", "async/CourseAdminRoles.2b7c34489595d6555bb9.js.map"], "portalAdminInstitutionBrandingPageLoader": ["portalAdminInstitutionBrandingPageLoader.9cf88c55914ebb6c85ba.js", "portalAdminInstitutionBrandingPageLoader.9cf88c55914ebb6c85ba.js.map"], "online": ["online.94c56d982e1cbfab2ca9.js", "online.94c56d982e1cbfab2ca9.js.map"], "BasePage": ["async/BasePage.3af92538db0ee5f086a1.js", "async/BasePage.3af92538db0ee5f086a1.js.map"], "portalTinyMCECommon": ["portalTinyMCECommon.f736b55bbee61d239455.js", "portalTinyMCECommon.f736b55bbee61d239455.js.map"], "react": ["react.eb85396237572b11f7ba.js", "react.eb85396237572b11f7ba.js.map"], "moment": ["moment.931ac0be8f597f7adde1.js", "moment.931ac0be8f597f7adde1.js.map"], "courselandingpage": ["courselandingpage.85425d158c2da6166801.js", "courselandingpage.85425d158c2da6166801.js.map"], "OLTopBarPortalUserCommon": ["OLTopBarPortalUserCommon.d534e616e8793c0b0d5f.js", "OLTopBarPortalUserCommon.d534e616e8793c0b0d5f.js.map"], "footer": ["footer.43d826e6c9297a4762aa.js", "footer.43d826e6c9297a4762aa.js.map"], "notificationRedirect": ["notificationRedirect.bb48c1e64ddbe03e7bed.js", "notificationRedirect.bb48c1e64ddbe03e7bed.js.map"], "coursesPageLoader": ["coursesPageLoader.2e6c5f2e368033d5e212.js", "coursesPageLoader.2e6c5f2e368033d5e212.js.map"], "ResponsiveImage": ["async/ResponsiveImage.ff0c64623c6cf87f4f28.js", "async/ResponsiveImage.ff0c64623c6cf87f4f28.js.map"], "moduleEditor": ["moduleEditor.57ccc0d153ca731faa28.js", "moduleEditor.57ccc0d153ca731faa28.js.map"]},
+        "profileName": "",
+        "isAdmin": false,
+        "isSuper": false,
+        "isAnon": false
+    }
+</script>
+
+<script type="application/json" id="site-url-data">
+    {
+        "socketcluster": {
+            "host": "auweb13.openlearning.com",
+            "port": 443
+        }
+
+    }
+</script>
+
+
+<!-- DATA PROVIDERS -->
+
+<!-- OpenLearning User Messaging -->
+
+
+
+<script type="application/json" id="current-user-access">
+    {"courseRoles": {}, "classRoles": {}, "currentInstitution": "unswmed", "institutionRoles": {"unswmed": []}, "isSuperUser": null}
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- end User Messaging -->
+
+<!-- end User Messaging -->
+
+<!-- TODO: consolidate this to retrieve from a single data-source and have more signed fields -->
+<script type="application/json" id="class-data-loader">
+{
+    
+        "user-id":null,
+        "isSuperUser": false,
+        "isCourseAdmin": false,
+    
+    
+
+    "vero-identified-user": false,
+    "remote-address": "101.176.218.225, 10.189.254.6",
+    "id-type": "path",
+    "page-id": "",
+    "page-path": "",
+    "notifications": {
+        "num-unread": "0",
+        "num-messages": 0
+    },
+
+
+    "is-course": false,
+    "cohort-type": "path",
+    "cohort": ""
+
+}
+</script>
+
+<!-- END DATA -->
+
+<script type="text/javascript">
+window.olFuture = {};
+</script>
+
+        
+
+<!-- START CHUNK chunkIDs -->
+<script src="https://709d46f74041f979bbed-0078dfde91f1026e77c6f80bb37dbaa2.ssl.cf4.rackcdn.com/chunks/chunkIDs.2af76dbbb3aa9d31020d.js" type="text/javascript" crossorigin="anonymous"></script>
+<!-- END CHUNK chunkIDs -->
+
+
+
+<!-- START CHUNK jquery -->
+<script src="https://709d46f74041f979bbed-0078dfde91f1026e77c6f80bb37dbaa2.ssl.cf4.rackcdn.com/chunks/jquery.fc66883aaac197279369.js" type="text/javascript" crossorigin="anonymous"></script>
+<!-- END CHUNK jquery -->
+
+
+
+<!-- START CHUNK anon -->
+<script src="https://709d46f74041f979bbed-0078dfde91f1026e77c6f80bb37dbaa2.ssl.cf4.rackcdn.com/chunks/anon.55c264640dff0048c874.js" type="text/javascript" crossorigin="anonymous"></script>
+<!-- END CHUNK anon -->
+
+
+    
+
+<!-- START CHUNK raven -->
+<script src="https://709d46f74041f979bbed-0078dfde91f1026e77c6f80bb37dbaa2.ssl.cf4.rackcdn.com/chunks/raven.eb7c5f1230224a855b80.js" type="text/javascript" crossorigin="anonymous"></script>
+<!-- END CHUNK raven -->
+
+
+
+        <link id="portal-css" rel="stylesheet" href="https://ol-theme-css.scdn3.secure.raxcdn.com/portal-css/unswmed-1490927633.css">
+    </head>
+    <body>
+        <script src="//static.tapfiliate.com/tapfiliate.js" type="text/javascript" async></script>
+        <script type="text/javascript">
+            window['TapfiliateObject'] = i = 'tap';
+            window[i] = window[i] || function () {
+                        (window[i].q = window[i].q || []).push(arguments);
+                    };
+            tap('create', '2627-89fd0d');
+        </script>
+
+        
+            <!-- Google Tag Manager (noscript) -->
+            <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K2DFGWW"
+                              height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+            <!-- End Google Tag Manager (noscript) -->
+        
+
+        <div id="portal-container"></div>
+
+        <script class="current-portal-name" type="application/json">
+            "unswmed"
+        </script>
+        <script id="#portal-metadata" type="application/json">
+            {"siteName": "www.openlearning.com", "institutionPath": "unswmed", "canonicalUrl": "https://www.openlearning.com/unswmed/courses/comp9021", "title": "COMP9021 Principles of Programming | UNSW Centre for Big Data Research in Health", "coursePath": "unswmed/courses/comp9021", "image": "https://de8964361f4bb909de8d-fe8b524ce0801bda0a4b2a48b0c06837.ssl.cf4.rackcdn.com/HoeVnDzD3huAazH2eVZZCiKYjC4veVrT6u9HktCe5bacf6yyvzmFMUMy2or2Anro.1509072135/thumbnailsArtboard6.png", "courseName": "COMP9021 Principles of Programming", "description": null}
+        </script>
+        <script id="csrf-token" type="application/json">
+            {
+                "csrfToken" : "MzRSyTdPLlaUi8p7bDT3a18aZyvPekA0"
+            }
+        </script>
+
+        
+
+<!-- START CHUNK react -->
+<script src="https://709d46f74041f979bbed-0078dfde91f1026e77c6f80bb37dbaa2.ssl.cf4.rackcdn.com/chunks/react.eb85396237572b11f7ba.js" type="text/javascript" crossorigin="anonymous"></script>
+<!-- END CHUNK react -->
+
+        
+
+<!-- START CHUNK reactAux -->
+<script src="https://709d46f74041f979bbed-0078dfde91f1026e77c6f80bb37dbaa2.ssl.cf4.rackcdn.com/chunks/reactAux.cce1fa54a66214969b72.js" type="text/javascript" crossorigin="anonymous"></script>
+<!-- END CHUNK reactAux -->
+
+        
+
+<!-- START CHUNK moment -->
+<script src="https://709d46f74041f979bbed-0078dfde91f1026e77c6f80bb37dbaa2.ssl.cf4.rackcdn.com/chunks/moment.931ac0be8f597f7adde1.js" type="text/javascript" crossorigin="anonymous"></script>
+<!-- END CHUNK moment -->
+
+        
+
+<!-- START CHUNK reduxStorage -->
+<script src="https://709d46f74041f979bbed-0078dfde91f1026e77c6f80bb37dbaa2.ssl.cf4.rackcdn.com/chunks/reduxStorage.bce7cf1c03a3cd943019.js" type="text/javascript" crossorigin="anonymous"></script>
+<!-- END CHUNK reduxStorage -->
+
+        
+
+<!-- START CHUNK initializeReduxFromDom -->
+<script src="https://709d46f74041f979bbed-0078dfde91f1026e77c6f80bb37dbaa2.ssl.cf4.rackcdn.com/chunks/initializeReduxFromDom.835c83d3cf4e6fd7d41c.js" type="text/javascript" crossorigin="anonymous"></script>
+<!-- END CHUNK initializeReduxFromDom -->
+
+        
+
+<!-- START CHUNK OLTopBarPortalUserCommon -->
+<script src="https://709d46f74041f979bbed-0078dfde91f1026e77c6f80bb37dbaa2.ssl.cf4.rackcdn.com/chunks/OLTopBarPortalUserCommon.d534e616e8793c0b0d5f.js" type="text/javascript" crossorigin="anonymous"></script>
+<!-- END CHUNK OLTopBarPortalUserCommon -->
+
+        
+
+<!-- START CHUNK reactCollapse -->
+<script src="https://709d46f74041f979bbed-0078dfde91f1026e77c6f80bb37dbaa2.ssl.cf4.rackcdn.com/chunks/reactCollapse.4ad265f9da8e38a409b0.js" type="text/javascript" crossorigin="anonymous"></script>
+<!-- END CHUNK reactCollapse -->
+
+        
+
+<!-- START CHUNK ReduxFormElement -->
+<script src="https://709d46f74041f979bbed-0078dfde91f1026e77c6f80bb37dbaa2.ssl.cf4.rackcdn.com/chunks/ReduxFormElement.3be21ba4b28cc0a110e0.js" type="text/javascript" crossorigin="anonymous"></script>
+<!-- END CHUNK ReduxFormElement -->
+
+        
+
+<!-- START CHUNK OLTopBar -->
+<script src="https://709d46f74041f979bbed-0078dfde91f1026e77c6f80bb37dbaa2.ssl.cf4.rackcdn.com/chunks/async/OLTopBar.3b769a602319b8baa3b6.js" type="text/javascript" crossorigin="anonymous"></script>
+<!-- END CHUNK OLTopBar -->
+
+        
+
+<!-- START CHUNK portalUserCommon -->
+<script src="https://709d46f74041f979bbed-0078dfde91f1026e77c6f80bb37dbaa2.ssl.cf4.rackcdn.com/chunks/portalUserCommon.a4889e235d0e7ebec66e.js" type="text/javascript" crossorigin="anonymous"></script>
+<!-- END CHUNK portalUserCommon -->
+
+        
+            
+
+<!-- START CHUNK portalCoursePageLoader -->
+<script src="https://709d46f74041f979bbed-0078dfde91f1026e77c6f80bb37dbaa2.ssl.cf4.rackcdn.com/chunks/portalCoursePageLoader.9035bd03eabf72764579.js" type="text/javascript" crossorigin="anonymous"></script>
+<!-- END CHUNK portalCoursePageLoader -->
+
+        
+
+    </body>
+</html>
