@@ -1,0 +1,78 @@
+Q1:
+pokemon = read('Pokemon.csv')
+Y = pokemon['total']
+pokemon_exclude = exclude(pokemon,col=['#','name','total'])
+pokemon_exclude
+
+Q2:
+
+#Type_1
+a = tally(pokemon_exclude.type_1,minimum=3,method = 'count')
+#Type_2
+b = tally(pokemon_exclude.type_2,minimum=3,method = 'count')
+#Legendary 
+c = tally(pokemon_exclude.legendary,minimum=3,method = 'count')
+#Generation
+d = tally(pokemon_exclude.generation,minimum=3,method = 'count')
+#help(tally)
+
+
+Q3:
+
+plot(x=pokemon_exclude.type_2,y = Y, colour = pokemon_exclude.type_1)
+
+
+Q4:
+#help(ternary)
+t_defence =ternary(pokemon_exclude['defense'],'>60',1,0)
+t_hp = ternary(pokemon_exclude['hp'],'>=60',-1,1)
+t_speed = ternary(pokemon_exclude['speed'],'<=100',0,1)
+#tally(t_defence)
+#tally(t_hp)
+#tally(t_speed)
+
+
+Q5
+#help(read_clean)
+pokemon_clean = read_clean(pokemon_exclude)
+pokemon_clean = exclude(pokemon_clean,col='legendary')
+#pokemon_clean
+#help(hcat)
+combined_data = hcat(pokemon_clean,Y,a,b,c,d,t_defence,t_hp,t_speed)
+combined_data
+
+
+Q6
+
+
+#help(Inference)
+model = Inference(logistic = True)
+#help(model.fit)
+#tallied = tally(combined_data, method = 'tfidf')
+#tallied
+model.fit(combined_data,Y)
+#model.coefficients()
+
+Q6：
+#help(Inference)
+model = Inference(logistic = True)
+#help(model.fit)
+#model.fit(combined_data,Y)
+#model.coefficients()
+from sklearn.datasets import make_classification, make_regression
+#n = 10000
+#p = 20
+#X, y = make_classification(random_state = 0, n_samples = int(n/2), n_features = p, n_classes = 2)
+#help(make_classification)
+p = count(combined_data['type_1_10'])
+n = sum(Y) 
+X, y = make_classification(random_state = 0, n_samples = int(n/2), n_features = p, n_classes = 2)
+model.fit(X, y)
+model.coefficients()
+
+
+Q7:
+
+x = model.predict(X)
+y = Y
+plot(x,y,style='regplot',power = 1)

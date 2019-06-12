@@ -1,0 +1,1260 @@
+,timestamp,age,gender,country,state,self_employed,family_history,treatment,work_interfere,remote_work,tech_company,benefits,care_options,wellness_program,seek_help,leave,mental_health_consequence,phys_health_consequence,coworkers,supervisor,mental_health_interview,phys_health_interview,mental_vs_physical,obs_consequence
+0,27/8/14 11:29,37,Female,United States,IL,,No,Yes,Often,No,Yes,Yes,Not sure,No,Yes,Somewhat easy,No,No,Some of them,Yes,No,Maybe,Yes,No
+1,27/8/14 11:29,44,Male,United States,IN,,No,No,Rarely,No,No,Don't know,No,Don't know,Don't know,Don't know,Maybe,No,No,No,No,No,Don't know,No
+2,27/8/14 11:29,32,Male,Canada,,,No,No,Rarely,No,Yes,No,No,No,No,Somewhat difficult,No,No,Yes,Yes,Yes,Yes,No,No
+3,27/8/14 11:29,31,Male,United Kingdom,,,Yes,Yes,Often,No,Yes,No,Yes,No,No,Somewhat difficult,Yes,Yes,Some of them,No,Maybe,Maybe,No,Yes
+4,27/8/14 11:30,31,Male,United States,TX,,No,No,Never,Yes,Yes,Yes,No,Don't know,Don't know,Don't know,No,No,Some of them,Yes,Yes,Yes,Don't know,No
+5,27/8/14 11:31,33,Male,United States,TN,,Yes,No,Sometimes,No,Yes,Yes,Not sure,No,Don't know,Don't know,No,No,Yes,Yes,No,Maybe,Don't know,No
+6,27/8/14 11:31,35,Female,United States,MI,,Yes,Yes,Sometimes,Yes,Yes,No,No,No,No,Somewhat difficult,Maybe,Maybe,Some of them,No,No,No,Don't know,No
+7,27/8/14 11:32,39,Male,Canada,,,No,No,Never,Yes,Yes,No,Yes,No,No,Don't know,No,No,No,No,No,No,No,No
+8,27/8/14 11:32,42,Female,United States,IL,,Yes,Yes,Sometimes,No,Yes,Yes,Yes,No,No,Very difficult,Maybe,No,Yes,Yes,No,Maybe,No,No
+9,27/8/14 11:32,23,Male,Canada,,,No,No,Never,No,Yes,Don't know,No,Don't know,Don't know,Don't know,No,No,Yes,Yes,Maybe,Maybe,Yes,No
+10,27/8/14 11:32,31,Male,United States,OH,,No,Yes,Sometimes,Yes,Yes,Don't know,No,No,No,Don't know,No,No,Some of them,Yes,No,No,Don't know,No
+11,27/8/14 11:32,29,Male,Bulgaria,,,No,No,Never,Yes,Yes,Don't know,Not sure,No,No,Don't know,No,No,Yes,Yes,Yes,Yes,Don't know,No
+12,27/8/14 11:33,42,Female,United States,CA,,Yes,Yes,Sometimes,No,No,Yes,Yes,No,No,Somewhat difficult,Yes,Yes,Yes,Yes,Maybe,Maybe,No,Yes
+13,27/8/14 11:33,36,Male,United States,CT,,Yes,No,Never,No,Yes,Don't know,Not sure,No,Don't know,Don't know,No,No,Yes,Yes,No,No,Don't know,No
+14,27/8/14 11:33,27,Male,Canada,,,No,No,Never,No,Yes,Don't know,Not sure,Don't know,Don't know,Somewhat easy,No,No,Some of them,Some of them,Maybe,Yes,Yes,No
+15,27/8/14 11:34,29,Female,United States,IL,,Yes,Yes,Rarely,No,Yes,Yes,Not sure,No,No,Somewhat easy,No,No,Yes,Some of them,Maybe,Maybe,Don't know,No
+16,27/8/14 11:34,23,Male,United Kingdom,,,No,Yes,Sometimes,Yes,Yes,Don't know,No,Don't know,Don't know,Very easy,Maybe,No,Some of them,No,Maybe,Maybe,No,No
+17,27/8/14 11:34,32,Male,United States,TN,,No,Yes,Sometimes,No,Yes,Yes,Yes,No,Don't know,Don't know,Maybe,No,Some of them,Yes,No,No,No,No
+18,27/8/14 11:34,46,Male,United States,MD,Yes,Yes,No,Sometimes,Yes,Yes,Yes,Not sure,Yes,Don't know,Very easy,No,No,Yes,Yes,No,Yes,Yes,Yes
+19,27/8/14 11:35,36,Male,France,,Yes,Yes,No,,Yes,Yes,No,No,Yes,No,Somewhat easy,No,No,Some of them,Some of them,Maybe,Maybe,Don't know,No
+20,27/8/14 11:35,29,Male,United States,NY,No,Yes,Yes,Sometimes,No,Yes,Yes,Yes,No,No,Somewhat difficult,Maybe,No,Some of them,Some of them,No,No,No,No
+21,27/8/14 11:35,31,Male,United States,NC,Yes,No,No,Never,Yes,Yes,No,No,No,No,Somewhat difficult,No,No,Some of them,Some of them,No,Maybe,Yes,No
+22,27/8/14 11:35,46,Male,United States,MA,No,No,Yes,Often,Yes,Yes,Yes,Yes,No,No,Don't know,Maybe,No,Some of them,Yes,No,Maybe,No,No
+23,27/8/14 11:36,41,Male,United States,IA,No,No,Yes,Never,No,No,Don't know,No,No,Don't know,Don't know,Maybe,No,No,No,No,Yes,Don't know,No
+24,27/8/14 11:36,33,Male,United States,CA,No,Yes,Yes,Rarely,No,Yes,Yes,Not sure,Don't know,Yes,Don't know,No,No,Yes,Yes,No,Yes,Don't know,No
+25,27/8/14 11:37,35,Male,United States,TN,No,Yes,Yes,Sometimes,No,No,Yes,Yes,No,Don't know,Very easy,Yes,No,Some of them,Yes,No,Yes,No,No
+26,27/8/14 11:37,33,Male,United States,TN,No,No,No,,No,Yes,Don't know,Not sure,No,Don't know,Don't know,Maybe,Maybe,Some of them,No,No,No,Don't know,No
+27,27/8/14 11:37,35,Female,United States,CA,No,Yes,Yes,Rarely,Yes,Yes,Yes,Yes,Don't know,Don't know,Don't know,No,No,Yes,Yes,Maybe,Maybe,Yes,No
+28,27/8/14 11:38,34,Male,United States,OH,No,No,Yes,Sometimes,Yes,Yes,Don't know,Not sure,No,Don't know,Somewhat difficult,No,No,Some of them,No,No,No,No,No
+29,27/8/14 11:38,37,Male,United Kingdom,,No,No,No,Sometimes,No,Yes,No,No,No,No,Very difficult,Yes,Maybe,Some of them,No,No,Maybe,No,No
+30,27/8/14 11:39,32,Male,United Kingdom,,No,No,No,Never,Yes,Yes,No,No,No,No,Don't know,Yes,Yes,Some of them,Some of them,No,Maybe,No,No
+31,27/8/14 11:38,31,Male,United States,PA,Yes,Yes,No,Rarely,Yes,Yes,No,Yes,No,No,Somewhat difficult,Yes,No,No,No,No,No,No,Yes
+32,27/8/14 11:39,30,Male,United Kingdom,,No,Yes,Yes,Sometimes,Yes,Yes,Don't know,No,No,No,Somewhat easy,Maybe,No,Some of them,Yes,No,Yes,Don't know,No
+33,27/8/14 11:39,42,Male,United States,WA,No,Yes,Yes,Sometimes,Yes,Yes,Yes,Yes,Yes,Yes,Very easy,Maybe,No,Some of them,Some of them,Maybe,Yes,Don't know,No
+34,27/8/14 11:40,40,Female,United States,WI,No,No,Yes,Sometimes,No,Yes,Yes,Yes,No,No,Don't know,Maybe,No,Some of them,No,No,Maybe,Yes,No
+35,27/8/14 11:41,27,Male,United States,NY,No,No,Yes,Rarely,No,Yes,No,Yes,No,No,Very easy,No,No,Yes,Yes,Maybe,Maybe,Don't know,No
+36,27/8/14 11:41,29,Male,Canada,,No,No,No,Rarely,No,Yes,No,No,No,No,Very easy,Yes,Maybe,Some of them,No,No,No,Don't know,No
+37,27/8/14 11:41,38,Male,Portugal,,No,No,No,,No,Yes,No,Yes,No,No,Somewhat easy,Maybe,No,Some of them,Some of them,No,Maybe,No,No
+38,27/8/14 11:42,50,Male,United States,IN,No,No,No,,No,Yes,Yes,Yes,No,Don't know,Don't know,No,No,Some of them,Yes,No,Maybe,Don't know,No
+39,27/8/14 11:42,35,Male,United States,TX,No,No,Yes,Rarely,Yes,Yes,Yes,Yes,No,Yes,Very easy,No,No,Yes,Yes,Maybe,Maybe,Yes,No
+40,27/8/14 11:42,24,Male,United Kingdom,,No,No,Yes,Sometimes,No,Yes,No,No,No,No,Don't know,Maybe,Maybe,Some of them,No,No,Yes,No,Yes
+41,27/8/14 11:42,35,Male,United States,MI,No,No,No,,Yes,Yes,Yes,Not sure,Don't know,Yes,Somewhat difficult,Yes,Yes,Some of them,No,No,Maybe,Don't know,No
+42,27/8/14 11:43,27,Male,Canada,,No,Yes,Yes,Sometimes,No,Yes,No,Yes,No,No,Very difficult,Maybe,No,Some of them,No,No,No,Yes,No
+43,27/8/14 11:43,18,Male,Netherlands,,No,No,No,Often,No,Yes,No,Not sure,No,No,Somewhat difficult,Yes,Maybe,No,Some of them,No,No,No,No
+44,27/8/14 11:43,30,Male,United States,IN,No,No,Yes,Sometimes,No,Yes,Don't know,No,No,No,Don't know,No,No,No,No,No,Maybe,Don't know,No
+45,27/8/14 11:43,38,Female,United States,TX,No,Yes,Yes,Sometimes,No,Yes,Yes,Yes,No,Yes,Somewhat easy,No,No,Some of them,Yes,No,No,Yes,No
+46,27/8/14 11:43,28,Male,United Kingdom,,No,No,No,,No,Yes,Don't know,Not sure,No,No,Don't know,No,Maybe,Some of them,Yes,Maybe,Yes,Don't know,No
+47,27/8/14 11:43,34,Male,United States,TN,No,No,No,,No,Yes,No,No,No,No,Don't know,No,No,Yes,Yes,Maybe,Yes,Don't know,No
+48,27/8/14 11:43,26,Male,Canada,,Yes,No,No,Sometimes,No,Yes,No,Yes,Yes,No,Don't know,No,No,Yes,Yes,No,No,Yes,No
+49,27/8/14 11:44,30,Male,United States,IL,No,Yes,Yes,Rarely,No,Yes,Yes,No,No,Don't know,Don't know,Maybe,No,Some of them,Yes,No,No,Don't know,No
+50,27/8/14 11:44,22,Male,United States,TX,No,Yes,Yes,Often,No,Yes,No,Yes,No,No,Very difficult,Maybe,No,No,No,No,Maybe,Don't know,No
+51,27/8/14 11:45,33,Male,United States,UT,No,No,No,,Yes,Yes,Don't know,Not sure,Don't know,Don't know,Don't know,No,No,Some of them,Yes,Maybe,Maybe,Don't know,No
+52,27/8/14 11:45,31,Male,United States,,No,No,No,,Yes,Yes,Don't know,No,Don't know,Don't know,Don't know,Maybe,Maybe,Some of them,Some of them,Maybe,Maybe,Don't know,No
+53,27/8/14 11:45,32,Male,United States,TN,No,No,No,Never,Yes,Yes,Don't know,Not sure,No,No,Don't know,Maybe,No,Some of them,Yes,No,No,Don't know,No
+54,27/8/14 11:46,28,Male,Switzerland,,No,No,No,,No,Yes,No,No,No,No,Don't know,No,No,No,No,No,Maybe,Don't know,No
+55,27/8/14 11:46,27,Male,United States,NY,No,Yes,Yes,Rarely,No,Yes,Yes,Yes,No,No,Don't know,Maybe,No,No,No,No,No,Don't know,No
+56,27/8/14 11:46,32,Unknow,United States,TN,No,Yes,No,,Yes,Yes,Don't know,No,No,No,Somewhat easy,No,No,Yes,Yes,No,No,Yes,No
+57,27/8/14 11:47,24,Male,United States,NY,No,Yes,Yes,Sometimes,Yes,Yes,Don't know,No,No,No,Don't know,No,Maybe,Some of them,Yes,Yes,Yes,No,No
+58,27/8/14 11:47,26,Male,United States,TN,No,No,No,,No,No,No,No,No,No,Somewhat easy,No,No,Some of them,Yes,Maybe,Yes,Don't know,No
+59,27/8/14 11:47,33,Male,Canada,,No,Yes,Yes,Often,Yes,Yes,Don't know,No,No,No,Somewhat difficult,Yes,No,No,No,No,Maybe,Don't know,No
+60,27/8/14 11:48,44,Male,United States,IA,No,Yes,Yes,Sometimes,No,No,Yes,No,No,Don't know,Don't know,Yes,Maybe,Some of them,No,No,Maybe,Don't know,Yes
+61,27/8/14 11:49,26,Female,Poland,,No,No,Yes,Sometimes,Yes,Yes,Don't know,Not sure,Yes,Yes,Very easy,No,No,Yes,Yes,Maybe,Yes,Yes,No
+62,27/8/14 11:50,27,Male,United Kingdom,,No,No,No,Never,No,Yes,Yes,Not sure,No,Yes,Somewhat easy,No,No,Yes,Yes,Maybe,Maybe,Yes,No
+63,27/8/14 11:50,26,Male,France,,No,No,No,,No,Yes,No,No,No,No,Very easy,Yes,No,No,No,No,No,No,Yes
+64,27/8/14 11:50,35,Male,Canada,,No,No,No,Sometimes,No,Yes,Don't know,No,No,No,Somewhat easy,No,No,Some of them,Yes,No,Maybe,Don't know,No
+65,27/8/14 11:51,40,Male,United States,CA,No,Yes,No,Sometimes,Yes,Yes,Yes,Yes,Yes,Yes,Don't know,Yes,Maybe,Some of them,No,No,No,No,Yes
+66,27/8/14 11:51,23,Female,Australia,,No,Yes,Yes,Often,Yes,Yes,No,Not sure,No,No,Very easy,No,No,Some of them,Yes,No,Maybe,Yes,No
+67,27/8/14 11:52,36,Male,United States,TX,No,No,No,Sometimes,Yes,Yes,Yes,No,Don't know,Yes,Don't know,Maybe,No,Some of them,Some of them,Maybe,Yes,Yes,No
+68,27/8/14 11:52,31,Female,United States,NM,No,No,No,,Yes,No,Don't know,No,Don't know,Don't know,Don't know,Maybe,No,Some of them,No,No,Maybe,Don't know,No
+69,27/8/14 11:52,34,Male,United States,NY,Yes,No,No,Rarely,Yes,Yes,No,No,No,No,Don't know,Maybe,No,Some of them,No,No,No,Don't know,No
+70,27/8/14 11:53,28,Male,France,,No,No,No,Never,No,Yes,No,No,No,No,Don't know,Maybe,No,Some of them,Some of them,No,No,Don't know,No
+71,27/8/14 11:53,34,Male,Canada,,No,No,No,Never,No,Yes,Don't know,Not sure,Don't know,Don't know,Somewhat easy,No,No,Some of them,Yes,No,No,Don't know,No
+72,27/8/14 11:54,23,Female,United States,MA,No,No,No,Rarely,No,Yes,Yes,Yes,No,No,Somewhat difficult,Maybe,No,Yes,Yes,No,No,No,No
+73,27/8/14 11:56,38,Male,United Kingdom,,No,No,No,,No,Yes,No,No,No,Don't know,Somewhat easy,No,No,Some of them,Yes,Maybe,Yes,Yes,No
+74,27/8/14 11:56,33,Male,United States,CA,No,No,No,Never,No,Yes,Don't know,Not sure,Yes,Don't know,Don't know,Maybe,No,Some of them,Some of them,No,Maybe,Yes,No
+75,27/8/14 11:57,19,Male,United Kingdom,,No,No,No,,No,Yes,No,Yes,No,No,Somewhat difficult,Yes,No,No,No,No,Maybe,No,No
+76,27/8/14 11:57,25,Male,United States,WA,No,No,No,,Yes,Yes,Yes,Yes,Yes,Yes,Don't know,No,No,Yes,Yes,Maybe,Yes,Yes,No
+77,27/8/14 11:57,31,Male,United States,WA,Yes,Yes,No,Sometimes,Yes,Yes,No,No,No,No,Somewhat difficult,No,No,Yes,Yes,Maybe,Maybe,Yes,No
+78,27/8/14 11:59,32,Male,United States,UT,No,Yes,Yes,Sometimes,Yes,Yes,No,No,No,No,Somewhat difficult,Yes,No,Some of them,No,No,Yes,No,No
+79,27/8/14 12:00,28,Male,Germany,,No,No,No,Never,Yes,Yes,Don't know,No,Don't know,Don't know,Very easy,No,No,Some of them,Some of them,Maybe,Yes,Yes,No
+80,27/8/14 12:01,38,Male,United States,NY,No,Yes,No,Sometimes,Yes,Yes,Yes,Yes,No,Yes,Don't know,No,No,Yes,Some of them,Maybe,Maybe,Yes,No
+81,27/8/14 12:02,23,Male,United Kingdom,,No,No,No,Never,No,Yes,Yes,Not sure,Yes,Don't know,Very easy,No,No,Some of them,Yes,Maybe,Maybe,Yes,No
+82,27/8/14 12:02,30,Male,Canada,,No,No,No,Never,No,No,No,No,No,No,Don't know,No,No,Some of them,Yes,No,No,No,No
+83,27/8/14 12:03,27,Female,United States,NY,Yes,No,Yes,Often,Yes,Yes,Yes,Yes,Yes,Yes,Very easy,Maybe,Maybe,Some of them,Yes,No,Maybe,Yes,No
+84,27/8/14 12:05,33,Male,United States,CA,No,Yes,No,Never,No,Yes,No,No,No,No,Don't know,Yes,No,No,No,No,Maybe,No,No
+85,27/8/14 12:05,31,Male,United States,TX,No,No,No,,No,Yes,Don't know,Not sure,No,No,Don't know,No,No,Some of them,Yes,Maybe,Maybe,No,No
+86,27/8/14 12:07,39,Male,United Kingdom,,Yes,No,Yes,Often,No,Yes,No,No,No,No,Very difficult,Maybe,No,Some of them,No,No,Maybe,No,Yes
+87,27/8/14 12:10,34,Female,United States,OR,No,Yes,Yes,Rarely,Yes,Yes,Yes,Not sure,No,Don't know,Don't know,Yes,Maybe,Some of them,Some of them,No,No,Don't know,No
+88,27/8/14 12:11,29,Female,United States,FL,No,No,Yes,Sometimes,No,Yes,Yes,Yes,No,No,Don't know,Maybe,No,Some of them,Some of them,No,Maybe,No,Yes
+89,27/8/14 12:11,32,Male,United States,IL,No,No,No,,No,Yes,Don't know,No,No,Don't know,Don't know,No,No,Some of them,Some of them,No,No,Don't know,No
+90,27/8/14 12:12,31,Male,United States,NY,No,No,No,Never,No,Yes,Yes,Yes,Yes,Yes,Somewhat easy,No,No,Some of them,Yes,No,No,Yes,No
+91,27/8/14 12:13,40,Male,United States,TX,No,No,Yes,Sometimes,No,Yes,No,Yes,No,No,Very difficult,No,No,Yes,Yes,Yes,Yes,No,No
+92,27/8/14 12:14,34,Male,United States,OH,No,No,No,,No,Yes,Don't know,No,No,No,Somewhat easy,Maybe,No,Some of them,No,No,Maybe,Don't know,No
+93,27/8/14 12:15,18,Unknow,Russia,,No,No,No,,Yes,Yes,Yes,Yes,No,No,Somewhat easy,No,No,Yes,Yes,Yes,Yes,Don't know,No
+94,27/8/14 12:15,25,Female,Canada,,No,No,Yes,Sometimes,No,Yes,Yes,Yes,No,Don't know,Don't know,Maybe,No,Some of them,Yes,No,Maybe,Don't know,No
+95,27/8/14 12:15,29,Male,United States,MN,No,No,No,Never,No,Yes,Don't know,No,No,Don't know,Don't know,No,No,Yes,Yes,Maybe,Maybe,No,No
+96,27/8/14 12:16,24,Male,United States,MO,No,Yes,No,Rarely,No,Yes,Don't know,Not sure,No,Don't know,Somewhat easy,Maybe,Maybe,Some of them,No,No,Maybe,Don't know,No
+97,27/8/14 12:17,31,Male,Mexico,,No,Yes,Yes,Sometimes,No,Yes,Don't know,No,No,No,Don't know,No,No,Some of them,Yes,Maybe,Yes,No,No
+98,27/8/14 12:18,33,Male,United States,AZ,No,No,Yes,Sometimes,No,Yes,No,Yes,No,No,Somewhat easy,Maybe,No,Some of them,No,No,Maybe,No,No
+99,27/8/14 12:18,30,Male,United States,IN,No,No,Yes,Often,No,Yes,No,Yes,No,No,Somewhat easy,No,No,Yes,Yes,Maybe,Maybe,Yes,No
+100,27/8/14 12:18,26,Female,Canada,,No,Yes,Yes,Sometimes,No,No,No,Yes,No,No,Very difficult,Yes,No,No,No,No,Maybe,No,Yes
+101,27/8/14 12:18,44,Female,United States,MA,No,No,No,Never,No,Yes,Yes,Not sure,Don't know,Don't know,Don't know,Maybe,Maybe,No,Some of them,No,No,Don't know,No
+102,27/8/14 12:19,25,Male,United States,NY,No,Yes,No,,No,Yes,Don't know,No,Don't know,Don't know,Very easy,No,No,Some of them,Yes,No,No,Don't know,No
+103,27/8/14 12:20,33,Male,United States,WI,No,Yes,Yes,Sometimes,Yes,Yes,Yes,Yes,Yes,Yes,Somewhat easy,No,No,Some of them,Yes,Maybe,Maybe,Yes,No
+104,27/8/14 12:22,29,Male,United States,NY,No,No,No,Never,No,Yes,Yes,Not sure,Yes,Don't know,Somewhat easy,No,No,Some of them,Yes,No,No,Don't know,No
+105,27/8/14 12:23,35,Male,United States,MO,No,Yes,No,Rarely,No,Yes,Yes,Not sure,No,No,Somewhat easy,No,No,Some of them,Yes,No,No,Don't know,No
+106,27/8/14 12:23,35,Male,United States,OR,No,Yes,Yes,Sometimes,Yes,Yes,Don't know,Not sure,No,No,Somewhat easy,No,No,Some of them,Yes,No,Maybe,No,No
+107,27/8/14 12:25,28,Male,Brazil,,No,Yes,Yes,Rarely,No,Yes,No,No,No,No,Don't know,Maybe,No,Yes,Yes,No,No,Don't know,Yes
+108,27/8/14 12:28,34,Male,United States,TN,No,Yes,No,Never,Yes,Yes,Yes,No,No,No,Don't know,Maybe,No,No,No,No,No,Don't know,No
+109,27/8/14 12:28,32,Male,United States,WA,No,No,Yes,Sometimes,No,Yes,Yes,No,Yes,Yes,Somewhat difficult,Maybe,No,Some of them,Yes,No,Maybe,Yes,No
+110,27/8/14 12:29,22,Male,United States,NY,No,No,Yes,Sometimes,No,Yes,Yes,Yes,No,Don't know,Don't know,Yes,No,No,No,No,Yes,No,No
+111,27/8/14 12:31,28,Male,United States,CA,No,No,Yes,Sometimes,No,Yes,Yes,Yes,Yes,Yes,Somewhat easy,No,No,Some of them,Some of them,No,Maybe,Yes,No
+112,27/8/14 12:31,45,Male,United States,MO,No,Yes,Yes,Rarely,Yes,Yes,Yes,Yes,No,Yes,Very easy,No,No,Yes,Yes,Yes,Yes,Yes,No
+113,27/8/14 12:31,32,Male,United States,NY,No,No,No,Never,No,Yes,Yes,Yes,No,Don't know,Don't know,Maybe,No,Some of them,Some of them,No,No,Don't know,No
+114,27/8/14 12:31,28,Male,United States,TX,No,No,No,,No,Yes,Don't know,No,No,Don't know,Don't know,Maybe,No,Some of them,No,No,Maybe,Don't know,No
+115,27/8/14 12:31,26,Male,United Kingdom,,No,No,No,Never,No,Yes,Don't know,No,No,Don't know,Very easy,No,No,Some of them,Some of them,No,No,Don't know,Yes
+116,27/8/14 12:31,21,Male,United Kingdom,,Yes,No,No,Often,Yes,No,No,Yes,No,No,Very difficult,Yes,No,Some of them,Yes,No,Maybe,No,No
+117,27/8/14 12:31,27,Male,Canada,,No,No,No,Rarely,No,No,Yes,Yes,Yes,Yes,Very easy,Maybe,No,Some of them,Yes,No,No,Don't know,No
+118,27/8/14 12:31,18,Male,United States,CT,No,No,Yes,Rarely,Yes,Yes,No,No,No,No,Very easy,No,No,Some of them,No,No,No,Don't know,No
+119,27/8/14 12:32,35,Male,United States,CO,No,No,No,,Yes,Yes,Don't know,Not sure,No,Don't know,Don't know,No,No,Some of them,Yes,Maybe,Maybe,Don't know,No
+120,27/8/14 12:32,29,Male,United States,GA,No,No,No,Never,No,Yes,Yes,Yes,No,Yes,Don't know,Yes,Yes,No,No,No,No,Don't know,No
+121,27/8/14 12:33,25,Male,United States,DC,No,No,No,,Yes,Yes,Don't know,No,No,No,Very easy,No,No,Some of them,Yes,No,No,Don't know,No
+122,27/8/14 12:33,33,Male,United States,MN,No,Yes,Yes,Sometimes,Yes,Yes,Don't know,No,Don't know,Don't know,Very easy,No,No,Yes,Yes,No,Maybe,Yes,No
+123,27/8/14 12:33,36,Male,United States,WA,No,No,No,Often,No,Yes,Yes,No,No,No,Don't know,Maybe,No,No,No,No,No,Don't know,No
+124,27/8/14 12:33,27,Male,Canada,,No,No,Yes,Never,No,No,Yes,Not sure,No,No,Very difficult,Maybe,No,Some of them,Yes,No,Maybe,No,Yes
+125,27/8/14 12:34,27,Male,United States,WA,No,Yes,No,Never,No,Yes,Yes,No,Yes,Yes,Don't know,Yes,No,Some of them,No,No,Yes,Don't know,No
+126,27/8/14 12:34,27,Male,United Kingdom,,No,No,No,,No,Yes,No,No,No,No,Don't know,No,No,Some of them,Some of them,No,No,Don't know,No
+127,27/8/14 12:34,32,Male,United States,OR,No,No,Yes,Rarely,No,Yes,Yes,Yes,No,Yes,Don't know,Yes,No,No,Yes,No,No,Don't know,No
+128,27/8/14 12:34,31,Male,United Kingdom,,No,Yes,No,Sometimes,No,Yes,No,No,No,No,Somewhat easy,Maybe,Maybe,No,No,No,No,Yes,No
+129,27/8/14 12:34,19,Male,Slovenia,,No,No,Yes,Sometimes,No,Yes,Don't know,No,No,No,Somewhat easy,Yes,Yes,Some of them,No,No,No,Don't know,No
+130,27/8/14 12:34,33,Male,United States,IL,No,Yes,Yes,Sometimes,No,Yes,Yes,Yes,No,No,Very easy,Maybe,No,Yes,Some of them,No,Yes,No,No
+131,27/8/14 12:35,32,Male,United States,CA,No,No,No,Rarely,Yes,Yes,No,Yes,No,No,Very difficult,Maybe,No,Yes,Some of them,No,Yes,Don't know,No
+132,27/8/14 12:36,27,Male,United States,NE,No,No,No,Never,No,Yes,Don't know,Not sure,Don't know,Don't know,Don't know,No,No,Yes,Yes,Maybe,Maybe,Don't know,No
+133,27/8/14 12:36,38,Male,Costa Rica,,No,No,No,,Yes,Yes,No,Yes,No,No,Somewhat easy,No,No,Yes,Yes,Maybe,Yes,No,No
+134,27/8/14 12:36,24,Male,Canada,,No,No,Yes,Never,No,Yes,Don't know,No,No,No,Don't know,No,No,Some of them,Yes,Maybe,Yes,Don't know,No
+135,27/8/14 12:37,39,Male,United Kingdom,,No,No,No,Never,No,No,No,No,No,No,Don't know,Yes,Maybe,No,No,No,No,Don't know,No
+136,27/8/14 12:37,28,Male,United Kingdom,,No,No,No,Never,No,Yes,Don't know,No,No,No,Very easy,No,No,Some of them,Yes,Maybe,Maybe,Yes,No
+137,27/8/14 12:37,39,Male,United States,IA,No,No,Yes,Often,No,Yes,Yes,Not sure,No,No,Somewhat easy,No,No,Yes,Yes,No,No,Don't know,No
+138,27/8/14 12:37,29,Female,United States,MD,No,No,No,,No,Yes,Don't know,No,No,Don't know,Somewhat easy,Maybe,No,Some of them,No,No,No,Don't know,No
+139,27/8/14 12:37,22,Male,Austria,,No,No,No,,Yes,Yes,Don't know,No,Don't know,No,Somewhat easy,No,No,Some of them,Some of them,No,No,Don't know,No
+140,27/8/14 12:38,38,Male,United States,OR,No,Yes,Yes,Sometimes,No,Yes,Don't know,No,Don't know,Don't know,Don't know,Maybe,No,Some of them,Yes,No,No,Don't know,No
+141,27/8/14 12:38,37,Male,United Kingdom,,Yes,No,Yes,Sometimes,No,No,No,Yes,Yes,Yes,Very difficult,Yes,Yes,Some of them,No,No,Maybe,Yes,No
+142,27/8/14 12:38,35,Male,United States,TX,No,No,No,Never,Yes,No,Don't know,Not sure,Don't know,Don't know,Don't know,Yes,No,Some of them,No,No,Maybe,Don't know,No
+143,27/8/14 12:39,29,Male,United States,MN,No,No,No,,Yes,No,Yes,No,Don't know,Yes,Don't know,No,No,Some of them,Yes,No,No,Don't know,No
+144,27/8/14 12:39,30,Female,United States,PA,No,Yes,No,,Yes,Yes,Don't know,Not sure,No,Don't know,Don't know,Maybe,Maybe,Some of them,Some of them,No,Maybe,Don't know,No
+145,27/8/14 12:39,37,Male,United States,IN,No,Yes,Yes,Rarely,No,No,Yes,Yes,Yes,Yes,Somewhat easy,Maybe,Maybe,Some of them,Yes,Maybe,Maybe,Don't know,No
+146,27/8/14 12:39,24,Male,United Kingdom,,No,No,No,Never,No,Yes,No,No,No,No,Don't know,Maybe,Maybe,No,Some of them,No,No,Don't know,No
+147,27/8/14 12:39,23,Male,United States,WV,No,No,No,Sometimes,No,No,No,No,No,No,Somewhat easy,Yes,Yes,No,No,No,No,No,No
+148,27/8/14 12:40,30,Male,Ireland,,No,No,Yes,Rarely,No,Yes,No,Yes,Yes,Yes,Somewhat easy,Yes,No,Some of them,No,No,No,No,Yes
+149,27/8/14 12:40,29,Female,United States,MI,No,No,No,,Yes,Yes,Don't know,Not sure,No,Don't know,Don't know,Maybe,No,No,Some of them,No,Maybe,Don't know,No
+150,27/8/14 12:40,19,Male,Canada,,Yes,Yes,No,,Yes,Yes,Don't know,Not sure,No,Yes,Somewhat easy,Maybe,No,Some of them,Some of them,Maybe,Maybe,Don't know,No
+151,27/8/14 12:40,32,Male,United States,CA,No,Yes,No,Never,No,Yes,Don't know,Not sure,No,No,Very easy,No,No,Some of them,Some of them,No,Maybe,No,No
+152,27/8/14 12:41,28,Male,Poland,,No,No,No,Rarely,Yes,Yes,No,No,No,No,Don't know,No,No,Yes,Yes,Maybe,Yes,Yes,No
+153,27/8/14 12:41,36,Male,United States,IL,No,No,No,Never,No,Yes,Don't know,Not sure,Don't know,Don't know,Don't know,No,No,Some of them,Some of them,Maybe,Maybe,Don't know,No
+154,27/8/14 12:41,37,Male,United Kingdom,,No,Yes,Yes,Rarely,No,No,Yes,Yes,Yes,Yes,Somewhat difficult,Yes,Maybe,Some of them,No,No,Yes,No,Yes
+155,27/8/14 12:42,25,Male,United States,IL,No,Yes,Yes,Sometimes,No,No,Don't know,No,No,Don't know,Somewhat difficult,Maybe,No,Some of them,Some of them,No,Maybe,No,No
+156,27/8/14 12:42,27,Male,United States,CA,No,Yes,Yes,Sometimes,No,Yes,Don't know,No,No,Don't know,Don't know,No,No,No,Some of them,No,Maybe,Don't know,No
+157,27/8/14 12:43,26,Male,United States,OK,No,No,No,Often,No,No,Don't know,Not sure,No,No,Don't know,Yes,Maybe,Some of them,Yes,No,Maybe,No,No
+158,27/8/14 12:43,27,Male,United States,UT,No,No,Yes,Rarely,Yes,Yes,No,Yes,No,No,Somewhat difficult,Maybe,No,Some of them,Yes,No,No,Don't know,Yes
+159,27/8/14 12:43,25,Male,United States,IL,No,Yes,Yes,Sometimes,No,Yes,Don't know,Not sure,No,No,Very easy,Maybe,No,Some of them,No,No,No,Don't know,Yes
+160,27/8/14 12:43,36,Male,United Kingdom,,No,No,Yes,Sometimes,No,No,Yes,Yes,Yes,Yes,Somewhat easy,Maybe,Maybe,Some of them,Some of them,No,Maybe,Don't know,Yes
+161,27/8/14 12:44,25,Female,United States,NY,No,Yes,Yes,Sometimes,No,Yes,Yes,No,No,No,Don't know,Yes,Yes,Some of them,Some of them,No,No,Don't know,No
+162,27/8/14 12:44,31,Male,United States,CA,No,No,No,Never,No,Yes,Yes,No,No,Yes,Don't know,No,No,Some of them,Some of them,No,No,Don't know,No
+163,27/8/14 12:45,26,Male,United States,MA,No,Yes,No,Rarely,No,Yes,Don't know,No,No,No,Don't know,Maybe,No,Some of them,Yes,No,No,Don't know,No
+164,27/8/14 12:46,33,Female,United States,WA,Yes,Yes,Yes,Sometimes,No,Yes,No,Yes,Yes,Yes,Very difficult,No,No,Some of them,Yes,No,Yes,Yes,No
+165,27/8/14 12:47,27,Male,United Kingdom,,Yes,Yes,No,,Yes,Yes,No,Yes,No,No,Somewhat easy,No,No,Yes,Yes,No,Maybe,Yes,No
+166,27/8/14 12:48,34,Male,United States,MN,No,No,No,Never,No,Yes,No,No,No,No,Very easy,Maybe,No,Some of them,Some of them,No,Maybe,Don't know,No
+167,27/8/14 12:48,42,Male,United States,CA,No,No,No,,No,Yes,No,Yes,No,No,Very difficult,Maybe,No,Yes,Yes,No,Maybe,No,No
+168,27/8/14 12:48,23,Male,Ireland,,Yes,Yes,No,Sometimes,No,Yes,No,No,No,No,Very difficult,Yes,No,No,No,No,Maybe,No,No
+169,27/8/14 12:48,24,Male,United Kingdom,,No,No,No,Rarely,No,Yes,Don't know,Not sure,Yes,Don't know,Very easy,Maybe,Maybe,Some of them,Some of them,No,Maybe,Don't know,No
+170,27/8/14 12:48,26,Male,United Kingdom,,No,No,Yes,Sometimes,No,Yes,Yes,Yes,Don't know,Don't know,Somewhat easy,No,No,Yes,Yes,No,No,Don't know,No
+171,27/8/14 12:48,31,Male,United Kingdom,,Yes,No,Yes,Often,No,Yes,Don't know,No,No,No,Don't know,Maybe,No,Some of them,Yes,No,Maybe,Don't know,No
+172,27/8/14 12:49,22,Male,India,,No,No,Yes,Never,No,Yes,Don't know,Not sure,No,No,Very difficult,Yes,Maybe,No,No,Maybe,Maybe,No,No
+173,27/8/14 12:49,23,Female,United States,NC,No,No,No,,No,Yes,Don't know,No,No,Don't know,Don't know,Maybe,Maybe,Some of them,Yes,No,Maybe,Yes,No
+174,27/8/14 12:49,34,Female,Canada,,No,Yes,Yes,Sometimes,No,No,Yes,Yes,Yes,No,Somewhat easy,No,No,Some of them,Yes,No,No,No,No
+175,27/8/14 12:49,31,Male,United States,MO,No,No,No,Never,No,Yes,Don't know,Not sure,No,Don't know,Don't know,Maybe,No,No,Some of them,No,Maybe,Don't know,No
+176,27/8/14 12:50,28,Male,United Kingdom,,No,No,No,,No,No,No,Not sure,No,Yes,Somewhat easy,No,No,Some of them,Some of them,Maybe,Maybe,Yes,No
+177,27/8/14 12:50,32,Female,United States,MA,No,No,Yes,Often,Yes,Yes,Yes,Not sure,Don't know,Don't know,Very easy,No,No,Yes,Yes,No,No,Yes,Yes
+178,27/8/14 12:51,45,Female,United States,CA,No,No,Yes,Sometimes,No,Yes,Yes,No,No,No,Somewhat difficult,No,No,Yes,Yes,No,No,Yes,No
+179,27/8/14 12:51,33,Male,United States,TX,No,No,No,,Yes,Yes,Don't know,No,No,No,Very easy,No,No,Yes,Yes,No,Maybe,Don't know,No
+180,27/8/14 12:51,29,Male,Mexico,,No,No,No,Never,Yes,Yes,No,No,No,No,Don't know,Maybe,Maybe,No,Yes,Maybe,Yes,No,No
+181,27/8/14 12:51,26,Female,India,,Yes,No,No,Sometimes,No,No,No,No,No,No,Somewhat easy,Maybe,Maybe,Some of them,Some of them,No,No,Don't know,No
+182,27/8/14 12:51,28,Female,United Kingdom,,No,No,No,Never,No,Yes,Don't know,No,No,Don't know,Somewhat easy,No,No,Yes,Yes,Maybe,Maybe,Don't know,No
+183,27/8/14 12:51,45,Male,United States,CA,No,No,Yes,Sometimes,No,Yes,Don't know,Not sure,Don't know,Don't know,Don't know,Yes,Yes,Some of them,Some of them,No,No,Don't know,No
+184,27/8/14 12:52,43,Male,United States,WA,No,Yes,Yes,Often,Yes,Yes,Yes,Not sure,No,Don't know,Very difficult,Yes,Maybe,No,No,No,No,No,No
+185,27/8/14 12:52,37,Male,United States,MA,No,No,No,,Yes,Yes,Yes,No,No,No,Don't know,Yes,No,Some of them,No,Maybe,Yes,No,No
+186,27/8/14 12:52,24,Male,United Kingdom,,No,No,No,Sometimes,No,Yes,Don't know,No,No,Don't know,Somewhat easy,Maybe,No,Some of them,Yes,Maybe,Yes,Yes,No
+187,27/8/14 12:53,26,Male,France,,No,No,No,,Yes,Yes,No,Yes,No,No,Somewhat easy,No,No,Some of them,No,No,Maybe,Yes,No
+188,27/8/14 12:53,23,Male,United Kingdom,,No,Yes,No,,Yes,Yes,Don't know,No,No,No,Don't know,No,No,Some of them,Yes,Maybe,Yes,Don't know,No
+189,27/8/14 12:53,35,Female,United States,CA,No,Yes,Yes,Never,No,Yes,Yes,Not sure,Don't know,No,Somewhat easy,Maybe,No,No,No,No,No,Don't know,No
+190,27/8/14 12:53,38,Female,South Africa,,Yes,Yes,Yes,Often,Yes,Yes,No,Yes,No,No,Somewhat easy,Maybe,Maybe,Some of them,Some of them,No,Maybe,Don't know,Yes
+191,27/8/14 12:53,28,Male,United States,MI,No,Yes,Yes,Sometimes,No,Yes,Yes,No,No,No,Somewhat easy,Maybe,Maybe,Some of them,No,No,Maybe,No,No
+192,27/8/14 12:54,28,Male,Russia,,No,No,No,Sometimes,No,Yes,No,No,No,No,Don't know,Yes,Maybe,No,No,No,Maybe,Don't know,No
+193,27/8/14 12:54,35,Male,United States,CA,No,No,Yes,Rarely,No,Yes,No,No,No,No,Don't know,No,No,Some of them,Yes,No,No,Don't know,No
+194,27/8/14 12:54,32,Female,Germany,,No,No,No,Sometimes,No,Yes,No,No,No,No,Very difficult,Yes,Yes,Some of them,No,No,No,No,Yes
+195,27/8/14 12:54,31,Unknow,Italy,,Yes,Yes,No,Never,No,Yes,No,No,No,No,Somewhat easy,Maybe,Maybe,Some of them,Some of them,No,Maybe,Don't know,No
+196,27/8/14 12:55,35,Female,United States,NY,No,No,No,Never,Yes,Yes,Don't know,Not sure,No,No,Don't know,Maybe,Maybe,Some of them,No,No,No,Don't know,No
+197,27/8/14 12:55,26,Male,United States,CA,No,No,No,Rarely,No,Yes,Yes,No,No,No,Somewhat easy,No,No,Some of them,Yes,No,Maybe,No,No
+198,27/8/14 12:56,27,Male,United States,TN,No,Yes,No,,Yes,Yes,Yes,Yes,No,No,Somewhat easy,Maybe,Maybe,Some of them,Some of them,No,Maybe,Yes,No
+199,27/8/14 12:56,28,Male,United Kingdom,,No,Yes,Yes,Sometimes,No,Yes,Don't know,No,No,No,Don't know,Maybe,Maybe,Some of them,No,No,Maybe,Don't know,No
+200,27/8/14 12:57,27,Female,United States,OR,No,Yes,Yes,Sometimes,No,Yes,Yes,No,No,No,Very easy,No,No,Some of them,Some of them,No,No,Yes,No
+201,27/8/14 12:57,34,Female,United States,MN,No,No,Yes,Sometimes,No,No,Yes,Yes,Yes,Yes,Somewhat easy,Maybe,No,Some of them,Yes,No,No,Yes,No
+202,27/8/14 12:58,41,Male,United States,FL,No,No,Yes,Often,Yes,Yes,No,Not sure,No,No,Very difficult,Maybe,Maybe,Some of them,Some of them,Maybe,Maybe,Don't know,No
+203,27/8/14 12:58,37,Male,Ireland,,No,No,No,Sometimes,No,Yes,No,Yes,No,No,Very difficult,Yes,No,No,No,No,Yes,Don't know,No
+204,27/8/14 13:00,34,Male,Austria,,No,Yes,No,,Yes,Yes,Don't know,No,Don't know,Don't know,Very easy,No,No,Yes,Yes,No,No,Yes,No
+205,27/8/14 13:02,32,Male,United Kingdom,,No,Yes,Yes,Sometimes,Yes,Yes,Don't know,Not sure,No,No,Somewhat difficult,Yes,Maybe,No,No,No,No,No,Yes
+206,27/8/14 13:03,21,Male,Canada,,No,No,Yes,Sometimes,Yes,Yes,No,Yes,No,No,Somewhat difficult,No,No,Some of them,Some of them,Maybe,Maybe,Yes,No
+207,27/8/14 13:04,30,Male,United States,MA,No,No,Yes,Often,No,Yes,No,Yes,No,No,Somewhat easy,Maybe,No,Yes,Yes,No,Maybe,Don't know,No
+208,27/8/14 13:04,24,Male,United States,KS,No,No,No,Never,No,Yes,Don't know,Not sure,No,Don't know,Don't know,No,No,Some of them,Yes,No,No,Don't know,No
+209,27/8/14 13:05,26,Male,Bulgaria,,No,No,No,,No,Yes,No,No,No,No,Very easy,Yes,Maybe,No,No,No,Maybe,Don't know,No
+210,27/8/14 13:06,40,Female,United States,DC,No,No,No,,No,Yes,Yes,Yes,Yes,Yes,Somewhat easy,No,No,Some of them,Yes,No,No,Yes,No
+211,27/8/14 13:06,37,Male,United Kingdom,,No,Yes,No,Sometimes,No,No,No,No,No,No,Don't know,Yes,Maybe,Some of them,Yes,No,Maybe,Don't know,No
+212,27/8/14 13:07,26,Male,United Kingdom,,Yes,No,Yes,Often,Yes,Yes,No,No,No,No,Don't know,Yes,No,No,No,No,Maybe,Don't know,No
+213,27/8/14 13:07,32,Female,United States,TX,No,Yes,Yes,Sometimes,No,Yes,Don't know,No,No,No,Don't know,Yes,Maybe,Some of them,Some of them,No,Maybe,No,Yes
+214,27/8/14 13:07,32,Female,United States,MA,No,No,Yes,Sometimes,No,No,Yes,Yes,Don't know,Don't know,Very easy,No,No,Yes,Yes,No,Yes,Yes,No
+215,27/8/14 13:07,27,Female,United States,MI,Yes,Yes,Yes,Sometimes,Yes,Yes,No,No,Don't know,Don't know,Very difficult,No,No,Some of them,No,No,No,Don't know,No
+216,27/8/14 13:08,30,Male,Germany,,Yes,No,Yes,Often,Yes,Yes,Yes,Yes,No,No,Very difficult,No,No,Some of them,Yes,Maybe,Yes,Yes,No
+217,27/8/14 13:09,31,Male,Canada,,Yes,No,No,,No,Yes,Yes,Yes,No,Don't know,Very easy,No,No,Some of them,Some of them,No,No,Yes,No
+218,27/8/14 13:09,29,Female,United States,NY,No,No,Yes,Never,No,No,Yes,No,No,Don't know,Somewhat difficult,Maybe,No,Some of them,No,No,No,Don't know,No
+219,27/8/14 13:09,41,Male,United States,VA,No,No,No,,No,Yes,Yes,Not sure,No,No,Very easy,Yes,No,No,Some of them,No,No,Don't know,No
+220,27/8/14 13:12,34,Female,United States,WA,No,No,No,,No,Yes,Yes,No,No,No,Somewhat easy,No,No,Yes,Yes,Maybe,Maybe,Yes,No
+221,27/8/14 13:12,33,Male,United Kingdom,,No,No,No,,No,Yes,Don't know,No,No,No,Don't know,No,No,Yes,Yes,Yes,Yes,Don't know,No
+222,27/8/14 13:14,28,Male,United States,PA,No,No,No,Rarely,No,Yes,Don't know,No,No,No,Don't know,No,No,Some of them,Some of them,No,Maybe,Don't know,No
+223,27/8/14 13:15,28,Male,United States,MI,No,No,Yes,Sometimes,No,Yes,No,Yes,No,No,Very difficult,Yes,No,No,Some of them,No,No,No,No
+224,27/8/14 13:15,23,Male,United States,PA,No,No,No,Never,No,Yes,Don't know,Not sure,Don't know,Don't know,Don't know,No,No,No,Yes,No,Yes,Yes,No
+225,27/8/14 13:18,24,Male,United States,OR,No,No,No,,No,Yes,Don't know,No,Don't know,No,Very easy,No,No,Yes,Yes,Maybe,Yes,Yes,No
+226,27/8/14 13:18,32,Male,United States,WA,No,No,No,Rarely,Yes,Yes,No,Yes,No,No,Very difficult,No,No,Some of them,Yes,No,Maybe,Yes,No
+227,27/8/14 13:19,34,Male,Australia,,Yes,No,No,Sometimes,Yes,Yes,Don't know,Not sure,Yes,Yes,Somewhat difficult,Yes,Yes,No,No,No,Maybe,Yes,No
+228,27/8/14 13:21,24,Male,United States,PA,No,No,No,Never,No,Yes,Yes,Not sure,No,Don't know,Very easy,Maybe,No,Some of them,No,Maybe,Maybe,Yes,No
+229,27/8/14 13:22,26,Male,United Kingdom,,Yes,No,Yes,Sometimes,No,Yes,No,Yes,No,No,Don't know,Maybe,No,Some of them,Some of them,No,Maybe,Yes,No
+230,27/8/14 13:22,36,Male,United States,OH,No,No,Yes,Sometimes,No,Yes,Yes,No,No,Yes,Don't know,Maybe,No,Some of them,Some of them,No,Maybe,Don't know,Yes
+231,27/8/14 13:23,41,Male,United States,TX,No,No,Yes,Rarely,Yes,Yes,Yes,Yes,No,Don't know,Don't know,Maybe,Maybe,Some of them,No,Maybe,Maybe,No,No
+232,27/8/14 13:24,38,Male,United Kingdom,,No,No,Yes,Sometimes,No,No,Don't know,Not sure,Don't know,Don't know,Very difficult,Yes,No,No,No,No,Maybe,No,No
+233,27/8/14 13:24,38,Male,United States,NH,No,No,No,Sometimes,Yes,Yes,Don't know,Not sure,No,Don't know,Don't know,Maybe,Maybe,Some of them,Yes,No,Maybe,No,No
+234,27/8/14 13:26,30,Male,Netherlands,,No,No,No,,No,Yes,Don't know,No,Don't know,Don't know,Somewhat easy,No,No,Some of them,Some of them,No,No,Yes,No
+235,27/8/14 13:26,25,Male,United Kingdom,,No,No,No,Never,No,Yes,No,No,No,No,Somewhat difficult,Yes,Maybe,No,No,No,Maybe,No,No
+236,27/8/14 13:27,37,Male,Canada,,No,Yes,Yes,Often,No,Yes,Yes,Yes,No,Don't know,Don't know,Maybe,No,Some of them,Some of them,No,Yes,Don't know,No
+237,27/8/14 13:29,34,Male,United Kingdom,,No,Yes,No,,No,Yes,No,No,No,No,Somewhat difficult,No,No,Some of them,Yes,No,Yes,No,Yes
+238,27/8/14 13:29,37,Female,United States,NC,No,Yes,Yes,Sometimes,No,No,Yes,Yes,Yes,Yes,Somewhat easy,No,No,Some of them,Some of them,No,Maybe,Yes,No
+239,27/8/14 13:31,28,Female,Canada,,No,Yes,Yes,Sometimes,No,No,Yes,Yes,Yes,Yes,Don't know,No,No,Some of them,Yes,No,No,No,Yes
+240,27/8/14 13:31,22,Male,Sweden,,No,No,No,,No,Yes,Don't know,No,No,No,Don't know,No,No,Some of them,Yes,Maybe,Maybe,No,No
+241,27/8/14 13:32,34,Male,United States,FL,No,Yes,Yes,Sometimes,No,Yes,No,No,No,No,Somewhat difficult,Maybe,No,Some of them,Some of them,No,Maybe,No,Yes
+242,27/8/14 13:32,33,Male,United States,CA,No,Yes,Yes,Sometimes,No,Yes,Yes,Yes,Yes,Yes,Somewhat easy,No,No,Some of them,Yes,No,No,Don't know,No
+243,27/8/14 13:33,25,Male,South Africa,,No,No,No,,No,Yes,No,No,No,No,Somewhat difficult,Maybe,No,Some of them,Yes,No,Yes,No,No
+244,27/8/14 13:34,27,Male,United States,GA,No,No,No,Never,Yes,Yes,Yes,Yes,Don't know,Don't know,Somewhat easy,No,No,Some of them,Yes,Maybe,Maybe,Yes,No
+245,27/8/14 13:35,40,Male,United States,OH,No,No,Yes,Sometimes,Yes,Yes,Yes,Yes,Yes,Yes,Don't know,Yes,Maybe,No,No,No,Maybe,No,Yes
+246,27/8/14 13:35,21,Male,United States,KY,No,No,Yes,Often,No,No,Don't know,No,No,Don't know,Don't know,Maybe,No,No,No,No,Maybe,Don't know,No
+247,27/8/14 13:37,29,Male,United Kingdom,,No,No,No,,No,No,No,No,No,No,Very easy,No,No,Yes,Yes,Maybe,Yes,Yes,No
+248,27/8/14 13:37,32,Male,United States,NC,No,Yes,Yes,Sometimes,Yes,Yes,No,No,No,No,Don't know,Maybe,No,Yes,Yes,No,Yes,Don't know,No
+249,27/8/14 13:38,29,Female,United States,NY,No,Yes,Yes,Rarely,Yes,No,Yes,Yes,Yes,Don't know,Don't know,Maybe,No,Some of them,No,Maybe,Yes,Don't know,No
+250,27/8/14 13:39,23,Male,United States,AL,No,Yes,Yes,Sometimes,Yes,No,Don't know,No,No,Don't know,Somewhat easy,Maybe,No,Some of them,Some of them,No,Yes,Yes,No
+251,27/8/14 13:40,28,Male,United States,GA,No,Yes,No,,No,Yes,Yes,No,No,Don't know,Somewhat easy,No,No,Some of them,Yes,No,Maybe,Yes,Yes
+252,27/8/14 13:42,31,Male,United States,CA,No,Yes,Yes,Rarely,Yes,Yes,Yes,Yes,Yes,Don't know,Very easy,No,No,Some of them,Yes,No,Maybe,Yes,No
+253,27/8/14 13:44,27,Male,United Kingdom,,No,No,No,,No,No,Don't know,Not sure,Don't know,Don't know,Very easy,Maybe,Maybe,Yes,Yes,No,No,Don't know,No
+254,27/8/14 13:44,24,Male,United States,VA,No,No,No,Sometimes,No,Yes,Don't know,No,Don't know,Don't know,Don't know,No,No,Yes,Yes,Maybe,Maybe,Don't know,No
+255,27/8/14 13:46,29,Male,Canada,,No,No,No,Often,No,Yes,No,No,No,No,Somewhat difficult,Yes,No,No,No,No,Maybe,Don't know,No
+256,27/8/14 13:47,23,Female,United Kingdom,,No,No,Yes,Sometimes,No,Yes,Don't know,Not sure,Don't know,Don't know,Don't know,Maybe,Maybe,Some of them,Some of them,No,Maybe,Yes,No
+257,27/8/14 13:47,42,Male,United States,WA,No,No,No,Never,Yes,Yes,No,Yes,No,Yes,Somewhat easy,No,No,Some of them,Yes,No,No,Yes,No
+258,27/8/14 13:48,24,Male,United Kingdom,,No,No,No,,No,Yes,No,No,No,No,Don't know,Yes,No,Some of them,Some of them,No,Yes,No,No
+259,27/8/14 13:49,25,Male,Australia,,No,Yes,Yes,Often,No,Yes,No,Yes,No,No,Very difficult,Yes,Maybe,No,No,No,Yes,No,Yes
+260,27/8/14 13:49,27,Female,United States,TX,No,No,Yes,Rarely,No,Yes,Yes,No,No,No,Don't know,Maybe,Maybe,Yes,No,No,Maybe,Don't know,No
+261,27/8/14 13:52,27,Male,Canada,,No,No,No,Sometimes,Yes,Yes,No,Yes,No,No,Very difficult,Yes,Yes,Some of them,Some of them,No,Maybe,No,No
+262,27/8/14 13:52,30,Male,United States,FL,No,No,Yes,Sometimes,Yes,Yes,Yes,Yes,No,Yes,Don't know,No,No,Yes,Yes,Maybe,No,Yes,No
+263,27/8/14 13:53,29,Male,Poland,,No,Yes,Yes,Rarely,No,Yes,No,Yes,No,No,Very difficult,Maybe,No,Some of them,Some of them,No,Yes,No,No
+264,27/8/14 13:53,43,Male,Canada,,Yes,No,No,,Yes,Yes,No,Not sure,No,No,Somewhat easy,Maybe,No,Yes,Yes,Yes,Yes,Don't know,No
+265,27/8/14 13:53,32,Male,United States,NV,No,No,No,,No,Yes,No,Yes,No,Don't know,Very easy,No,No,Some of them,Yes,No,Maybe,Don't know,No
+266,27/8/14 13:54,41,Male,United States,AL,No,No,Yes,Sometimes,Yes,Yes,Yes,Yes,Don't know,No,Very easy,No,No,Yes,Yes,Yes,Yes,Yes,No
+267,27/8/14 13:54,32,Male,United Kingdom,,Yes,Yes,Yes,Sometimes,Yes,Yes,Don't know,Not sure,Don't know,Don't know,Very easy,Maybe,Maybe,Yes,Some of them,Maybe,Maybe,Don't know,Yes
+268,27/8/14 13:55,37,Female,United States,CA,No,Yes,Yes,Often,No,Yes,Yes,Yes,No,No,Don't know,Maybe,No,Some of them,Some of them,No,Yes,Don't know,No
+269,27/8/14 13:55,32,Male,United States,CO,No,No,No,Never,Yes,Yes,No,No,No,No,Very easy,No,No,Yes,Yes,No,No,Don't know,No
+270,27/8/14 13:55,30,Male,Ireland,,Yes,No,No,Sometimes,Yes,Yes,No,No,No,No,Somewhat difficult,No,No,Some of them,Some of them,No,Maybe,No,No
+271,27/8/14 13:56,23,Female,United States,MN,No,Yes,Yes,Never,No,No,Yes,No,Don't know,Don't know,Don't know,No,No,Some of them,Yes,Maybe,Maybe,Yes,No
+272,27/8/14 13:56,30,Male,United States,NJ,No,No,No,,No,Yes,Yes,Yes,Yes,Yes,Very easy,No,No,Some of them,Yes,No,No,Yes,No
+273,27/8/14 13:59,34,Male,United Kingdom,,No,No,No,Sometimes,No,Yes,No,Yes,No,No,Somewhat easy,Maybe,Maybe,Yes,Some of them,No,No,Don't know,No
+274,27/8/14 13:59,38,Male,United States,PA,No,No,Yes,Rarely,Yes,Yes,Yes,No,No,No,Don't know,Yes,No,No,No,No,Maybe,No,No
+275,27/8/14 14:01,33,Male,Canada,,No,No,No,,No,Yes,Yes,No,Yes,Yes,Don't know,No,No,Some of them,Yes,No,No,Don't know,No
+276,27/8/14 14:01,34,Male,United States,MO,No,No,No,,No,No,Yes,No,No,No,Don't know,Maybe,No,Some of them,No,No,No,Don't know,No
+277,27/8/14 14:01,28,Male,Colombia,,No,No,No,Sometimes,No,Yes,No,Yes,No,No,Somewhat easy,Maybe,Maybe,No,Some of them,No,No,Don't know,No
+278,27/8/14 14:03,28,Male,United States,MN,No,No,Yes,Rarely,No,No,Yes,Yes,Yes,Don't know,Very easy,Maybe,No,Some of them,Some of them,No,No,Yes,No
+279,27/8/14 14:03,23,Male,United States,PA,No,Yes,No,Sometimes,No,Yes,Don't know,No,No,Don't know,Don't know,Maybe,No,Some of them,No,No,Maybe,No,No
+280,27/8/14 14:03,22,Male,Australia,,Yes,Yes,Yes,Sometimes,Yes,Yes,Don't know,Not sure,Yes,Yes,Somewhat easy,Maybe,No,Some of them,Yes,No,Yes,No,Yes
+281,27/8/14 14:06,27,Male,Portugal,,No,No,No,Never,No,Yes,No,No,No,No,Don't know,Yes,No,No,No,No,Maybe,Don't know,No
+282,27/8/14 14:10,18,Male,United States,TX,No,No,Yes,Sometimes,No,Yes,Don't know,No,No,Don't know,Don't know,Yes,No,No,No,No,Maybe,Don't know,No
+283,27/8/14 14:10,35,Male,United States,NY,No,Yes,Yes,Sometimes,No,Yes,Yes,Yes,No,No,Somewhat difficult,Yes,No,No,Some of them,No,Maybe,Don't know,No
+284,27/8/14 14:10,25,Male,Canada,,No,No,No,,No,No,Don't know,Not sure,No,No,Don't know,No,No,Some of them,Some of them,No,Yes,No,No
+285,27/8/14 14:11,27,Male,United Kingdom,,No,Yes,Yes,Sometimes,No,Yes,No,No,No,No,Somewhat easy,Maybe,Maybe,Yes,Yes,Yes,Yes,Yes,No
+286,27/8/14 14:11,26,Female,United States,WA,No,Yes,Yes,Rarely,No,Yes,Yes,Not sure,Don't know,Don't know,Don't know,Maybe,No,Some of them,Some of them,No,No,Don't know,No
+287,27/8/14 14:11,18,Male,United States,WA,No,No,No,Never,No,Yes,Don't know,Not sure,Don't know,Don't know,Very easy,No,No,Some of them,Some of them,No,Maybe,Yes,No
+288,27/8/14 14:13,38,Female,United States,TX,No,No,Yes,Sometimes,No,Yes,No,Yes,No,No,Don't know,No,Maybe,Some of them,No,No,No,Don't know,Yes
+289,27/8/14 14:13,26,Female,United States,TX,No,Yes,Yes,Rarely,Yes,Yes,Yes,Yes,Yes,Don't know,Somewhat easy,Maybe,No,Some of them,No,No,No,Don't know,No
+290,27/8/14 14:13,30,Male,Switzerland,,Yes,No,No,Never,No,Yes,No,No,No,No,Somewhat easy,No,No,Yes,Yes,No,No,Yes,No
+291,27/8/14 14:14,35,Male,United States,CA,No,No,No,Never,No,Yes,Don't know,No,No,Don't know,Don't know,Yes,Maybe,Some of them,Some of them,No,No,Don't know,No
+292,27/8/14 14:15,45,Male,United States,NY,No,Yes,Yes,Sometimes,No,Yes,Yes,Yes,Don't know,Don't know,Don't know,Maybe,No,Some of them,Some of them,No,Maybe,Don't know,No
+293,27/8/14 14:15,32,Male,United States,CA,No,No,No,Never,No,Yes,Yes,No,No,Don't know,Don't know,Maybe,No,Some of them,Some of them,No,No,Don't know,No
+294,27/8/14 14:15,56,Male,United States,,No,No,Yes,Never,No,Yes,Yes,Not sure,Don't know,Don't know,Don't know,No,Maybe,Yes,Some of them,No,Maybe,Don't know,No
+295,27/8/14 14:16,24,Female,United States,CA,No,No,No,,No,Yes,Don't know,Not sure,No,Don't know,Don't know,Maybe,Maybe,Some of them,No,No,Maybe,No,No
+296,27/8/14 14:18,30,Female,United States,SC,No,Yes,Yes,Sometimes,No,Yes,Yes,Yes,Yes,Don't know,Very easy,No,No,Yes,Yes,No,Yes,Yes,No
+297,27/8/14 14:18,60,Male,United States,CA,No,No,No,,No,Yes,Yes,No,Don't know,Yes,Don't know,No,No,Some of them,Yes,Maybe,Maybe,Yes,No
+298,27/8/14 14:18,33,Male,United States,CA,No,Yes,Yes,Sometimes,No,Yes,Yes,No,Yes,Yes,Don't know,Yes,No,No,No,No,Maybe,Don't know,No
+299,27/8/14 14:19,37,Male,United States,NY,No,No,No,Never,No,Yes,Yes,Yes,Yes,Yes,Don't know,No,No,Some of them,Yes,Maybe,Maybe,Don't know,No
+300,27/8/14 14:19,23,Female,United States,NY,No,No,Yes,Sometimes,No,Yes,Yes,Yes,Yes,Yes,Don't know,No,No,Some of them,Some of them,No,No,Yes,No
+301,27/8/14 14:20,31,Female,United States,CA,No,No,Yes,Sometimes,No,Yes,Yes,Not sure,Don't know,Don't know,Somewhat easy,No,No,Yes,Yes,No,No,Yes,No
+302,27/8/14 14:20,26,Male,United States,MA,No,No,No,Rarely,No,Yes,Yes,Not sure,No,Don't know,Don't know,No,No,Some of them,Yes,No,Maybe,Don't know,No
+303,27/8/14 14:21,28,Female,United States,WA,No,Yes,Yes,Often,Yes,No,Yes,Yes,Yes,Yes,Somewhat easy,Yes,No,Some of them,Yes,No,No,Yes,No
+304,27/8/14 14:21,37,Female,United States,CA,No,No,Yes,Rarely,No,Yes,Yes,Yes,Don't know,Yes,Somewhat easy,No,No,Some of them,Yes,No,No,Yes,No
+305,27/8/14 14:22,26,Male,Canada,,No,Yes,Yes,Often,No,Yes,Yes,No,No,Don't know,Don't know,Maybe,No,Some of them,Some of them,Maybe,Maybe,Yes,No
+306,27/8/14 14:22,30,Unknow,United States,IL,No,Yes,Yes,Rarely,No,Yes,Yes,Not sure,No,No,Somewhat easy,Maybe,No,Some of them,Yes,No,No,Don't know,No
+307,27/8/14 14:22,26,Male,United States,IN,No,No,No,,No,Yes,No,No,No,No,Don't know,No,No,Some of them,Some of them,No,No,Don't know,Yes
+308,27/8/14 14:22,25,Male,United States,OR,No,No,No,,Yes,Yes,Don't know,Not sure,No,Don't know,Don't know,No,No,Some of them,Yes,No,No,Don't know,No
+309,27/8/14 14:23,27,Male,United States,TN,No,No,No,Sometimes,No,Yes,Yes,Not sure,Yes,Yes,Don't know,Maybe,No,Some of them,Yes,No,Maybe,Don't know,No
+310,27/8/14 14:23,25,Male,Canada,,No,No,Yes,Often,Yes,No,Don't know,No,No,Don't know,Somewhat difficult,Yes,Maybe,No,No,No,Maybe,Don't know,No
+311,27/8/14 14:24,35,Male,United States,OR,No,No,Yes,Rarely,No,Yes,Yes,Not sure,Don't know,Yes,Don't know,No,No,Some of them,Yes,No,No,Don't know,No
+312,27/8/14 14:25,36,Male,United States,WA,Yes,No,Yes,Never,No,Yes,No,Yes,No,No,Somewhat easy,Maybe,No,Some of them,Yes,No,No,Yes,No
+313,27/8/14 14:25,26,Male,United States,CA,No,Yes,Yes,Sometimes,No,Yes,Yes,Not sure,No,Don't know,Don't know,Yes,No,No,No,No,No,No,No
+314,27/8/14 14:26,27,Male,United States,CA,No,Yes,No,,No,Yes,Don't know,No,Don't know,Don't know,Very easy,No,No,Yes,Yes,Maybe,Maybe,Yes,No
+315,27/8/14 14:27,30,Male,United States,VT,No,No,No,,No,No,Don't know,Not sure,No,Don't know,Don't know,Maybe,Maybe,Some of them,Some of them,No,No,Don't know,No
+316,27/8/14 14:27,29,Male,United States,NY,No,No,No,,No,No,Don't know,Not sure,No,Don't know,Don't know,Maybe,No,No,No,No,Maybe,Don't know,No
+317,27/8/14 14:27,25,Male,United States,UT,No,No,No,Never,No,No,Yes,Yes,Yes,Yes,Very easy,No,No,Some of them,Yes,Maybe,Maybe,Yes,No
+318,27/8/14 14:27,22,Female,United States,NY,No,Yes,Yes,Often,No,Yes,Yes,Yes,Yes,Yes,Somewhat easy,Maybe,No,No,Some of them,No,No,Yes,Yes
+319,27/8/14 14:28,29,Male,Latvia,NY,No,No,No,,No,Yes,No,Yes,No,No,Somewhat easy,Maybe,Maybe,Some of them,Some of them,No,No,Don't know,No
+320,27/8/14 14:28,41,Male,United States,SD,No,Yes,Yes,Rarely,Yes,Yes,Yes,Yes,Don't know,Yes,Somewhat easy,No,No,Some of them,Yes,Maybe,Maybe,Yes,No
+321,27/8/14 14:28,29,Male,United States,CA,No,No,Yes,Sometimes,No,Yes,Yes,No,No,Don't know,Don't know,Yes,No,Some of them,Some of them,No,Maybe,No,No
+322,27/8/14 14:28,32,Male,United States,OR,No,No,No,Never,No,Yes,Yes,Not sure,Don't know,Yes,Somewhat easy,No,No,Some of them,Yes,Maybe,Maybe,Yes,No
+323,27/8/14 14:28,24,Female,United States,CA,No,Yes,Yes,Sometimes,No,Yes,Yes,Yes,No,Yes,Don't know,Maybe,No,Some of them,No,No,Maybe,Don't know,No
+324,27/8/14 14:29,25,Male,United States,CA,No,No,Yes,Rarely,No,Yes,Yes,No,Don't know,No,Don't know,Maybe,No,No,No,No,No,Don't know,No
+325,27/8/14 14:30,25,Male,United States,CA,No,No,No,,No,Yes,Don't know,Not sure,Don't know,Don't know,Don't know,Maybe,No,No,No,No,Maybe,Don't know,No
+326,27/8/14 14:31,30,Female,United States,CO,No,No,No,Never,No,Yes,Yes,Yes,Yes,Yes,Somewhat easy,Maybe,Maybe,No,Some of them,No,No,Don't know,No
+327,27/8/14 14:31,25,Male,United States,CA,No,Yes,Yes,Sometimes,No,Yes,Don't know,Not sure,Don't know,Yes,Don't know,No,No,Yes,Yes,No,No,Yes,No
+328,27/8/14 14:31,30,Male,United States,OH,Yes,No,No,Never,Yes,Yes,No,Yes,No,No,Don't know,Maybe,No,Some of them,Some of them,No,Maybe,Don't know,No
+329,27/8/14 14:32,33,Male,Germany,,Yes,Yes,Yes,Rarely,No,No,No,No,No,No,Somewhat difficult,Yes,Yes,No,No,Maybe,No,Yes,Yes
+330,27/8/14 14:32,24,Male,United States,WA,No,No,No,,No,Yes,Yes,Not sure,Yes,Yes,Very easy,No,No,Some of them,Some of them,No,Maybe,Yes,No
+331,27/8/14 14:33,25,Male,Canada,,No,Yes,Yes,Sometimes,No,Yes,Yes,Yes,No,Don't know,Don't know,Yes,Maybe,Some of them,No,No,No,No,No
+332,27/8/14 14:34,31,Male,United States,OH,No,No,No,,No,No,Don't know,No,No,No,Somewhat easy,Maybe,No,No,No,No,Yes,No,No
+333,27/8/14 14:37,45,Male,Ireland,,Yes,No,Yes,Often,No,Yes,No,No,No,No,Very difficult,No,No,No,No,No,No,Don't know,No
+334,27/8/14 14:37,29,Male,Romania,,No,No,No,,Yes,No,No,Yes,No,No,Don't know,Maybe,Maybe,Some of them,Some of them,Maybe,Maybe,No,No
+335,27/8/14 14:37,46,Male,United States,WA,No,No,No,Never,No,Yes,Yes,Not sure,Yes,Don't know,Very easy,No,No,Some of them,Some of them,Maybe,Maybe,Don't know,No
+336,27/8/14 14:38,30,Male,United Kingdom,,No,No,Yes,Sometimes,No,Yes,Don't know,No,No,Don't know,Don't know,Yes,Maybe,No,No,No,Maybe,Don't know,No
+337,27/8/14 14:38,29,Female,United States,CA,Yes,No,No,Sometimes,No,Yes,Yes,Not sure,Don't know,No,Very easy,Maybe,Maybe,Some of them,Some of them,No,No,Don't know,No
+338,27/8/14 14:38,24,Male,United States,MA,No,No,No,,No,Yes,Yes,Yes,Don't know,Don't know,Don't know,Yes,No,No,No,No,Maybe,Don't know,No
+339,27/8/14 14:38,29,Male,United States,WA,No,No,No,,No,Yes,Yes,Yes,Yes,Yes,Very easy,No,No,Some of them,Yes,No,Maybe,Yes,No
+340,27/8/14 14:38,35,Male,United States,MI,No,No,No,,No,No,Don't know,Not sure,No,Don't know,Don't know,No,No,Yes,Yes,No,No,No,No
+341,27/8/14 14:39,33,Female,United States,WA,No,Yes,No,Sometimes,Yes,Yes,No,Yes,No,No,Very difficult,Yes,Maybe,Some of them,Some of them,No,Maybe,No,No
+342,27/8/14 14:39,27,Male,United States,CA,No,No,No,Sometimes,No,Yes,Don't know,Not sure,Don't know,Don't know,Very easy,Yes,No,No,No,No,Maybe,No,No
+343,27/8/14 14:41,36,Male,United States,IA,No,No,No,,No,Yes,Don't know,Not sure,Don't know,Don't know,Don't know,Maybe,No,Some of them,Some of them,No,No,Don't know,No
+344,27/8/14 14:41,33,Male,United Kingdom,,No,No,No,Rarely,Yes,Yes,Don't know,No,No,No,Don't know,Yes,Maybe,No,No,No,Maybe,No,No
+345,27/8/14 14:44,25,Female,United States,WA,No,Yes,Yes,Sometimes,No,Yes,Yes,Yes,No,No,Don't know,No,No,Some of them,Yes,No,No,Don't know,No
+346,27/8/14 14:45,23,Male,United States,AL,No,Yes,Yes,Sometimes,No,No,Don't know,No,No,No,Don't know,No,No,Yes,Yes,Maybe,Yes,Don't know,No
+347,27/8/14 14:45,54,Male,United States,CA,No,Yes,Yes,Never,No,Yes,Don't know,No,Yes,Yes,Don't know,No,No,No,Yes,No,No,Don't know,No
+348,27/8/14 14:47,22,Male,United States,CA,No,No,No,Sometimes,No,Yes,Don't know,No,Don't know,Don't know,Don't know,Maybe,No,Some of them,No,No,Maybe,Don't know,No
+349,27/8/14 14:47,25,Unknow,United States,CA,No,Yes,Yes,Sometimes,No,Yes,Yes,Yes,Don't know,Don't know,Don't know,Maybe,No,Some of them,Some of them,No,No,Yes,No
+350,27/8/14 14:49,29,Male,Belgium,,No,No,No,Often,No,No,Don't know,No,No,No,Don't know,Maybe,No,Yes,Yes,Maybe,Maybe,Don't know,No
+351,27/8/14 14:49,27,Male,United States,MA,No,No,Yes,Sometimes,No,Yes,Yes,Yes,Yes,Yes,Don't know,No,No,No,No,No,Yes,Yes,No
+352,27/8/14 14:51,30,Male,United Kingdom,,No,No,No,Never,No,Yes,No,No,No,Don't know,Very easy,No,No,Some of them,Yes,No,Maybe,Yes,No
+353,27/8/14 14:52,26,Male,United States,CA,No,Yes,Yes,Often,No,Yes,Yes,Not sure,Don't know,Yes,Don't know,Maybe,No,Some of them,No,No,No,Don't know,No
+354,27/8/14 14:52,25,Female,Sweden,,No,Yes,No,Sometimes,No,Yes,Yes,Yes,Yes,No,Somewhat easy,No,No,Some of them,Yes,No,No,No,No
+355,27/8/14 14:53,31,Male,United States,CA,No,No,Yes,Sometimes,No,No,No,Yes,No,Don't know,Don't know,No,No,Some of them,No,No,No,No,No
+356,27/8/14 14:54,33,Male,United States,IN,No,Yes,Yes,Sometimes,No,Yes,Don't know,Not sure,No,No,Don't know,Maybe,No,Some of them,Some of them,No,No,Don't know,No
+357,27/8/14 14:54,34,Male,United States,WA,No,Yes,Yes,Sometimes,No,Yes,Yes,Yes,Don't know,Yes,Don't know,Maybe,Maybe,No,No,No,No,Don't know,No
+358,27/8/14 14:57,34,Male,United States,WA,No,No,Yes,Sometimes,Yes,Yes,No,No,No,No,Somewhat easy,Yes,Yes,Some of them,Some of them,No,Maybe,Don't know,No
+359,27/8/14 14:58,29,Male,United States,IN,Yes,No,No,,Yes,Yes,No,Yes,No,No,Very easy,No,No,Yes,Yes,Maybe,Maybe,Yes,No
+360,27/8/14 14:59,33,Unknow,United States,WA,No,No,No,,No,Yes,No,No,No,No,Somewhat difficult,Maybe,No,Some of them,Some of them,No,No,Don't know,No
+361,27/8/14 15:03,34,Male,Germany,,Yes,Yes,Yes,Rarely,Yes,Yes,No,No,No,Don't know,Somewhat difficult,No,No,Yes,Yes,No,Maybe,Yes,No
+362,27/8/14 15:04,26,Male,United States,OK,Yes,Yes,Yes,Rarely,Yes,No,No,No,No,Don't know,Don't know,Maybe,No,Some of them,Yes,No,Yes,No,No
+363,27/8/14 15:05,32,Male,United States,MI,No,Yes,Yes,Rarely,No,No,Yes,Yes,Yes,Yes,Don't know,No,No,Some of them,Yes,No,Yes,Yes,No
+364,27/8/14 15:05,29,Male,United States,OH,No,No,Yes,Often,Yes,Yes,Yes,Yes,No,No,Don't know,Maybe,No,Some of them,No,No,No,No,No
+365,27/8/14 15:09,28,Male,United States,GA,No,Yes,Yes,Sometimes,No,Yes,Don't know,Not sure,No,Don't know,Somewhat difficult,Maybe,Maybe,No,No,No,No,No,No
+366,27/8/14 15:11,35,Male,United States,CA,No,Yes,No,,No,Yes,Yes,No,Yes,Yes,Very easy,No,No,Some of them,Yes,No,No,Don't know,No
+367,27/8/14 15:13,36,Male,United States,,No,Yes,Yes,Often,No,Yes,No,Yes,No,No,Very easy,No,No,Some of them,Some of them,No,No,Don't know,No
+368,27/8/14 15:14,21,Male,United States,IN,No,Yes,Yes,Rarely,No,Yes,Yes,No,No,Don't know,Don't know,No,No,Yes,Yes,Maybe,Maybe,Don't know,No
+369,27/8/14 15:15,21,Male,United Kingdom,,No,No,Yes,Sometimes,No,No,Don't know,Not sure,No,No,Very easy,Yes,No,Some of them,No,No,Maybe,No,No
+370,27/8/14 15:15,22,Female,United States,WA,No,No,No,,No,Yes,Yes,No,Yes,Yes,Somewhat easy,No,No,No,Some of them,No,No,Yes,No
+371,27/8/14 15:20,41,Male,United States,WA,No,Yes,Yes,Often,No,Yes,Yes,No,Yes,Yes,Somewhat difficult,Maybe,No,Yes,Some of them,No,Maybe,No,Yes
+372,27/8/14 15:21,55,Male,United States,PA,No,Yes,Yes,Rarely,No,Yes,Yes,Yes,Yes,Yes,Very easy,No,No,Yes,Yes,No,No,Yes,No
+373,27/8/14 15:22,32,Female,United States,WA,No,No,Yes,Sometimes,No,Yes,Yes,Yes,Yes,Yes,Somewhat easy,Maybe,No,Some of them,Yes,No,Maybe,Yes,No
+374,27/8/14 15:22,21,Female,United States,CA,No,Yes,Yes,Rarely,No,Yes,Don't know,Not sure,Don't know,No,Somewhat easy,Yes,No,Some of them,No,No,Yes,Don't know,No
+375,27/8/14 15:22,45,Male,United States,MA,No,No,Yes,Never,Yes,Yes,Yes,Yes,Don't know,Don't know,Don't know,Maybe,No,No,Some of them,No,Maybe,Don't know,No
+376,27/8/14 15:22,27,Female,United States,WA,No,No,Yes,Rarely,No,Yes,Yes,Yes,No,No,Don't know,Yes,Maybe,No,No,No,No,No,No
+377,27/8/14 15:22,25,Female,United States,WA,No,Yes,Yes,Sometimes,Yes,Yes,Don't know,No,No,No,Don't know,Maybe,No,Some of them,Yes,No,No,Yes,No
+378,27/8/14 15:22,34,Male,United States,NY,No,Yes,Yes,Rarely,No,No,Yes,Yes,Yes,Yes,Very difficult,Maybe,Maybe,Some of them,Some of them,No,No,Yes,No
+379,27/8/14 15:23,26,Female,United States,CA,No,Yes,Yes,Never,No,Yes,Yes,Yes,No,Yes,Don't know,Maybe,No,No,No,No,No,Don't know,No
+380,27/8/14 15:23,41,Male,Canada,,No,No,Yes,Never,No,Yes,Yes,Not sure,No,Don't know,Somewhat easy,No,No,Some of them,Some of them,No,No,Don't know,No
+381,27/8/14 15:23,27,Male,United States,CA,No,No,Yes,Rarely,No,Yes,Yes,No,Yes,Yes,Don't know,No,No,Some of them,Yes,No,Maybe,Yes,No
+382,27/8/14 15:23,31,Unknow,United States,IN,No,Yes,Yes,Sometimes,Yes,Yes,Yes,No,No,No,Don't know,No,No,Yes,Yes,No,No,Don't know,No
+383,27/8/14 15:23,25,Male,Germany,,No,Yes,Yes,Often,Yes,Yes,No,No,No,No,Somewhat easy,No,No,Yes,Yes,No,Yes,No,No
+384,27/8/14 15:23,26,Male,United States,NV,No,No,Yes,Sometimes,No,Yes,Don't know,No,No,No,Don't know,Yes,Yes,Some of them,No,No,No,No,No
+385,27/8/14 15:23,27,Female,United States,CO,No,Yes,Yes,Rarely,Yes,Yes,Yes,Yes,No,Don't know,Don't know,Maybe,Maybe,No,Yes,No,No,Don't know,No
+386,27/8/14 15:23,42,Male,New Zealand,,No,No,No,Never,No,Yes,Don't know,Not sure,No,No,Don't know,No,No,Some of them,Yes,Maybe,Maybe,Don't know,No
+387,27/8/14 15:24,29,Unknow,United States,CA,Yes,Yes,Yes,Sometimes,Yes,Yes,Yes,Yes,No,No,Very difficult,Yes,No,Some of them,No,No,Maybe,No,No
+388,27/8/14 15:24,25,Female,United States,CA,No,No,Yes,Sometimes,No,Yes,Don't know,Not sure,No,No,Somewhat difficult,Yes,No,Some of them,No,No,Maybe,Don't know,No
+389,27/8/14 15:24,33,Female,Sweden,,No,Yes,Yes,Rarely,No,Yes,Yes,Yes,No,Yes,Don't know,Maybe,No,Some of them,No,No,Yes,Don't know,No
+390,27/8/14 15:24,30,Unknow,Zimbabwe,,Yes,Yes,Yes,Often,No,Yes,No,Yes,No,No,Very difficult,Yes,Yes,No,No,Yes,No,No,Yes
+391,27/8/14 15:24,40,Female,United States,PA,No,Yes,Yes,Rarely,No,No,Yes,No,Don't know,Don't know,Somewhat easy,Maybe,Maybe,No,No,No,No,Don't know,No
+392,27/8/14 15:24,31,Male,United States,SC,No,No,No,Never,No,Yes,Don't know,No,No,Don't know,Somewhat easy,Yes,No,Some of them,No,No,No,Don't know,No
+393,27/8/14 15:24,26,Male,Canada,,No,Yes,Yes,Often,Yes,Yes,Don't know,No,Don't know,Don't know,Very easy,No,No,Yes,Yes,No,No,Yes,No
+394,27/8/14 15:24,24,Female,United States,TX,No,Yes,No,,No,No,No,No,No,No,Very difficult,Yes,Maybe,No,No,No,Maybe,No,Yes
+395,27/8/14 15:25,29,Male,United States,TX,No,No,No,Never,No,No,Yes,Not sure,No,Don't know,Don't know,Maybe,No,Some of them,Some of them,No,No,Don't know,No
+396,27/8/14 15:25,48,Male,United Kingdom,,No,No,No,,No,Yes,Don't know,No,No,No,Don't know,Maybe,Maybe,No,No,No,No,No,No
+397,27/8/14 15:25,35,Male,United Kingdom,,No,No,No,Sometimes,No,Yes,No,No,No,No,Very difficult,Maybe,Maybe,Some of them,Yes,No,Maybe,No,Yes
+398,27/8/14 15:25,32,Female,United States,AL,No,No,No,Never,No,Yes,Don't know,Not sure,No,No,Don't know,Maybe,No,No,Some of them,No,Maybe,Don't know,No
+399,27/8/14 15:25,29,Male,Canada,,No,No,Yes,Sometimes,No,Yes,Don't know,Not sure,Don't know,Don't know,Somewhat easy,Maybe,No,Some of them,Some of them,No,Maybe,Yes,No
+400,27/8/14 15:26,26,Male,United States,OR,No,Yes,Yes,Often,No,Yes,Yes,Yes,No,No,Somewhat difficult,Maybe,No,Some of them,Yes,No,No,No,No
+401,27/8/14 15:26,28,Male,United States,NJ,No,Yes,Yes,Sometimes,No,Yes,Yes,Yes,No,No,Don't know,Maybe,No,Some of them,No,No,Maybe,No,No
+402,27/8/14 15:26,23,Male,United States,CA,No,No,No,,No,Yes,Don't know,No,No,Don't know,Don't know,No,No,Some of them,Yes,No,Maybe,No,No
+403,27/8/14 15:26,35,Male,United States,CA,No,Yes,Yes,Sometimes,No,Yes,Yes,Yes,No,No,Very difficult,Maybe,Maybe,Some of them,Some of them,No,Maybe,No,Yes
+404,27/8/14 15:27,29,Male,Germany,,No,Yes,Yes,Sometimes,No,Yes,Don't know,No,No,No,Very easy,Maybe,No,Some of them,Some of them,Maybe,Maybe,Don't know,No
+405,27/8/14 15:27,26,Male,United States,CA,No,Yes,No,,No,Yes,Yes,Yes,No,Yes,Very easy,No,No,Some of them,Yes,Maybe,Maybe,No,No
+406,27/8/14 15:27,33,Male,United States,NH,No,Yes,Yes,Never,Yes,Yes,Yes,Yes,Yes,Yes,Don't know,Yes,Maybe,Yes,Some of them,No,No,Yes,No
+407,27/8/14 15:27,33,Male,United States,CA,No,No,No,,Yes,Yes,Don't know,No,Don't know,Don't know,Don't know,Yes,No,Some of them,No,No,Maybe,Yes,No
+408,27/8/14 15:28,22,Male,Brazil,,Yes,No,No,Never,Yes,Yes,Don't know,No,No,No,Somewhat easy,No,No,Yes,Yes,Maybe,No,Don't know,No
+409,27/8/14 15:28,30,Female,Spain,,No,Yes,No,,No,Yes,No,No,No,No,Don't know,Yes,Maybe,No,No,No,No,Don't know,No
+410,27/8/14 15:29,33,Male,United States,OH,No,Yes,Yes,Often,Yes,Yes,Yes,Yes,No,No,Somewhat easy,Yes,No,No,No,No,No,No,No
+411,27/8/14 15:29,31,Female,United States,OH,No,Yes,Yes,Rarely,No,No,Don't know,Not sure,No,Don't know,Very difficult,Yes,Maybe,No,No,No,Maybe,No,No
+412,27/8/14 15:29,21,Male,United States,MA,No,Yes,No,Never,No,Yes,Don't know,Not sure,Don't know,Don't know,Don't know,No,No,Some of them,Some of them,No,Maybe,Don't know,Yes
+413,27/8/14 15:30,31,Unknow,United Kingdom,,No,Yes,Yes,Sometimes,No,Yes,Don't know,No,No,No,Don't know,Yes,Maybe,No,No,No,Yes,Yes,No
+414,27/8/14 15:31,26,Female,United States,OK,No,No,Yes,Sometimes,Yes,Yes,Don't know,Not sure,Don't know,Don't know,Somewhat difficult,No,No,Some of them,Some of them,No,No,Yes,No
+415,27/8/14 15:31,30,Male,United States,CA,No,Yes,No,Often,No,Yes,Don't know,No,No,Don't know,Somewhat easy,Maybe,No,Some of them,Yes,No,No,Don't know,No
+416,27/8/14 15:31,30,Unknow,Germany,,No,Yes,Yes,Sometimes,No,Yes,Don't know,Not sure,No,No,Somewhat difficult,No,No,Yes,Yes,Maybe,Maybe,No,No
+417,27/8/14 15:31,23,Male,India,,No,No,No,,No,Yes,No,No,No,No,Don't know,No,No,Some of them,Yes,Maybe,Maybe,No,No
+418,27/8/14 15:31,34,Male,Finland,,No,No,No,Never,No,Yes,No,No,No,No,Somewhat easy,No,No,Yes,Yes,No,Maybe,Don't know,No
+419,27/8/14 15:31,55,Male,United States,ID,No,Yes,Yes,Sometimes,Yes,Yes,No,Yes,No,Don't know,Don't know,Yes,Maybe,No,No,No,No,No,Yes
+420,27/8/14 15:32,28,Male,Germany,,No,Yes,Yes,Rarely,Yes,Yes,Yes,No,No,No,Very easy,No,No,Yes,Yes,No,No,Yes,No
+421,27/8/14 15:32,26,Male,Uruguay,,No,No,No,,Yes,Yes,Don't know,No,Don't know,No,Don't know,No,No,Some of them,No,No,Yes,Don't know,No
+422,27/8/14 15:32,28,Male,New Zealand,,No,Yes,Yes,Sometimes,Yes,Yes,Yes,Yes,Yes,No,Very easy,No,No,Yes,Yes,Yes,Yes,Yes,No
+423,27/8/14 15:34,32,Male,United Kingdom,,No,Yes,Yes,Sometimes,No,Yes,No,No,No,Don't know,Somewhat easy,No,No,Some of them,Yes,No,No,Don't know,No
+424,27/8/14 15:34,28,Female,United States,NY,No,No,Yes,Rarely,No,No,Yes,Yes,No,Don't know,Don't know,Maybe,No,No,No,No,No,Don't know,No
+425,27/8/14 15:34,21,Male,United States,CA,No,No,No,Sometimes,No,No,Don't know,Not sure,No,Yes,Don't know,No,No,Some of them,Some of them,Maybe,Maybe,Yes,No
+426,27/8/14 15:35,24,Male,United States,TX,No,Yes,Yes,Sometimes,No,Yes,No,Yes,No,No,Somewhat difficult,Yes,No,Some of them,Some of them,No,Maybe,No,Yes
+427,27/8/14 15:35,26,Female,United States,MD,No,No,No,,No,No,Yes,Not sure,Yes,Don't know,Don't know,Maybe,No,Some of them,No,No,No,Don't know,No
+428,27/8/14 15:35,23,Male,United States,IN,No,No,No,,No,No,Yes,No,No,No,Don't know,No,No,Yes,No,No,Yes,Don't know,No
+429,27/8/14 15:36,24,Female,United States,OR,No,No,No,,No,Yes,Yes,Yes,Yes,Yes,Somewhat easy,No,No,Some of them,Some of them,Yes,Yes,Yes,No
+430,27/8/14 15:36,28,Male,Canada,,Yes,No,No,Never,Yes,Yes,Don't know,No,No,No,Somewhat easy,Maybe,No,Some of them,Yes,No,No,Yes,No
+431,27/8/14 15:38,24,Female,United States,NY,No,Yes,Yes,Rarely,No,Yes,No,No,No,No,Very easy,Yes,No,No,Some of them,No,Yes,Yes,No
+432,27/8/14 15:38,33,Male,United States,MS,Yes,No,Yes,Often,Yes,Yes,No,No,No,No,Somewhat easy,Yes,Maybe,Some of them,Some of them,Yes,Yes,Don't know,No
+433,27/8/14 15:38,34,Male,United States,NJ,No,No,No,Sometimes,No,Yes,Don't know,No,No,No,Don't know,Maybe,No,Yes,Yes,No,Maybe,Don't know,No
+434,27/8/14 15:38,27,Female,United States,CA,No,No,Yes,Sometimes,No,Yes,Don't know,Not sure,No,No,Somewhat difficult,Maybe,Maybe,Some of them,Some of them,No,No,Don't know,No
+435,27/8/14 15:38,28,Male,United States,TN,No,No,No,Never,No,Yes,Don't know,No,No,Don't know,Don't know,No,No,Some of them,Yes,No,No,Don't know,No
+436,27/8/14 15:39,26,Male,United States,WA,No,No,No,,No,Yes,Don't know,Not sure,Don't know,Don't know,Don't know,No,No,Some of them,Yes,No,No,Don't know,Yes
+437,27/8/14 15:40,20,Male,Australia,,No,No,No,,Yes,Yes,Don't know,Not sure,Don't know,Don't know,Very easy,No,No,Some of them,Yes,No,No,Don't know,No
+438,27/8/14 15:43,23,Female,United States,MA,No,No,Yes,Sometimes,No,Yes,Yes,Yes,No,Don't know,Don't know,Maybe,No,Some of them,No,No,Maybe,Don't know,No
+439,27/8/14 15:43,29,Male,United States,PA,No,Yes,Yes,Rarely,Yes,Yes,Yes,Yes,Yes,Yes,Somewhat easy,No,No,Yes,Yes,Maybe,Maybe,Yes,No
+440,27/8/14 15:43,26,Male,United Kingdom,,No,Yes,No,Sometimes,No,Yes,No,No,No,No,Don't know,Maybe,Maybe,No,No,No,Maybe,No,No
+441,27/8/14 15:43,36,Male,United States,KY,No,No,No,Rarely,Yes,Yes,Yes,No,Yes,Don't know,Somewhat easy,Maybe,No,No,No,No,No,Don't know,No
+442,27/8/14 15:44,41,Male,United States,PA,No,No,Yes,Sometimes,No,Yes,Yes,Yes,Yes,Yes,Don't know,Maybe,No,Some of them,Yes,Maybe,Yes,Yes,Yes
+443,27/8/14 15:44,33,Female,United States,MA,No,No,No,,Yes,Yes,Yes,No,Don't know,No,Don't know,No,No,Some of them,Yes,No,No,Yes,No
+444,27/8/14 15:46,23,Male,Canada,,No,Yes,Yes,Sometimes,No,Yes,Yes,Yes,No,No,Very easy,No,No,Yes,Yes,No,No,Yes,No
+445,27/8/14 15:46,39,Male,United States,CA,No,Yes,No,Often,No,Yes,Yes,No,No,Don't know,Don't know,Yes,No,Some of them,Some of them,No,Maybe,No,Yes
+446,27/8/14 15:47,34,Male,United States,VT,No,Yes,No,,No,Yes,Yes,Not sure,Don't know,Don't know,Don't know,Maybe,No,Some of them,Some of them,No,Maybe,Don't know,Yes
+447,27/8/14 15:47,26,Female,United States,CA,No,No,Yes,Sometimes,No,Yes,Yes,Yes,No,No,Somewhat difficult,Yes,Maybe,Some of them,Some of them,No,No,No,Yes
+448,27/8/14 15:50,24,Male,United States,AZ,No,No,Yes,Rarely,No,Yes,Yes,Yes,Yes,No,Don't know,No,No,Some of them,Yes,No,No,Don't know,No
+449,27/8/14 15:51,37,Male,Canada,,No,Yes,Yes,Rarely,No,No,Yes,Yes,Yes,Yes,Don't know,Maybe,Maybe,Some of them,Some of them,No,No,Don't know,No
+450,27/8/14 15:53,43,Male,United States,MA,Yes,Yes,Yes,Often,Yes,Yes,Yes,Yes,No,No,Very easy,No,No,Yes,Yes,Maybe,Maybe,Yes,No
+451,27/8/14 15:53,40,Unknow,United States,VA,No,Yes,No,Never,No,Yes,Yes,Yes,Yes,Don't know,Don't know,Yes,Maybe,No,Some of them,No,Maybe,Yes,No
+452,27/8/14 15:54,30,Male,United States,WA,No,Yes,Yes,Often,No,Yes,Yes,Yes,Yes,No,Very difficult,Yes,No,Some of them,No,No,No,No,Yes
+453,27/8/14 15:55,34,Male,United States,CA,No,No,Yes,Sometimes,No,Yes,Don't know,Not sure,No,No,Don't know,Yes,Yes,Some of them,No,No,No,Don't know,No
+454,27/8/14 15:55,27,Male,United States,OR,No,Yes,Yes,Sometimes,No,Yes,Don't know,Not sure,No,Don't know,Don't know,Yes,No,No,No,No,Yes,Don't know,No
+455,27/8/14 15:55,36,Male,United States,MI,No,No,No,Sometimes,No,Yes,Don't know,No,No,No,Somewhat easy,No,No,Yes,Yes,Maybe,Yes,Don't know,No
+456,27/8/14 15:56,27,Male,Brazil,,No,No,No,Rarely,No,Yes,No,Yes,No,No,Somewhat easy,Maybe,No,Some of them,Some of them,No,Maybe,No,No
+457,27/8/14 15:58,35,Male,Netherlands,,No,Yes,No,Never,No,Yes,Yes,No,No,No,Don't know,Yes,No,No,No,No,Maybe,Don't know,No
+458,27/8/14 15:59,32,Male,United Kingdom,,No,No,No,Never,No,Yes,No,No,No,No,Don't know,Maybe,No,Some of them,No,No,Yes,Yes,No
+459,27/8/14 15:59,37,Male,United States,OR,No,No,No,,No,Yes,Yes,No,No,No,Don't know,Maybe,Maybe,Some of them,Some of them,No,No,Don't know,No
+460,27/8/14 16:00,29,Male,United Kingdom,,No,No,No,,No,Yes,Don't know,No,Don't know,Don't know,Don't know,No,No,Some of them,Yes,Maybe,Maybe,Yes,No
+461,27/8/14 16:01,33,Female,United States,CA,No,No,No,Never,No,Yes,Yes,Not sure,Yes,Yes,Very easy,Maybe,No,Some of them,Yes,No,No,Yes,No
+462,27/8/14 16:01,28,Unknow,United States,UT,No,No,No,Sometimes,Yes,Yes,No,Yes,No,No,Somewhat easy,Yes,Maybe,Some of them,No,No,No,Don't know,No
+463,27/8/14 16:02,26,Female,United States,CA,No,Yes,No,Never,No,Yes,Don't know,Not sure,No,No,Somewhat difficult,Maybe,Maybe,Some of them,No,No,Maybe,No,No
+464,27/8/14 16:03,27,Male,United States,TX,No,Yes,Yes,Sometimes,Yes,Yes,Don't know,No,Yes,Don't know,Somewhat easy,Yes,No,Some of them,Yes,No,Maybe,Yes,No
+465,27/8/14 16:04,38,Male,United Kingdom,,Yes,No,Yes,Sometimes,Yes,Yes,No,No,No,No,Somewhat easy,Maybe,Maybe,Some of them,Yes,No,Maybe,Yes,No
+466,27/8/14 16:06,57,Male,United States,CA,No,Yes,Yes,Rarely,No,Yes,Yes,Yes,No,No,Don't know,Maybe,No,Some of them,Yes,No,Maybe,No,No
+467,27/8/14 16:07,28,Male,United Kingdom,,No,No,Yes,Sometimes,No,Yes,No,No,No,No,Very difficult,Yes,Maybe,No,Some of them,No,Maybe,No,No
+468,27/8/14 16:10,26,Male,France,,No,No,No,Never,No,Yes,No,Yes,No,No,Don't know,Maybe,No,Yes,Yes,Maybe,Maybe,No,No
+469,27/8/14 16:11,42,Female,Netherlands,,No,No,Yes,Rarely,Yes,Yes,Yes,Yes,No,No,Don't know,Yes,No,Some of them,No,No,Maybe,Don't know,No
+470,27/8/14 16:13,31,Male,United States,OR,No,No,Yes,Sometimes,Yes,Yes,Yes,Yes,Yes,Yes,Very easy,No,No,Some of them,Yes,No,No,Yes,No
+471,27/8/14 16:13,58,Male,United States,CA,No,No,Yes,Rarely,No,Yes,Yes,Yes,Yes,Yes,Somewhat easy,Maybe,No,Some of them,Yes,No,Yes,Yes,No
+472,27/8/14 16:13,29,Male,United States,OH,No,No,No,Sometimes,No,Yes,Don't know,No,No,No,Very difficult,Yes,No,No,No,No,Maybe,No,No
+473,27/8/14 16:14,39,Female,United Kingdom,,No,No,Yes,Sometimes,No,Yes,Yes,Yes,No,Yes,Don't know,Yes,No,Some of them,Some of them,No,Maybe,No,Yes
+474,27/8/14 16:14,34,Male,United States,OH,No,No,No,Sometimes,Yes,Yes,Don't know,No,No,No,Very difficult,Maybe,No,Some of them,Yes,No,Maybe,Don't know,No
+475,27/8/14 16:15,57,Male,United States,CA,No,No,Yes,Sometimes,No,Yes,Yes,Not sure,Yes,Yes,Don't know,Maybe,Maybe,No,No,No,Maybe,Don't know,No
+476,27/8/14 16:15,27,Male,Germany,,No,Yes,Yes,Sometimes,No,Yes,No,Not sure,No,No,Somewhat difficult,Yes,Maybe,Some of them,No,No,No,No,Yes
+477,27/8/14 16:16,23,Male,Germany,,Yes,Yes,Yes,Often,Yes,Yes,Don't know,No,Don't know,Don't know,Don't know,No,Maybe,Yes,Yes,Maybe,Yes,Don't know,No
+478,27/8/14 16:16,18,Male,Finland,,No,No,No,,Yes,No,Don't know,No,No,Don't know,Very easy,Yes,No,No,No,No,Maybe,Don't know,No
+479,27/8/14 16:17,30,Female,United States,NY,No,No,No,,No,Yes,Don't know,Not sure,No,No,Don't know,Maybe,No,Some of them,Yes,No,Maybe,Don't know,No
+480,27/8/14 16:17,23,Male,United States,VA,No,No,No,Never,No,No,Don't know,Not sure,Don't know,Don't know,Don't know,No,No,Yes,Yes,Maybe,Yes,Yes,No
+481,27/8/14 16:18,43,Male,United States,CA,No,No,Yes,Sometimes,No,Yes,Yes,Yes,Yes,Yes,Somewhat easy,Yes,Maybe,No,No,No,Yes,Don't know,No
+482,27/8/14 16:19,18,Female,United Kingdom,,No,Yes,Yes,Sometimes,Yes,Yes,Don't know,Not sure,Don't know,Don't know,Don't know,Maybe,Maybe,Some of them,Some of them,Maybe,Maybe,Don't know,No
+483,27/8/14 16:19,29,Male,United States,IL,No,No,Yes,Rarely,No,Yes,Yes,Yes,No,No,Don't know,Maybe,No,Some of them,No,No,Maybe,Don't know,No
+484,27/8/14 16:20,48,Male,United States,TX,No,No,No,Never,No,Yes,Don't know,No,No,Don't know,Don't know,Maybe,No,No,No,No,Maybe,Don't know,No
+485,27/8/14 16:20,43,Male,Germany,,No,No,Yes,Sometimes,No,No,No,Yes,Don't know,No,Somewhat easy,Maybe,No,Some of them,Some of them,No,Yes,No,Yes
+486,27/8/14 16:21,28,Female,United States,NY,No,Yes,Yes,Sometimes,No,Yes,Don't know,Not sure,No,No,Don't know,Yes,Maybe,Some of them,No,No,Maybe,Don't know,No
+487,27/8/14 16:21,30,Male,United States,CA,Yes,Yes,Yes,Often,Yes,Yes,No,Yes,No,No,Very easy,No,No,Yes,Yes,No,No,Yes,No
+488,27/8/14 16:21,26,Male,Israel,MD,No,No,No,Sometimes,No,Yes,No,No,No,No,Very easy,Maybe,No,Some of them,Yes,No,Maybe,Yes,No
+489,27/8/14 16:21,33,Male,Italy,,No,No,No,Never,No,No,No,No,No,No,Don't know,Maybe,Maybe,Some of them,Some of them,No,No,No,No
+490,27/8/14 16:22,31,Male,United States,CA,No,No,No,,No,Yes,Yes,Not sure,Don't know,Don't know,Don't know,No,No,No,Some of them,No,No,Yes,No
+491,27/8/14 16:22,30,Male,United States,PA,No,No,No,Rarely,No,No,Don't know,Not sure,No,No,Don't know,No,No,Some of them,Some of them,No,No,Don't know,No
+492,27/8/14 16:23,27,Male,Israel,,No,No,No,,No,Yes,No,No,No,No,Somewhat difficult,Yes,No,Some of them,No,No,Maybe,No,Yes
+493,27/8/14 16:25,24,Female,United States,CA,Yes,Yes,Yes,Sometimes,Yes,Yes,No,No,Don't know,Don't know,Don't know,No,No,Some of them,Some of them,No,No,Don't know,Yes
+494,27/8/14 16:26,25,Male,United States,WA,No,No,No,,No,Yes,Don't know,Not sure,Don't know,Don't know,Don't know,Maybe,No,Some of them,No,No,No,Don't know,No
+495,27/8/14 16:27,23,Female,United States,NY,No,Yes,Yes,Often,No,Yes,Yes,Not sure,Don't know,No,Don't know,Maybe,No,Some of them,Some of them,No,No,Yes,Yes
+496,27/8/14 16:27,36,Male,United States,TX,No,No,Yes,Sometimes,No,No,Yes,Not sure,No,No,Somewhat difficult,Yes,Maybe,Some of them,No,No,No,No,Yes
+497,27/8/14 16:28,25,Female,United States,CA,Yes,Yes,Yes,Often,Yes,Yes,Don't know,Not sure,No,No,Somewhat difficult,Yes,No,Some of them,No,No,Maybe,No,Yes
+498,27/8/14 16:28,54,Male,United Kingdom,,No,No,Yes,Sometimes,Yes,No,No,Yes,Yes,Yes,Very easy,No,No,Yes,Yes,Maybe,Maybe,No,No
+499,27/8/14 16:29,34,Male,Netherlands,,No,No,No,Rarely,No,Yes,Don't know,Not sure,Don't know,Don't know,Somewhat easy,No,No,Some of them,Some of them,No,Maybe,Yes,No
+500,27/8/14 16:29,38,Female,United States,AZ,No,No,Yes,,No,Yes,Yes,Yes,No,No,Don't know,Maybe,Maybe,No,No,No,No,No,No
+501,27/8/14 16:31,40,Male,Ireland,,Yes,Yes,No,,No,Yes,No,No,No,No,Don't know,Yes,Maybe,Some of them,No,No,Maybe,No,Yes
+502,27/8/14 16:32,32,Male,United Kingdom,,No,No,No,,No,Yes,No,Not sure,No,Don't know,Don't know,No,No,No,Some of them,No,Maybe,Don't know,No
+503,27/8/14 16:34,25,Male,Germany,,No,No,No,Never,No,No,Don't know,Not sure,Don't know,Yes,Don't know,No,No,Yes,Yes,No,Yes,Don't know,No
+504,27/8/14 16:35,35,Female,United States,OH,No,No,Yes,Sometimes,No,Yes,No,Yes,No,No,Don't know,Yes,Maybe,No,No,No,Maybe,No,No
+505,27/8/14 16:36,46,Male,United States,CA,No,No,Yes,Sometimes,No,Yes,Yes,Yes,Yes,Yes,Don't know,Maybe,No,Some of them,No,No,No,Yes,No
+506,27/8/14 16:39,42,Male,United States,KS,No,No,No,Never,No,No,Yes,No,Yes,No,Very difficult,Maybe,No,Yes,Yes,Maybe,Yes,No,No
+507,27/8/14 16:39,32,Male,United Kingdom,,No,Yes,Yes,Sometimes,Yes,Yes,Yes,No,No,No,Don't know,No,No,Yes,Yes,Maybe,Maybe,Yes,No
+508,27/8/14 16:40,47,Male,United States,CA,No,Yes,Yes,Sometimes,No,Yes,Yes,Yes,Yes,Yes,Very easy,No,No,Some of them,Yes,No,Yes,Yes,No
+509,27/8/14 16:42,22,Male,United States,CA,No,No,No,,No,Yes,Yes,Not sure,Yes,Don't know,Don't know,No,No,Some of them,Yes,No,Maybe,Yes,No
+510,27/8/14 16:42,33,Female,United States,NY,No,No,Yes,Sometimes,Yes,Yes,Yes,Yes,Yes,Yes,Very easy,No,No,Some of them,Some of them,No,No,Don't know,No
+511,27/8/14 16:47,25,Female,United States,WA,No,No,No,Sometimes,No,Yes,No,No,No,No,Somewhat easy,Maybe,No,Some of them,No,No,No,Yes,No
+512,27/8/14 16:53,29,Male,United States,CA,No,No,No,,No,Yes,Don't know,Not sure,No,Don't know,Don't know,Maybe,No,No,No,No,Maybe,Don't know,No
+513,27/8/14 16:55,39,Male,United States,WA,No,No,No,Never,No,Yes,Yes,Yes,Yes,Yes,Very easy,No,No,Yes,Yes,No,No,Yes,No
+514,27/8/14 17:00,38,Male,United States,VA,No,Yes,Yes,Sometimes,No,Yes,Yes,Not sure,Yes,Yes,Don't know,Yes,No,No,No,No,No,No,No
+515,27/8/14 17:03,43,Male,United States,NC,No,No,No,,Yes,Yes,Don't know,No,No,Don't know,Don't know,Maybe,No,Some of them,No,No,No,Don't know,No
+516,27/8/14 17:04,46,Male,United States,OH,No,No,Yes,Rarely,Yes,Yes,Yes,Not sure,Yes,Yes,Don't know,No,No,Some of them,Yes,No,Maybe,Yes,No
+517,27/8/14 17:08,38,Female,United States,PA,No,Yes,Yes,Sometimes,No,No,Yes,Yes,Yes,Yes,Very easy,Maybe,No,Yes,Yes,No,No,No,Yes
+518,27/8/14 17:09,33,Male,Germany,,No,No,Yes,Sometimes,No,Yes,Yes,Yes,No,No,Very easy,Yes,Yes,Some of them,Some of them,No,Maybe,No,No
+519,27/8/14 17:10,34,Male,United Kingdom,,No,Yes,Yes,Often,No,Yes,No,Yes,No,No,Very easy,Maybe,Maybe,Yes,Yes,No,No,No,No
+520,27/8/14 17:12,62,Male,United States,CA,No,No,No,Never,No,Yes,Yes,Yes,Don't know,Yes,Don't know,Maybe,No,Some of them,Yes,Maybe,Maybe,Yes,No
+521,27/8/14 17:14,23,Female,United States,TX,No,No,No,,No,No,Don't know,Not sure,Don't know,Don't know,Don't know,Maybe,Maybe,Some of them,Some of them,No,No,Don't know,No
+522,27/8/14 17:15,35,Male,United States,AZ,No,No,No,,No,No,No,No,No,No,Don't know,Maybe,Maybe,No,No,No,No,No,No
+523,27/8/14 17:19,25,Male,Bosnia and Herzegovina,,No,Yes,No,Rarely,Yes,Yes,Don't know,Not sure,Don't know,Don't know,Don't know,Maybe,Yes,No,No,No,No,Don't know,Yes
+524,27/8/14 17:22,36,Male,United States,IL,Yes,Yes,Yes,Sometimes,Yes,Yes,Don't know,Yes,Don't know,No,Somewhat difficult,Maybe,No,Some of them,Yes,No,Yes,Yes,No
+525,27/8/14 17:32,41,Female,United States,,No,Yes,Yes,Rarely,Yes,Yes,Yes,Yes,Yes,Yes,Very easy,Maybe,Maybe,Some of them,Some of them,No,No,Yes,No
+526,27/8/14 17:33,24,Male,Austria,,Yes,No,No,Sometimes,No,Yes,Yes,Yes,Don't know,Don't know,Somewhat easy,No,No,Some of them,Some of them,Maybe,Maybe,Yes,No
+527,27/8/14 17:33,51,Male,New Zealand,,No,No,Yes,Sometimes,Yes,Yes,No,Yes,Yes,No,Somewhat difficult,Yes,Yes,No,No,No,No,Don't know,Yes
+528,27/8/14 17:33,29,Male,United States,NC,No,No,Yes,Sometimes,No,Yes,Yes,Yes,No,Yes,Very easy,No,No,No,Some of them,No,No,Yes,No
+529,27/8/14 17:37,31,Female,Canada,,Yes,Yes,Yes,Sometimes,Yes,Yes,Don't know,Not sure,Don't know,Don't know,Don't know,Maybe,Maybe,Some of them,Yes,No,No,Yes,No
+530,27/8/14 17:39,27,Male,United Kingdom,,No,No,No,,No,Yes,No,No,No,No,Don't know,No,No,Some of them,Yes,No,Yes,Don't know,No
+531,27/8/14 17:41,31,Male,Australia,,No,No,Yes,Rarely,No,Yes,Yes,Yes,Yes,Yes,Somewhat easy,No,No,Yes,Yes,Yes,Yes,No,No
+532,27/8/14 17:42,27,Female,Hungary,,Yes,Yes,No,Sometimes,Yes,Yes,No,No,No,No,Very difficult,Yes,Maybe,No,No,No,Maybe,No,No
+533,27/8/14 17:46,23,Male,Sweden,,No,No,No,Rarely,No,Yes,Don't know,No,No,Don't know,Very easy,No,No,Some of them,Yes,Maybe,Maybe,Yes,No
+534,27/8/14 17:47,21,Male,Canada,,No,No,No,Never,No,Yes,Don't know,Not sure,Don't know,No,Don't know,Yes,Maybe,No,No,No,Maybe,Don't know,No
+535,27/8/14 17:48,27,Female,Australia,,No,Yes,Yes,Sometimes,No,Yes,No,Yes,No,No,Somewhat difficult,Yes,No,Some of them,Some of them,No,No,No,No
+536,27/8/14 17:49,39,Male,United States,WI,No,Yes,Yes,Often,Yes,Yes,Yes,Yes,Yes,Yes,Somewhat easy,Yes,No,Some of them,Yes,No,No,No,No
+537,27/8/14 17:49,26,Male,United States,CA,No,Yes,Yes,Never,No,Yes,Don't know,No,No,Don't know,Don't know,Maybe,No,No,No,No,No,No,No
+538,27/8/14 17:52,27,Male,United Kingdom,,No,No,No,Never,No,Yes,Don't know,No,No,No,Don't know,Maybe,Maybe,Some of them,Some of them,No,No,Don't know,No
+539,27/8/14 17:56,22,Female,United States,CA,No,Yes,Yes,Sometimes,No,Yes,Yes,Yes,No,Don't know,Don't know,No,No,Some of them,Some of them,No,No,No,Yes
+540,27/8/14 18:00,26,Female,United States,MN,No,Yes,Yes,Often,No,No,Don't know,No,No,No,Somewhat difficult,Maybe,No,No,No,No,Maybe,No,No
+541,27/8/14 18:02,31,Female,United States,PA,No,Yes,Yes,Rarely,No,Yes,Yes,Yes,No,No,Somewhat easy,No,No,Yes,Yes,No,No,Yes,No
+542,27/8/14 18:02,32,Male,United Kingdom,,No,No,No,Never,No,Yes,Don't know,No,No,No,Don't know,No,No,Yes,Yes,Yes,Yes,Yes,No
+543,27/8/14 18:12,28,Female,United States,CA,No,Yes,Yes,Often,Yes,Yes,Yes,No,No,Don't know,Don't know,Yes,Yes,Some of them,Some of them,No,No,No,Yes
+544,27/8/14 18:13,28,Unknow,United Kingdom,,No,Yes,Yes,Rarely,No,Yes,No,Not sure,No,No,Somewhat difficult,Yes,Yes,Some of them,Some of them,Yes,No,No,Yes
+545,27/8/14 18:14,23,Female,United Kingdom,,No,No,No,,No,Yes,Don't know,Not sure,No,No,Very easy,Maybe,No,No,Some of them,No,Yes,Yes,No
+546,27/8/14 18:16,30,Male,United Kingdom,,No,No,No,Never,Yes,Yes,Don't know,Not sure,Don't know,Don't know,Very easy,No,No,Yes,Yes,Maybe,Maybe,Yes,No
+547,27/8/14 18:18,36,Male,United States,CA,No,Yes,Yes,Sometimes,No,Yes,Yes,No,No,Yes,Somewhat difficult,Yes,No,Some of them,Yes,No,Yes,No,No
+548,27/8/14 18:22,21,Male,United States,CA,No,Yes,No,,No,Yes,Yes,Yes,Yes,Yes,Don't know,No,No,Some of them,Yes,No,Maybe,Yes,No
+549,27/8/14 18:29,30,Male,Germany,,No,No,No,Often,No,Yes,No,No,Don't know,No,Somewhat easy,Maybe,No,Some of them,Some of them,Maybe,Yes,Don't know,No
+550,27/8/14 18:39,25,Male,United States,CA,No,Yes,No,,No,No,Don't know,Not sure,No,No,Don't know,Maybe,No,Some of them,Some of them,No,Maybe,Don't know,No
+551,27/8/14 18:41,32,Male,New Zealand,,No,No,Yes,Sometimes,No,Yes,No,No,No,No,Very easy,No,No,Some of them,Yes,Maybe,Yes,Don't know,No
+552,27/8/14 18:43,29,Female,Canada,,No,No,Yes,Sometimes,No,Yes,No,No,No,No,Don't know,Maybe,No,Some of them,Some of them,No,No,Yes,No
+553,27/8/14 18:56,21,Unknow,United Kingdom,,No,No,Yes,Sometimes,No,Yes,No,Yes,Yes,No,Somewhat easy,Maybe,No,Some of them,Some of them,No,No,Yes,No
+554,27/8/14 18:59,27,Female,New Zealand,,No,Yes,Yes,Rarely,Yes,Yes,No,No,No,No,Somewhat easy,Maybe,Maybe,Some of them,Some of them,No,Yes,Don't know,No
+555,27/8/14 19:05,32,Female,Canada,,No,No,Yes,Often,No,No,Don't know,Not sure,Don't know,Don't know,Don't know,Maybe,No,Some of them,Some of them,No,No,Don't know,No
+556,27/8/14 19:08,34,Male,Australia,,No,No,No,Sometimes,No,Yes,Yes,Yes,Yes,Yes,Very easy,No,No,Some of them,Yes,No,Maybe,Yes,No
+557,27/8/14 19:13,33,Male,United States,NY,No,No,No,,No,Yes,Don't know,No,Don't know,Don't know,Don't know,Yes,No,Some of them,No,No,Maybe,Don't know,No
+558,27/8/14 19:13,22,Male,Netherlands,,No,Yes,Yes,Sometimes,Yes,Yes,No,Not sure,No,Don't know,Somewhat easy,No,No,Some of them,Yes,Maybe,Yes,Yes,No
+559,27/8/14 19:16,24,Male,United States,CA,No,No,No,,No,Yes,Don't know,Not sure,Don't know,Don't know,Don't know,Maybe,Maybe,Some of them,Some of them,No,No,Yes,No
+560,27/8/14 19:17,65,Male,United States,FL,Yes,No,No,,Yes,No,No,No,No,No,Very easy,Maybe,No,Some of them,No,No,No,Yes,No
+561,27/8/14 19:25,27,Male,United States,OR,No,Yes,Yes,Sometimes,Yes,Yes,Don't know,No,No,Don't know,Don't know,No,No,Some of them,No,No,No,Yes,No
+562,27/8/14 19:27,33,Male,Australia,,No,No,No,Never,No,Yes,Don't know,Not sure,Don't know,Don't know,Very easy,No,No,Some of them,Yes,Maybe,Yes,Yes,No
+563,27/8/14 19:28,36,Male,United States,CO,No,No,Yes,Rarely,No,Yes,Don't know,Not sure,No,Don't know,Don't know,No,No,Some of them,Some of them,No,No,Don't know,No
+564,27/8/14 19:34,40,Male,Canada,,No,No,No,Never,No,Yes,No,No,No,No,Somewhat difficult,No,No,Some of them,Some of them,No,No,No,No
+565,27/8/14 19:34,28,Male,United States,GA,No,No,Yes,Sometimes,No,Yes,Yes,Yes,No,No,Somewhat difficult,Maybe,No,Some of them,No,No,Maybe,No,No
+566,27/8/14 19:38,39,Male,United States,OR,No,No,Yes,Sometimes,No,Yes,Yes,Not sure,Yes,Don't know,Don't know,Yes,Maybe,Yes,Yes,No,Maybe,Don't know,No
+567,27/8/14 19:41,32,Male,United States,CA,No,No,Yes,Sometimes,No,Yes,Yes,No,No,Yes,Somewhat easy,No,No,Yes,Some of them,Maybe,Yes,Don't know,No
+568,27/8/14 19:45,31,Male,United States,CA,No,Yes,No,Sometimes,No,Yes,Yes,Not sure,Don't know,Don't know,Somewhat easy,Maybe,No,No,Some of them,No,Yes,No,No
+569,27/8/14 19:59,38,Unknow,United States,PA,No,Yes,Yes,Sometimes,No,Yes,Don't know,No,No,No,Don't know,Maybe,Maybe,Some of them,No,No,No,Don't know,No
+570,27/8/14 20:13,23,Male,United States,CA,No,Yes,Yes,Rarely,No,Yes,No,Yes,No,No,Don't know,Maybe,No,Some of them,Yes,No,No,Yes,No
+571,27/8/14 20:17,42,Unknow,United States,CA,No,No,Yes,Often,No,Yes,Yes,Yes,Yes,Yes,Somewhat easy,Maybe,Maybe,Yes,Yes,Maybe,Maybe,Don't know,No
+572,27/8/14 20:33,27,Female,United States,NY,No,No,No,Sometimes,No,Yes,Don't know,Not sure,Don't know,Yes,Don't know,No,No,Some of them,Yes,No,No,Yes,No
+573,27/8/14 20:48,26,Female,United States,MA,No,Yes,Yes,Sometimes,No,Yes,Yes,Yes,No,No,Somewhat difficult,No,No,Yes,Yes,No,No,No,Yes
+574,27/8/14 20:52,50,Male,United States,,No,No,No,Never,Yes,Yes,No,Yes,No,No,Don't know,No,No,No,No,No,Maybe,No,No
+575,27/8/14 20:52,37,Male,United States,PA,No,Yes,No,Never,No,Yes,Don't know,No,No,Don't know,Somewhat easy,No,No,Yes,Yes,No,No,Yes,No
+576,27/8/14 20:53,23,Male,United States,RI,No,No,No,,No,Yes,Don't know,No,Don't know,No,Don't know,No,No,Yes,Yes,No,Maybe,Don't know,No
+577,27/8/14 20:55,33,Male,United States,MI,No,Yes,No,Sometimes,Yes,Yes,Don't know,Not sure,No,No,Very easy,No,No,Some of them,Yes,No,No,Yes,No
+578,27/8/14 21:05,29,Male,Canada,,Yes,No,No,Never,Yes,Yes,Yes,Yes,No,No,Very difficult,Yes,No,Some of them,No,No,Yes,No,No
+579,27/8/14 21:15,34,Male,United States,IL,No,Yes,Yes,Sometimes,Yes,No,Yes,No,No,No,Don't know,Maybe,No,Some of them,Some of them,No,Maybe,Don't know,No
+580,27/8/14 21:17,41,Male,United States,CA,No,Yes,Yes,Often,No,Yes,Yes,No,No,No,Don't know,Maybe,Maybe,Some of them,Some of them,No,No,Don't know,Yes
+581,27/8/14 21:21,50,Male,United States,OR,No,Yes,No,,Yes,Yes,Don't know,No,No,Don't know,Don't know,No,No,Some of them,Yes,Maybe,Maybe,Don't know,No
+582,27/8/14 21:35,29,Male,Canada,,No,No,Yes,Never,No,No,Yes,Not sure,Yes,Yes,Somewhat difficult,Maybe,No,Some of them,No,No,Maybe,Don't know,Yes
+583,27/8/14 21:39,35,Male,United States,IN,No,No,No,Never,No,Yes,No,Yes,No,No,Very easy,No,No,Some of them,Yes,Maybe,Maybe,Yes,No
+584,27/8/14 21:45,27,Male,Singapore,,No,No,No,Sometimes,Yes,Yes,No,No,No,No,Don't know,Yes,No,Some of them,Yes,No,No,No,No
+585,27/8/14 21:54,40,Female,United States,MA,No,No,No,Never,No,No,Don't know,Not sure,No,No,Somewhat easy,Maybe,Maybe,Yes,Yes,Maybe,Maybe,Don't know,No
+586,27/8/14 21:54,27,Male,Australia,,No,No,Yes,Often,Yes,Yes,No,No,No,No,Don't know,Maybe,No,Some of them,No,No,Maybe,No,Yes
+587,27/8/14 21:55,29,Female,United States,MI,No,No,No,Never,No,Yes,Yes,Yes,Yes,No,Don't know,Maybe,No,Some of them,Some of them,No,Maybe,Don't know,Yes
+588,27/8/14 22:00,31,Male,United States,OH,No,Yes,Yes,Sometimes,No,Yes,No,No,No,No,Somewhat easy,Maybe,No,Yes,Yes,No,Maybe,Don't know,No
+589,27/8/14 22:04,43,Male,United States,OH,No,No,Yes,Sometimes,No,Yes,No,Yes,No,No,Somewhat easy,No,No,Yes,Yes,No,Maybe,Don't know,No
+590,27/8/14 22:04,34,Male,United States,NH,No,Yes,Yes,Sometimes,Yes,Yes,Yes,Yes,No,No,Don't know,Maybe,No,Some of them,Some of them,No,Yes,Don't know,Yes
+591,27/8/14 22:06,29,Male,United States,OH,No,Yes,Yes,Sometimes,No,Yes,Don't know,No,No,No,Somewhat difficult,Yes,No,Some of them,Some of them,No,Maybe,Don't know,No
+592,27/8/14 22:07,19,Male,Canada,,No,Yes,Yes,Sometimes,No,Yes,No,No,No,No,Don't know,Maybe,Maybe,Some of them,No,No,Maybe,Don't know,No
+593,27/8/14 22:11,41,Male,United States,TN,No,Yes,Yes,Sometimes,No,Yes,Yes,Not sure,Yes,Yes,Don't know,Maybe,No,Some of them,Some of them,No,No,No,No
+594,27/8/14 22:12,29,Male,United States,OR,No,Yes,No,Never,No,Yes,Yes,Yes,Yes,Yes,Don't know,No,No,Some of them,Yes,No,Maybe,Yes,No
+595,27/8/14 22:13,23,Male,United States,PA,No,No,No,Rarely,No,Yes,Yes,Not sure,Don't know,Don't know,Don't know,No,No,Some of them,Some of them,No,No,Yes,No
+596,27/8/14 22:14,24,Female,United States,,No,Yes,Yes,Sometimes,No,Yes,Yes,Not sure,No,No,Somewhat difficult,Yes,Maybe,No,No,No,No,No,Yes
+597,27/8/14 22:14,31,Male,United States,NY,No,No,No,,Yes,Yes,Don't know,No,No,Don't know,Don't know,Yes,No,No,No,No,Maybe,Don't know,No
+598,27/8/14 22:21,43,Male,United States,WA,No,No,No,,Yes,Yes,Don't know,Not sure,Don't know,Don't know,Don't know,No,No,Yes,Yes,No,No,Yes,No
+599,27/8/14 22:26,31,Male,United States,NY,No,Yes,Yes,Rarely,No,Yes,No,No,No,Don't know,Somewhat difficult,Yes,Yes,Some of them,No,No,No,No,Yes
+600,27/8/14 22:32,29,Male,United States,CA,No,Yes,No,Often,No,Yes,Yes,Yes,Yes,Yes,Don't know,No,No,Some of them,Yes,No,No,Don't know,No
+601,27/8/14 22:35,35,Male,United States,TN,Yes,Yes,No,,Yes,Yes,No,No,Yes,Yes,Very easy,No,No,Yes,Yes,No,Maybe,Yes,No
+602,27/8/14 22:36,33,Male,United States,WI,No,Yes,Yes,Sometimes,No,No,Yes,Not sure,No,No,Somewhat difficult,Yes,Yes,No,No,No,No,No,No
+603,27/8/14 22:55,30,Female,United States,WI,Yes,Yes,Yes,Often,Yes,No,No,Yes,No,Yes,Somewhat difficult,No,No,Yes,Yes,No,No,Yes,No
+604,27/8/14 22:59,27,Male,United States,PA,No,No,No,,No,Yes,Yes,Not sure,Don't know,Don't know,Don't know,Maybe,Maybe,No,No,No,Maybe,No,No
+605,27/8/14 23:09,32,Male,United States,MI,No,No,No,Sometimes,No,Yes,No,Yes,No,No,Don't know,Maybe,Maybe,Some of them,Some of them,No,No,No,No
+606,27/8/14 23:10,50,Male,United States,WY,No,No,No,Sometimes,Yes,Yes,Don't know,No,No,Don't know,Don't know,Yes,Maybe,Some of them,Some of them,No,Maybe,Don't know,No
+607,27/8/14 23:10,24,Male,United States,KY,No,No,No,Never,No,No,Don't know,Not sure,No,No,Don't know,Maybe,Yes,Some of them,No,No,Maybe,No,No
+608,27/8/14 23:14,27,Male,United States,NY,No,No,No,,No,Yes,Don't know,No,No,No,Don't know,No,No,Yes,Yes,No,Maybe,Yes,No
+609,27/8/14 23:30,27,Male,Australia,,No,No,No,Never,Yes,Yes,No,No,No,No,Don't know,Yes,No,No,No,No,Maybe,Don't know,No
+610,27/8/14 23:54,32,Male,United States,TX,No,No,Yes,Sometimes,No,Yes,No,Yes,No,No,Somewhat easy,No,No,Some of them,Yes,Maybe,Maybe,Yes,No
+611,27/8/14 23:56,42,Male,United States,WI,Yes,No,No,Rarely,Yes,No,No,Yes,No,No,Very easy,No,No,Some of them,Yes,Maybe,Maybe,Yes,No
+612,27/8/14 23:57,37,Male,United States,WA,No,No,No,Often,No,No,Don't know,No,No,No,Don't know,Maybe,No,Some of them,No,No,No,No,No
+613,27/8/14 23:59,30,Male,Singapore,,No,No,No,Sometimes,No,Yes,Don't know,Not sure,No,No,Somewhat easy,Maybe,No,Some of them,No,No,Yes,No,Yes
+614,28/8/14 0:02,29,Male,United States,WA,No,No,No,Rarely,No,Yes,Yes,No,No,No,Very easy,Yes,Maybe,Some of them,No,No,No,Don't know,No
+615,28/8/14 0:05,30,Male,United States,GA,Yes,No,Yes,Often,Yes,Yes,No,Not sure,No,Yes,Somewhat difficult,No,No,Yes,Yes,No,Maybe,Yes,No
+616,28/8/14 0:17,35,Male,United States,MI,No,No,No,Never,No,Yes,Yes,No,Yes,Don't know,Don't know,No,No,Some of them,Some of them,Maybe,Maybe,Yes,No
+617,28/8/14 0:43,35,Male,United States,MD,No,Yes,Yes,Rarely,Yes,No,Yes,Yes,No,No,Very difficult,Yes,No,Some of them,No,No,Maybe,No,No
+618,28/8/14 0:47,38,Male,Netherlands,,No,Yes,No,Often,Yes,Yes,No,Not sure,No,Don't know,Don't know,Maybe,Maybe,Some of them,Some of them,Maybe,Maybe,Don't know,No
+619,28/8/14 1:04,22,Male,United Kingdom,,No,Yes,Yes,Sometimes,No,Yes,Yes,Yes,No,No,Very easy,No,No,Some of them,Yes,Maybe,Yes,Yes,No
+620,28/8/14 1:14,24,Male,Germany,,No,Yes,No,Sometimes,No,Yes,Don't know,No,No,No,Somewhat easy,No,No,Some of them,Some of them,No,Maybe,Don't know,No
+621,28/8/14 1:19,22,Male,Netherlands,,Yes,No,No,Never,No,Yes,Don't know,Not sure,No,No,Don't know,No,Maybe,Some of them,Yes,Maybe,Yes,No,Yes
+622,28/8/14 1:30,31,Female,United States,WA,No,No,Yes,Often,Yes,Yes,Yes,Yes,No,No,Very easy,Maybe,No,Some of them,Some of them,No,Yes,Don't know,No
+623,28/8/14 1:38,23,Female,United States,CA,No,Yes,Yes,Sometimes,No,Yes,Yes,Yes,Yes,Yes,Somewhat easy,Yes,Maybe,No,No,No,No,Don't know,No
+624,28/8/14 1:41,31,Female,United States,OR,No,Yes,Yes,Sometimes,No,Yes,Don't know,No,No,No,Don't know,No,No,Some of them,Some of them,No,No,Don't know,No
+625,28/8/14 1:56,28,Female,United States,CA,No,Yes,Yes,Rarely,No,Yes,Yes,Yes,Yes,Yes,Somewhat difficult,Maybe,No,No,Some of them,No,No,No,No
+626,28/8/14 2:15,37,Unknow,Canada,,No,Yes,Yes,Sometimes,No,No,Yes,Yes,No,No,Somewhat difficult,Yes,Maybe,Some of them,Some of them,No,Maybe,No,No
+627,28/8/14 2:17,34,Male,United States,CA,Yes,Yes,Yes,Sometimes,No,Yes,No,Yes,No,No,Somewhat easy,No,No,Some of them,Some of them,No,No,No,No
+628,28/8/14 2:19,32,Unknow,Canada,,No,No,No,Sometimes,Yes,Yes,No,Yes,No,No,Very difficult,Yes,Maybe,Some of them,No,No,Maybe,No,Yes
+629,28/8/14 2:30,28,Male,United States,MI,No,Yes,Yes,Sometimes,Yes,Yes,Yes,Not sure,No,Don't know,Don't know,Yes,No,Some of them,Some of them,No,No,Don't know,Yes
+630,28/8/14 2:32,24,Female,United Kingdom,,No,No,Yes,Sometimes,No,Yes,No,No,No,No,Don't know,Maybe,No,No,Some of them,No,Maybe,Don't know,No
+631,28/8/14 2:41,56,Male,United States,MA,No,Yes,Yes,Rarely,No,Yes,Yes,Yes,No,No,Don't know,Yes,Maybe,Some of them,Some of them,No,No,Don't know,No
+632,28/8/14 2:46,31,Male,Germany,,No,No,No,Sometimes,Yes,Yes,No,No,No,No,Very easy,No,No,Yes,Yes,Maybe,Maybe,Yes,No
+633,28/8/14 2:49,34,Female,United States,CA,No,No,Yes,Sometimes,Yes,Yes,Yes,Yes,No,Don't know,Somewhat easy,Maybe,No,Some of them,Yes,No,No,Yes,No
+634,28/8/14 2:52,35,Male,Germany,,No,No,Yes,Rarely,No,No,Don't know,No,Yes,Don't know,Very easy,No,No,Some of them,Yes,No,No,Yes,No
+635,28/8/14 2:54,28,Male,Germany,,No,No,No,Never,No,Yes,No,No,No,No,Somewhat easy,No,No,Some of them,Some of them,Yes,Yes,Don't know,No
+636,28/8/14 3:05,36,Male,Poland,,Yes,Yes,Yes,Often,No,Yes,No,No,No,No,Somewhat easy,No,No,Some of them,Yes,Maybe,Maybe,Yes,Yes
+637,28/8/14 3:06,30,Male,United Kingdom,,No,No,Yes,Often,No,Yes,No,No,No,No,Somewhat easy,No,No,Some of them,Yes,No,Maybe,Yes,No
+638,28/8/14 3:13,35,Male,United States,,Yes,No,No,,Yes,Yes,Yes,Not sure,No,No,Very easy,No,No,Some of them,Yes,No,No,Yes,No
+639,28/8/14 3:13,49,Male,Japan,,Yes,Yes,Yes,Sometimes,Yes,Yes,No,Yes,Yes,No,Somewhat difficult,Yes,Yes,No,No,No,No,No,Yes
+640,28/8/14 3:15,36,Male,Germany,,No,No,No,,No,Yes,Yes,Yes,No,No,Very easy,No,No,Some of them,Yes,Maybe,Maybe,Yes,No
+641,28/8/14 3:16,35,Male,Germany,,No,No,No,,No,Yes,No,No,No,No,Very easy,Maybe,No,Some of them,Some of them,No,No,Don't know,No
+642,28/8/14 3:29,29,Female,Australia,,No,Yes,Yes,Sometimes,No,No,Yes,Yes,Yes,Yes,Somewhat difficult,Yes,No,Some of them,Some of them,No,No,No,Yes
+643,28/8/14 3:36,57,Male,United States,CA,No,No,No,Never,No,Yes,Yes,Yes,No,Yes,Somewhat difficult,Yes,Maybe,No,No,No,Maybe,Don't know,Yes
+644,28/8/14 3:42,31,Female,Belgium,,No,Yes,Yes,Rarely,No,No,Yes,No,No,No,Don't know,Maybe,No,Some of them,No,No,No,Don't know,Yes
+645,28/8/14 3:47,37,Male,Ireland,,Yes,No,No,Never,No,Yes,No,No,No,No,Don't know,Yes,Maybe,No,No,No,Maybe,Don't know,No
+646,28/8/14 3:49,25,Male,Ireland,,No,Yes,Yes,Sometimes,No,Yes,No,No,No,No,Don't know,Maybe,No,Some of them,Some of them,No,Maybe,No,No
+647,28/8/14 3:52,30,Male,Australia,,No,No,No,Sometimes,No,Yes,No,No,No,No,Very easy,No,No,Some of them,Some of them,No,No,Don't know,No
+648,28/8/14 4:00,26,Female,Australia,,No,Yes,No,Sometimes,No,No,No,Yes,Yes,Yes,Somewhat easy,No,No,Yes,Yes,No,No,Don't know,No
+649,28/8/14 4:02,22,Female,Netherlands,,No,No,No,Often,No,Yes,No,No,No,No,Don't know,No,No,No,Some of them,No,Yes,Don't know,No
+650,28/8/14 4:07,39,Male,United States,FL,No,No,No,Rarely,Yes,No,Don't know,No,Yes,Yes,Don't know,No,No,Some of them,Some of them,No,Maybe,Don't know,No
+651,28/8/14 4:09,29,Male,United Kingdom,,No,Yes,Yes,Never,No,Yes,Don't know,Not sure,Don't know,Don't know,Don't know,Maybe,Maybe,No,No,No,No,No,No
+652,28/8/14 4:11,54,Male,United Kingdom,,Yes,Yes,Yes,Sometimes,Yes,Yes,Don't know,Not sure,No,No,Very easy,No,No,Some of them,Yes,Yes,Yes,Don't know,Yes
+653,28/8/14 4:16,34,Female,Australia,,No,Yes,No,Never,No,No,Don't know,No,Yes,Yes,Don't know,Yes,Maybe,No,No,No,No,Don't know,Yes
+654,28/8/14 4:23,32,Male,United States,WA,No,No,Yes,Never,No,No,Yes,Not sure,Yes,Yes,Very easy,Maybe,No,No,No,No,No,Yes,No
+655,28/8/14 4:24,25,Male,Nigeria,,No,No,No,,No,Yes,No,No,No,No,Don't know,Maybe,No,Yes,Yes,No,Yes,Don't know,No
+656,28/8/14 4:30,29,Male,Poland,,No,No,No,Rarely,No,Yes,No,No,No,No,Somewhat difficult,No,Maybe,Some of them,No,No,No,Yes,No
+657,28/8/14 4:34,32,Male,Germany,,Yes,No,No,Never,Yes,Yes,No,No,No,No,Don't know,No,No,Some of them,Yes,No,Maybe,Don't know,No
+658,28/8/14 4:37,30,Male,United Kingdom,,No,Yes,Yes,Sometimes,No,Yes,Yes,Yes,No,Don't know,Don't know,Maybe,No,Some of them,Yes,No,Yes,Yes,No
+659,28/8/14 4:53,31,Male,Germany,,No,No,No,,No,Yes,Don't know,No,No,Don't know,Somewhat easy,No,No,Some of them,Yes,Maybe,Maybe,Don't know,No
+660,28/8/14 5:05,20,Female,Switzerland,,No,No,No,Rarely,No,Yes,Yes,Yes,Yes,Yes,Somewhat easy,No,No,Some of them,Some of them,No,Maybe,Yes,No
+661,28/8/14 5:12,27,Male,United Kingdom,,No,No,No,Never,No,Yes,Don't know,No,No,Don't know,Don't know,No,No,Some of them,Yes,Maybe,Maybe,Don't know,No
+662,28/8/14 5:14,32,Male,United States,CA,No,No,No,Never,No,Yes,Don't know,Not sure,Don't know,Don't know,Don't know,Maybe,Maybe,Some of them,Some of them,No,No,Don't know,No
+663,28/8/14 6:02,26,Male,Ireland,,Yes,No,No,Never,Yes,Yes,No,No,No,No,Somewhat difficult,Maybe,No,Some of them,Yes,Maybe,Maybe,Yes,No
+664,28/8/14 6:05,30,Male,Italy,,No,No,No,Sometimes,No,No,Don't know,No,No,No,Very easy,No,No,Some of them,Some of them,No,No,Don't know,No
+665,28/8/14 6:10,30,Male,Ireland,,No,No,Yes,Sometimes,Yes,Yes,No,No,Don't know,No,Very difficult,Maybe,Maybe,Some of them,No,No,No,No,No
+666,28/8/14 6:11,22,Male,India,,Yes,No,No,,Yes,Yes,Don't know,No,Don't know,Don't know,Very easy,Maybe,Maybe,Some of them,Some of them,Maybe,Maybe,Yes,Yes
+667,28/8/14 6:27,24,Male,Ireland,,No,No,No,,No,Yes,Don't know,Not sure,Don't know,Don't know,Don't know,No,No,No,No,No,No,Don't know,No
+668,28/8/14 6:30,26,Male,Netherlands,,No,No,No,Never,No,Yes,No,No,No,No,Don't know,Maybe,Maybe,No,No,No,No,Don't know,No
+669,28/8/14 7:01,43,Male,France,,No,No,No,,No,Yes,Don't know,No,No,No,Don't know,No,No,Some of them,Yes,Maybe,Maybe,Don't know,No
+670,28/8/14 7:03,26,Male,Russia,,No,No,No,Never,No,Yes,No,Not sure,No,Don't know,Somewhat difficult,No,No,Some of them,No,No,Maybe,Don't know,No
+671,28/8/14 7:03,23,Male,United States,NC,No,Yes,No,Sometimes,No,Yes,Don't know,Not sure,No,Don't know,Don't know,Maybe,No,No,No,No,Maybe,Don't know,No
+672,28/8/14 7:12,26,Male,Canada,,No,No,No,,Yes,Yes,Yes,Not sure,Don't know,Yes,Somewhat easy,No,No,Some of them,Some of them,No,No,Yes,No
+673,28/8/14 8:00,26,Female,Israel,,No,Yes,No,Never,No,Yes,Don't know,No,Don't know,Don't know,Don't know,Maybe,No,Some of them,No,No,No,Yes,No
+674,28/8/14 8:06,35,Male,Canada,,No,Yes,No,Sometimes,No,Yes,Don't know,No,No,No,Don't know,Maybe,Maybe,Some of them,Some of them,No,No,No,No
+675,28/8/14 8:18,28,Male,United States,IL,No,No,Yes,Sometimes,Yes,No,Don't know,Not sure,No,Don't know,Don't know,No,No,Some of them,Yes,No,Maybe,Don't know,No
+676,28/8/14 8:23,22,Male,India,,No,No,No,,No,Yes,No,No,No,No,Don't know,Maybe,Maybe,Some of them,Yes,Maybe,Maybe,Don't know,No
+677,28/8/14 8:39,29,Female,United States,OH,No,Yes,Yes,Rarely,No,Yes,Don't know,No,No,No,Don't know,Yes,No,No,No,No,No,Don't know,No
+678,28/8/14 8:40,29,Male,Germany,,Yes,No,No,,No,Yes,No,Yes,No,No,Very easy,No,No,Yes,Yes,Yes,Yes,Yes,No
+679,28/8/14 8:43,45,Male,United States,VA,No,No,Yes,Often,Yes,Yes,Yes,Not sure,No,Yes,Very easy,No,No,Yes,Yes,No,Maybe,Yes,No
+680,28/8/14 8:43,33,Male,Bulgaria,,No,No,Yes,Rarely,Yes,Yes,No,No,No,No,Somewhat easy,Maybe,No,Some of them,Some of them,No,Maybe,Don't know,Yes
+681,28/8/14 8:43,38,Male,United States,MN,No,No,Yes,Sometimes,No,No,Yes,Yes,Yes,Yes,Don't know,No,No,Some of them,Yes,No,No,Don't know,No
+682,28/8/14 9:02,19,Male,United States,MO,No,Yes,Yes,Often,No,No,Don't know,Not sure,No,No,Somewhat difficult,Maybe,Maybe,No,No,No,Maybe,No,No
+683,28/8/14 9:09,29,Female,Canada,,No,No,Yes,Rarely,Yes,No,Yes,Yes,Yes,Don't know,Somewhat easy,No,No,No,Yes,No,Maybe,Don't know,No
+684,28/8/14 9:16,21,Female,United Kingdom,,No,No,No,,No,Yes,No,No,No,No,Don't know,Yes,Maybe,Some of them,No,No,No,Don't know,No
+685,28/8/14 9:18,23,Female,India,,No,Yes,Yes,Sometimes,No,Yes,Don't know,Not sure,No,Don't know,Don't know,Yes,Maybe,No,No,No,No,Don't know,No
+686,28/8/14 9:40,33,Female,United States,NC,No,Yes,Yes,Rarely,No,Yes,Yes,Yes,Yes,Yes,Somewhat easy,No,No,Some of them,Yes,No,No,Yes,No
+687,28/8/14 9:53,49,Male,United States,NY,No,Yes,Yes,Sometimes,No,Yes,Yes,Not sure,Yes,Yes,Somewhat easy,Maybe,Maybe,Some of them,Yes,No,No,Yes,No
+688,28/8/14 9:53,28,Male,United States,NM,No,No,No,,Yes,Yes,Don't know,No,No,No,Don't know,Maybe,No,Some of them,No,No,No,Don't know,No
+689,28/8/14 9:54,27,Female,United Kingdom,,No,No,Yes,Sometimes,Yes,Yes,Don't know,Not sure,Yes,Don't know,Very easy,No,No,Yes,Yes,Maybe,Maybe,Yes,No
+690,28/8/14 9:54,23,Male,Canada,,No,No,Yes,Sometimes,No,Yes,Yes,No,No,No,Somewhat easy,Maybe,Maybe,Some of them,Some of them,No,No,Don't know,No
+691,28/8/14 9:54,29,Male,Netherlands,,No,No,No,Never,Yes,Yes,No,No,No,No,Somewhat easy,No,No,Yes,Yes,No,Maybe,Yes,No
+692,28/8/14 9:54,30,Male,Germany,,No,No,No,,No,Yes,Don't know,No,No,Don't know,Somewhat easy,No,No,Some of them,No,Maybe,Maybe,Don't know,No
+693,28/8/14 9:55,28,Female,Canada,,No,No,No,,No,Yes,Yes,Not sure,Don't know,Don't know,Somewhat easy,No,No,Some of them,Yes,No,No,Don't know,No
+694,28/8/14 9:56,32,Male,United Kingdom,,No,No,No,,No,Yes,No,No,No,No,Don't know,Yes,No,No,No,No,Yes,No,No
+695,28/8/14 9:56,32,Male,United Kingdom,,No,No,Yes,Sometimes,No,No,Yes,Yes,No,No,Very easy,No,No,No,Yes,No,No,Yes,No
+696,28/8/14 9:56,37,Male,France,,No,No,No,,No,Yes,No,No,No,No,Somewhat easy,Maybe,Maybe,Some of them,Some of them,No,Maybe,No,No
+697,28/8/14 9:56,39,Female,United States,TX,No,No,No,,Yes,No,No,Yes,No,No,Very difficult,Yes,Maybe,No,No,No,Maybe,No,No
+698,28/8/14 9:56,31,Male,France,,No,No,No,,No,Yes,Don't know,No,No,Don't know,Don't know,Maybe,Maybe,Some of them,No,No,No,Yes,No
+699,28/8/14 9:57,29,Male,United States,SC,No,No,No,,No,Yes,No,No,No,Don't know,Somewhat difficult,Maybe,Maybe,Some of them,No,No,No,Don't know,No
+700,28/8/14 9:57,30,Male,United States,FL,No,No,No,,No,No,Yes,No,No,Don't know,Don't know,Maybe,No,Some of them,Yes,No,No,Don't know,No
+701,28/8/14 9:57,33,Male,United States,WA,Yes,Yes,Yes,Rarely,Yes,Yes,No,Yes,Yes,Yes,Very difficult,No,No,Yes,Yes,No,No,Yes,Yes
+702,28/8/14 9:58,37,Male,United States,CA,No,Yes,Yes,Sometimes,No,Yes,Yes,Yes,Don't know,Don't know,Don't know,Maybe,No,Yes,Yes,No,No,Don't know,No
+703,28/8/14 9:59,23,Male,United States,OH,No,No,Yes,Often,No,No,Yes,Yes,Yes,No,Somewhat easy,No,No,Some of them,Yes,No,Maybe,Yes,No
+704,28/8/14 9:59,43,Male,United States,TN,No,Yes,Yes,Sometimes,No,No,Yes,Not sure,No,Yes,Somewhat easy,Yes,No,No,No,No,No,No,No
+705,28/8/14 10:00,32,Male,United Kingdom,,No,No,Yes,Rarely,No,Yes,Don't know,No,No,No,Don't know,Maybe,No,Yes,Yes,No,Maybe,No,Yes
+706,28/8/14 10:01,26,Male,United States,NY,No,No,No,Never,No,Yes,Don't know,Not sure,No,No,Don't know,Yes,Yes,Some of them,No,No,No,No,No
+707,28/8/14 10:01,32,Male,United States,NY,Yes,No,Yes,Sometimes,Yes,Yes,Don't know,Not sure,Don't know,Don't know,Very easy,No,No,Yes,Yes,Yes,Yes,Don't know,No
+708,28/8/14 10:02,37,Female,United States,MO,No,No,No,,Yes,Yes,Don't know,Not sure,No,Don't know,Don't know,Yes,No,Some of them,No,No,No,Don't know,No
+709,28/8/14 10:02,29,Male,United States,NY,No,No,Yes,Often,No,Yes,Yes,Yes,No,No,Very easy,No,No,Yes,Yes,Maybe,Maybe,Yes,No
+710,28/8/14 10:02,34,Male,United Kingdom,,No,No,No,,No,Yes,No,No,No,No,Somewhat easy,Maybe,Maybe,Some of them,Yes,No,Maybe,Don't know,No
+711,28/8/14 10:04,27,Male,France,,No,No,No,,No,Yes,Don't know,Not sure,Don't know,Don't know,Don't know,No,No,Yes,Yes,No,No,Yes,No
+712,28/8/14 10:04,30,Male,United States,TN,No,Yes,No,Never,No,Yes,Don't know,No,No,Don't know,Very easy,No,No,Some of them,Yes,No,Maybe,Don't know,No
+713,28/8/14 10:05,29,Male,United States,CO,No,No,No,Never,No,Yes,Yes,Yes,No,Yes,Don't know,Maybe,No,Some of them,Some of them,No,No,No,No
+714,28/8/14 10:07,32,Male,United States,PA,Yes,Yes,Yes,Sometimes,Yes,Yes,Yes,Yes,Don't know,Don't know,Very difficult,Yes,Maybe,Some of them,No,No,No,No,No
+715,28/8/14 10:07,26,Male,United Kingdom,,No,No,Yes,Sometimes,No,No,No,No,No,No,Somewhat difficult,Yes,No,No,No,No,Maybe,Don't know,No
+716,28/8/14 10:08,25,Male,Germany,,No,No,No,,No,Yes,Yes,Yes,Don't know,Yes,Somewhat easy,Maybe,Maybe,Some of them,Yes,Yes,Yes,Yes,No
+717,28/8/14 10:08,37,Male,United States,NY,Yes,No,No,,Yes,Yes,Yes,Yes,Yes,No,Somewhat easy,No,No,Yes,Yes,Maybe,Maybe,Yes,No
+718,28/8/14 10:10,29,Male,Netherlands,,No,Yes,No,,No,Yes,No,No,No,No,Very easy,No,No,Some of them,Yes,No,Maybe,Yes,No
+719,28/8/14 10:11,27,Male,United States,MN,No,No,No,,No,Yes,Yes,Not sure,No,Don't know,Don't know,No,No,Yes,Yes,No,No,Don't know,No
+720,28/8/14 10:13,33,Male,United Kingdom,,No,No,No,,No,Yes,Don't know,No,No,No,Don't know,Maybe,No,Some of them,Some of them,No,Maybe,Don't know,No
+721,28/8/14 10:15,30,Male,Canada,,No,Yes,Yes,Sometimes,No,No,Don't know,No,No,No,Very difficult,Yes,No,Some of them,No,No,Yes,No,Yes
+722,28/8/14 10:16,29,Male,Canada,,No,No,No,,Yes,Yes,No,Yes,No,No,Somewhat difficult,Maybe,Maybe,Yes,Yes,No,Maybe,Don't know,No
+723,28/8/14 10:17,25,Male,United States,MO,No,Yes,Yes,Never,Yes,Yes,Don't know,No,Yes,Don't know,Don't know,Yes,No,Some of them,Yes,No,No,No,No
+724,28/8/14 10:18,33,Male,United States,WY,No,Yes,Yes,Sometimes,No,No,No,Yes,No,No,Don't know,No,No,Some of them,Yes,Maybe,Maybe,Don't know,No
+725,28/8/14 10:18,31,Male,South Africa,,No,No,No,Never,Yes,Yes,No,No,No,No,Don't know,No,No,Some of them,Some of them,No,Maybe,No,No
+726,28/8/14 10:20,21,Male,Germany,,No,No,No,Rarely,Yes,Yes,Don't know,No,No,No,Very easy,Maybe,Maybe,Some of them,Some of them,No,Maybe,No,No
+727,28/8/14 10:22,30,Male,Switzerland,,No,Yes,Yes,Sometimes,No,Yes,Don't know,No,No,No,Very difficult,Yes,Yes,No,No,No,No,No,No
+728,28/8/14 10:24,29,Male,United States,MN,No,No,No,,No,No,Don't know,Not sure,Don't know,Don't know,Don't know,No,No,Yes,Yes,No,No,No,No
+729,28/8/14 10:25,43,Male,Croatia,,Yes,No,Yes,Sometimes,Yes,Yes,No,No,No,No,Very difficult,Yes,No,Yes,No,No,Maybe,No,Yes
+730,28/8/14 10:29,37,Male,United Kingdom,,No,No,Yes,Often,No,Yes,No,No,No,No,Don't know,Yes,No,Yes,Yes,Maybe,Yes,No,No
+731,28/8/14 10:30,24,Male,France,,No,No,No,,No,Yes,No,No,Yes,No,Don't know,Maybe,No,Yes,Some of them,No,No,Don't know,No
+732,28/8/14 10:30,29,Male,United States,MD,No,No,No,,Yes,Yes,Don't know,Not sure,No,No,Very easy,No,No,Yes,Yes,No,No,Don't know,No
+733,28/8/14 10:34,31,Male,United States,KY,No,No,No,,No,No,Yes,Yes,Yes,Yes,Don't know,No,No,Yes,Yes,No,No,Don't know,No
+734,28/8/14 10:35,25,Male,United States,OH,No,No,No,,No,Yes,Don't know,Not sure,No,No,Somewhat easy,No,No,Yes,Yes,No,No,Yes,No
+735,28/8/14 10:42,33,Male,United Kingdom,,Yes,No,No,Never,No,No,No,Not sure,No,No,Very easy,No,No,Yes,Some of them,No,Yes,No,No
+736,28/8/14 10:45,43,Male,United States,NY,No,No,No,,No,No,Yes,Yes,Don't know,Yes,Don't know,No,No,Some of them,Yes,No,Maybe,Don't know,No
+737,28/8/14 10:47,33,Male,United Kingdom,,No,No,Yes,Sometimes,No,Yes,Don't know,Not sure,No,No,Don't know,Maybe,No,Some of them,No,No,Maybe,Don't know,No
+738,28/8/14 10:51,27,Male,United Kingdom,,No,No,No,,No,Yes,No,No,No,Yes,Don't know,Maybe,No,Yes,Some of them,No,Yes,Yes,No
+739,28/8/14 10:52,36,Male,United States,TN,No,Yes,Yes,Sometimes,Yes,No,Don't know,No,Don't know,Don't know,Don't know,Yes,Maybe,No,No,No,Maybe,Don't know,No
+740,28/8/14 10:54,37,Male,Australia,,No,Yes,Yes,Sometimes,No,Yes,No,Yes,No,No,Very easy,No,No,Some of them,Yes,No,Maybe,Yes,Yes
+741,28/8/14 10:57,32,Male,Belgium,,No,No,No,,No,Yes,No,Yes,No,No,Very difficult,Yes,Maybe,No,No,No,No,No,No
+742,28/8/14 11:02,39,Male,United Kingdom,,No,No,Yes,Sometimes,No,Yes,No,No,No,No,Very easy,No,No,No,Some of them,No,Yes,Yes,No
+743,28/8/14 11:04,31,Male,United States,TX,No,Yes,Yes,Sometimes,No,Yes,Yes,Yes,No,Don't know,Somewhat easy,Maybe,No,Some of them,Yes,Maybe,Yes,Don't know,No
+744,28/8/14 11:04,36,Male,United States,OH,No,No,Yes,Sometimes,Yes,Yes,Yes,Yes,No,No,Very difficult,Maybe,Maybe,Some of them,Some of them,Maybe,Maybe,Don't know,No
+745,28/8/14 11:07,30,Male,United States,TX,Yes,No,Yes,Sometimes,Yes,Yes,Don't know,Not sure,Don't know,Don't know,Don't know,No,No,Some of them,Some of them,No,Yes,Don't know,No
+746,28/8/14 11:09,28,Male,Canada,,No,No,No,,No,Yes,Yes,Not sure,No,Don't know,Very easy,No,No,Some of them,Yes,Maybe,Maybe,Yes,No
+747,28/8/14 11:10,32,Male,Italy,,No,No,No,,No,Yes,No,No,No,No,Somewhat difficult,Maybe,No,Some of them,No,Maybe,Maybe,No,No
+748,28/8/14 11:14,35,Male,United States,CA,No,Yes,Yes,Rarely,No,Yes,Yes,Yes,Yes,Yes,Very easy,No,No,Some of them,Yes,No,No,Yes,No
+749,28/8/14 11:15,19,Male,Canada,,No,No,Yes,Sometimes,No,Yes,Don't know,Not sure,No,No,Somewhat difficult,No,No,Some of them,Yes,No,Yes,Don't know,No
+750,28/8/14 11:19,33,Male,Norway,,No,Yes,No,,No,Yes,Yes,Yes,No,No,Very easy,No,No,Some of them,Yes,No,No,Don't know,No
+751,28/8/14 11:20,42,Male,Germany,,No,No,No,,Yes,Yes,Don't know,Not sure,Yes,Yes,Very easy,No,No,Some of them,No,No,Maybe,Yes,No
+752,28/8/14 11:21,37,Male,United States,MI,No,Yes,Yes,Sometimes,No,Yes,Don't know,Not sure,Don't know,Don't know,Don't know,Maybe,No,Some of them,Some of them,No,No,Don't know,No
+753,28/8/14 11:21,40,Male,Thailand,,Yes,No,No,Never,No,Yes,No,No,No,No,Very easy,No,No,Some of them,Yes,Maybe,Maybe,Yes,No
+754,28/8/14 11:22,36,Male,United States,CA,No,No,No,Never,No,Yes,Yes,Yes,Yes,Yes,Very easy,No,No,Some of them,Yes,No,No,Yes,No
+755,28/8/14 11:26,29,Female,United States,OR,No,Yes,Yes,Sometimes,Yes,No,Don't know,No,No,Don't know,Don't know,Maybe,No,Some of them,Yes,No,Maybe,Don't know,No
+756,28/8/14 11:27,38,Female,United States,NC,No,Yes,Yes,Sometimes,No,No,Yes,Not sure,No,Don't know,Don't know,Maybe,No,No,No,No,No,Don't know,No
+757,28/8/14 11:29,26,Male,United States,CA,No,Yes,Yes,Sometimes,No,Yes,Yes,No,Yes,Don't know,Somewhat difficult,Yes,Maybe,No,No,No,Maybe,No,No
+758,28/8/14 11:32,34,Male,Germany,,No,No,No,Rarely,No,Yes,No,No,No,No,Somewhat easy,Maybe,Maybe,No,Some of them,Maybe,Maybe,Yes,No
+759,28/8/14 11:34,21,Male,United States,IL,No,No,Yes,Often,No,No,No,Yes,No,No,Don't know,Yes,No,Some of them,Some of them,No,Yes,No,Yes
+760,28/8/14 11:36,31,Male,Canada,,Yes,Yes,No,Sometimes,Yes,Yes,No,Yes,No,No,Somewhat easy,No,No,No,No,No,No,Yes,No
+761,28/8/14 11:38,37,Female,United States,CA,No,Yes,Yes,Rarely,No,No,Yes,Yes,Yes,Yes,Don't know,Maybe,Maybe,Yes,Some of them,No,Maybe,Yes,No
+762,28/8/14 11:40,37,Male,Ireland,,No,Yes,Yes,Sometimes,No,Yes,No,No,No,No,Very easy,No,No,Yes,Yes,Maybe,Maybe,Yes,No
+763,28/8/14 11:44,38,Male,Ireland,,No,Yes,Yes,Sometimes,No,Yes,No,No,No,No,Very difficult,Yes,Yes,No,No,No,No,No,No
+764,28/8/14 11:47,27,Female,United States,CA,No,No,Yes,Sometimes,No,Yes,Don't know,Not sure,Yes,Don't know,Somewhat easy,Yes,No,Some of them,No,No,Maybe,No,No
+765,28/8/14 11:48,39,Male,Netherlands,,Yes,No,No,,No,Yes,No,No,Yes,No,Somewhat easy,No,No,Some of them,Yes,Maybe,Maybe,Yes,No
+766,28/8/14 11:50,33,Female,United States,AZ,Yes,Yes,Yes,Sometimes,No,Yes,Yes,Yes,Yes,Yes,Somewhat easy,Maybe,Yes,Some of them,No,No,No,No,No
+767,28/8/14 11:50,27,Male,United Kingdom,,No,No,No,Never,No,Yes,Don't know,Not sure,No,Don't know,Somewhat easy,No,No,Some of them,No,Yes,Yes,Don't know,No
+768,28/8/14 11:54,36,Female,United States,CA,No,No,Yes,Never,Yes,Yes,Yes,No,No,No,Don't know,Maybe,Maybe,Some of them,Some of them,No,No,No,No
+769,28/8/14 11:58,28,Male,United Kingdom,,No,No,No,Never,No,Yes,Don't know,Not sure,No,No,Somewhat easy,No,No,Some of them,Yes,Maybe,Yes,Don't know,No
+770,28/8/14 11:59,39,Male,United Kingdom,,No,No,Yes,Sometimes,No,No,Don't know,No,No,No,Don't know,Maybe,Maybe,Some of them,Some of them,No,No,Don't know,No
+771,28/8/14 12:02,33,Male,United States,VA,Yes,Yes,Yes,Sometimes,Yes,Yes,No,Yes,No,No,Very easy,Maybe,Maybe,Yes,Yes,No,No,Yes,No
+772,28/8/14 12:05,32,Male,United Kingdom,,No,No,No,,No,No,Don't know,Not sure,No,Don't know,Don't know,Maybe,No,Some of them,Some of them,No,Yes,Don't know,No
+773,28/8/14 12:06,28,Male,United Kingdom,,No,No,No,,No,No,Don't know,Not sure,No,Don't know,Don't know,No,No,Some of them,Some of them,Yes,Yes,No,No
+774,28/8/14 12:07,37,Male,United Kingdom,,No,Yes,Yes,Rarely,No,Yes,No,No,No,No,Somewhat easy,Yes,No,Some of them,Yes,No,Maybe,No,Yes
+775,28/8/14 12:08,39,Male,Canada,,No,No,Yes,Sometimes,No,No,Yes,Yes,Yes,Yes,Very easy,Yes,No,Some of them,Yes,No,Maybe,No,Yes
+776,28/8/14 12:09,43,Unknow,United States,VA,No,No,No,Sometimes,Yes,Yes,Don't know,No,No,Don't know,Don't know,Maybe,No,No,No,No,Maybe,No,No
+777,28/8/14 12:10,32,Unknow,United Kingdom,,No,No,Yes,Sometimes,No,No,Don't know,No,Yes,Yes,Don't know,No,No,Yes,Some of them,Yes,Yes,Yes,Yes
+778,28/8/14 12:10,27,Female,United States,WA,No,No,No,,No,Yes,Don't know,Not sure,No,Yes,Don't know,Maybe,No,Some of them,Yes,No,No,Don't know,No
+779,28/8/14 12:12,31,Female,United Kingdom,,No,No,No,,No,Yes,Don't know,No,No,No,Don't know,No,No,Yes,Yes,Maybe,Maybe,Don't know,No
+780,28/8/14 12:15,43,Male,United Kingdom,,No,No,Yes,Never,No,Yes,Don't know,No,No,Don't know,Don't know,No,No,Yes,Yes,Yes,Yes,Don't know,No
+781,28/8/14 12:19,33,Male,United States,WI,No,No,Yes,Sometimes,Yes,Yes,No,Yes,No,No,Somewhat difficult,No,No,Yes,Yes,Yes,Yes,Don't know,No
+782,28/8/14 12:19,34,Male,United Kingdom,,No,Yes,Yes,Sometimes,No,Yes,Don't know,Not sure,Don't know,Don't know,Very easy,No,No,Some of them,Yes,No,Maybe,Yes,No
+783,28/8/14 12:22,33,Male,United States,CA,Yes,No,No,,No,Yes,Don't know,No,No,No,Don't know,No,No,Yes,Yes,No,Maybe,Don't know,No
+784,28/8/14 12:23,25,Male,United States,CA,No,No,No,,No,Yes,Don't know,No,No,No,Don't know,No,No,Some of them,Yes,No,No,Don't know,No
+785,28/8/14 12:30,25,Male,United States,NE,No,Yes,Yes,Sometimes,No,No,Yes,Yes,Yes,Yes,Don't know,Maybe,No,Some of them,Some of them,No,No,No,Yes
+786,28/8/14 12:40,32,Male,United Kingdom,,Yes,Yes,No,,No,Yes,No,Yes,No,No,Somewhat easy,No,No,No,Yes,No,Maybe,No,No
+787,28/8/14 12:42,25,Male,United States,CO,No,Yes,Yes,Sometimes,No,Yes,Yes,Yes,Don't know,Don't know,Don't know,Maybe,No,Some of them,Some of them,No,Maybe,Don't know,No
+788,28/8/14 12:42,37,Male,Netherlands,,No,No,No,,Yes,No,Don't know,No,Don't know,Don't know,Somewhat easy,Maybe,No,Yes,Yes,No,No,Don't know,No
+789,28/8/14 12:44,39,Male,Switzerland,,No,No,Yes,Never,No,Yes,Yes,Yes,Yes,Yes,Somewhat easy,No,No,Some of them,Some of them,No,Maybe,Yes,No
+790,28/8/14 12:53,29,Male,United Kingdom,,No,No,No,Rarely,No,Yes,Don't know,Not sure,No,No,Somewhat easy,No,No,Some of them,Yes,No,Maybe,Don't know,Yes
+791,28/8/14 13:01,33,Male,United States,NY,No,No,Yes,Sometimes,No,Yes,Yes,Yes,Don't know,Don't know,Don't know,Maybe,Maybe,Some of them,Some of them,No,No,Don't know,No
+792,28/8/14 13:04,37,Female,United States,TX,No,No,Yes,Often,Yes,Yes,Don't know,Not sure,No,No,Somewhat difficult,Yes,No,Some of them,Some of them,No,Yes,No,Yes
+793,28/8/14 13:08,35,Female,United States,LA,No,No,Yes,Sometimes,No,No,Yes,No,No,No,Very difficult,Yes,Maybe,No,Some of them,No,Yes,No,Yes
+794,28/8/14 13:11,22,Female,United States,WA,No,Yes,Yes,Sometimes,No,Yes,Don't know,Not sure,Don't know,Don't know,Very difficult,Yes,Maybe,Some of them,Some of them,No,Maybe,No,Yes
+795,28/8/14 13:17,38,Male,United States,MI,No,No,No,Never,No,Yes,Yes,Yes,No,No,Somewhat easy,Maybe,No,Some of them,Yes,No,Maybe,No,Yes
+796,28/8/14 13:26,32,Female,United States,CA,No,Yes,Yes,Often,No,Yes,Yes,No,No,Don't know,Don't know,Yes,No,Some of them,Yes,No,No,Don't know,No
+797,28/8/14 13:32,28,Male,Brazil,,No,No,No,,No,Yes,Don't know,No,No,No,Don't know,Maybe,No,Some of them,Yes,Maybe,Yes,No,Yes
+798,28/8/14 13:34,27,Male,Switzerland,,No,Yes,No,,No,Yes,No,No,No,No,Don't know,Maybe,No,Some of them,Yes,No,Yes,No,No
+799,28/8/14 13:35,35,Female,United States,CA,No,No,Yes,Sometimes,Yes,Yes,Don't know,No,Don't know,Don't know,Very easy,Maybe,No,Some of them,No,No,Maybe,Yes,No
+800,28/8/14 13:39,29,Male,United States,MD,No,No,No,Never,No,No,Yes,Yes,Yes,No,Very easy,Yes,Maybe,Yes,Yes,No,Maybe,Don't know,No
+801,28/8/14 13:39,23,Male,United States,CA,No,Yes,Yes,Sometimes,No,Yes,No,Yes,No,No,Very easy,No,No,Some of them,Yes,Maybe,Maybe,Yes,No
+802,28/8/14 13:40,39,Male,United States,CT,No,No,No,,Yes,Yes,Yes,No,No,No,Don't know,Yes,Maybe,No,No,No,No,Don't know,No
+803,28/8/14 13:41,30,Female,United States,CA,No,No,No,,No,Yes,Yes,Yes,Yes,Yes,Very easy,No,No,Some of them,No,No,No,Yes,No
+804,28/8/14 13:47,32,Male,United Kingdom,,No,No,No,,No,Yes,Don't know,Not sure,No,Don't know,Somewhat easy,Maybe,Maybe,Some of them,Some of them,Maybe,Maybe,Don't know,No
+805,28/8/14 13:47,28,Female,United States,CA,No,No,Yes,Sometimes,No,Yes,No,Yes,No,No,Somewhat difficult,Yes,Maybe,Some of them,Some of them,No,No,No,Yes
+806,28/8/14 13:48,40,Female,United States,WA,No,Yes,Yes,Sometimes,No,No,Yes,Yes,Yes,Yes,Don't know,Maybe,No,Some of them,Yes,No,No,Don't know,Yes
+807,28/8/14 13:54,36,Female,United States,CA,No,Yes,No,,No,Yes,Don't know,No,No,Don't know,Don't know,No,No,No,Some of them,No,Maybe,Yes,No
+808,28/8/14 13:57,27,Male,United States,IN,No,No,No,,Yes,Yes,Don't know,Not sure,No,Don't know,Very easy,No,No,Yes,Yes,Maybe,Maybe,Yes,No
+809,28/8/14 14:00,41,Male,United States,TX,No,Yes,No,Sometimes,No,Yes,Yes,Yes,No,Yes,Don't know,Maybe,No,Some of them,Some of them,No,Maybe,No,No
+810,28/8/14 14:01,29,Male,United Kingdom,,No,No,No,Never,No,Yes,Don't know,No,No,No,Don't know,Maybe,No,Some of them,No,No,Maybe,Don't know,No
+811,28/8/14 14:02,29,Male,United Kingdom,,No,No,Yes,Sometimes,No,Yes,No,No,No,No,Somewhat difficult,No,No,Some of them,Some of them,No,Maybe,No,No
+812,28/8/14 14:04,35,Male,United States,MO,No,No,Yes,Often,No,No,No,No,No,No,Very difficult,Yes,No,Some of them,Some of them,No,Yes,No,Yes
+813,28/8/14 14:12,28,Male,United States,NV,No,No,Yes,Never,Yes,Yes,No,Yes,No,No,Don't know,Maybe,Maybe,Some of them,Some of them,No,No,Don't know,No
+814,28/8/14 14:15,36,Female,United Kingdom,,Yes,No,No,Sometimes,Yes,Yes,Don't know,Not sure,Don't know,Don't know,Don't know,Maybe,No,Some of them,No,No,No,Don't know,No
+815,28/8/14 14:31,39,Female,United States,WA,No,No,No,Sometimes,No,Yes,Don't know,Not sure,No,Don't know,Don't know,Yes,No,No,No,No,Yes,Don't know,No
+816,28/8/14 14:38,39,Male,United States,FL,No,Yes,Yes,Sometimes,No,Yes,Yes,Yes,Yes,Yes,Very difficult,Maybe,No,Some of them,Yes,No,No,Don't know,No
+817,28/8/14 14:41,44,Male,United States,,Yes,Yes,Yes,Sometimes,Yes,Yes,No,Yes,No,No,Very easy,Yes,Yes,Some of them,No,No,No,Yes,No
+818,28/8/14 14:46,26,Unknow,Germany,,Yes,No,Yes,Sometimes,Yes,Yes,No,Not sure,Yes,Yes,Very easy,No,No,Some of them,Some of them,Maybe,Maybe,Yes,No
+819,28/8/14 14:51,35,Male,Denmark,,Yes,Yes,Yes,Often,No,Yes,No,Yes,Yes,No,Somewhat easy,No,No,Some of them,Some of them,Maybe,Yes,Yes,No
+820,28/8/14 14:52,40,Female,United States,WA,No,Yes,Yes,Sometimes,No,No,Yes,Not sure,Yes,Don't know,Don't know,Yes,Maybe,Some of them,No,No,No,Don't know,No
+821,28/8/14 14:53,35,Male,Denmark,,Yes,Yes,Yes,Often,No,Yes,No,Yes,Yes,No,Somewhat easy,No,No,Some of them,Some of them,Maybe,Yes,Yes,No
+822,28/8/14 14:53,38,Male,United States,IL,No,No,No,Never,Yes,Yes,No,Yes,No,No,Very difficult,Yes,Yes,No,No,No,No,Don't know,No
+823,28/8/14 14:57,34,Male,United States,FL,No,No,No,,Yes,Yes,Don't know,Not sure,Don't know,Don't know,Don't know,No,No,Some of them,Yes,No,Maybe,Yes,No
+824,28/8/14 15:01,43,Male,United States,MA,No,No,No,,No,Yes,Yes,No,Yes,Yes,Don't know,No,No,Some of them,Yes,No,Maybe,Don't know,No
+825,28/8/14 15:25,48,Female,United States,CA,No,Yes,No,Often,No,Yes,Don't know,No,No,No,Very difficult,Yes,Yes,No,Some of them,No,No,No,Yes
+826,28/8/14 15:32,20,Male,United States,WA,No,No,No,Never,No,Yes,Don't know,Not sure,Don't know,Don't know,Don't know,No,No,Some of them,Yes,Maybe,Maybe,Yes,No
+827,28/8/14 15:37,40,Male,United States,MI,Yes,No,No,Sometimes,Yes,Yes,Don't know,Not sure,No,No,Somewhat easy,Yes,Maybe,Some of them,No,No,No,Don't know,No
+828,28/8/14 15:40,29,Female,United Kingdom,,No,No,Yes,Rarely,No,Yes,Don't know,No,No,No,Don't know,Maybe,No,Some of them,No,No,Maybe,Don't know,No
+829,28/8/14 15:43,35,Male,United States,MI,No,Yes,Yes,Sometimes,No,No,No,Yes,No,No,Don't know,No,No,Some of them,Yes,No,No,Yes,No
+830,28/8/14 15:48,29,Male,United States,WI,No,Yes,No,Sometimes,Yes,No,Yes,Yes,No,Yes,Very easy,Maybe,No,Some of them,No,No,No,Yes,No
+831,28/8/14 15:50,40,Male,United States,CA,No,No,No,Never,No,Yes,Yes,Not sure,No,Don't know,Don't know,Maybe,No,Some of them,Some of them,No,Maybe,Don't know,No
+832,28/8/14 15:50,29,Male,Sweden,,No,No,Yes,Rarely,No,Yes,No,Yes,No,No,Very easy,No,No,Some of them,Yes,No,No,Yes,No
+833,28/8/14 15:54,29,Female,United States,CA,No,Yes,Yes,Rarely,No,Yes,Yes,Not sure,Don't know,No,Don't know,No,No,Yes,Yes,No,Maybe,Don't know,No
+834,28/8/14 15:56,34,Male,United States,TX,No,No,Yes,Sometimes,No,Yes,No,No,No,No,Don't know,Yes,No,No,No,No,Yes,Don't know,No
+835,28/8/14 16:09,44,Male,United Kingdom,,No,Yes,Yes,Sometimes,No,No,Don't know,No,No,No,Somewhat difficult,Maybe,No,Some of them,Yes,No,Maybe,No,Yes
+836,28/8/14 16:17,24,Female,United States,NY,No,Yes,Yes,Often,No,Yes,Yes,Yes,No,No,Very easy,No,No,Some of them,Yes,No,Yes,No,Yes
+837,28/8/14 16:31,47,Female,United States,PA,No,No,No,,Yes,Yes,Don't know,No,No,Don't know,Very difficult,Yes,Yes,No,No,No,No,No,No
+838,28/8/14 16:42,43,Male,United Kingdom,,No,Yes,No,,No,No,Don't know,No,No,No,Very easy,Maybe,No,Some of them,Yes,No,Maybe,Don't know,No
+839,28/8/14 16:52,36,Male,United States,PA,No,No,No,Rarely,No,Yes,Yes,Yes,Yes,Yes,Somewhat difficult,No,No,Some of them,Yes,No,No,No,No
+840,28/8/14 16:52,43,Male,United States,GA,No,No,Yes,Sometimes,No,No,Don't know,No,No,Don't know,Very difficult,Maybe,No,Some of them,Yes,No,No,Don't know,No
+841,28/8/14 16:52,36,Male,United Kingdom,,Yes,No,No,Sometimes,Yes,Yes,No,No,No,No,Somewhat difficult,No,No,Yes,Yes,No,Maybe,Don't know,Yes
+842,28/8/14 16:54,31,Female,United States,NY,No,Yes,Yes,Sometimes,No,Yes,Yes,Yes,No,No,Somewhat difficult,No,No,Yes,Yes,Maybe,Maybe,Don't know,No
+843,28/8/14 16:55,35,Male,United States,CA,No,No,No,Sometimes,No,Yes,Don't know,Not sure,Yes,Don't know,Don't know,Maybe,No,Some of them,No,No,No,Don't know,No
+844,28/8/14 16:55,33,Male,United States,TN,No,Yes,No,,No,No,Yes,No,No,No,Somewhat difficult,No,No,Some of them,Some of them,No,No,Don't know,No
+845,28/8/14 16:56,37,Male,Italy,,No,No,No,Sometimes,No,Yes,Don't know,Not sure,Don't know,Don't know,Don't know,Yes,Yes,Some of them,No,No,No,No,No
+846,28/8/14 16:56,34,Male,United States,TN,No,No,Yes,Sometimes,No,Yes,Don't know,No,Yes,Don't know,Don't know,Maybe,No,Some of them,No,No,No,Don't know,No
+847,28/8/14 16:56,36,Male,Netherlands,,Yes,No,Yes,Sometimes,No,Yes,No,No,No,No,Very easy,No,No,Yes,No,No,No,Yes,No
+848,28/8/14 16:57,40,Male,United States,TN,Yes,Yes,Yes,Sometimes,Yes,Yes,No,Yes,No,No,Very easy,No,No,Yes,Yes,No,No,Yes,No
+849,28/8/14 16:57,40,Male,United States,IL,No,No,No,Rarely,No,Yes,Yes,Yes,Yes,Yes,Don't know,No,No,Some of them,Some of them,No,Maybe,Don't know,No
+850,28/8/14 16:57,42,Male,United States,WI,No,No,Yes,Sometimes,Yes,Yes,No,Yes,No,No,Somewhat easy,Maybe,No,No,No,No,Maybe,Don't know,No
+851,28/8/14 16:58,23,Male,United States,KY,No,Yes,No,,Yes,Yes,Yes,Yes,No,Don't know,Don't know,Maybe,No,No,Some of them,No,No,Don't know,No
+852,28/8/14 16:58,21,Male,United Kingdom,,No,Yes,No,Never,No,No,No,No,No,No,Somewhat easy,Maybe,No,Some of them,Some of them,No,Maybe,Don't know,No
+853,28/8/14 16:58,26,Male,Canada,,No,No,No,Sometimes,Yes,Yes,No,No,No,No,Very difficult,Yes,Maybe,Some of them,Some of them,No,Maybe,Don't know,No
+854,28/8/14 17:01,31,Male,United States,,No,Yes,No,,No,Yes,Don't know,Not sure,No,No,Don't know,Maybe,No,Some of them,Some of them,No,No,Don't know,No
+855,28/8/14 17:01,25,Male,United States,CA,No,Yes,No,,No,Yes,Yes,Yes,Yes,Yes,Very easy,No,No,Some of them,Yes,Maybe,Yes,Yes,No
+856,28/8/14 17:01,51,Male,United States,MN,No,No,No,Never,Yes,Yes,Yes,Yes,Yes,Yes,Very easy,No,No,Yes,Yes,No,No,Yes,No
+857,28/8/14 17:02,24,Male,United States,TN,No,No,No,,No,Yes,Don't know,Not sure,Don't know,No,Somewhat easy,No,No,Some of them,Yes,No,Maybe,Don't know,No
+858,28/8/14 17:02,33,Male,United States,MN,No,No,No,,No,Yes,No,No,No,No,Don't know,Maybe,No,Some of them,Yes,No,No,No,No
+859,28/8/14 17:02,32,Male,United Kingdom,,No,Yes,Yes,Rarely,No,No,No,No,No,No,Don't know,Yes,Maybe,Some of them,No,No,No,No,No
+860,28/8/14 17:02,32,Male,United Kingdom,,No,Yes,Yes,Rarely,No,No,No,No,No,No,Don't know,Yes,Maybe,Some of them,No,No,No,No,No
+861,28/8/14 17:03,26,Male,United Kingdom,,Yes,No,Yes,Rarely,Yes,Yes,No,Not sure,Don't know,Don't know,Somewhat difficult,No,No,Yes,Yes,Maybe,Maybe,Yes,No
+862,28/8/14 17:07,23,Male,United States,IL,No,No,No,Never,No,No,Don't know,No,Don't know,Don't know,Don't know,Maybe,No,Some of them,Some of them,Maybe,Maybe,Don't know,No
+863,28/8/14 17:07,33,Male,United States,TN,No,Yes,Yes,Often,Yes,Yes,No,Yes,No,No,Very difficult,Yes,No,Some of them,Yes,No,Maybe,No,No
+864,28/8/14 17:07,46,Male,United States,IL,No,No,Yes,Rarely,No,No,Yes,Yes,Yes,Yes,Somewhat easy,Yes,Maybe,No,No,No,Maybe,Yes,No
+865,28/8/14 17:08,34,Male,United Kingdom,,No,No,No,,Yes,Yes,No,No,No,No,Somewhat difficult,Yes,Maybe,No,No,No,Yes,No,Yes
+866,28/8/14 17:09,35,Male,United States,DC,No,Yes,Yes,Sometimes,No,Yes,Yes,Yes,No,No,Somewhat easy,Maybe,Maybe,Some of them,Some of them,No,No,Don't know,No
+867,28/8/14 17:10,39,Male,United States,KS,No,No,No,,Yes,Yes,No,Yes,No,No,Very difficult,Maybe,Maybe,Some of them,Yes,Maybe,Maybe,No,No
+868,28/8/14 17:10,32,Male,Germany,,Yes,No,No,Sometimes,Yes,Yes,No,Yes,No,No,Somewhat easy,No,No,Some of them,Some of them,Maybe,Maybe,No,No
+869,28/8/14 17:10,43,Male,Mexico,,Yes,No,No,,Yes,Yes,Don't know,No,No,Don't know,Don't know,No,No,Some of them,Yes,No,Maybe,Don't know,No
+870,28/8/14 17:11,56,Male,United States,CA,No,No,Yes,Rarely,Yes,Yes,Yes,Yes,Don't know,Yes,Somewhat easy,No,No,Yes,Yes,Yes,Yes,Yes,No
+871,28/8/14 17:12,32,Female,United Kingdom,,No,Yes,Yes,Sometimes,No,Yes,Don't know,No,No,No,Somewhat difficult,Maybe,No,Some of them,Some of them,No,Yes,Don't know,Yes
+872,28/8/14 17:14,41,Male,United Kingdom,,No,No,No,,No,No,Yes,Yes,Yes,Yes,Don't know,Maybe,Maybe,Some of them,Some of them,No,Yes,No,Yes
+873,28/8/14 17:16,39,Male,United States,TN,No,No,No,,Yes,Yes,Don't know,Not sure,Don't know,Don't know,Don't know,No,No,Some of them,Yes,No,No,Don't know,No
+874,28/8/14 17:19,37,Male,United States,OK,No,Yes,No,,No,No,Yes,Yes,No,No,Very easy,Maybe,No,No,No,No,No,No,No
+875,28/8/14 17:19,30,Male,United States,CA,Yes,Yes,Yes,Sometimes,Yes,Yes,Don't know,Not sure,No,Don't know,Very difficult,Yes,No,No,No,No,Maybe,Don't know,No
+876,28/8/14 17:19,31,Male,United States,TN,No,No,No,,No,Yes,Yes,No,Yes,No,Somewhat easy,Maybe,No,Some of them,Some of them,No,Maybe,No,No
+877,28/8/14 17:20,29,Male,United States,TX,No,No,No,,No,No,Don't know,Not sure,No,Don't know,Don't know,Maybe,No,No,Some of them,No,Maybe,Don't know,No
+878,28/8/14 17:20,23,Female,United Kingdom,,No,Yes,No,Never,No,No,No,No,No,Yes,Somewhat easy,Yes,Maybe,No,No,No,Maybe,Don't know,No
+879,28/8/14 17:21,31,Male,United States,CO,No,No,Yes,Never,No,Yes,Yes,Yes,No,Don't know,Very easy,Maybe,No,No,No,No,No,Don't know,No
+880,28/8/14 17:21,29,Male,United States,TN,No,Yes,Yes,Sometimes,No,Yes,Don't know,Not sure,Don't know,Don't know,Don't know,Maybe,No,Some of them,Some of them,No,No,Yes,No
+881,28/8/14 17:22,30,Unknow,United States,GA,No,No,No,Never,Yes,Yes,Yes,Yes,Don't know,Don't know,Very easy,No,No,Some of them,Yes,Maybe,Maybe,Yes,No
+882,28/8/14 17:22,37,Male,United States,TN,No,No,No,Never,Yes,Yes,Yes,No,Yes,Don't know,Don't know,Maybe,No,Some of them,Yes,No,No,Yes,Yes
+883,28/8/14 17:23,36,Male,United States,VA,Yes,No,No,Never,No,Yes,Yes,No,No,Don't know,Somewhat difficult,No,No,Some of them,Yes,Yes,Yes,Yes,No
+884,28/8/14 17:27,35,Male,United States,TN,No,Yes,Yes,Sometimes,Yes,Yes,Yes,Yes,No,Don't know,Don't know,Maybe,Maybe,Some of them,No,No,Maybe,No,No
+885,28/8/14 17:27,41,Male,United States,DC,No,Yes,No,Never,Yes,No,Don't know,No,No,No,Don't know,Maybe,No,No,No,No,No,Don't know,No
+886,28/8/14 17:28,31,Male,United Kingdom,,No,No,Yes,Rarely,No,Yes,Don't know,Not sure,No,No,Don't know,No,No,Some of them,Yes,No,No,Don't know,No
+887,28/8/14 17:28,38,Male,United Kingdom,,No,Yes,No,,No,No,Yes,Yes,Yes,Yes,Somewhat easy,No,No,Some of them,Yes,No,Maybe,No,No
+888,28/8/14 17:31,26,Male,India,,Yes,No,No,,No,Yes,No,No,No,No,Very easy,No,No,Some of them,Yes,No,No,Yes,No
+889,28/8/14 17:33,39,Male,United States,TN,No,Yes,No,Sometimes,No,Yes,Yes,No,Yes,Yes,Don't know,Maybe,Maybe,Some of them,Yes,Maybe,Maybe,Don't know,Yes
+890,28/8/14 17:33,42,Male,United States,VA,Yes,Yes,No,Sometimes,Yes,No,Yes,Not sure,Don't know,Yes,Don't know,Maybe,Maybe,Some of them,No,No,Maybe,Don't know,No
+891,28/8/14 17:34,32,Male,United States,TN,Yes,Yes,Yes,Rarely,Yes,Yes,No,Yes,No,No,Very difficult,Yes,No,Some of them,No,No,Maybe,Don't know,No
+892,28/8/14 17:35,29,Male,United States,TN,No,Yes,No,,No,Yes,Don't know,Not sure,Don't know,Don't know,Don't know,No,No,Some of them,Yes,No,No,Don't know,No
+893,28/8/14 17:36,30,Male,United States,TN,No,Yes,No,Never,No,Yes,Yes,No,Don't know,Yes,Very difficult,Yes,Yes,Some of them,No,Maybe,Maybe,No,No
+894,28/8/14 17:39,40,Male,United States,TN,No,Yes,Yes,Often,Yes,Yes,Don't know,Not sure,No,Don't know,Don't know,Maybe,Maybe,Some of them,Some of them,No,Yes,Don't know,No
+895,28/8/14 17:45,51,Male,United States,TN,No,No,No,,No,No,Don't know,Not sure,No,Don't know,Somewhat difficult,No,No,Some of them,Yes,No,No,Don't know,No
+896,28/8/14 17:46,33,Male,United States,IN,No,No,No,Never,No,Yes,Yes,Yes,Yes,Yes,Somewhat easy,No,No,Some of them,Yes,No,No,Yes,No
+897,28/8/14 17:47,34,Male,Germany,,Yes,No,Yes,Sometimes,Yes,Yes,No,Not sure,No,No,Somewhat difficult,Maybe,Maybe,Some of them,Some of them,No,No,Don't know,No
+898,28/8/14 17:47,50,Male,United States,VA,Yes,No,No,Never,Yes,Yes,No,Yes,No,No,Somewhat easy,No,No,Some of them,Yes,No,Maybe,Yes,No
+899,28/8/14 17:50,24,Male,United States,TX,No,No,No,Sometimes,Yes,Yes,Don't know,No,No,Don't know,Somewhat easy,No,No,Some of them,Yes,No,Maybe,No,No
+900,28/8/14 17:56,25,Male,United States,TX,No,Yes,Yes,Rarely,No,No,No,No,No,No,Don't know,Yes,Maybe,No,No,No,Maybe,No,No
+901,28/8/14 17:57,43,Male,United Kingdom,,No,Yes,Yes,Rarely,No,Yes,No,No,No,No,Very difficult,Yes,Yes,Some of them,No,No,No,No,Yes
+902,28/8/14 17:57,25,Female,United States,CA,Yes,No,Yes,Often,No,Yes,Yes,Yes,Yes,Yes,Very easy,Maybe,Maybe,Some of them,Some of them,No,No,Yes,Yes
+903,28/8/14 17:59,24,Male,United Kingdom,,Yes,No,No,,Yes,Yes,No,Yes,No,No,Very easy,No,No,No,No,No,Maybe,Yes,No
+904,28/8/14 17:59,51,Male,United States,CO,Yes,No,No,Never,No,Yes,No,Yes,No,No,Somewhat difficult,No,No,Some of them,Some of them,Maybe,Maybe,Don't know,No
+905,28/8/14 17:59,49,Male,United States,OR,No,Yes,Yes,Sometimes,No,Yes,Yes,Yes,No,Yes,Somewhat difficult,Yes,Maybe,No,No,No,Maybe,No,Yes
+906,28/8/14 18:01,30,Male,United States,OK,No,No,No,,Yes,Yes,Yes,No,Yes,Yes,Don't know,Yes,Maybe,No,No,No,No,Don't know,No
+907,28/8/14 18:02,25,Female,United States,OH,No,Yes,Yes,Sometimes,No,Yes,Yes,Yes,Yes,No,Don't know,Yes,Yes,No,No,No,No,No,No
+908,28/8/14 18:07,36,Male,United States,TN,No,No,Yes,Rarely,Yes,Yes,Yes,Yes,Don't know,Don't know,Don't know,Maybe,No,No,No,No,Maybe,Don't know,No
+909,28/8/14 18:17,48,Male,United States,VA,No,No,Yes,Never,No,Yes,Yes,Yes,Yes,Yes,Don't know,Maybe,Maybe,Yes,Yes,No,Maybe,Yes,Yes
+910,28/8/14 18:18,48,Male,Australia,,No,No,Yes,Sometimes,No,Yes,No,No,No,No,Somewhat easy,Yes,No,Some of them,No,No,Maybe,No,Yes
+911,28/8/14 18:21,53,Male,United States,OR,No,No,Yes,Rarely,Yes,Yes,Yes,Yes,No,Yes,Don't know,Maybe,Maybe,Some of them,No,No,No,Don't know,No
+912,28/8/14 18:21,24,Female,United Kingdom,,No,Yes,Yes,Often,Yes,Yes,No,No,No,No,Very easy,No,No,Yes,Yes,No,No,Don't know,No
+913,28/8/14 18:26,33,Male,United States,OR,No,Yes,Yes,Sometimes,No,Yes,Don't know,Yes,No,Yes,Somewhat easy,No,No,Yes,Yes,No,No,Don't know,No
+914,28/8/14 18:50,25,Female,Canada,,No,Yes,Yes,Sometimes,No,Yes,Yes,Yes,No,No,Somewhat easy,No,No,Some of them,Yes,No,No,Don't know,No
+915,28/8/14 19:03,30,Male,United Kingdom,,No,No,Yes,Sometimes,No,Yes,No,No,No,No,Somewhat difficult,Yes,Maybe,Some of them,No,No,Maybe,No,No
+916,28/8/14 19:04,30,Male,United States,PA,Yes,No,No,Never,Yes,Yes,No,Yes,No,No,Somewhat easy,Maybe,Maybe,Some of them,Some of them,Maybe,Maybe,Don't know,No
+917,28/8/14 19:15,34,Male,United Kingdom,,Yes,No,Yes,Sometimes,Yes,Yes,No,No,No,No,Somewhat difficult,No,No,Some of them,Some of them,No,No,Yes,No
+918,28/8/14 19:26,31,Male,United States,SC,No,No,No,,Yes,Yes,Yes,Yes,Yes,Yes,Very easy,No,No,Some of them,Yes,Maybe,Yes,Yes,No
+919,28/8/14 19:28,22,Female,United States,CA,No,Yes,Yes,Often,No,Yes,Don't know,Not sure,No,Don't know,Don't know,Yes,Yes,No,No,No,No,Don't know,No
+920,28/8/14 19:35,28,Male,United States,TN,No,Yes,No,Sometimes,No,Yes,Don't know,Not sure,No,Don't know,Somewhat easy,No,No,Some of them,Yes,No,Yes,Don't know,No
+921,28/8/14 20:12,35,Male,United States,UT,No,Yes,Yes,Rarely,No,No,Yes,Yes,No,Yes,Somewhat difficult,Maybe,No,Some of them,Some of them,No,No,No,No
+922,28/8/14 20:31,28,Male,United States,CA,No,Yes,Yes,Sometimes,No,No,Yes,No,No,No,Don't know,Maybe,Maybe,Some of them,Some of them,No,No,Yes,No
+923,28/8/14 20:49,42,Male,New Zealand,,No,No,Yes,Sometimes,No,No,No,Yes,Don't know,No,Somewhat difficult,Yes,Maybe,Some of them,Some of them,No,Yes,No,Yes
+924,28/8/14 21:22,33,Male,United States,MO,No,Yes,No,,No,Yes,Yes,No,Don't know,Don't know,Very easy,No,No,Yes,Yes,Yes,Yes,Yes,No
+925,28/8/14 21:24,29,Male,United States,CA,No,No,No,Sometimes,No,Yes,Yes,No,Yes,No,Don't know,Yes,Maybe,No,No,No,No,Don't know,No
+926,28/8/14 21:27,43,Male,United States,,No,Yes,No,Sometimes,No,No,Yes,Not sure,No,Don't know,Don't know,Maybe,No,No,Some of them,No,Maybe,No,No
+927,28/8/14 21:30,29,Male,United States,NY,No,No,No,,No,Yes,Yes,Yes,Yes,Yes,Somewhat easy,No,No,Some of them,Some of them,Maybe,Maybe,Yes,No
+928,28/8/14 21:33,25,Male,United States,TX,No,No,No,,Yes,Yes,Yes,No,No,No,Don't know,No,No,Yes,Yes,Maybe,Maybe,Don't know,No
+929,28/8/14 21:38,31,Male,United States,MO,No,Yes,No,Never,No,Yes,Don't know,No,Don't know,Don't know,Very easy,No,No,Some of them,Yes,No,No,Don't know,No
+930,28/8/14 21:41,35,Female,United States,GA,No,Yes,Yes,Sometimes,No,No,Yes,Not sure,Yes,Yes,Somewhat difficult,Maybe,Maybe,Some of them,Yes,No,Maybe,Yes,No
+931,28/8/14 21:47,34,Male,United States,TX,No,No,No,Often,No,Yes,Don't know,No,No,Yes,Very easy,No,No,Some of them,Yes,No,Maybe,Yes,No
+932,28/8/14 22:16,43,Male,United States,WA,No,No,Yes,Sometimes,Yes,Yes,Yes,Yes,No,Yes,Very difficult,Yes,Maybe,Some of them,No,No,Maybe,No,Yes
+933,28/8/14 22:17,38,Male,United States,WA,No,Yes,Yes,Sometimes,No,Yes,No,Not sure,No,No,Very difficult,Yes,Yes,No,Some of them,No,Maybe,No,No
+934,28/8/14 22:18,26,Male,United States,WA,No,Yes,Yes,Sometimes,No,Yes,Don't know,Not sure,No,Yes,Very difficult,Maybe,No,Some of them,Some of them,Yes,Yes,No,Yes
+935,28/8/14 22:20,38,Male,United Kingdom,,Yes,Yes,Yes,Rarely,Yes,No,No,No,No,No,Very difficult,Maybe,No,No,No,No,No,No,No
+936,28/8/14 22:22,42,Male,United States,TX,No,No,Yes,Often,No,Yes,Don't know,No,No,Don't know,Don't know,Yes,Maybe,No,No,No,Maybe,Don't know,No
+937,28/8/14 22:23,33,Male,Netherlands,,No,Yes,Yes,,No,Yes,Don't know,No,No,Don't know,Don't know,No,No,Yes,Yes,Maybe,Maybe,Yes,Yes
+938,28/8/14 22:35,32,Male,United States,WA,No,No,Yes,Rarely,No,Yes,Yes,Yes,Yes,Yes,Somewhat easy,Maybe,No,Some of them,Some of them,No,No,Don't know,No
+939,28/8/14 22:39,44,Male,United States,WA,No,Yes,Yes,Sometimes,Yes,Yes,Yes,Yes,Yes,Yes,Somewhat difficult,Maybe,Maybe,Some of them,Yes,No,Maybe,No,No
+940,28/8/14 22:46,28,Male,United States,WA,No,Yes,Yes,Rarely,No,Yes,Yes,Yes,Don't know,Don't know,Don't know,Maybe,No,Some of them,No,No,No,No,No
+941,28/8/14 23:03,40,Male,United States,WA,No,Yes,Yes,Sometimes,Yes,Yes,Yes,Yes,Yes,Yes,Very difficult,Yes,No,Some of them,Some of them,No,Maybe,Don't know,Yes
+942,28/8/14 23:13,31,Female,United States,AZ,No,Yes,Yes,Sometimes,No,Yes,Yes,Yes,No,Don't know,Somewhat easy,Maybe,No,Some of them,Yes,No,No,Yes,No
+943,28/8/14 23:16,32,Male,United States,WA,No,Yes,No,Sometimes,No,Yes,Yes,Yes,Yes,Yes,Don't know,Yes,No,Some of them,No,No,No,Don't know,No
+944,28/8/14 23:57,28,Male,United States,WA,No,Yes,Yes,Sometimes,No,Yes,Don't know,No,Don't know,Don't know,Somewhat easy,Maybe,No,Some of them,No,No,Maybe,No,No
+945,29/8/14 0:05,39,Male,United States,AZ,No,Yes,Yes,Often,No,Yes,Yes,Yes,No,No,Don't know,Yes,No,Some of them,No,No,No,No,No
+946,29/8/14 0:06,45,Male,United States,NY,No,No,No,,No,No,Yes,Yes,Yes,Yes,Don't know,No,No,Some of them,Some of them,No,No,Yes,No
+947,29/8/14 0:11,43,Male,United States,WA,No,No,Yes,Rarely,No,Yes,Yes,Yes,Yes,Yes,Somewhat easy,No,No,Yes,Yes,Maybe,Yes,Yes,No
+948,29/8/14 0:41,35,Male,United States,CA,No,No,Yes,Sometimes,No,Yes,Yes,Yes,Don't know,Yes,Very difficult,Maybe,Maybe,Some of them,Some of them,No,No,Don't know,No
+949,29/8/14 0:43,40,Male,United States,WA,No,Yes,Yes,Sometimes,No,Yes,Yes,Yes,Don't know,Don't know,Very easy,Maybe,No,Some of them,Some of them,No,No,Don't know,No
+950,29/8/14 0:47,34,Male,Netherlands,,No,No,Yes,Rarely,No,Yes,No,Yes,No,No,Very easy,No,No,Yes,Yes,Maybe,Maybe,Yes,No
+951,29/8/14 1:14,24,Male,United Kingdom,,No,Yes,Yes,Often,No,No,Don't know,Yes,No,No,Somewhat easy,Yes,Maybe,Some of them,Yes,No,Maybe,No,Yes
+952,29/8/14 1:20,61,Male,South Africa,,Yes,No,Yes,Sometimes,Yes,Yes,No,No,No,No,Very difficult,Yes,Maybe,Some of them,Yes,No,Maybe,No,Yes
+953,29/8/14 1:40,36,Female,United States,WA,No,Yes,Yes,Rarely,No,Yes,Don't know,No,No,Don't know,Don't know,Yes,Maybe,Some of them,No,No,No,Don't know,No
+954,29/8/14 2:10,38,Male,United States,TN,No,No,No,,No,Yes,No,No,No,No,Don't know,Maybe,No,Some of them,Yes,Maybe,Maybe,Don't know,No
+955,29/8/14 2:24,33,Male,Germany,,No,Yes,Yes,Often,No,Yes,Don't know,Not sure,Yes,No,Somewhat easy,No,No,Some of them,Yes,Yes,Yes,Yes,No
+956,29/8/14 3:02,30,Male,United States,WA,No,Yes,No,Never,No,No,Don't know,No,No,Don't know,Don't know,Yes,Maybe,No,No,No,No,No,No
+957,29/8/14 3:02,34,Male,Netherlands,,Yes,Yes,Yes,Rarely,Yes,Yes,Yes,Yes,Yes,Yes,Very easy,No,No,Yes,Some of them,No,Maybe,Yes,No
+958,29/8/14 3:08,26,Male,United States,CA,No,No,Yes,Rarely,No,Yes,Yes,Not sure,Don't know,Don't know,Don't know,No,No,Some of them,Some of them,No,Maybe,No,No
+959,29/8/14 4:39,33,Male,United Kingdom,,No,No,No,,No,Yes,Don't know,Not sure,Don't know,Don't know,Don't know,No,No,Some of them,Yes,Maybe,Maybe,Don't know,No
+960,29/8/14 4:53,32,Male,United Kingdom,,No,No,No,,No,Yes,Don't know,No,No,No,Very easy,No,No,No,Yes,No,Maybe,No,No
+961,29/8/14 5:15,25,Male,Germany,,Yes,No,No,Sometimes,Yes,Yes,No,Yes,No,No,Somewhat easy,No,No,Some of them,Yes,Yes,Yes,Yes,No
+962,29/8/14 5:24,35,Male,Germany,,Yes,No,Yes,Sometimes,Yes,No,Don't know,No,No,No,Somewhat difficult,Yes,Maybe,Yes,No,No,Maybe,Don't know,No
+963,29/8/14 5:39,24,Male,United Kingdom,,Yes,Yes,No,Often,Yes,Yes,Don't know,Not sure,No,No,Don't know,Maybe,No,Some of them,Some of them,No,Maybe,Don't know,No
+964,29/8/14 5:47,55,Male,United Kingdom,,No,No,Yes,Often,No,No,Yes,Yes,Yes,Yes,Somewhat easy,Yes,Maybe,No,Some of them,No,Maybe,No,Yes
+965,29/8/14 5:54,33,Male,United Kingdom,,Yes,Yes,Yes,Sometimes,Yes,Yes,No,Yes,No,No,Very difficult,Yes,Maybe,Some of them,Some of them,No,Maybe,No,Yes
+966,29/8/14 5:57,26,Female,United Kingdom,,Yes,Yes,Yes,Sometimes,Yes,Yes,No,No,No,No,Very easy,Maybe,No,Some of them,Yes,No,Maybe,Yes,No
+967,29/8/14 6:06,25,Male,United Kingdom,,No,No,No,Never,Yes,Yes,Don't know,Not sure,Don't know,Don't know,Very easy,No,No,Yes,Yes,No,No,Don't know,No
+968,29/8/14 6:37,45,Male,United Kingdom,,No,Yes,No,Rarely,No,No,Don't know,No,No,No,Don't know,Maybe,No,Some of them,No,No,Maybe,Don't know,No
+969,29/8/14 6:42,33,Female,United Kingdom,,Yes,No,Yes,Sometimes,Yes,Yes,No,Yes,Yes,Yes,Very easy,No,No,Some of them,Yes,No,No,Don't know,No
+970,29/8/14 7:12,43,Male,United States,MI,No,No,No,Sometimes,Yes,Yes,No,Not sure,No,No,Very difficult,Yes,Maybe,No,No,No,Maybe,No,Yes
+971,29/8/14 7:21,30,Male,United Kingdom,,Yes,No,Yes,Sometimes,No,Yes,No,Yes,No,No,Very difficult,Yes,Yes,No,No,No,No,Yes,Yes
+972,29/8/14 7:28,40,Male,United States,IN,No,Yes,Yes,Rarely,No,Yes,Don't know,Not sure,No,Don't know,Don't know,No,No,Yes,Yes,No,Maybe,Don't know,No
+973,29/8/14 7:51,49,Male,United States,GA,No,Yes,No,Never,No,Yes,Yes,Yes,Yes,Yes,Don't know,No,No,Yes,Yes,No,No,Yes,No
+974,29/8/14 8:26,29,Male,Germany,,No,No,No,,No,Yes,Don't know,Not sure,No,No,Somewhat easy,No,No,Some of them,Yes,Maybe,Yes,Don't know,No
+975,29/8/14 8:36,26,Male,Germany,,No,No,No,,No,Yes,Don't know,No,Don't know,Don't know,Don't know,No,No,Some of them,Some of them,Maybe,Maybe,Don't know,No
+976,29/8/14 8:46,38,Unknow,United States,WA,No,No,No,Never,No,Yes,Yes,Yes,Yes,Yes,Somewhat easy,Maybe,Maybe,Some of them,Some of them,No,Maybe,No,Yes
+977,29/8/14 8:53,27,Male,France,,No,Yes,No,,No,No,Yes,Yes,Don't know,No,Somewhat easy,Maybe,Maybe,No,Some of them,No,Maybe,Don't know,Yes
+978,29/8/14 8:54,26,Male,Belgium,,No,No,No,Never,No,Yes,Yes,No,No,No,Somewhat easy,Maybe,No,No,No,No,No,Don't know,No
+979,29/8/14 8:57,28,Male,United Kingdom,,No,Yes,Yes,Often,No,Yes,No,No,No,No,Somewhat easy,Maybe,Maybe,Yes,Yes,No,No,No,No
+980,29/8/14 8:57,40,Male,United States,ME,No,Yes,Yes,Sometimes,Yes,Yes,No,No,No,No,Don't know,Maybe,Maybe,Some of them,Yes,No,Maybe,No,No
+981,29/8/14 8:59,37,Female,Canada,,Yes,Yes,Yes,Rarely,Yes,Yes,No,Yes,No,No,Somewhat easy,Yes,Maybe,Some of them,Some of them,Maybe,Maybe,Don't know,Yes
+982,29/8/14 8:59,34,Female,United Kingdom,,No,Yes,Yes,Often,Yes,No,Yes,Yes,No,Yes,Somewhat easy,Yes,Yes,Some of them,No,No,No,Don't know,No
+983,29/8/14 9:01,28,Male,United States,NY,No,Yes,Yes,Often,No,Yes,Don't know,Not sure,No,Don't know,Don't know,Maybe,No,Some of them,Some of them,No,Yes,Don't know,No
+984,29/8/14 9:01,27,Male,Canada,,No,No,No,Never,No,Yes,Yes,Not sure,Yes,No,Very easy,No,No,Yes,Yes,Maybe,Maybe,Yes,No
+985,29/8/14 9:02,29,Male,United Kingdom,,No,No,Yes,Sometimes,Yes,Yes,No,No,No,No,Very easy,No,No,Yes,Yes,No,Yes,Yes,No
+986,29/8/14 9:02,39,Female,United Kingdom,,No,Yes,No,Rarely,Yes,Yes,Don't know,Not sure,No,No,Somewhat difficult,Yes,Yes,No,No,No,No,No,Yes
+987,29/8/14 9:03,28,Male,United Kingdom,,No,No,No,Often,No,Yes,No,No,No,No,Somewhat difficult,Yes,No,No,No,No,Yes,Yes,No
+988,29/8/14 9:10,23,Male,United States,PA,No,Yes,No,Sometimes,No,Yes,Yes,Not sure,Yes,Yes,Somewhat easy,No,No,No,No,No,Maybe,Don't know,No
+989,29/8/14 9:10,28,Unknow,"Bahamas, The",IL,Yes,Yes,Yes,Often,Yes,Yes,Yes,Yes,Yes,Yes,Very easy,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+990,29/8/14 9:12,38,Male,United Kingdom,,No,No,No,,Yes,Yes,No,No,No,No,Somewhat easy,No,No,Some of them,Yes,No,No,Don't know,No
+991,29/8/14 9:13,19,Male,United Kingdom,,No,No,No,,No,Yes,Yes,No,No,Yes,Very easy,No,No,Yes,Yes,No,No,Yes,No
+992,29/8/14 9:14,30,Female,United States,IL,No,Yes,Yes,Sometimes,No,Yes,Yes,Yes,Yes,Don't know,Very easy,No,No,Some of them,No,No,No,Yes,No
+993,29/8/14 9:15,28,Male,United Kingdom,,Yes,No,No,,Yes,Yes,No,Yes,No,No,Very easy,Maybe,Maybe,No,No,No,No,Yes,No
+994,29/8/14 9:15,20,Male,India,,No,No,Yes,Sometimes,No,Yes,Don't know,No,No,No,Don't know,Yes,No,No,No,No,Maybe,Yes,No
+995,29/8/14 9:19,35,Male,United Kingdom,,Yes,No,No,Sometimes,No,Yes,Don't know,Not sure,No,Don't know,Somewhat easy,No,No,Some of them,Yes,No,No,Don't know,No
+996,29/8/14 9:24,39,Male,United States,MN,No,No,Yes,Rarely,Yes,Yes,Yes,Yes,No,No,Very easy,Maybe,No,Some of them,Yes,No,No,Don't know,No
+997,29/8/14 9:23,31,Female,United States,TX,No,Yes,No,Never,No,No,Yes,Not sure,No,Don't know,Don't know,Yes,Yes,No,No,No,No,Don't know,No
+998,29/8/14 9:23,32,Male,United Kingdom,,No,No,No,Rarely,No,Yes,No,No,No,No,Don't know,Yes,No,No,No,No,No,Don't know,No
+999,29/8/14 9:27,27,Male,Sweden,,No,No,No,,No,Yes,No,No,No,No,Don't know,No,No,No,No,No,No,Don't know,No
+1000,29/8/14 9:29,25,Male,United States,PA,No,Yes,Yes,Often,Yes,Yes,Yes,Yes,No,Don't know,Somewhat easy,No,No,Yes,Yes,Maybe,Maybe,Don't know,No
+1001,29/8/14 9:31,42,Male,United States,IN,No,Yes,Yes,Sometimes,Yes,Yes,Don't know,No,No,Don't know,Don't know,Maybe,No,Some of them,Yes,No,Maybe,Don't know,No
+1002,29/8/14 9:31,34,Male,United States,PA,No,Yes,Yes,Often,No,Yes,Yes,Yes,No,No,Very easy,No,No,Yes,Yes,Maybe,Maybe,Don't know,No
+1003,29/8/14 9:33,26,Female,United States,OH,No,No,Yes,Sometimes,Yes,Yes,Don't know,No,No,Don't know,Don't know,Maybe,No,Some of them,No,Maybe,Maybe,Don't know,Yes
+1004,29/8/14 9:35,35,Male,United Kingdom,,No,Yes,Yes,Sometimes,No,Yes,No,Yes,No,No,Very easy,Yes,Yes,Some of them,Some of them,No,Maybe,Yes,Yes
+1005,29/8/14 9:36,34,Male,United Kingdom,,No,No,No,Never,No,Yes,Don't know,No,No,Don't know,Very easy,Maybe,No,Yes,Yes,No,No,Yes,No
+1006,29/8/14 9:36,38,Male,United States,PA,No,Yes,Yes,Sometimes,Yes,No,Yes,Yes,No,Yes,Very easy,No,No,Yes,Yes,Yes,Yes,Don't know,No
+1007,29/8/14 9:40,34,Male,United States,SD,No,No,No,Sometimes,No,Yes,Don't know,No,No,No,Don't know,Yes,No,Some of them,No,No,Maybe,Don't know,No
+1008,29/8/14 9:42,39,Male,United States,IN,No,Yes,Yes,Sometimes,Yes,Yes,No,Yes,No,No,Somewhat easy,No,No,Some of them,Yes,Maybe,Yes,Yes,No
+1009,29/8/14 9:46,44,Female,United States,CA,No,No,No,,No,Yes,Don't know,Not sure,No,No,Don't know,Yes,No,No,No,No,No,Don't know,No
+1010,29/8/14 9:47,40,Male,United States,TN,No,No,No,,No,No,Yes,Yes,Yes,Yes,Don't know,Maybe,No,No,Yes,No,No,Don't know,No
+1011,29/8/14 9:47,33,Female,United States,TX,Yes,No,No,Never,Yes,Yes,No,Yes,Don't know,Don't know,Somewhat easy,Maybe,No,No,Some of them,No,No,Yes,No
+1012,29/8/14 9:51,24,Female,United States,TN,No,Yes,No,Sometimes,No,No,Yes,Yes,No,Don't know,Somewhat difficult,Yes,Maybe,Some of them,Some of them,No,No,No,Yes
+1013,29/8/14 9:53,38,Female,United States,OR,No,Yes,No,Sometimes,Yes,Yes,Don't know,Not sure,Don't know,Don't know,Don't know,No,No,Some of them,Yes,No,No,Don't know,No
+1014,29/8/14 9:53,31,Male,United States,SD,No,No,No,Sometimes,No,Yes,Yes,Not sure,Yes,Yes,Don't know,Yes,Maybe,Some of them,Some of them,No,Maybe,Yes,No
+1015,29/8/14 9:54,23,Male,Israel,,No,No,No,,No,Yes,Don't know,Not sure,No,No,Very easy,Maybe,No,Some of them,Yes,Maybe,Yes,Don't know,No
+1016,29/8/14 9:54,26,Female,United States,NY,No,No,No,,No,Yes,Don't know,Not sure,No,No,Somewhat easy,No,No,Yes,Yes,No,Maybe,Yes,No
+1017,29/8/14 9:58,46,Female,United States,CT,No,No,Yes,Often,No,No,Yes,Yes,Yes,Yes,Don't know,Yes,No,Some of them,Some of them,No,No,No,Yes
+1018,29/8/14 9:59,30,Male,United States,CA,No,Yes,Yes,Sometimes,Yes,Yes,Yes,No,No,No,Don't know,Maybe,No,Some of them,No,No,Maybe,Don't know,No
+1019,29/8/14 10:03,25,Male,United States,,No,No,No,Rarely,Yes,Yes,Don't know,No,No,No,Somewhat easy,Yes,No,Some of them,Some of them,No,Yes,Don't know,Yes
+1020,29/8/14 10:05,19,Male,Canada,,No,No,No,Never,Yes,Yes,Don't know,No,No,No,Somewhat easy,No,No,Some of them,Some of them,No,Maybe,No,No
+1021,29/8/14 10:06,30,Female,United States,GA,No,Yes,Yes,Sometimes,No,No,Yes,Yes,Yes,Yes,Somewhat easy,Maybe,Maybe,Some of them,Some of them,No,No,No,Yes
+1022,29/8/14 10:12,32,Male,United States,TN,No,No,No,Never,No,Yes,Yes,Yes,Yes,Yes,Somewhat easy,No,No,Yes,Yes,No,Maybe,Yes,No
+1023,29/8/14 10:13,32,Male,United Kingdom,,No,No,No,,No,Yes,No,No,No,No,Don't know,Maybe,Maybe,No,No,No,Maybe,Don't know,No
+1024,29/8/14 10:13,37,Male,United States,IN,No,Yes,No,Sometimes,Yes,Yes,Don't know,No,No,No,Somewhat easy,Maybe,No,Some of them,Some of them,No,Maybe,No,No
+1025,29/8/14 10:16,42,Male,United States,CA,No,Yes,Yes,Sometimes,Yes,Yes,Don't know,No,No,Don't know,Don't know,Maybe,Maybe,Some of them,Some of them,No,No,Don't know,No
+1026,29/8/14 10:27,25,Female,United States,OR,No,No,No,Never,No,Yes,Yes,Yes,Yes,Yes,Don't know,Maybe,No,Some of them,Yes,Maybe,No,Yes,No
+1027,29/8/14 10:30,19,Male,United States,IN,No,No,No,Sometimes,No,Yes,Don't know,Not sure,No,No,Don't know,No,No,Some of them,Yes,Maybe,Maybe,Don't know,No
+1028,29/8/14 10:32,40,Female,United States,GA,No,Yes,No,Never,Yes,Yes,Yes,Yes,Yes,No,Don't know,Yes,Yes,No,No,No,No,Don't know,No
+1029,29/8/14 10:33,34,Male,United States,IN,No,No,No,,No,No,Yes,Not sure,Yes,Don't know,Don't know,Maybe,Maybe,Some of them,Yes,No,No,Don't know,No
+1030,29/8/14 10:38,26,Male,United States,MN,No,Yes,No,,No,Yes,Don't know,Not sure,No,No,Don't know,No,No,Some of them,Yes,No,No,Yes,No
+1031,29/8/14 10:38,31,Male,United States,MN,No,Yes,Yes,Rarely,No,Yes,Don't know,Not sure,Don't know,Don't know,Don't know,No,No,Yes,Yes,Maybe,Maybe,Yes,No
+1032,29/8/14 10:55,40,Male,United States,NC,No,Yes,No,Sometimes,Yes,No,Yes,Not sure,Yes,Don't know,Don't know,Yes,Maybe,Some of them,Some of them,No,Maybe,No,No
+1033,29/8/14 10:59,31,Female,United States,FL,No,Yes,Yes,Often,No,Yes,No,No,No,No,Very difficult,Yes,No,No,No,No,Yes,No,Yes
+1034,29/8/14 11:01,36,Male,United States,MN,No,No,No,Never,No,No,Don't know,No,No,Don't know,Don't know,Yes,Maybe,No,No,No,Maybe,Don't know,Yes
+1035,29/8/14 11:02,35,Male,Canada,,No,Yes,No,Sometimes,Yes,Yes,No,Yes,No,No,Don't know,Maybe,No,No,Some of them,No,No,Don't know,No
+1036,29/8/14 11:04,26,Male,Australia,,No,Yes,Yes,Sometimes,Yes,Yes,No,No,No,No,Don't know,No,No,Yes,Yes,No,Maybe,Yes,No
+1037,29/8/14 11:05,44,Male,United States,MO,No,No,No,,Yes,No,Don't know,No,Don't know,Don't know,Don't know,Yes,No,Some of them,No,No,No,No,No
+1038,29/8/14 11:11,34,Female,United States,CA,No,No,No,Sometimes,No,Yes,No,Not sure,No,No,Very easy,No,No,Some of them,Yes,No,Maybe,Yes,No
+1039,29/8/14 11:12,35,Male,United States,OR,No,No,No,,Yes,Yes,No,No,No,No,Don't know,No,No,No,No,No,No,Don't know,No
+1040,29/8/14 11:19,28,Female,United States,OH,No,Yes,Yes,Sometimes,Yes,Yes,Don't know,No,No,No,Somewhat easy,Yes,No,Some of them,Some of them,No,Maybe,No,No
+1041,29/8/14 11:20,33,Male,United States,NY,No,No,No,,Yes,Yes,Yes,No,Don't know,Yes,Don't know,No,No,Some of them,Yes,No,No,Yes,No
+1042,29/8/14 11:20,40,Male,United States,WI,No,Yes,Yes,Sometimes,Yes,Yes,Yes,Yes,No,Yes,Don't know,Yes,No,No,No,No,Maybe,Don't know,No
+1043,29/8/14 11:20,26,Male,United States,WA,No,No,Yes,Sometimes,No,Yes,Yes,Yes,No,No,Don't know,Maybe,No,Some of them,No,No,Maybe,Don't know,No
+1044,29/8/14 11:22,29,Female,United Kingdom,,No,No,Yes,Often,No,No,Yes,Yes,No,No,Don't know,Maybe,No,Some of them,No,No,Yes,No,Yes
+1045,29/8/14 11:23,26,Female,Canada,,No,Yes,Yes,Sometimes,No,Yes,Yes,Not sure,No,No,Don't know,Maybe,No,Some of them,No,No,Maybe,Don't know,No
+1046,29/8/14 11:24,33,Unknow,Italy,,No,Yes,Yes,Sometimes,No,Yes,No,Not sure,No,No,Somewhat easy,No,No,Some of them,Yes,No,No,Don't know,No
+1047,29/8/14 11:25,28,Male,Brazil,,No,Yes,No,Sometimes,No,Yes,No,No,No,No,Somewhat easy,No,No,Some of them,Some of them,No,No,Don't know,Yes
+1048,29/8/14 11:27,41,Male,United States,IL,Yes,No,Yes,Often,Yes,No,No,Yes,Yes,Yes,Very difficult,No,No,Some of them,Some of them,No,No,Yes,Yes
+1049,29/8/14 11:32,39,Male,United Kingdom,,Yes,Yes,Yes,Sometimes,Yes,Yes,No,Yes,Yes,Yes,Somewhat difficult,No,No,Yes,Yes,No,Maybe,Yes,Yes
+1050,29/8/14 11:32,26,Female,United States,WA,No,Yes,Yes,Sometimes,No,Yes,Yes,Yes,No,No,Don't know,No,No,Some of them,Yes,No,Maybe,No,Yes
+1051,29/8/14 11:33,23,Female,United States,IL,No,Yes,No,Sometimes,No,No,No,No,No,No,Somewhat difficult,Yes,No,No,Some of them,No,Maybe,No,No
+1052,29/8/14 11:34,35,Male,Switzerland,,No,Yes,Yes,Often,No,Yes,Don't know,Not sure,No,No,Very easy,No,No,Some of them,Some of them,No,Maybe,No,No
+1053,29/8/14 11:36,36,Male,United States,FL,No,No,No,Never,Yes,Yes,Don't know,Not sure,Don't know,Don't know,Very easy,No,No,Some of them,Some of them,No,No,Don't know,No
+1054,29/8/14 11:39,42,Male,United States,TN,No,No,No,Rarely,No,No,Don't know,No,No,Don't know,Don't know,Maybe,No,Some of them,No,No,Maybe,No,No
+1055,29/8/14 11:40,39,Male,United States,WA,No,Yes,Yes,Sometimes,No,Yes,Yes,Yes,No,Don't know,Very easy,No,No,Some of them,Yes,No,No,Yes,No
+1056,29/8/14 11:43,27,Male,United States,CA,No,No,No,Never,No,Yes,Don't know,No,No,Don't know,Don't know,Maybe,No,Some of them,Yes,Maybe,Maybe,Don't know,No
+1057,29/8/14 11:44,33,Male,United States,FL,Yes,No,No,Never,Yes,Yes,Don't know,No,No,No,Very easy,Maybe,No,Some of them,Yes,No,Maybe,Yes,No
+1058,29/8/14 11:46,31,Male,Canada,,No,Yes,Yes,Often,No,Yes,Yes,Not sure,Don't know,Don't know,Don't know,Maybe,No,Some of them,No,No,Maybe,Don't know,No
+1059,29/8/14 11:53,28,Female,United States,OR,No,No,Yes,Rarely,No,Yes,Yes,Yes,Don't know,Yes,Very easy,No,No,Some of them,Some of them,No,Yes,Don't know,No
+1060,29/8/14 11:54,29,Female,United States,NJ,No,No,Yes,Often,Yes,No,Yes,No,No,No,Somewhat easy,No,No,Some of them,Yes,Maybe,Maybe,Don't know,No
+1061,29/8/14 11:56,27,Male,United States,CA,No,No,Yes,Sometimes,No,Yes,Don't know,Not sure,No,No,Very difficult,Maybe,No,Some of them,No,No,Maybe,No,No
+1062,29/8/14 12:00,44,Male,United States,FL,Yes,No,No,Never,Yes,Yes,Don't know,No,No,No,Somewhat difficult,No,No,No,No,No,No,Don't know,No
+1063,29/8/14 12:08,25,Male,United States,UT,No,No,Yes,Often,Yes,Yes,Don't know,No,No,No,Somewhat easy,Maybe,No,Some of them,No,No,Maybe,Don't know,No
+1064,29/8/14 12:15,24,Male,Germany,,No,Yes,Yes,Sometimes,No,Yes,No,No,No,No,Somewhat easy,Maybe,No,Yes,Yes,No,No,Don't know,No
+1065,29/8/14 12:20,25,Male,South Africa,,No,Yes,Yes,Often,No,No,Don't know,No,No,No,Don't know,No,No,Some of them,Yes,No,Maybe,No,Yes
+1066,29/8/14 12:26,34,Male,United States,NJ,No,No,No,Never,Yes,Yes,Yes,Not sure,Don't know,Don't know,Somewhat easy,Maybe,Maybe,No,Some of them,No,Maybe,Don't know,No
+1067,29/8/14 12:27,26,Male,United States,PA,No,No,No,Never,No,No,Yes,Yes,No,Don't know,Somewhat difficult,Maybe,No,No,Yes,No,No,Don't know,No
+1068,29/8/14 12:45,48,Male,United States,IN,No,No,No,Never,No,No,Yes,Yes,Yes,Yes,Don't know,Maybe,No,Some of them,Yes,No,Maybe,Don't know,No
+1069,29/8/14 12:48,34,Male,Greece,,No,No,No,,Yes,Yes,No,No,No,No,Very difficult,Yes,Maybe,Some of them,No,No,Maybe,No,No
+1070,29/8/14 12:54,39,Female,United States,OH,No,No,Yes,Sometimes,Yes,Yes,No,No,No,No,Don't know,Maybe,Maybe,Some of them,Some of them,No,Maybe,No,No
+1071,29/8/14 13:17,43,Male,United States,OH,No,No,No,Sometimes,Yes,Yes,Yes,Not sure,No,Yes,Don't know,Maybe,No,No,No,No,No,Don't know,No
+1072,29/8/14 13:23,41,Male,United States,IL,No,No,No,Rarely,No,Yes,Yes,Yes,Yes,Yes,Don't know,Maybe,Maybe,Some of them,No,No,No,Yes,Yes
+1073,29/8/14 13:58,25,Male,United States,IN,No,No,No,Never,No,No,Don't know,No,No,No,Don't know,No,No,Some of them,Yes,No,No,Don't know,No
+1074,29/8/14 14:04,31,Male,United States,CA,No,No,Yes,Sometimes,No,Yes,Yes,Yes,No,No,Somewhat easy,Maybe,No,Some of them,No,No,Maybe,No,No
+1075,29/8/14 14:09,40,Male,United States,WA,No,Yes,Yes,Sometimes,No,Yes,Yes,Yes,Yes,Yes,Don't know,Yes,Yes,No,No,No,Maybe,No,Yes
+1076,29/8/14 14:31,43,Male,United States,VA,Yes,Yes,Yes,Sometimes,Yes,Yes,Yes,Not sure,No,Don't know,Don't know,Maybe,Maybe,Some of them,Some of them,No,Maybe,Don't know,No
+1077,29/8/14 14:51,27,Female,United States,WA,No,Yes,Yes,Often,No,Yes,Yes,Yes,Yes,Yes,Very difficult,Maybe,No,Yes,Some of them,No,Maybe,No,Yes
+1078,29/8/14 14:59,37,Female,United States,NJ,No,Yes,Yes,Sometimes,Yes,Yes,Yes,Yes,No,Don't know,Don't know,Yes,Maybe,No,No,No,Maybe,Don't know,No
+1079,29/8/14 15:10,32,Male,Netherlands,,Yes,No,Yes,Sometimes,No,Yes,No,No,No,No,Very difficult,Maybe,No,Some of them,Yes,No,Maybe,No,No
+1080,29/8/14 15:59,25,Male,United States,UT,No,Yes,Yes,Often,No,Yes,No,Yes,No,No,Very easy,Maybe,No,Yes,Yes,No,Maybe,No,No
+1081,29/8/14 16:07,29,Male,Netherlands,,No,Yes,Yes,Often,No,Yes,Don't know,Not sure,Don't know,Yes,Very difficult,No,Maybe,Yes,Yes,Maybe,No,Yes,No
+1082,29/8/14 16:17,30,Female,United States,TN,No,Yes,Yes,Often,No,No,Yes,No,No,No,Somewhat difficult,Yes,No,No,No,No,Maybe,No,No
+1083,29/8/14 16:21,34,Female,Canada,,No,Yes,Yes,Often,No,No,Don't know,No,Yes,Don't know,Somewhat easy,No,No,Some of them,Some of them,No,No,Yes,No
+1084,29/8/14 16:30,32,Male,United Kingdom,,No,Yes,Yes,Sometimes,No,No,Yes,Yes,Yes,Yes,Somewhat easy,Maybe,Maybe,Some of them,Some of them,No,Maybe,No,No
+1085,29/8/14 16:50,37,Male,Germany,,No,No,No,,No,Yes,Don't know,No,No,No,Very easy,No,No,Yes,Yes,Maybe,Maybe,Yes,No
+1086,29/8/14 16:51,41,Male,Germany,,No,No,Yes,Sometimes,No,Yes,Don't know,No,No,No,Somewhat difficult,No,No,Yes,Yes,No,No,Yes,No
+1087,29/8/14 16:56,38,Male,United States,IN,No,Yes,No,Never,No,No,Yes,Not sure,Yes,Yes,Don't know,Yes,Maybe,Some of them,No,No,No,No,No
+1088,29/8/14 17:04,32,Male,United States,IN,No,No,Yes,Sometimes,No,Yes,Yes,Yes,Yes,Don't know,Don't know,No,No,Some of them,Yes,No,Maybe,Don't know,No
+1089,29/8/14 17:04,28,Female,United States,CA,No,Yes,Yes,Sometimes,No,Yes,Yes,Yes,Don't know,Don't know,Don't know,Maybe,No,Some of them,Some of them,No,No,Yes,No
+1090,29/8/14 17:26,21,Male,United States,OH,Yes,No,No,Never,Yes,Yes,No,Yes,No,No,Very easy,No,No,Some of them,Some of them,No,Maybe,Yes,No
+1091,29/8/14 17:32,43,Male,United States,TX,No,Yes,No,Never,No,No,Yes,Yes,No,Don't know,Somewhat easy,Maybe,No,Some of them,Some of them,No,Maybe,No,No
+1092,29/8/14 17:35,32,Male,United States,TN,No,Yes,Yes,Often,No,Yes,No,Yes,No,No,Very difficult,Yes,No,Yes,Yes,No,Yes,No,No
+1093,29/8/14 17:54,25,Male,United States,WA,No,No,Yes,Sometimes,No,Yes,Yes,Yes,Yes,Don't know,Don't know,Yes,No,No,No,No,No,Yes,No
+1094,29/8/14 18:33,37,Male,United States,UT,No,No,Yes,Sometimes,No,Yes,Yes,No,No,Yes,Very easy,No,No,No,Yes,No,No,Yes,No
+1095,29/8/14 18:39,36,Male,United States,AL,Yes,No,Yes,Sometimes,No,No,No,Yes,No,No,Very difficult,No,No,No,No,No,No,No,Yes
+1096,29/8/14 19:32,24,Male,United States,WI,No,Yes,Yes,Rarely,Yes,Yes,Don't know,No,No,No,Very easy,No,No,Yes,Yes,Maybe,Yes,Yes,No
+1097,29/8/14 19:34,40,Male,United States,WA,No,Yes,Yes,Sometimes,No,Yes,Yes,Not sure,Yes,Don't know,Somewhat difficult,Maybe,No,Some of them,Some of them,No,Maybe,Don't know,Yes
+1098,29/8/14 20:53,29,Male,United States,WI,No,No,No,,No,No,Don't know,Not sure,Yes,Don't know,Somewhat easy,No,No,Some of them,Yes,No,Maybe,Yes,No
+1099,29/8/14 20:53,43,Male,United States,NY,No,No,No,Never,No,Yes,Don't know,No,No,Don't know,Don't know,No,No,Yes,Some of them,No,No,Yes,No
+1100,29/8/14 21:26,29,Male,United States,NY,No,No,No,,Yes,Yes,Yes,Not sure,No,Yes,Don't know,Maybe,No,Some of them,Yes,Maybe,Yes,Don't know,No
+1101,29/8/14 21:28,26,Male,United States,OH,No,Yes,No,Sometimes,No,Yes,Don't know,Not sure,No,No,Don't know,Maybe,No,Some of them,No,No,Maybe,Don't know,No
+1102,29/8/14 21:40,33,Female,Canada,,Yes,Yes,Yes,Often,Yes,Yes,No,Yes,No,No,Very difficult,Yes,Yes,No,No,No,Maybe,No,Yes
+1103,29/8/14 22:08,35,Female,United States,WA,No,Yes,No,Sometimes,Yes,Yes,Don't know,No,No,No,Somewhat easy,No,No,Yes,Some of them,No,No,Yes,No
+1104,29/8/14 23:51,45,Male,United States,CA,No,No,No,Never,Yes,Yes,Yes,No,No,No,Don't know,Yes,Maybe,Some of them,No,No,Maybe,Don't know,No
+1105,30/8/14 0:09,25,Male,United States,SC,No,No,Yes,Rarely,Yes,Yes,No,Yes,No,Don't know,Somewhat easy,Maybe,No,No,Some of them,No,Maybe,Don't know,No
+1106,30/8/14 3:55,50,Male,France,,Yes,No,Yes,Sometimes,Yes,Yes,No,No,No,No,Don't know,Maybe,Maybe,Some of them,Yes,No,No,Don't know,No
+1107,30/8/14 5:05,26,Male,Australia,,No,Yes,Yes,Rarely,No,Yes,No,No,Don't know,Don't know,Very easy,No,No,Yes,Yes,Maybe,Yes,Yes,No
+1108,30/8/14 5:47,33,Female,United States,CA,No,No,Yes,Often,No,Yes,Yes,Yes,Don't know,Don't know,Don't know,Yes,No,No,No,No,Maybe,Don't know,No
+1109,30/8/14 6:48,30,Male,India,,No,No,No,Often,No,Yes,No,No,No,No,Very easy,Maybe,Maybe,Some of them,Some of them,Maybe,Maybe,Don't know,No
+1110,30/8/14 7:31,33,Male,Croatia,,No,Yes,Yes,Sometimes,Yes,Yes,Yes,Yes,No,Don't know,Very easy,No,No,Some of them,Yes,Maybe,Maybe,Yes,No
+1111,30/8/14 11:48,29,Male,France,,No,No,Yes,Often,No,Yes,Yes,No,No,No,Somewhat easy,Maybe,Maybe,Yes,Some of them,No,Yes,No,No
+1112,30/8/14 12:35,37,Male,Germany,,No,No,No,,Yes,Yes,No,Not sure,No,No,Don't know,Maybe,No,Some of them,No,Maybe,Yes,Don't know,No
+1113,30/8/14 13:23,25,Male,United States,MN,No,Yes,Yes,Sometimes,Yes,Yes,Don't know,No,Don't know,Don't know,Very easy,No,No,Yes,Yes,Maybe,Yes,Don't know,No
+1114,30/8/14 13:48,40,Male,United States,WA,No,No,No,,No,No,Yes,Not sure,Don't know,Don't know,Somewhat easy,Maybe,No,Some of them,Some of them,No,Maybe,Don't know,No
+1115,30/8/14 13:55,24,Male,Canada,,No,No,No,Sometimes,No,Yes,Yes,Yes,No,No,Don't know,Maybe,No,No,No,No,Maybe,Don't know,Yes
+1116,30/8/14 14:00,40,Male,United Kingdom,,No,No,Yes,Never,No,Yes,Don't know,Not sure,No,Don't know,Very easy,Maybe,No,Yes,Some of them,No,Maybe,Don't know,No
+1117,30/8/14 15:57,46,Male,United States,PA,No,Yes,Yes,Sometimes,No,Yes,Don't know,Yes,No,Don't know,Don't know,Yes,Maybe,No,Some of them,No,Maybe,Don't know,No
+1118,30/8/14 16:13,38,Male,United States,NY,No,Yes,Yes,Rarely,No,No,Yes,Yes,Yes,Yes,Somewhat easy,Yes,No,No,Yes,No,Yes,Don't know,No
+1119,30/8/14 16:38,34,Male,United States,VT,No,No,No,Never,Yes,Yes,No,Yes,No,No,Don't know,Yes,Yes,No,No,No,No,Don't know,No
+1120,30/8/14 18:29,32,Male,United Kingdom,,Yes,No,Yes,Rarely,No,Yes,No,Yes,Yes,Yes,Very easy,No,No,Some of them,Yes,No,Yes,No,Yes
+1121,30/8/14 19:35,44,Male,United Kingdom,,No,No,Yes,Sometimes,No,No,No,No,No,Yes,Don't know,Maybe,No,Some of them,Some of them,No,No,No,No
+1122,30/8/14 19:56,33,Female,United Kingdom,,No,No,Yes,Never,No,Yes,Don't know,Not sure,No,Don't know,Very easy,Maybe,No,Some of them,Some of them,No,Maybe,No,No
+1123,30/8/14 20:12,45,Female,United States,MI,No,No,Yes,Rarely,No,No,Don't know,No,Don't know,Don't know,Don't know,No,No,Some of them,Some of them,No,Maybe,Don't know,No
+1124,30/8/14 20:19,35,Male,United States,NY,No,No,No,,No,Yes,Don't know,Not sure,Don't know,Don't know,Don't know,No,No,No,No,No,No,Yes,No
+1125,30/8/14 20:43,26,Male,Germany,,Yes,Yes,Yes,Often,No,Yes,No,No,No,No,Don't know,Maybe,No,Yes,Yes,Maybe,Yes,No,Yes
+1126,30/8/14 20:46,20,Female,United States,NY,No,No,Yes,Sometimes,Yes,Yes,Don't know,Not sure,Don't know,Don't know,Don't know,No,No,Some of them,Some of them,Maybe,Maybe,Don't know,No
+1127,30/8/14 20:55,20,Unknow,United States,AL,Yes,Yes,Yes,Often,Yes,Yes,Yes,Yes,Yes,Yes,Very easy,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes
+1128,31/8/14 4:31,37,Male,Netherlands,,No,Yes,No,Sometimes,No,Yes,No,No,No,No,Somewhat easy,Maybe,No,Some of them,Yes,No,Maybe,Yes,No
+1129,31/8/14 9:19,28,Male,United States,MI,No,No,No,,No,No,Yes,No,No,No,Somewhat easy,Maybe,No,No,No,No,Yes,No,No
+1130,31/8/14 15:03,42,Female,United States,WA,No,Yes,Yes,Sometimes,No,No,Yes,Yes,No,No,Don't know,Yes,No,Some of them,Some of them,No,Yes,No,No
+1131,31/8/14 15:23,32,Male,United Kingdom,,No,No,No,,No,Yes,No,No,No,No,Don't know,Maybe,No,No,No,No,No,Don't know,Yes
+1132,31/8/14 16:48,36,Female,United States,TN,No,Yes,Yes,Rarely,Yes,Yes,Yes,Yes,No,No,Somewhat easy,Maybe,Maybe,Some of them,No,No,No,Don't know,No
+1133,31/8/14 22:11,27,Male,New Zealand,,No,No,No,Rarely,No,Yes,No,Yes,No,Yes,Somewhat difficult,Yes,No,No,No,No,Maybe,No,Yes
+1134,31/8/14 22:16,27,Male,New Zealand,,No,No,No,Rarely,No,Yes,No,Yes,No,Yes,Somewhat difficult,Yes,No,No,No,No,Maybe,No,Yes
+1135,9/1/14 4:28,27,Male,United Kingdom,,No,No,Yes,Sometimes,No,No,No,No,No,No,Somewhat easy,Maybe,No,Yes,Yes,Maybe,Maybe,No,No
+1136,9/1/14 6:52,25,Male,United Kingdom,,No,Yes,Yes,Sometimes,Yes,Yes,No,No,No,No,Very easy,No,No,Some of them,Yes,No,Maybe,Yes,No
+1137,9/1/14 6:53,41,Male,United Kingdom,,No,Yes,No,,No,Yes,No,No,No,No,Somewhat difficult,Maybe,Maybe,Some of them,Some of them,Maybe,Maybe,Don't know,No
+1138,9/1/14 8:19,23,Male,Germany,,No,Yes,Yes,Sometimes,No,Yes,Don't know,Not sure,No,No,Somewhat easy,Maybe,No,No,No,No,No,Don't know,No
+1139,9/1/14 8:23,21,Male,United Kingdom,,No,No,Yes,Sometimes,No,No,Don't know,No,No,Don't know,Don't know,Maybe,No,Some of them,No,No,No,Don't know,No
+1140,9/1/14 9:12,26,Male,Moldova,,No,No,Yes,Often,No,Yes,No,Yes,No,No,Very difficult,No,No,Yes,Yes,Yes,Yes,Don't know,No
+1141,9/1/14 9:15,29,Male,Sweden,,No,No,No,Rarely,No,Yes,Don't know,Not sure,Don't know,Don't know,Don't know,Maybe,Maybe,No,No,No,Yes,Don't know,Yes
+1142,9/1/14 10:06,28,Male,Belgium,,No,No,No,Sometimes,No,No,No,No,No,No,Somewhat easy,Yes,Maybe,No,No,No,No,Don't know,Yes
+1143,9/1/14 10:40,27,Female,United Kingdom,,No,Yes,No,,No,No,No,Yes,No,No,Don't know,Maybe,No,No,No,No,Yes,Yes,No
+1144,9/1/14 12:00,23,Male,Israel,,No,No,No,Never,No,No,No,Yes,Yes,Yes,Somewhat difficult,No,No,Yes,Yes,No,Yes,Yes,No
+1145,9/1/14 12:45,26,Female,United States,NY,No,Yes,No,Sometimes,Yes,Yes,Don't know,No,No,No,Don't know,Maybe,No,No,No,No,No,Don't know,No
+1146,9/1/14 17:59,38,Male,United Kingdom,,No,Yes,Yes,Sometimes,No,Yes,No,Not sure,Don't know,Don't know,Very easy,No,No,Some of them,Yes,Maybe,Yes,Don't know,No
+1147,9/1/14 21:03,39,Male,United Kingdom,,No,Yes,Yes,Sometimes,No,No,No,No,No,No,Very easy,Maybe,Maybe,Some of them,Yes,Maybe,Maybe,Yes,No
+1148,9/1/14 21:34,35,Male,United States,IN,No,Yes,Yes,Often,No,No,Yes,Yes,No,Yes,Somewhat easy,Yes,No,No,Some of them,No,Yes,Don't know,No
+1149,9/1/14 22:58,32,Male,United States,NC,No,No,No,Rarely,No,Yes,Yes,Not sure,No,Don't know,Don't know,Maybe,No,No,Some of them,No,Maybe,Don't know,No
+1150,9/2/14 3:13,32,Male,United States,CA,No,No,Yes,Sometimes,No,Yes,Yes,Yes,Yes,Yes,Somewhat difficult,Maybe,Maybe,Some of them,Some of them,No,No,Don't know,Yes
+1151,9/2/14 4:00,26,Male,United Kingdom,,No,No,No,Never,No,Yes,No,No,No,No,Don't know,Yes,Maybe,Some of them,No,No,Maybe,Don't know,No
+1152,9/2/14 8:00,38,Male,Canada,,No,Yes,Yes,Rarely,No,Yes,Don't know,Not sure,No,Don't know,Don't know,No,No,Yes,Yes,No,Maybe,No,No
+1153,9/2/14 8:24,34,Female,United Kingdom,,No,Yes,No,Rarely,No,No,Yes,Yes,Yes,Yes,Very easy,No,No,Some of them,Yes,Maybe,Maybe,Yes,No
+1154,9/2/14 9:57,39,Male,United States,TN,No,Yes,Yes,Often,No,No,Don't know,Not sure,No,No,Somewhat easy,Yes,No,Some of them,Some of them,No,Maybe,Don't know,No
+1155,9/2/14 13:18,32,Male,Canada,,Yes,No,No,Never,Yes,Yes,Don't know,Not sure,No,No,Very easy,No,No,Yes,Yes,Maybe,Maybe,Yes,No
+1156,9/2/14 17:04,37,Male,Netherlands,,Yes,No,No,Never,Yes,Yes,Don't know,Not sure,Don't know,Don't know,Very easy,Yes,Yes,Some of them,Some of them,No,No,Don't know,No
+1157,9/2/14 20:23,31,Male,United Kingdom,,No,Yes,Yes,Never,No,Yes,Don't know,Not sure,No,Don't know,Somewhat easy,No,No,Some of them,Some of them,No,No,Don't know,No
+1158,9/2/14 20:57,30,Male,United States,MN,No,Yes,Yes,Rarely,No,Yes,No,Yes,No,No,Don't know,No,No,No,No,No,No,Don't know,No
+1159,9/3/14 1:32,51,Male,Singapore,,No,No,No,Never,Yes,Yes,Don't know,No,No,Don't know,Don't know,Yes,No,No,No,No,No,No,No
+1160,9/3/14 13:09,29,Male,United States,NC,No,No,Yes,Sometimes,No,Yes,Yes,Yes,No,No,Don't know,Yes,No,Some of them,Some of them,No,Maybe,Don't know,No
+1161,9/4/14 6:23,31,Male,United Kingdom,,No,No,No,Never,No,Yes,Yes,No,No,Yes,Don't know,Maybe,Yes,Some of them,No,No,No,Yes,No
+1162,9/4/14 8:35,31,Male,India,,No,No,No,,No,Yes,Don't know,Not sure,No,No,Don't know,Yes,Yes,No,No,No,No,Don't know,No
+1163,9/4/14 17:38,26,Male,United States,TX,No,Yes,Yes,Sometimes,Yes,Yes,Don't know,No,No,Don't know,Somewhat easy,Maybe,No,Some of them,Some of them,Maybe,Maybe,Don't know,No
+1164,9/4/14 23:42,46,Female,United States,CA,No,No,Yes,Often,Yes,No,Yes,Yes,No,No,Don't know,Maybe,No,Some of them,Some of them,No,Maybe,No,No
+1165,9/5/14 14:15,32,Male,United States,CA,No,Yes,No,Sometimes,No,Yes,Yes,No,Yes,Don't know,Don't know,Maybe,No,Yes,Yes,No,No,Don't know,No
+1166,9/5/14 14:19,29,Male,United States,IL,No,Yes,Yes,Sometimes,No,No,Yes,Yes,Yes,Yes,Don't know,Maybe,No,Some of them,No,No,Maybe,Don't know,No
+1167,9/8/14 0:52,34,Male,Poland,,No,No,No,Never,Yes,Yes,Don't know,Not sure,No,No,Don't know,Maybe,No,Some of them,Some of them,No,Yes,Don't know,No
+1168,9/8/14 16:46,26,Male,Colombia,,No,No,No,Often,No,Yes,No,No,No,No,Very difficult,Yes,No,No,No,No,Maybe,Yes,No
+1169,9/8/14 21:30,32,Female,United States,PA,No,No,Yes,Sometimes,No,Yes,Yes,Yes,No,Don't know,Don't know,Maybe,No,Some of them,No,No,No,No,No
+1170,9/9/14 13:49,29,Male,United States,IL,No,No,No,,No,Yes,Don't know,Not sure,No,No,Don't know,Maybe,No,Some of them,Yes,Maybe,Yes,No,No
+1171,9/11/14 17:00,30,Male,United States,IL,No,No,No,,No,No,Yes,No,Yes,Yes,Don't know,Yes,Maybe,No,No,No,No,Don't know,No
+1172,9/12/14 19:18,40,Female,United States,MN,No,Yes,Yes,Sometimes,No,Yes,Yes,Yes,No,Yes,Somewhat easy,No,No,Yes,Yes,No,Maybe,Yes,Yes
+1173,13/9/14 7:52,23,Male,United Kingdom,,No,No,Yes,Sometimes,No,Yes,No,No,No,No,Very difficult,Maybe,No,Yes,Yes,Yes,Yes,No,Yes
+1174,14/9/14 9:04,20,Male,Georgia,,No,No,No,Rarely,No,No,No,No,No,No,Very difficult,Yes,Yes,Some of them,No,No,Maybe,No,No
+1175,14/9/14 20:50,38,Male,United States,NY,No,Yes,No,,No,Yes,Don't know,No,No,No,Somewhat difficult,No,No,Some of them,Yes,No,No,Don't know,Yes
+1176,20/9/14 13:51,26,Female,United States,MI,No,Yes,Yes,Rarely,No,Yes,Yes,No,No,No,Don't know,Maybe,Maybe,No,No,No,Maybe,No,No
+1177,23/9/14 20:05,29,Male,United States,OH,No,No,No,Never,No,Yes,No,No,No,Don't know,Don't know,No,No,Some of them,Yes,No,Yes,No,Yes
+1178,26/9/14 8:45,40,Male,China,,Yes,No,No,Sometimes,Yes,Yes,No,Yes,No,No,Somewhat easy,No,No,Some of them,Some of them,Maybe,Maybe,Don't know,No
+1179,26/9/14 10:05,25,Female,Bulgaria,UT,No,No,Yes,Sometimes,Yes,Yes,No,No,No,No,Don't know,Maybe,Maybe,Yes,Some of them,Maybe,No,No,No
+1180,26/9/14 21:25,32,Male,United States,NY,No,No,Yes,Sometimes,No,Yes,Yes,Yes,No,No,Don't know,Maybe,Maybe,Some of them,No,No,No,No,No
+1181,30/9/14 9:19,38,Male,United States,CA,No,Yes,Yes,Sometimes,No,No,Yes,Yes,Yes,Yes,Don't know,Maybe,No,Some of them,No,No,Maybe,No,Yes
+1182,10/2/14 21:25,72,Female,United States,IN,No,Yes,Yes,Never,Yes,No,Yes,Not sure,Don't know,Yes,Somewhat easy,Maybe,Maybe,Some of them,Yes,No,No,Don't know,Yes
+1183,10/5/14 21:16,35,Female,United States,IN,No,Yes,Yes,Sometimes,Yes,Yes,No,No,No,No,Don't know,Maybe,Maybe,Some of them,Some of them,No,No,Yes,No
+1184,10/9/14 11:14,28,Female,United States,VA,No,No,Yes,Often,No,Yes,No,Yes,No,No,Very difficult,Yes,Maybe,Some of them,Some of them,No,No,Don't know,No
+1185,11/5/14 10:08,27,Unknow,United States,OK,No,No,No,Never,No,No,Don't know,Not sure,Don't know,Don't know,Don't know,No,No,Some of them,Yes,No,No,Yes,No
+1186,11/6/14 11:24,56,Female,United States,OR,Yes,No,No,Rarely,Yes,Yes,Don't know,Not sure,Don't know,Don't know,Don't know,Maybe,Maybe,No,No,No,No,Don't know,No
+1187,16/11/14 8:42,38,Male,United States,AL,No,Yes,Yes,Sometimes,Yes,Yes,Yes,No,No,No,Don't know,Maybe,No,Some of them,Some of them,No,No,Don't know,No
+1188,12/1/14 9:58,31,Female,Belgium,,No,No,No,,No,Yes,Don't know,Not sure,No,No,Very easy,Maybe,No,Some of them,Some of them,No,No,Don't know,No
+1189,15/12/14 0:43,40,Male,United States,AL,No,Yes,Yes,Sometimes,No,Yes,Yes,Yes,No,No,Don't know,Maybe,No,Some of them,No,No,No,Yes,No
+1190,1/3/15 3:38,44,Male,United States,OH,No,Yes,Yes,Sometimes,No,Yes,Yes,Yes,No,Yes,Don't know,Maybe,No,Some of them,Some of them,No,No,Don't know,No
+1191,21/2/15 4:16,34,Male,Canada,,No,Yes,No,Sometimes,No,Yes,Yes,Not sure,Yes,Yes,Don't know,Maybe,No,No,No,No,Maybe,Don't know,No
+1192,21/2/15 4:16,37,Male,United Kingdom,,No,No,No,Never,Yes,Yes,Don't know,No,No,No,Somewhat easy,No,No,Some of them,Yes,No,Yes,Don't know,No
+1193,21/2/15 4:18,38,Male,Italy,,No,No,No,Never,No,Yes,Don't know,Not sure,Don't know,Don't know,Don't know,No,No,Some of them,Yes,Yes,Maybe,No,No
+1194,21/2/15 4:19,27,Male,Germany,,No,No,No,,No,Yes,Don't know,Not sure,No,No,Don't know,No,No,Some of them,Yes,Yes,Yes,Don't know,No
+1195,21/2/15 4:23,34,Female,Ireland,,No,No,Yes,Sometimes,No,No,Yes,Yes,Yes,No,Don't know,Yes,Yes,Some of them,Some of them,No,No,Yes,No
+1196,21/2/15 4:32,35,Female,Ireland,,No,No,No,Rarely,No,Yes,Don't know,No,No,No,Don't know,Maybe,No,Some of them,No,No,Maybe,No,No
+1197,21/2/15 4:34,34,Male,Ireland,,No,No,Yes,Often,No,Yes,No,No,No,No,Somewhat difficult,Yes,Maybe,Some of them,Yes,No,Maybe,No,No
+1198,21/2/15 4:41,32,Male,United States,TX,No,No,Yes,Often,Yes,Yes,Yes,Not sure,No,Don't know,Very difficult,Yes,Maybe,Some of them,No,No,No,Don't know,No
+1199,21/2/15 4:51,25,Male,Ireland,,No,No,No,,No,Yes,Don't know,Not sure,No,Don't know,Don't know,Maybe,No,Some of them,Yes,No,No,Don't know,No
+1200,21/2/15 4:55,28,Male,Australia,,No,No,Yes,Often,Yes,Yes,No,Yes,No,No,Don't know,Yes,No,No,No,No,Maybe,No,No
+1201,21/2/15 5:11,28,Female,United States,TX,No,No,Yes,Rarely,No,Yes,Yes,No,No,No,Somewhat easy,Yes,Yes,Some of them,No,No,No,No,Yes
+1202,21/2/15 5:34,31,Male,Brazil,,Yes,No,Yes,,No,Yes,No,Yes,No,No,Don't know,No,No,Yes,Yes,No,Maybe,Don't know,No
+1203,21/2/15 5:55,24,Male,United Kingdom,,No,No,No,,No,Yes,Don't know,Not sure,No,No,Somewhat easy,Maybe,Maybe,Some of them,Yes,No,Maybe,Don't know,No
+1204,21/2/15 5:55,34,Male,Ireland,,No,Yes,Yes,Never,Yes,Yes,No,No,No,No,Don't know,Maybe,No,Some of them,Yes,No,No,Don't know,No
+1205,21/2/15 6:06,32,Male,Ireland,,No,No,Yes,Sometimes,No,Yes,No,No,No,No,Somewhat easy,No,No,Some of them,Yes,No,Maybe,Don't know,No
+1206,21/2/15 6:19,34,Male,United Kingdom,,No,Yes,No,Often,Yes,No,Don't know,Not sure,No,No,Somewhat easy,Maybe,No,Some of them,Yes,Maybe,Yes,Yes,No
+1207,21/2/15 8:21,23,Male,United States,TX,No,No,Yes,Sometimes,No,Yes,No,Yes,No,No,Very easy,Maybe,Maybe,Some of them,Yes,No,No,No,No
+1208,21/2/15 8:54,33,Male,Czech Republic,,No,Yes,No,Often,No,Yes,No,Yes,No,No,Somewhat easy,No,No,Some of them,Yes,Maybe,Maybe,Don't know,Yes
+1209,21/2/15 8:56,29,Male,Singapore,,No,Yes,Yes,Sometimes,No,Yes,Don't know,Not sure,No,No,Somewhat difficult,Maybe,No,No,No,No,Maybe,No,No
+1210,21/2/15 9:10,24,Male,Ireland,,No,Yes,No,,No,Yes,No,No,No,No,Don't know,Maybe,Maybe,No,No,No,No,Don't know,No
+1211,21/2/15 9:16,45,Male,Ireland,,No,No,No,Never,Yes,Yes,Don't know,Not sure,No,No,Don't know,Yes,No,Yes,Some of them,No,No,No,Yes
+1212,21/2/15 9:18,34,Female,United Kingdom,,No,No,Yes,Sometimes,No,No,No,Yes,No,Yes,Somewhat difficult,Maybe,Maybe,Some of them,Yes,No,Maybe,No,Yes
+1213,21/2/15 9:19,31,Male,Philippines,,No,No,No,Sometimes,No,Yes,Don't know,No,No,No,Very difficult,Yes,Yes,Some of them,No,No,Maybe,No,Yes
+1214,21/2/15 9:22,33,Male,United States,FL,No,No,Yes,Often,Yes,Yes,Yes,Yes,No,No,Don't know,Maybe,No,Some of them,No,No,Maybe,Don't know,No
+1215,21/2/15 9:29,28,Male,Netherlands,,No,No,No,,No,Yes,No,Not sure,No,No,Somewhat easy,Maybe,Maybe,Some of them,Some of them,No,No,Don't know,No
+1216,21/2/15 9:30,27,Male,United Kingdom,,No,No,No,Rarely,Yes,No,Don't know,Not sure,No,Yes,Don't know,No,No,Some of them,Yes,No,No,Don't know,No
+1217,21/2/15 9:30,42,Male,Ireland,,No,No,No,Never,No,Yes,No,Yes,No,No,Somewhat difficult,Yes,Yes,Some of them,Some of them,No,No,No,No
+1218,21/2/15 9:33,28,Male,Netherlands,,No,No,No,,No,Yes,No,Not sure,No,No,Somewhat easy,Maybe,Maybe,Some of them,Some of them,No,No,Don't know,No
+1219,21/2/15 9:48,38,Male,United States,TX,No,No,Yes,Sometimes,Yes,Yes,Yes,No,Yes,Yes,Very easy,No,No,Yes,Yes,No,No,Don't know,No
+1220,21/2/15 10:00,46,Male,United States,CA,No,Yes,Yes,Often,No,Yes,Don't know,No,No,No,Don't know,Maybe,No,Some of them,No,No,No,No,No
+1221,21/2/15 10:45,46,Male,United States,MD,No,Yes,Yes,Sometimes,Yes,Yes,Don't know,Not sure,Don't know,Don't know,Don't know,No,No,Some of them,Yes,Yes,Yes,Don't know,No
+1222,21/2/15 11:48,41,Female,Netherlands,,Yes,No,Yes,Rarely,Yes,Yes,Don't know,Yes,Don't know,Yes,Somewhat easy,No,No,Yes,Yes,Yes,Yes,Yes,No
+1223,21/2/15 11:55,23,Male,United Kingdom,,No,No,No,Never,No,Yes,Don't know,No,No,No,Somewhat easy,Maybe,No,Some of them,Some of them,No,Maybe,Yes,Yes
+1224,21/2/15 13:19,24,Male,Ireland,,No,Yes,Yes,Sometimes,No,Yes,Yes,Yes,No,Yes,Somewhat easy,Maybe,No,Some of them,No,No,Maybe,Yes,Yes
+1225,21/2/15 15:28,23,Female,Ireland,,No,No,Yes,Rarely,No,Yes,No,Yes,Yes,No,Don't know,No,No,Yes,Some of them,No,Maybe,Don't know,No
+1226,21/2/15 17:19,39,Male,Netherlands,,No,No,No,,No,No,Yes,Not sure,Yes,Don't know,Somewhat easy,Maybe,Maybe,No,Some of them,No,No,Yes,No
+1227,21/2/15 18:54,32,Female,Ireland,,No,Yes,No,Never,No,Yes,Yes,Yes,Don't know,Yes,Don't know,Maybe,No,Some of them,Some of them,No,No,Don't know,No
+1228,21/2/15 18:59,25,Male,United States,MN,No,Yes,Yes,Sometimes,No,Yes,Don't know,Yes,No,No,Somewhat easy,Yes,No,Some of them,Some of them,No,Maybe,Don't know,No
+1229,22/2/15 2:40,39,Male,Greece,,No,No,No,,Yes,Yes,No,No,No,No,Don't know,Yes,No,No,No,No,No,Don't know,No
+1230,24/2/15 8:54,23,Female,United Kingdom,,No,Yes,Yes,Sometimes,No,Yes,No,Yes,No,Yes,Very easy,No,No,Yes,Yes,Maybe,Maybe,Yes,No
+1231,24/2/15 8:58,24,Male,United Kingdom,,Yes,No,Yes,Sometimes,Yes,Yes,No,No,No,No,Don't know,Maybe,Maybe,Some of them,Some of them,No,Maybe,Don't know,Yes
+1232,24/2/15 9:00,25,Male,United Kingdom,,No,Yes,Yes,Sometimes,No,No,Yes,Yes,Yes,Yes,Very easy,No,No,Yes,Yes,Yes,Yes,Yes,No
+1233,24/2/15 9:13,23,Male,United Kingdom,,No,No,Yes,Rarely,No,Yes,No,Yes,No,No,Don't know,No,No,Yes,Yes,No,Maybe,Don't know,No
+1234,24/2/15 9:15,24,Unknow,United Kingdom,,No,No,Yes,Sometimes,No,No,Don't know,No,No,Don't know,Don't know,Yes,Maybe,No,No,No,Maybe,Don't know,No
+1235,24/2/15 9:18,23,Male,Canada,,No,No,Yes,Often,No,Yes,Yes,Yes,Yes,Don't know,Don't know,Maybe,No,Yes,Some of them,No,No,Don't know,No
+1236,24/2/15 10:32,60,Male,United States,CA,No,No,Yes,Often,Yes,Yes,Don't know,No,Yes,Don't know,Somewhat easy,Maybe,Maybe,Some of them,No,No,Maybe,Don't know,No
+1237,26/2/15 5:44,28,Male,Ireland,,No,No,No,Sometimes,No,Yes,No,Yes,No,No,Don't know,Yes,Maybe,No,No,No,No,No,Yes
+1238,4/2/15 15:47,28,Male,United States,TN,No,Yes,Yes,Often,No,No,Yes,Yes,Yes,Yes,Somewhat easy,Yes,Maybe,Some of them,Yes,No,No,No,Yes
+1239,4/4/15 11:22,30,Male,Netherlands,,No,No,No,Sometimes,No,Yes,Don't know,No,No,No,Don't know,Maybe,No,Yes,Yes,Maybe,Yes,Don't know,No
+1240,4/6/15 14:58,31,Male,Germany,,No,Yes,Yes,Sometimes,No,Yes,Don't know,No,No,No,Somewhat easy,No,No,Some of them,No,No,No,Don't know,No
+1241,4/11/15 14:35,31,Male,Poland,,Yes,No,Yes,Often,Yes,Yes,No,No,No,No,Somewhat easy,Maybe,No,Some of them,No,No,No,Don't know,No
+1242,23/4/15 14:03,28,Male,Ireland,,No,No,Yes,Rarely,No,Yes,Don't know,No,No,Don't know,Don't know,Maybe,No,No,No,No,Maybe,Don't know,No
+1243,5/5/15 14:22,43,Female,United States,FL,No,Yes,Yes,Rarely,Yes,Yes,Yes,Yes,No,Yes,Don't know,No,No,Some of them,Yes,No,No,Don't know,No
+1244,5/5/15 15:16,32,Female,United Kingdom,,No,No,No,,No,No,No,No,No,Don't know,Don't know,Maybe,No,Some of them,Yes,No,Yes,No,No
+1245,5/6/15 10:14,22,Male,Australia,,No,Yes,Yes,Often,No,No,Yes,Yes,Yes,Yes,Don't know,Maybe,Maybe,No,Yes,No,Maybe,Don't know,Yes
+1246,5/6/15 16:55,32,Male,United States,OR,No,No,No,Never,No,Yes,Yes,Not sure,Don't know,Yes,Somewhat easy,No,No,No,Some of them,Maybe,Yes,Don't know,No
+1247,5/7/15 10:08,36,Male,Finland,,No,No,Yes,Often,No,Yes,No,No,No,No,Very difficult,Yes,No,Some of them,No,No,Maybe,Don't know,Yes
+1248,25/6/15 12:24,41,Female,United States,WA,No,Yes,Yes,Sometimes,No,Yes,Yes,No,No,Don't know,Don't know,Yes,Maybe,No,No,No,No,Don't know,No
+1249,22/7/15 18:57,30,Male,United States,CA,No,Yes,Yes,Sometimes,No,Yes,Yes,Yes,Don't know,No,Very easy,No,No,Yes,Yes,Maybe,Maybe,Yes,No
+1250,27/7/15 23:25,30,Male,United States,CA,Yes,Yes,Yes,Often,No,Yes,Yes,Not sure,Yes,Yes,Don't know,No,No,Some of them,Yes,Maybe,Maybe,Yes,No
+1251,17/8/15 9:38,36,Male,South Africa,,No,Yes,Yes,Often,No,No,No,Yes,No,No,Somewhat easy,No,No,Some of them,Yes,No,Yes,Yes,No
+1252,20/8/15 16:52,29,Male,United States,NC,No,Yes,Yes,Sometimes,Yes,Yes,Yes,Yes,Yes,No,Don't know,Yes,No,Some of them,No,No,Maybe,No,No
+1253,25/8/15 19:59,36,Male,United States,UT,No,Yes,No,Rarely,No,No,Don't know,No,Yes,Yes,Somewhat easy,Maybe,Maybe,Some of them,Some of them,No,No,Don't know,No
+1254,9/12/15 11:17,26,Male,United Kingdom,,No,No,Yes,,No,Yes,No,No,No,No,Somewhat easy,No,No,Some of them,Some of them,No,No,Don't know,No
+1255,26/9/15 1:07,32,Male,United States,IL,No,Yes,Yes,Often,Yes,Yes,Yes,Yes,No,No,Somewhat difficult,No,No,Some of them,Yes,No,No,Yes,No
+1256,11/7/15 12:36,34,Male,United States,CA,No,Yes,Yes,Sometimes,No,Yes,Yes,Yes,No,No,Somewhat difficult,Yes,Yes,No,No,No,No,No,No
+1257,30/11/15 21:25,46,Female,United States,NC,No,No,No,,Yes,Yes,No,Yes,No,No,Don't know,Yes,No,No,No,No,No,No,No
+1258,2/1/16 23:04,25,Male,United States,IL,No,Yes,Yes,Sometimes,No,No,Yes,Yes,No,No,Don't know,Maybe,No,Some of them,No,No,No,Don't know,No
