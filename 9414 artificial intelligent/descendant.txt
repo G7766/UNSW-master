@@ -1,0 +1,17 @@
+%descendant(X,Y):X has descendant Y
+descendant(jill,codd).
+
+descendant(Parent, Descendant):-
+	parent(Person,Child),
+	descendant(Child,Descendant).
+
+%ancestor(X,Y):X has ancestor Y
+ancestor(codd,jill).
+
+ancestor(Person,Ancestor):-
+	child(Person,Parent),
+	ancestor(Child,Ancestor).
+
+
+test(f(A,B,C),D):-
+	A=B,C=D.

@@ -1,0 +1,19 @@
+tree(tree(L1,jack,R1),Fred,tree(L2,jill,R2))
+
+tree(tree(empty, jack, empty), fred, tree(empty, jill, empty))
+
+tree(tree(empty,7,empty),
+	'+',
+	tree(tree(empty,5,empty),
+		'-',
+		tree(empty,3,empty)))
+
+
+tree_size(empty,0).
+tree_size(tree(L,_,R) Total_Size):-
+	tree_size(L,Left_Size),
+	tree_size(R,Right_Size),
+	Total_Size is
+	Left_Size + Right_Size+1.
+
+

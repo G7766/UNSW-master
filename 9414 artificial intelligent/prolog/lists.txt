@@ -1,0 +1,7 @@
+
+aaa(B,A):-
+ A is B.
+
+bbb(B,C):-
+	aaa(B,A),
+	C is A.

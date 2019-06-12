@@ -1,0 +1,6 @@
+%q61
+
+listCount([],0).
+listCount([_|T],Count):-
+	listCount(T,SubCount),
+	Count is SubCount+1.

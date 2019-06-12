@@ -1,0 +1,32 @@
+%q4
+chop_up(NewList,Result) :- 
+	chop_up(NewList, Result, [], []).
+
+chop_up([], NewList, NewList, []).
+
+chop_up([], NewList, Acum, [HT|TT]):-
+        get_first_last([HT|TT],Head_LT),
+        append(Acum,Head_LT,NewList).
+
+chop_up([HeadList|TailList], NewList, Acum, []):-
+	chop_up(TailList,NewList,Acum,[HeadList]).
+
+chop_up([HeadList|TailList], NewList, Acum, [HT|TT]) :-
+        last([HT|TT],LT),
+        LT is HeadList - 1,
+        append([HT|TT],[HeadList],NT),
+        chop_up(TailList,NewList,Acum,NT).
+
+chop_up([HeadList|TailList], NewList, Acum, [HT|TT]) :-
+        last([HT|TT],LT),
+        \+(LT is HeadList - 1),
+        get_first_last([HT|TT],Head_LT),
+        append(Acum,Head_LT,NewAcum),
+        chop_up(TailList,NewList,NewAcum,[HeadList]).
+
+get_first_last(List,List):- 
+	length(List,1).
+
+get_first_last(List,[[Head,Last]]) :- 
+	length(List,Len), Len > 1,
+	List = [Head|_],last(List,Last).

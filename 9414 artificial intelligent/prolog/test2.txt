@@ -1,0 +1,22 @@
+chop_up([],[]).
+chop([Head|Tail],[Head|NewList])
+
+chop_up([Head|Tail], NewList) :-
+	not(is_decrentedal(Head, Tail)),
+	chop_up(Tail, NewList).
+
+
+chop_up([Head|[Head1|Tail]], NewList):-
+	(is_decrentedal(Head,[Head1|Tail])->
+		chop_up([Head1|Tail], [Head|NewList];
+         is_aaa(Head,[Head1|Tail]),
+	 chop_up(Tail, NewList ).
+
+	
+
+
+is_decrentedal(Number, [Head|_]) :-
+  Head =:= Number + 1.
+is_aaa(Number,[Head|Tail]):-
+  Number=:= Head-1,
+  not(is_decrentedal(Head, Tail)).

@@ -1,0 +1,49 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+% % % % % % % % % % % % % % % % % % % % % % % % % % % %
+%
+% Part 1 Write a Prolog procedure
+% -initial_intentions(Intentions):
+% -binds Intentions to intents(L,[])
+% -L in the form [[goal(X1,Y1),[]], ... , [goal(Xn,Yn),[]]]
+% -(Xn,Yn) s the location of the monster
+% -(X1,Y1), ... , (Xn-1,Yn-1) are places stones need to be dropped  
+%
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % %
+
+
+
+
+
+
+
+
+% % ----- Q2:
+% base case: if no new percepts, goal and goal rest are empty
+
+agent_at(2,3).
+
+trigger([],[]).
+
+% case : if add events , and compute the corresponding list of goals
+
+trigger([stone(X,Y)|Tail],[goal(X,Y)|Goals]):-
+	trigger(Tail,Goals).
+
+
+
+
+

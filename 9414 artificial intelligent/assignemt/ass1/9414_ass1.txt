@@ -1,0 +1,71 @@
+%Name:Guan PeiGuo 
+%Student Number:z5143964
+%Assignment Name: Assignment 1 - Prolog Programming 
+
+%q1
+
+%empty list
+sumsq_neg([],0).
+%nonempty list
+sumsq_neg([Item|Rest],Sum):-
+	Item <0,
+	sumsq_neg(Rest,SumOfNeg),
+	Sum is Item * Item + SumOfNeg.	  
+sumsq_neg([Item|Rest],Sum):-
+	Item >=0,
+	sumsq_neg(Rest,SumOfNeg),
+	Sum is SumOfNeg.
+
+%2
+
+%likes(Who,What):Who likes What. 
+all_like_all([],[]).
+all_like_all([],[WhatI|WhatR]):-
+	likes(_,WhatI),
+	all_like_all(_,WhatR).
+all_like_all([WhoI|WhoR],[WhatI|WhatR]):-
+	likes(WhoI,WhatI),
+	all_like_all(WhoR,WhatR).
+
+
+%q3
+%sqrt_table(N, M, Result):N>=M,Result is N's square root,M number.
+sqrt_table(0,0,[]).
+sqrt_table(N,M,Result):-
+	N>=M,
+	M>=0,
+	P is N-1,
+	SS is sqrt(N),
+	Head=[N,SS],
+	Result=[Head|Result1],
+	sqrt_table(P,M,Result1).
+
+sqrt_table(X,Y,Result):-
+	X=Y,
+	SS is sqrt(X),
+	Result=[SS|[]].
+
+
+%q4
+%chop_up(List, NewList):takes list and binds NewList to list with all sequences of %successive increasing whole numbers replaced by a two-item list containing only the first %and last number in the sequence.
+
+%chop_up([Head|Tail],Result):-
+	
+sequence([Head|Tail],Q,Result):-
+	Q is Head+1,
+	member(Q,Tail),
+	sequence(Tail,Q,Result),
+	append(Q,Result).
+
+%q5
+tree_eval(Value, tree(tree(LL,LOp,LR),Op,tree(RL,ROp,RR)), Eval) :-
+    tree_eval(Value, tree(LL,LOp,LR), LEval),
+    tree_eval(Value, tree(RL,ROp,RR), REval),
+    Expr =.. [Op,LEval,REval], 
+    Eval is Expr.
+
+
+
+
+
+

@@ -1,0 +1,28 @@
+% concat(List1, List2, Concat_List1_List2):
+%   Concat_List1_List2 is the concatenation of List1 & List2
+concat([], List2, List2).
+concat([Item | Tail1], List2, [Item | Concat_Tail1_List2]) :-
+      concat(Tail1, List2, Concat_Tail1_List2).
+
+
+
+sum_items([],0).         %empty list
+sum_items([Item|Rest],Sum):-    %recursive case
+	sum_items(Rest,SumOfRest),
+	Sum is Item + SumOfRest.
+
+
+cost(cornflakes, 230).
+cost(cocacola, 210).
+cost(chocolate, 250).
+cost(crisps, 190).
+
+total_cost([],0).
+total_cost([Item|Rest],Cost):-
+	cost(Item,ItemCost),
+	total_cost(Rest,CostOfRest),
+	Cost is ItemCost + CostOfRest.
+	
+is_a_list([]).
+is_a_list(.(Head,Tail)):-
+	is_a_list(Tail).

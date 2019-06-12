@@ -1,0 +1,27 @@
+all_like_all([H|T], [A|B]):-like_all(H, [A|B]), all_like([H|T], A).
+all_like_all([],[]).
+like_all(_, []).
+like_all(X, [H|T]):-likes(X, H), like_all(X, T).
+all_like([], _).
+all_like([H|T], X):-likes(H, X), all_like(T, X).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+likes(mary, apple).
+likes(mary, pear).
+likes(mary, grapes).
+likes(tim, mango).
+likes(tim, apple).
+likes(jane, apple).
+likes(jane, mango).

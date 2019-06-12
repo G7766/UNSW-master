@@ -1,0 +1,198 @@
+<!DOCTYPE html PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<!-- saved from url=(0053)http://www.cse.unsw.edu.au/~cs9414/13s1/hw3/hw3rogue/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>COMP9414/9814 Assignment 3</title>
+<style type="text/css"></style></head>
+<body lang="EN">
+<h2 align="center">
+COMP 9414/9814 Artificial Intelligence, Session 1, 2013
+</h2>
+<h3 align="center">
+Project 3, Option 2: Rogue (Text-Based Adventure Game)
+</h3>
+<p align="center">
+Due: Sunday 2 June, 11:59 pm
+<br align="center">
+Marks: 12% of final assessment
+</p><p>
+</p><p>
+For this project you will be implementing an agent to play a simple text-based
+adventure game. The agent is required to move around a rectangular
+environment, collecting tools and avoiding (or removing)
+obstacles along the way.
+The obstacles and tools within the environment are represented as follows:
+</p><p>
+<strong><u>Obstacles</u>&nbsp;&nbsp;<u>Tools</u></strong>
+<table>
+<tbody><tr><td><tt>T</tt>&nbsp;</td><td>tree&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td><td><tt>a</tt>&nbsp;</td><td>axe</td></tr>
+<tr><td><tt>-</tt></td><td>door</td><td><tt>k</tt></td><td>key</td></tr>
+<tr><td><tt>*</tt></td><td>wall</td><td><tt>d</tt></td><td>dynamite</td></tr>
+<tr><td><tt>~</tt></td><td>water</td><td><tt>g</tt></td><td>gold</td></tr>
+</tbody></table>
+</p><p>
+The agent will be represented by one of the characters
+<tt>^, v, <code>&lt;</code></tt>&nbsp; or&nbsp; <tt><code>&gt;</code>,</tt>
+depending on which direction it is pointing.
+The agent is capable of the following instructions:
+</p><p>
+<tt>L</tt>&nbsp;&nbsp; turn left<br>
+<tt>R</tt>&nbsp;&nbsp; turn right<br>
+<tt>F</tt>&nbsp;&nbsp; (try to) move forward<br>
+<tt>C</tt>&nbsp;&nbsp; (try to) chop down a tree, using an axe<br>
+<tt>O</tt>&nbsp;&nbsp; (try to) open a door, using a key<br>
+<tt>B</tt>&nbsp;&nbsp; (try to) blast a wall, door or tree, using dynamite
+</p><p>
+When it executes an <tt>L</tt> or <tt>R</tt> instruction,
+the agent remains in the same location and only its
+direction changes.
+When it executes an <tt>F</tt> instruction,
+the agent attempts to move a single step in whichever direction it is pointing.
+The <tt>F</tt> instruction will fail (have no effect)
+if there is a wall, tree or door directly in front of the agent;
+if the agent moves forward into the water, it will fall in and drown.
+</p><p> 
+When the agent moves to a location occupied by a tool,
+it automatically picks up the tool.
+The agent may use a <tt>C</tt>, <tt>O</tt> or <tt>B</tt> instruction
+to remove an obstacle immediately in front of it,
+if it is carrying the appropriate tool.
+A tree may be removed with a <tt>C</tt> (chop) instruction, if an axe is held.
+A door may be removed with an <tt>O</tt> (open) instruction, if a key is held.
+A wall, tree or door may be removed with a <tt>B</tt> (blast) instruction,
+if dynamite is held.
+</p><p>
+To win the game, the agent must pick up the gold and
+then return to its initial location.
+</p><p>
+<b>Running as a Single Process</b>
+</p><p>
+Copy the archive <a href="http://www.cse.unsw.edu.au/~cs9414/13s1/hw3/hw3rogue/src.zip"><tt>src.zip</tt></a> into your own filespace and unzip it.
+Then type
+</p><pre>cd src
+javac *.java
+java Rogue -i s0.in
+</pre>
+You should then see something like this:
+<pre>~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~
+~~     T     T   k ~~
+~~   ***     ***   ~~
+~~*-*     v     *-*~~
+~~  **         **  ~~
+~~ g **   d   ** a ~~
+~~    TT     TT    ~~
+~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~
+
+Enter Action(s): 
+</pre>
+This allows you to play the role of the agent by typing
+commands at the keyboard (followed by &lt;Enter&gt;).
+Note:
+<ul>
+<li>a key can be used to open any door;
+once a door is opened, it has effectively been removed from the environment
+and can never be "closed" again.
+</li><li>an axe or key can be used multiple times,
+but each dynamite can be used only once.
+</li><li>
+<tt>C</tt>, <tt>O</tt> or <tt>B</tt> instructions will fail
+(have no effect) if the appropriate tool is not held,
+or if the location immediately in front of the agent
+does not contain an appropriate obstacle.
+</li></ul>
+<p>
+<b>Running in Network Mode</b>
+</p><p>
+Follow these instructions to see how the game runs in
+network mode:
+</p><ol>
+<li>
+open two windows, and <tt>cd</tt> to the <tt>src</tt> directory in
+both of them.
+</li><li> choose a port number between 1025 and 65535 - let's suppose you choose
+31415.
+</li><li>
+type this in one window:
+<pre>java Rogue -p 31415 -i s0.in
+</pre>
+</li><li>
+type this in the other window:
+<pre>java Agent -p 31415
+</pre>
+</li></ol>
+In network mode, the agent runs as a separate process
+and communicates with the game engine through a TCPIP socket.
+Notice that the agent cannot see the whole environment,
+but only a 5-by-5 "window" around its current location,
+appropriately rotated.
+We have also provided a C version of the agent,
+which you can run by typing
+<pre>make
+./agent -p 31415
+</pre>
+
+<p>
+<b>Writing an Agent</b>
+</p><p>
+At each time step, the environment will send a series of 24
+characters to the agent, constituting a scan of the
+5-by-5 window it is currently seeing;
+the agent must send back a
+single character to indicate the action it has chosen.
+</p><p>
+You are free to write the agent in any language you choose.
+If you are writing in Java, your main file should be called
+<code>Agent.java</code> (you are free to use the supplied file
+<code>Agent.java</code> as a starting point).
+If you are writing in C,
+you are free to use the files <code>agent.c</code>, <code>pipe.c</code>
+and <code>pipe.h</code> as a starting point.
+In other languages, you will have to write the socket code
+for yourself.
+You must include a <code>Makefile</code> with your submission,
+producing an executable called <code>agent</code>.
+</p><p>
+You may assume that the environment is no larger than 80 by 80,
+and that it is totally surrounded by water,
+so there is no confusion about where the environment begins and ends.
+</p><p>
+Additional examples of input and output files will be
+provided in the <tt><a href="http://www.cse.unsw.edu.au/~cs9414/13s1/hw3/hw3rogue/sample">sample</a></tt> directory.
+</p><p>
+<b>Question</b>
+</p><p>
+At the top of your code, in a block of comments,
+you must provide a brief answer (one or two paragraphs)
+to this Question:
+</p><blockquote>
+Briefly describe how your program works, including any algorithms
+and data structures employed, and explain any design decisions
+you made along the way.
+</blockquote>
+
+<h4>Assessment</h4>
+
+Your program will be tested on a series of sample inputs
+with successively more challenging environments.
+There will be:
+<ul>
+<li>8 marks for functionality (automarking)
+</li><li>4 marks for Algorithms, Style, Comments and answer to the Question
+</li></ul>
+
+<h4>Submission</h4>
+
+When submissions are open, you should submit by typing
+<pre>give cs9414 hw3rogue Makefile ...
+</pre>
+<p>
+Please ensure that you submit the source files and NOT any binary files.
+The <code>give</code> system will compile your program using your
+<code>Makefile</code> and check that it produces a binary file
+(or java class files) with the correct name.
+</p><p>
+</p><hr>
+
+
+</body></html>

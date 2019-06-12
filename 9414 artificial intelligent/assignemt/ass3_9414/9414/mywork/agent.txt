@@ -1,0 +1,147 @@
+
+
+
+
+% % % % % % % % % % % % % % % % % % % % % % % % % % % %
+%
+% Part 1 Write a Prolog procedure
+% -initial_intentions(Intentions):
+% -binds Intentions to intents(L,[])
+% -L in the form [[goal(X1,Y1),[]], ... , [goal(Xn,Yn),[]]]
+% -(Xn,Yn) s the location of the monster
+% -(X1,Y1), ... , (Xn-1,Yn-1) are places stones need to be dropped  
+%
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % %
+
+
+% % ----- Q1:
+
+% base case:
+
+
+
+
+
+% % ----- Q2:
+% base case: if no new percepts, goal and goal rest are empty
+
+trigger([],[]).
+
+% case : if add events , and compute the corresponding list of goals
+
+trigger([stone(X,Y)|Tail],[goal(X,Y)|Goals]):-
+	trigger(Tail,Goals).
+
+
+% % ----- Q3:
+
+% incorporate_goals(+Goals, +Intentions, -Intentions1).
+
+% Base case, no more Goals.
+incorporate_goals([], Intentions, Intentions1).
+
+% Case : Goal is already exist in the Intentions, pass it.
+incorporate_goals([Goal|Tail], Intentions, Intentions1) :-
+    is_member(Goal, Intentions),
+    incorporate_goals(Tail, Intentions, Intentions1).
+
+% Case : Goal is not exist in the Intentions, insert it in the list.
+incorporate_goals([Goal|Tail], Intentions, Intentions1) :-
+    not(is_member(Goal, Intentions)),
+    insert_goal(Goal, Intentions, NewIntentions),
+    incorporate_goals(Tail, NewIntentions, Intentions1).
+
+
+%Intents(Int_drop,Int_pick):-
+
+
+% is_member(+Goal, +Intentions).
+%   Check whether a given Goal is exist in the Intentions list.
+
+is_member(Goal, [Head|_]) :-
+    member(Goal, Head).
+
+is_member(Goal, [Head|Tail]) :-
+    not(member(Goal, Head)),
+	is_member(Goal, Tail).
+
+% insert_goal(+Goal, +Intentions, -Intentions1).
+%   Insert the Goal as an Intention whose formate is ( [goal, plan] ),add into the 
+%   Intentions
+
+insert_goal(Goal, [Intent|Intentions], [Intent|Intentions1]):-
+    not(comp_distance(Goal, Intent, Belief)), !, 
+    insert_goal(Goal, Intentions, Intentions1).
+
+insert_goal(X, Intentions, [[X, []]|Intentions]).
+
+
+
+% ### no sure
+% comp_distance(+Goal, +Plan, -Belief).
+% shortest distance to the Belief.
+% Compare distances to Belief.
+
+comp_distance(goal(X1, Y1), [goal(X2, Y2)|_], [at(X, Y)|_]) :-
+    distance((X, Y), (X1, Y1), D1),
+    distance((X, Y), (X2, Y2), D2),
+    D1 < D2.
+
+
+
+% % ----- Q4:
+
+% use list of intentions to compute next action and update new action. 
+% get_action(+Intentions, -Intentions1, -Action).
+
+% base case 
+get_action([],[],[]).
+
+% case : if agent_stones(1) then Int_drop() of dropping intentions is selected.
+get_action([Intent|Tail], [[Goal, NextAction]|Tail], Action):-
+	agent_stones(),
+	Int_drop(),
+	#decom_intention(Intent, Goal, [Action|NextActions]),
+    	#applicable(Beliefs, Action).
+
+% case : if agent_stones(0) then  Int_pick() of picking intentions is selected.
+get_action(Intentions, Intentions1, Action):-
+	not(agent_stones()),
+	Int_pick(),
+	#decom_intention(Intent, Goal, [Action|NextActions]),
+    	#applicable(Beliefs, Action).
+
+
+
+% % ----- Q5:
+
+update_intentions(Observation, Intentions, Intentions1):-
+
+
+% After pick(X,Y), update beliefs.
+
+update_intentions(picked(X,Y),[[goal(X, Y, _)|_]|Intentions1], Intentions1).
+
+% After dropped(X,Y), update beliefs.
+
+update_intentions(dropped(X1,Y1),[[goal(X, Y, _)|_]|Intentions1], Intentions1).
+
+
+
+
+
+
+% % % % % % % % supplementary function 
+
+
+
+
+
+
+
+% decom_intention(+Intention, -Goal, -Plan).
+%   Extract Goal and Plan from Intention.
+
+decom_intention([Goal|Plan], Goal, Plan).
+
+
