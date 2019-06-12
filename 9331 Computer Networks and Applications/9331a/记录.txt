@@ -1,0 +1,3 @@
+1. timeoutInterval:  超时操作 ！
+2. sender.time  超时重传  # cumulative acknowledgements, timers, buffers, etc
+3. LastByteSend - LastByteAck <= MWS

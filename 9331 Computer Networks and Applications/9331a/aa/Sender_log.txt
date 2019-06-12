@@ -1,0 +1,96 @@
+snd 0.05 S 0 0 0
+rcv 0.05 SA 0 0 1
+snd 0.051 A 1 0 1
+drop 0.051 D 1 100 1
+snd 0.051 RXT 1 100 1
+rcv 0.051 A 1 0 101
+snd 0.051 D 101 100 1
+rcv 0.051 A 1 0 201
+snd 0.052 D 201 100 1
+rcv 0.052 A 1 0 301
+snd 0.052 D 301 100 1
+rcv 0.052 A 1 0 401
+drop 0.052 D 401 100 1
+snd 0.052 RXT 401 100 1
+rcv 0.053 A 1 0 501
+drop 0.053 D 501 100 1
+snd 0.053 RXT 501 100 1
+rcv 0.053 A 1 0 601
+drop 0.053 D 601 100 1
+snd 0.053 RXT 601 100 1
+rcv 0.054 A 1 0 701
+snd 0.054 D 701 100 1
+rcv 0.054 A 1 0 801
+snd 0.054 D 801 100 1
+rcv 0.054 A 1 0 901
+drop 0.055 D 901 100 1
+snd 0.055 RXT 901 100 1
+rcv 0.055 A 1 0 1001
+drop 0.055 D 1001 100 1
+snd 0.055 RXT 1001 100 1
+rcv 0.056 A 1 0 1101
+snd 0.056 D 1101 100 1
+rcv 0.056 A 1 0 1201
+snd 0.056 D 1201 100 1
+rcv 0.056 A 1 0 1301
+drop 0.056 D 1301 100 1
+snd 0.057 RXT 1301 100 1
+rcv 0.057 A 1 0 1401
+snd 0.057 D 1401 100 1
+rcv 0.057 A 1 0 1501
+snd 0.057 D 1501 100 1
+rcv 0.057 A 1 0 1601
+snd 0.058 D 1601 100 1
+rcv 0.058 A 1 0 1701
+snd 0.058 D 1701 100 1
+rcv 0.058 A 1 0 1801
+snd 0.058 D 1801 100 1
+rcv 0.058 A 1 0 1901
+drop 0.059 D 1901 100 1
+snd 0.059 RXT 1901 100 1
+rcv 0.059 A 1 0 2001
+snd 0.059 D 2001 100 1
+rcv 0.059 A 1 0 2101
+drop 0.059 D 2101 100 1
+snd 0.06 RXT 2101 100 1
+rcv 0.06 A 1 0 2201
+drop 0.06 D 2201 100 1
+snd 0.06 RXT 2201 100 1
+rcv 0.06 A 1 0 2301
+snd 0.06 D 2301 100 1
+rcv 0.061 A 1 0 2401
+snd 0.061 D 2401 100 1
+rcv 0.061 A 1 0 2501
+drop 0.061 D 2501 100 1
+snd 0.061 RXT 2501 100 1
+rcv 0.062 A 1 0 2601
+snd 0.062 D 2601 100 1
+rcv 0.062 A 1 0 2701
+snd 0.062 D 2701 100 1
+rcv 0.062 A 1 0 2801
+snd 0.063 D 2801 100 1
+rcv 0.063 A 1 0 2901
+drop 0.063 D 2901 100 1
+snd 0.063 RXT 2901 100 1
+rcv 0.063 A 1 0 3001
+drop 0.063 D 3001 28 1
+snd 0.064 RXT 3001 28 1
+rcv 0.064 A 1 0 3029
+snd 0.064 F 3029 0 1
+rcv 0.064 A 1 0 3030
+rcv 0.064 F 1 0 3030
+snd 0.065 A 3030 0 2
+
+========================================
+Data Transferred = 3028 bytes
+Segments transmitted = 35
+Number of Segments handled by PLD  = 31
+Number of Segments Dropped = 13
+Number of Segments Corrupted= 0
+Number of Segments Re-ordered= 0
+Number of Segments Duplicated = 0
+Number of Segments Delayed = 0
+Number of Retransmissions due to timeout = 0
+Number of Fast Retransmissions = 13
+Number of Duplicate Acknowledgements received  = 0
+========================================
