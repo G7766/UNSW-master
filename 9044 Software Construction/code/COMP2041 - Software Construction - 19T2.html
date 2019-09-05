@@ -1,0 +1,959 @@
+<!DOCTYPE html>
+<!-- saved from url=(0057)https://cgi.cse.unsw.edu.au/~cs2041/19T2/code/shell/index -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<title>
+
+COMP2041 - Software Construction - 19T2
+
+</title>
+
+
+
+
+<!-- <link href="/~cs2041/19T2/flask.cgi/static/bootstrap.min.css" rel="stylesheet"> -->
+<link rel="stylesheet" href="./COMP2041 - Software Construction - 19T2_files/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link href="./COMP2041 - Software Construction - 19T2_files/course.css" rel="stylesheet">
+<!-- <script type="text/javascript" src="/~cs2041/19T2/flask.cgi/static/jquery.min.js"></script> -->
+<!-- <script type="text/javascript" src="/~cs2041/19T2/flask.cgi/static/bootstrap.min.js"></script> -->
+<script src="./COMP2041 - Software Construction - 19T2_files/jquery-3.3.1.min.js"></script>
+<script src="./COMP2041 - Software Construction - 19T2_files/popper.min.js"></script>
+<script src="./COMP2041 - Software Construction - 19T2_files/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script type="text/javascript" src="./COMP2041 - Software Construction - 19T2_files/course.js"></script>
+
+<!-- prism code-highligting -->
+<link href="./COMP2041 - Software Construction - 19T2_files/prism.css" rel="stylesheet">
+<!-- defer loading of prism.js script until DOM is loaded, as per PR #26 and https://stackoverflow.com/a/24070373 -->
+<script type="text/javascript" src="./COMP2041 - Software Construction - 19T2_files/prism.js" defer=""></script>
+
+<link rel="canonical" href="https://cgi.cse.unsw.edu.au/~cs2041/19T2/">
+</head>
+<body class="container">
+
+
+
+
+<div id="heading" class="row">
+
+
+<div class="col-3 text-left">
+<a class="heading_link" target="_blank" id="left_heading_link" href="https://cgi.cse.unsw.edu.au/~cs2041/19T2/">COMP2041|COMP9044 19T2</a>
+</div>
+
+<div class="col-6 text-center">
+
+Code Examples from Lectures on shell
+
+</div>
+
+<div class="col-3 text-right">
+<a class="heading_link" target="_blank" id="right_heading_link" href="https://cgi.cse.unsw.edu.au/~cs2041/19T2/">COMP2041|COMP9044 19T2</a>
+</div>
+
+
+</div>
+
+
+
+    
+    <div class="code_example">
+        <div class="example_link">
+            <a target="source" href="https://cgi.cse.unsw.edu.au/~cs2041/19T2/code/shell/args.sh">args.sh</a>
+        </div>
+    <div class="header_comment">
+        
+
+
+
+
+
+
+    
+    <br>A simple shell script demonstrating access to arguments.
+<br>
+
+    
+
+    </div>
+
+    
+
+
+
+
+
+
+    
+        <pre class="program language-clike" style="max-height: 64em;overflow:  auto;"><code class=" language-clike">echo My name is $<span class="token number">0</span>
+echo My process number is $$
+echo I have $# arguments
+echo My arguments separately are $<span class="token operator">*</span>
+echo My arguments together are <span class="token string">"$@"</span>
+echo My <span class="token number">5</span>th argument is <span class="token string">"'$5'"</span></code></pre>
+
+
+
+
+
+    
+
+    </div>
+
+    
+    <div class="code_example">
+        <div class="example_link">
+            <a target="source" href="https://cgi.cse.unsw.edu.au/~cs2041/19T2/code/shell/l">l</a>
+        </div>
+    <div class="header_comment">
+        
+
+
+
+
+
+
+    
+    l [file|directories...] - list files
+<br>Short Shell scripts can be used for convenience.
+<br>Note: "$@" like $* expands to the arguments to the script,
+but preserves the integrity of each argument if it contains spaces.
+<br>
+
+    
+
+    </div>
+
+    
+
+
+
+
+
+
+    
+        <pre class="program language-clike" style="max-height: 64em;overflow:  auto;"><code class=" language-clike">ls <span class="token operator">-</span>las <span class="token string">"$@"</span></code></pre>
+
+
+
+
+
+    
+
+    </div>
+
+    
+    <div class="code_example">
+        <div class="example_link">
+            <a target="source" href="https://cgi.cse.unsw.edu.au/~cs2041/19T2/code/shell/word_frequency.sh">word_frequency.sh</a>
+        </div>
+    <div class="header_comment">
+        
+
+
+
+
+
+
+    
+    <br>Count the number of time each different word occurs
+in the files given as arguments, e.g. word_frequency.sh dracula.txt
+<br>
+
+    
+
+    </div>
+
+    
+
+
+
+
+
+
+    
+        <pre class="program language-clike" style="max-height: 64em;overflow:  auto;"><code class=" language-clike">sed <span class="token string">'s/ /\n/g'</span> <span class="token string">"$@"</span><span class="token operator">|</span>      # convert to one word per line
+tr A<span class="token operator">-</span>Z a<span class="token operator">-</span>z<span class="token operator">|</span>               # map uppercase to lower case
+sed <span class="token string">"s/[^a-z']//g"</span><span class="token operator">|</span>       # remove all characters except a<span class="token operator">-</span>z and '
+egrep <span class="token operator">-</span>v <span class="token string">'^$'</span><span class="token operator">|</span>            # remove empty lines
+sort<span class="token operator">|</span>                     # place words <span class="token keyword">in</span> alphabetical order
+uniq <span class="token operator">-</span>c<span class="token operator">|</span>                  # use uniq to count how many times each word occurs
+sort <span class="token operator">-</span>n                   # order words <span class="token keyword">in</span> frequency of occurrance</code></pre>
+
+
+
+
+
+    
+
+    </div>
+
+    
+    <div class="code_example">
+        <div class="example_link">
+            <a target="source" href="https://cgi.cse.unsw.edu.au/~cs2041/19T2/code/shell/iota.v1.sh">iota.v1.sh</a>
+        </div>
+    <div class="header_comment">
+        
+
+
+
+
+
+
+    
+    <br>Print the integers 1..n if 1 argument given.
+<br>Print the integers  n..m if 2 arguments given.
+<br>
+
+    
+
+    </div>
+
+    
+
+
+
+
+
+
+    
+        <pre class="program language-clike" style="max-height: 64em;overflow:  auto;"><code class=" language-clike"><span class="token keyword">if</span> test $# <span class="token operator">=</span> <span class="token number">1</span>
+then
+    start<span class="token operator">=</span><span class="token number">1</span>
+    finish<span class="token operator">=</span>$<span class="token number">1</span>
+elif test $# <span class="token operator">=</span> <span class="token number">2</span>
+then
+    start<span class="token operator">=</span>$<span class="token number">1</span>
+    finish<span class="token operator">=</span>$<span class="token number">2</span>
+<span class="token keyword">else</span>
+    echo <span class="token string">"Usage: $0 &lt;start&gt; &lt;finish&gt;"</span> <span class="token number">1</span><span class="token operator">&gt;</span><span class="token operator">&amp;</span><span class="token number">2</span>
+    exit <span class="token number">1</span>
+fi
+
+<span class="token keyword">for</span> argument <span class="token keyword">in</span> <span class="token string">"$@"</span>
+<span class="token keyword">do</span>
+    # clumsy way to check <span class="token keyword">if</span> argument is a valid integer
+    <span class="token keyword">if</span> echo <span class="token string">"$argument"</span><span class="token operator">|</span>egrep <span class="token operator">-</span>v <span class="token string">'^-?[0-9]+$'</span> <span class="token operator">&gt;</span><span class="token operator">/</span>dev<span class="token operator">/</span><span class="token keyword">null</span>
+    then
+        echo <span class="token string">"$0: argument '$argument' is not an integer"</span> <span class="token number">1</span><span class="token operator">&gt;</span><span class="token operator">&amp;</span><span class="token number">2</span>
+        exit <span class="token number">1</span>
+    fi
+done
+
+number<span class="token operator">=</span>$start
+<span class="token keyword">while</span> test $number <span class="token operator">-</span>le $finish
+<span class="token keyword">do</span>
+    echo $number
+    number<span class="token operator">=</span>`expr $number <span class="token operator">+</span> <span class="token number">1</span>`    # or number<span class="token operator">=</span>$<span class="token punctuation">(</span><span class="token punctuation">(</span>$number <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+done</code></pre>
+
+
+
+
+
+    
+
+    </div>
+
+    
+    <div class="code_example">
+        <div class="example_link">
+            <a target="source" href="https://cgi.cse.unsw.edu.au/~cs2041/19T2/code/shell/iota.v2.sh">iota.v2.sh</a>
+        </div>
+    <div class="header_comment">
+        
+
+
+
+
+
+
+    
+    <br>Print the integers 1..n if 1 argument given.
+<br>Print the integers  n..m if 2 arguments given.
+<br>
+<br>Using bash arothmetic which is mnore reabable but less portable
+<br>
+
+    
+
+    </div>
+
+    
+
+
+
+
+
+
+    
+        <pre class="program language-clike" style="max-height: 64em;overflow:  auto;"><code class=" language-clike"><span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token punctuation">(</span>$# <span class="token operator">==</span> <span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+then
+    start<span class="token operator">=</span><span class="token number">1</span>
+    finish<span class="token operator">=</span>$<span class="token number">1</span>
+elif <span class="token punctuation">(</span><span class="token punctuation">(</span>$# <span class="token operator">==</span> <span class="token number">2</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+then
+    start<span class="token operator">=</span>$<span class="token number">1</span>
+    finish<span class="token operator">=</span>$<span class="token number">2</span>
+<span class="token keyword">else</span>
+    echo <span class="token string">"Usage: $0 &lt;start&gt; &lt;finish&gt;"</span> <span class="token number">1</span><span class="token operator">&gt;</span><span class="token operator">&amp;</span><span class="token number">2</span>
+    exit <span class="token number">1</span>
+fi
+
+<span class="token keyword">for</span> argument <span class="token keyword">in</span> <span class="token string">"$@"</span>
+<span class="token keyword">do</span>
+    # This use of a regex is a bash extension missing from many Shells
+    # It should be avoided <span class="token keyword">if</span> portability is a concern
+    <span class="token keyword">if</span> <span class="token punctuation">[</span><span class="token punctuation">[</span> <span class="token string">"$argument"</span> <span class="token operator">=</span><span class="token operator">~</span> <span class="token string">'^-?[0-9]+$'</span> <span class="token punctuation">]</span><span class="token punctuation">]</span>
+    then
+        echo <span class="token string">"$0: argument '$argument' is not an integer"</span> <span class="token number">1</span><span class="token operator">&gt;</span><span class="token operator">&amp;</span><span class="token number">2</span>
+        exit <span class="token number">1</span>
+    fi
+done
+
+number<span class="token operator">=</span>$start
+<span class="token keyword">while</span> <span class="token punctuation">(</span><span class="token punctuation">(</span>number <span class="token operator">&lt;=</span> finish<span class="token punctuation">)</span><span class="token punctuation">)</span>
+<span class="token keyword">do</span>
+    echo $number
+    number<span class="token operator">=</span>$<span class="token punctuation">(</span><span class="token punctuation">(</span>number <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+done</code></pre>
+
+
+
+
+
+    
+
+    </div>
+
+    
+    <div class="code_example">
+        <div class="example_link">
+            <a target="source" href="https://cgi.cse.unsw.edu.au/~cs2041/19T2/code/shell/tolower.sh">tolower.sh</a>
+        </div>
+    <div class="header_comment">
+        
+
+
+
+
+
+
+    
+    <br>Change the names of the specified files to lower case.
+<br>Note the use of test to check if the new filename differs from the old.
+<br>The perl utility rename provides a more general alternative.
+<br><br>Note without the double quotes below filenames containing spaces would be handled
+incorrectly.
+<br><br>Note also the use of -- to avoid mv interpreting a filename beginning with - as an option
+<br><br>Although a files named -n or -e will break the script because echo will treat them as an option,
+<br>
+
+    
+
+    </div>
+
+    
+
+
+
+
+
+
+    
+        <pre class="program language-clike" style="max-height: 64em;overflow:  auto;"><code class=" language-clike"><span class="token keyword">if</span> test $# <span class="token operator">=</span> <span class="token number">0</span>
+then
+    echo <span class="token string">"Usage $0: &lt;files&gt;"</span> <span class="token number">1</span><span class="token operator">&gt;</span><span class="token operator">&amp;</span><span class="token number">2</span>
+    exit <span class="token number">1</span>
+fi
+
+<span class="token keyword">for</span> filename <span class="token keyword">in</span> <span class="token string">"$@"</span>
+<span class="token keyword">do</span>
+    new_filename<span class="token operator">=</span>`echo <span class="token string">"$filename"</span> <span class="token operator">|</span> tr A<span class="token operator">-</span>Z a<span class="token operator">-</span>z`
+    test <span class="token string">"$filename"</span> <span class="token operator">=</span> <span class="token string">"$new_filename"</span> <span class="token operator">&amp;&amp;</span> <span class="token keyword">continue</span>
+    <span class="token keyword">if</span> test <span class="token operator">-</span>r <span class="token string">"$new_filename"</span>
+    then
+        echo <span class="token string">"$0: $new_filename exists"</span> <span class="token number">1</span><span class="token operator">&gt;</span><span class="token operator">&amp;</span><span class="token number">2</span>
+    elif test <span class="token operator">-</span>e <span class="token string">"$filename"</span>
+    then
+        mv <span class="token operator">--</span> <span class="token string">"$filename"</span> <span class="token string">"$new_filename"</span>
+    <span class="token keyword">else</span>
+        echo <span class="token string">"$0: $filename not found"</span> <span class="token number">1</span><span class="token operator">&gt;</span><span class="token operator">&amp;</span><span class="token number">2</span>
+    fi
+done</code></pre>
+
+
+
+
+
+    
+
+    </div>
+
+    
+    <div class="code_example">
+        <div class="example_link">
+            <a target="source" href="https://cgi.cse.unsw.edu.au/~cs2041/19T2/code/shell/watch_website.sh">watch_website.sh</a>
+        </div>
+    <div class="header_comment">
+        
+
+
+
+
+
+
+    
+    <br>Repeatedly download a specified web page
+until a specified regexp matches its source
+then notify the specified email address.
+<br><br>For example:
+<br>
+
+    
+
+    </div>
+
+    
+
+
+
+
+
+
+    
+        <pre class="program language-clike" style="max-height: 64em;overflow:  auto;"><code class=" language-clike">repeat_seconds<span class="token operator">=</span><span class="token number">300</span>  #check every <span class="token number">5</span> minutes
+
+<span class="token keyword">if</span> test $# <span class="token operator">=</span> <span class="token number">3</span>
+then
+    url<span class="token operator">=</span>$<span class="token number">1</span>
+    regexp<span class="token operator">=</span>$<span class="token number">2</span>
+    email_address<span class="token operator">=</span>$<span class="token number">3</span>
+<span class="token keyword">else</span>
+    echo <span class="token string">"Usage: $0 &lt;url&gt; &lt;regex&gt;"</span> <span class="token number">1</span><span class="token operator">&gt;</span><span class="token operator">&amp;</span><span class="token number">2</span>
+    exit <span class="token number">1</span>
+fi
+
+<span class="token keyword">while</span> <span class="token boolean">true</span>
+<span class="token keyword">do</span>
+    <span class="token keyword">if</span> wget <span class="token operator">-</span>O<span class="token operator">-</span> <span class="token operator">-</span>q <span class="token string">"$url"</span><span class="token operator">|</span>egrep <span class="token string">"$regexp"</span> <span class="token operator">&gt;</span><span class="token operator">/</span>dev<span class="token operator">/</span><span class="token keyword">null</span>
+    then
+        echo <span class="token string">"Generated by $0"</span> <span class="token operator">|</span> mail <span class="token operator">-</span>s <span class="token string">"$url now matches $regexp"</span> $email_address
+        exit <span class="token number">0</span>
+    fi
+    sleep $repeat_seconds
+done</code></pre>
+
+
+
+
+
+    
+
+    </div>
+
+    
+    <div class="code_example">
+        <div class="example_link">
+            <a target="source" href="https://cgi.cse.unsw.edu.au/~cs2041/19T2/code/shell/plagiarism_detection.simple_diff.sh">plagiarism_detection.simple_diff.sh</a>
+        </div>
+    <div class="header_comment">
+        
+
+
+
+
+
+
+    
+    <br><br>Run as plagiarism_detection.simple_diff.sh &lt;files&gt;
+<br><br>Report if any of the files are copies of each other
+<br><br>The use of diff -iw means changes in white-space or case won't affect comparisons
+<br>
+
+    
+
+    </div>
+
+    
+
+
+
+
+
+
+    
+        <pre class="program language-clike" style="max-height: 64em;overflow:  auto;"><code class=" language-clike"><span class="token keyword">for</span> file1 <span class="token keyword">in</span> <span class="token string">"$@"</span>
+<span class="token keyword">do</span>
+    <span class="token keyword">for</span> file2 <span class="token keyword">in</span> <span class="token string">"$@"</span>
+    <span class="token keyword">do</span>
+        test <span class="token string">"$file1"</span> <span class="token operator">=</span> <span class="token string">"$file2"</span> <span class="token operator">&amp;&amp;</span> <span class="token keyword">break</span>
+        <span class="token keyword">if</span> diff <span class="token operator">-</span>i <span class="token operator">-</span>w <span class="token string">"$file1"</span> <span class="token string">"$file2"</span> <span class="token operator">&gt;</span><span class="token operator">/</span>dev<span class="token operator">/</span><span class="token keyword">null</span>
+        then
+            echo <span class="token string">"$file1 is a copy of $file2"</span>
+        fi
+    done
+done</code></pre>
+
+
+
+
+
+    
+
+    </div>
+
+    
+    <div class="code_example">
+        <div class="example_link">
+            <a target="source" href="https://cgi.cse.unsw.edu.au/~cs2041/19T2/code/shell/plagiarism_detection.comments.sh">plagiarism_detection.comments.sh</a>
+        </div>
+    <div class="header_comment">
+        
+
+
+
+
+
+
+    
+    <br>
+<br><br>Improved version of plagiarism_detection.simple_diff.sh
+<br><br>The substitution s/\/\/.*// removes // style C comments.
+<br>This means changes in comments won't affect comparisons.
+<br><br>Note use of temporary files
+<br>
+
+    
+
+    </div>
+
+    
+
+
+
+
+
+
+    
+        <pre class="program language-clike" style="max-height: 64em;overflow:  auto;"><code class=" language-clike">TMP_FILE1<span class="token operator">=</span><span class="token operator">/</span>tmp<span class="token operator">/</span>plagiarism_tmp1$$
+TMP_FILE2<span class="token operator">=</span><span class="token operator">/</span>tmp<span class="token operator">/</span>plagiarism_tmp2$$
+
+
+<span class="token keyword">for</span> file1 <span class="token keyword">in</span> <span class="token string">"$@"</span>
+<span class="token keyword">do</span>
+    <span class="token keyword">for</span> file2 <span class="token keyword">in</span> <span class="token string">"$@"</span>
+    <span class="token keyword">do</span>
+        <span class="token keyword">if</span> test <span class="token string">"$file1"</span> <span class="token operator">=</span> <span class="token string">"$file2"</span>
+        then
+            <span class="token keyword">break</span> # avoid comparing pairs of assignments twice
+        fi
+        sed <span class="token string">'s/\/\/.*//'</span> <span class="token string">"$file1"</span> <span class="token operator">&gt;</span>$TMP_FILE1
+        sed <span class="token string">'s/\/\/.*//'</span> <span class="token string">"$file2"</span> <span class="token operator">&gt;</span>$TMP_FILE2
+        <span class="token keyword">if</span> diff <span class="token operator">-</span>i <span class="token operator">-</span>w $TMP_FILE1 $TMP_FILE2 <span class="token operator">&gt;</span><span class="token operator">/</span>dev<span class="token operator">/</span><span class="token keyword">null</span>
+        then
+            echo <span class="token string">"$file1 is a copy of $file2"</span>
+        fi
+    done
+done
+rm <span class="token operator">-</span>f $TMP_FILE1 $TMP_FILE2</code></pre>
+
+
+
+
+
+    
+
+    </div>
+
+    
+    <div class="code_example">
+        <div class="example_link">
+            <a target="source" href="https://cgi.cse.unsw.edu.au/~cs2041/19T2/code/shell/plagiarism_detection.identifiers.sh">plagiarism_detection.identifiers.sh</a>
+        </div>
+    <div class="header_comment">
+        
+
+
+
+
+
+
+    
+    <br><br><br>Improved version of plagiarism_detection.comments.sh
+<br><br>This version converts  C strings to the letter 's'
+and it converts identifiers to the letter 'v'.
+<br>Hence changes in strings &amp; identifiers won't prevent detection of plagiarism.
+<br>
+<br>The substitution s/"["]*"/s/g changes strings to the letter 's'
+<br>This pattern won't match a few C strings which is fine for our purposes
+<br><br>The  s/[a-zA-Z_][a-zA-Z0-9_]*/v/g changes all variable names to 'v'
+which means changes to variable names won't affect comparison.
+<br>Note this  also may change function names, keywords etc.
+<br>This is fine for our purposes.
+<br>
+<br>
+
+    
+
+    </div>
+
+    
+
+
+
+
+
+
+    
+        <pre class="program language-clike" style="max-height: 64em;overflow:  auto;"><code class=" language-clike">TMP_FILE1<span class="token operator">=</span><span class="token operator">/</span>tmp<span class="token operator">/</span>plagiarism_tmp1$$
+TMP_FILE2<span class="token operator">=</span><span class="token operator">/</span>tmp<span class="token operator">/</span>plagiarism_tmp2$$
+substitutions<span class="token operator">=</span><span class="token string">'s/\/\/.*//;s/"[^"]"/s/g;s/[a-zA-Z_][a-zA-Z0-9_]*/v/g'</span>
+
+<span class="token keyword">for</span> file1 <span class="token keyword">in</span> <span class="token string">"$@"</span>
+<span class="token keyword">do</span>
+    <span class="token keyword">for</span> file2 <span class="token keyword">in</span> <span class="token string">"$@"</span>
+    <span class="token keyword">do</span>
+        test <span class="token string">"$file1"</span> <span class="token operator">=</span> <span class="token string">"$file2"</span> <span class="token operator">&amp;&amp;</span> <span class="token keyword">break</span> # don't compare pairs of assignments twice
+        sed <span class="token string">"$substitutions"</span> <span class="token string">"$file1"</span> <span class="token operator">&gt;</span>$TMP_FILE1
+        sed <span class="token string">"$substitutions"</span> <span class="token string">"$file2"</span> <span class="token operator">&gt;</span>$TMP_FILE2
+        <span class="token keyword">if</span> diff <span class="token operator">-</span>i <span class="token operator">-</span>w $TMP_FILE1 $TMP_FILE2 <span class="token operator">&gt;</span><span class="token operator">/</span>dev<span class="token operator">/</span><span class="token keyword">null</span>
+        then
+            echo <span class="token string">"$file1 is a copy of $file2"</span>
+        fi
+    done
+done
+rm <span class="token operator">-</span>f $TMP_FILE1 $TMP_FILE2</code></pre>
+
+
+
+
+
+    
+
+    </div>
+
+    
+    <div class="code_example">
+        <div class="example_link">
+            <a target="source" href="https://cgi.cse.unsw.edu.au/~cs2041/19T2/code/shell/plagiarism_detection.reordering.sh">plagiarism_detection.reordering.sh</a>
+        </div>
+    <div class="header_comment">
+        
+
+
+
+
+
+
+    
+    <br><br><br>Improved version of plagiarism_detection.identifiers.sh
+<br><br>Note the use of sort so line reordering won't prevent detection of plagiarism.
+<br>
+
+    
+
+    </div>
+
+    
+
+
+
+
+
+
+    
+        <pre class="program language-clike" style="max-height: 64em;overflow:  auto;"><code class=" language-clike">TMP_FILE1<span class="token operator">=</span><span class="token operator">/</span>tmp<span class="token operator">/</span>plagiarism_tmp1$$
+TMP_FILE2<span class="token operator">=</span><span class="token operator">/</span>tmp<span class="token operator">/</span>plagiarism_tmp2$$
+substitutions<span class="token operator">=</span><span class="token string">'s/\/\/.*//;s/"[^"]"/s/g;s/[a-zA-Z_][a-zA-Z0-9_]*/v/g'</span>
+
+<span class="token keyword">for</span> file1 <span class="token keyword">in</span> <span class="token string">"$@"</span>
+<span class="token keyword">do</span>
+    <span class="token keyword">for</span> file2 <span class="token keyword">in</span> <span class="token string">"$@"</span>
+    <span class="token keyword">do</span>
+        test <span class="token string">"$file1"</span> <span class="token operator">=</span> <span class="token string">"$file2"</span> <span class="token operator">&amp;&amp;</span> <span class="token keyword">break</span> # don't compare pairs of assignments twice
+        sed <span class="token string">"$substitutions"</span> <span class="token string">"$file1"</span><span class="token operator">|</span>sort <span class="token operator">&gt;</span>$TMP_FILE1
+        sed <span class="token string">"$substitutions"</span> <span class="token string">"$file2"</span><span class="token operator">|</span>sort <span class="token operator">&gt;</span>$TMP_FILE2
+        <span class="token keyword">if</span> diff <span class="token operator">-</span>i <span class="token operator">-</span>w $TMP_FILE1 $TMP_FILE2 <span class="token operator">&gt;</span><span class="token operator">/</span>dev<span class="token operator">/</span><span class="token keyword">null</span>
+        then
+            echo <span class="token string">"$file1 is a copy of $file2"</span>
+        fi
+    done
+done
+rm <span class="token operator">-</span>f $TMP_FILE1 $TMP_FILE2</code></pre>
+
+
+
+
+
+    
+
+    </div>
+
+    
+    <div class="code_example">
+        <div class="example_link">
+            <a target="source" href="https://cgi.cse.unsw.edu.au/~cs2041/19T2/code/shell/plagiarism_detection.md5_hash.sh">plagiarism_detection.md5_hash.sh</a>
+        </div>
+    <div class="header_comment">
+        
+
+
+
+
+
+
+    
+    <br><br><br>Improved version of plagiarism_detection.reordering.sh
+<br><br>Note use md5sum to calculate a Cryptographic hash of the modified file
+<a href="http://en.wikipedia.org/wiki/MD5">http://en.wikipedia.org/wiki/MD5</a>
+and then use sort &amp;&amp; uniq to find files with the same hash
+<br><br>This allows  execution time linear in the number of files
+<br>
+
+    
+
+    </div>
+
+    
+
+
+
+
+
+
+    
+        <pre class="program language-clike" style="max-height: 64em;overflow:  auto;"><code class=" language-clike">substitutions<span class="token operator">=</span><span class="token string">'s/\/\/.*//;s/"[^"]"/s/g;s/[a-zA-Z_][a-zA-Z0-9_]*/v/g'</span>
+
+<span class="token keyword">for</span> file <span class="token keyword">in</span> <span class="token string">"$@"</span>
+<span class="token keyword">do</span>
+    echo `sed <span class="token string">"$substitutions"</span> <span class="token string">"$file"</span><span class="token operator">|</span>sort<span class="token operator">|</span>md5sum` $file
+done<span class="token operator">|</span>
+sort<span class="token operator">|</span>
+uniq <span class="token operator">-</span>w32 <span class="token operator">-</span>d <span class="token operator">--</span>all<span class="token operator">-</span>repeated<span class="token operator">=</span>separate<span class="token operator">|</span>
+cut <span class="token operator">-</span>c36<span class="token operator">-</span></code></pre>
+
+
+
+
+
+    
+
+    </div>
+
+    
+    <div class="code_example">
+        <div class="example_link">
+            <a target="source" href="https://cgi.cse.unsw.edu.au/~cs2041/19T2/code/shell/where.v0.sh">where.v0.sh</a>
+        </div>
+    <div class="header_comment">
+        
+
+
+
+
+
+
+    
+    <br>Printall occurances of executable programs with the specified names in $PATH
+<br>Note use of tr to produce a space-separated list of directories
+suitable for a for loop.
+<br>Breaks if directories contain spaces (fixing this left as an exercise).
+<br>
+
+    
+
+    </div>
+
+    
+
+
+
+
+
+
+    
+        <pre class="program language-clike" style="max-height: 64em;overflow:  auto;"><code class=" language-clike"><span class="token keyword">if</span> test $# <span class="token operator">=</span> <span class="token number">0</span>
+then
+    echo <span class="token string">"Usage $0: &lt;program&gt;"</span> <span class="token number">1</span><span class="token operator">&gt;</span><span class="token operator">&amp;</span><span class="token number">2</span>
+    exit <span class="token number">1</span>
+fi
+
+<span class="token keyword">for</span> program <span class="token keyword">in</span> <span class="token string">"$@"</span>
+<span class="token keyword">do</span>
+    program_found<span class="token operator">=</span><span class="token string">''</span>
+    <span class="token keyword">for</span> directory <span class="token keyword">in</span> `echo <span class="token string">"$PATH"</span> <span class="token operator">|</span> tr <span class="token string">':'</span> <span class="token string">' '</span>`
+    <span class="token keyword">do</span>
+        f<span class="token operator">=</span><span class="token string">"$directory/$program"</span>
+        <span class="token keyword">if</span> test <span class="token operator">-</span>x <span class="token string">"$f"</span>
+        then
+            ls <span class="token operator">-</span>ld <span class="token string">"$f"</span>
+            program_found<span class="token operator">=</span><span class="token number">1</span>
+        fi
+    done
+    <span class="token keyword">if</span> test <span class="token operator">-</span>z $program_found
+    then
+        echo <span class="token string">"$program not found"</span>
+    fi
+done</code></pre>
+
+
+
+
+
+    
+
+    </div>
+
+    
+    <div class="code_example">
+        <div class="example_link">
+            <a target="source" href="https://cgi.cse.unsw.edu.au/~cs2041/19T2/code/shell/where.v1.sh">where.v1.sh</a>
+        </div>
+    <div class="header_comment">
+        
+
+
+
+
+
+
+    
+    <br>Print all occurances of executable programs with the specified names in $PATH
+<br>Note use of tr to produce a list of directories one per line
+suitable for a while loop.
+<br>Won't work if directories contain spaces (fixing this left as an exercise)
+<br>
+
+    
+
+    </div>
+
+    
+
+
+
+
+
+
+    
+        <pre class="program language-clike" style="max-height: 64em;overflow:  auto;"><code class=" language-clike"><span class="token keyword">if</span> test $# <span class="token operator">=</span> <span class="token number">0</span>
+then
+    echo <span class="token string">"Usage $0: &lt;program&gt;"</span> <span class="token number">1</span><span class="token operator">&gt;</span><span class="token operator">&amp;</span><span class="token number">2</span>
+    exit <span class="token number">1</span>
+fi
+
+<span class="token keyword">for</span> program <span class="token keyword">in</span> <span class="token string">"$@"</span>
+<span class="token keyword">do</span>
+    echo <span class="token string">"$PATH"</span><span class="token operator">|</span>
+    tr <span class="token string">':'</span> <span class="token string">'\n'</span><span class="token operator">|</span>
+    <span class="token keyword">while</span> read directory
+    <span class="token keyword">do</span>
+        f<span class="token operator">=</span><span class="token string">"$directory/$program"</span>
+        <span class="token keyword">if</span> test <span class="token operator">-</span>x <span class="token string">"$f"</span>
+        then
+            ls <span class="token operator">-</span>ld <span class="token string">"$f"</span>
+        fi
+    done<span class="token operator">|</span>
+    egrep <span class="token string">'.'</span> <span class="token operator">||</span> echo <span class="token string">"$program not found"</span>
+done</code></pre>
+
+
+
+
+
+    
+
+    </div>
+
+    
+    <div class="code_example">
+        <div class="example_link">
+            <a target="source" href="https://cgi.cse.unsw.edu.au/~cs2041/19T2/code/shell/where.v2.sh">where.v2.sh</a>
+        </div>
+    <div class="header_comment">
+        
+
+
+
+
+
+
+    
+    <br>Print all occurances of executable programs with the specified names in $PATH
+<br>Note use of tr to produce a list of directories one per line
+suitable for a while loop.
+<br>Won't work if directories contain new-lines (fixing this left as an exercise)
+<br>
+
+    
+
+    </div>
+
+    
+
+
+
+
+
+
+    
+        <pre class="program language-clike" style="max-height: 64em;overflow:  auto;"><code class=" language-clike"><span class="token keyword">if</span> test $# <span class="token operator">=</span> <span class="token number">0</span>
+then
+    echo <span class="token string">"Usage $0: &lt;program&gt;"</span> <span class="token number">1</span><span class="token operator">&gt;</span><span class="token operator">&amp;</span><span class="token number">2</span>
+    exit <span class="token number">1</span>
+fi
+<span class="token keyword">for</span> program <span class="token keyword">in</span> <span class="token string">"$@"</span>
+<span class="token keyword">do</span>
+    n_path_components<span class="token operator">=</span>`echo $PATH<span class="token operator">|</span>tr <span class="token operator">-</span>d <span class="token operator">-</span>c <span class="token punctuation">:</span><span class="token operator">|</span>wc <span class="token operator">-</span>c`
+    index<span class="token operator">=</span><span class="token number">1</span>
+    <span class="token keyword">while</span> test $index <span class="token operator">-</span>le $n_path_components
+    <span class="token keyword">do</span>
+        directory<span class="token operator">=</span>`echo <span class="token string">"$PATH"</span><span class="token operator">|</span>cut <span class="token operator">-</span>d<span class="token punctuation">:</span> <span class="token operator">-</span>f$index`
+        f<span class="token operator">=</span><span class="token string">"$directory/$program"</span>
+        <span class="token keyword">if</span> test <span class="token operator">-</span>x <span class="token string">"$f"</span>
+        then
+            ls <span class="token operator">-</span>ld <span class="token string">"$f"</span>
+            program_found<span class="token operator">=</span><span class="token number">1</span>
+        fi
+        index<span class="token operator">=</span>`expr $index <span class="token operator">+</span> <span class="token number">1</span>`
+    done
+    test <span class="token operator">-</span>n $program_found <span class="token operator">||</span> echo <span class="token string">"$program not found"</span>
+done</code></pre>
+
+
+
+
+
+    
+
+    </div>
+
+
+
+
+
+
+<footer class="mt-3 container text-center no-print">
+<p class="text-muted">
+<strong>COMP2041|COMP9044 19T2: Software Construction</strong>
+is brought to you by <br>
+the <a href="https://www.cse.unsw.edu.au/">School of Computer Science and Engineering</a>
+at the <a href="https://www.unsw.edu.au/">University of New South Wales</a>, Sydney.<br>
+For all enquiries, please email the class account at
+<a href="mailto:@cse.unsw.edu.au">cs2041@cse.unsw.edu.au</a><br>
+
+<small>CRICOS Provider 00098G</small>
+</p>
+
+
+
+</footer>
+
+
+
+
+
+</body></html>

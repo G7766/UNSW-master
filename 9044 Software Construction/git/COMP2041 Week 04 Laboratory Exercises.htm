@@ -1,0 +1,856 @@
+<!DOCTYPE html>
+<!-- saved from url=(0057)https://cgi.cse.unsw.edu.au/~cs2041/19T2/lab/04/questions -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+<title>
+
+COMP2041 Week 04 Laboratory Exercises
+
+</title>
+<!-- <link href="/~cs2041/19T2/flask.cgi/static/bootstrap.min.css" rel="stylesheet"> -->
+<link crossorigin="anonymous" href="./COMP2041 Week 04 Laboratory Exercises_files/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" rel="stylesheet">
+<link href="./COMP2041 Week 04 Laboratory Exercises_files/course.css" rel="stylesheet">
+<!-- <script type="text/javascript" src="/~cs2041/19T2/flask.cgi/static/jquery.min.js"></script> -->
+<!-- <script type="text/javascript" src="/~cs2041/19T2/flask.cgi/static/bootstrap.min.js"></script> -->
+<script src="./COMP2041 Week 04 Laboratory Exercises_files/jquery-3.3.1.min.js"></script>
+<script src="./COMP2041 Week 04 Laboratory Exercises_files/popper.min.js"></script>
+<script crossorigin="anonymous" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" src="./COMP2041 Week 04 Laboratory Exercises_files/bootstrap.min.js"></script>
+<script src="./COMP2041 Week 04 Laboratory Exercises_files/course.js" type="text/javascript"></script>
+<!-- prism code-highligting -->
+<link href="./COMP2041 Week 04 Laboratory Exercises_files/prism.css" rel="stylesheet">
+<!-- defer loading of prism.js script until DOM is loaded, as per PR #26 and https://stackoverflow.com/a/24070373 -->
+<script defer="" src="./COMP2041 Week 04 Laboratory Exercises_files/prism.js" type="text/javascript"></script>
+<link href="https://cgi.cse.unsw.edu.au/~cs2041/19T2/" rel="canonical">
+</head>
+<body class="container">
+<div class="row" id="heading">
+<div class="col-3 text-left">
+<a class="heading_link" href="https://cgi.cse.unsw.edu.au/~cs2041/19T2/" id="left_heading_link" target="_blank">COMP(2041|9044) 19T2</a>
+</div>
+<div class="col-6 text-center">
+<span class="dropdown">
+<button aria-expanded="false" aria-haspopup="true" class="btn btn-lg btn-link dropdown-toggle heading_button" data-toggle="dropdown" id="week-selector" type="button">
+        Week 04 <span class="caret"></span>
+</button>
+<div aria-labelledby="week-selector" class="dropdown-menu">
+<a class="dropdown-item" href="https://cgi.cse.unsw.edu.au/~cs2041/19T2/lab/01/questions">Week 01</a>
+<a class="dropdown-item" href="https://cgi.cse.unsw.edu.au/~cs2041/19T2/lab/02/questions">Week 02</a>
+<a class="dropdown-item" href="https://cgi.cse.unsw.edu.au/~cs2041/19T2/lab/03/questions">Week 03</a>
+<a class="dropdown-item" href="https://cgi.cse.unsw.edu.au/~cs2041/19T2/lab/04/questions">Week 04</a>
+<a class="dropdown-item" href="https://cgi.cse.unsw.edu.au/~cs2041/19T2/lab/05/questions">Week 05 (tutors only)</a>
+<a class="dropdown-item" href="https://cgi.cse.unsw.edu.au/~cs2041/19T2/lab/06/questions">Week 06 (tutors only)</a>
+<a class="dropdown-item" href="https://cgi.cse.unsw.edu.au/~cs2041/19T2/lab/08/questions">Week 08 (tutors only)</a>
+<a class="dropdown-item" href="https://cgi.cse.unsw.edu.au/~cs2041/19T2/lab/09/questions">Week 09 (tutors only)</a>
+<a class="dropdown-item" href="https://cgi.cse.unsw.edu.au/~cs2041/19T2/lab/10/questions">Week 10 (tutors only)</a>
+</div>
+</span>
+<span class="dropdown">
+<button aria-expanded="false" aria-haspopup="true" class="btn btn-lg btn-link dropdown-toggle heading_button" data-toggle="dropdown" id="tlb-selector" type="button">
+        Laboratory <span class="caret"></span>
+</button>
+<div aria-labelledby="tlb-selector" class="dropdown-menu">
+<a class="dropdown-item" href="https://cgi.cse.unsw.edu.au/~cs2041/19T2/tut/04/questions">Tutorial</a>
+<a class="dropdown-item" href="https://cgi.cse.unsw.edu.au/~cs2041/19T2/lab/04/questions">Laboratory</a>
+<a class="dropdown-item" href="https://cgi.cse.unsw.edu.au/~cs2041/19T2/test/04/questions">Weekly Test</a>
+</div>
+</span>
+<span class="dropdown">
+<button aria-expanded="false" aria-haspopup="true" class="btn btn-lg btn-link dropdown-toggle heading_button" data-toggle="dropdown" id="qa-selector" type="button">
+        Exercises <span class="caret"></span>
+</button>
+<div aria-labelledby="qa-selector" class="dropdown-menu">
+<a class="dropdown-item" href="https://cgi.cse.unsw.edu.au/~cs2041/19T2/lab/04/questions">Exercises</a>
+<a class="dropdown-item" href="https://cgi.cse.unsw.edu.au/~cs2041/19T2/lab/04/answers">Sample Solutions (tutors only)</a>
+</div>
+</span>
+</div>
+<div class="col-3 text-right">
+<a class="heading_link" href="https://cgi.cse.unsw.edu.au/~cs2041/19T2/" id="right_heading_link" target="_blank">COMP(2041|9044) 19T2</a>
+</div>
+</div>
+<div class="tutlab lab">
+<div class="card">
+<div class="card-header">
+<h3 class="card-title">
+                Objectives
+            </h3>
+</div>
+<div class="card-body">
+<ul>
+</ul>
+</div>
+</div>
+<div class="card">
+<div class="card-header">
+<h3 class="card-title">
+                Preparation
+            </h3>
+</div>
+<div class="card-body">
+
+Before the lab you should re-read the relevant lecture slides and their accompanying examples.
+
+
+</div>
+</div>
+<div class="card">
+<div class="card-header">
+<h3 class="card-title">
+                Getting Started
+            </h3>
+</div>
+<div class="card-body">
+
+
+
+Create a new directory for this lab called <code>lab04</code> by typing:
+
+<pre class="command_line"><kbd class="shell">mkdir lab04</kbd>
+</pre>
+
+Change to this directory by typing:
+
+<pre class="command_line"><kbd class="shell">cd lab04</kbd>
+</pre>
+</div>
+</div>
+<div class="card">
+<div class="card-header">
+<h3 class="card-title">
+                Exercise: Deja Vu - Mapping Digits but in Perl (individual)
+            </h3>
+</div>
+<div class="card-body">
+<div class="alert alert-danger">
+        This is an individual exercise to complete by yourself.
+        </div>
+    
+
+
+
+
+
+
+
+
+
+
+Write a Perl script <code>digits.pl</code> that reads from standard input and writes to standard output
+mapping all digit characters whose values are
+less than 5 into the character '<code>&lt;</code>' and all digit characters
+whose values are greater than 5 into the character '<code>&gt;</code>'.
+The digit character '5' should be left unchanged.
+<p>
+</p><table border="1" cellpadding="6">
+<tbody><tr><th>Sample Input Data</th><th>Corresponding Output</th></tr>
+<tr valign="top"><td>
+<pre>1 234 5 678 9
+</pre>
+</td><td>
+<pre>&lt; &lt;&lt;&lt; 5 &gt;&gt;&gt; &gt;
+</pre>
+</td></tr><tr valign="top"><td>
+<pre>I can think of 100's
+of other things I'd rather
+be doing than these 3 questions
+</pre>
+</td><td>
+<pre>I can think of &lt;&lt;&lt;'s
+of other things I'd rather
+be doing than these &lt; questions
+</pre>
+</td></tr>
+<tr valign="top"><td>
+<pre>A line with lots of numbers:
+123456789123456789123456789
+A line with all zeroes
+000000000000000000000000000
+A line with blanks at the end
+1 2 3
+</pre>
+</td><td>
+<pre>A line with lots of numbers:
+&lt;&lt;&lt;&lt;5&gt;&gt;&gt;&gt;&lt;&lt;&lt;&lt;5&gt;&gt;&gt;&gt;&lt;&lt;&lt;&lt;5&gt;&gt;&gt;&gt;
+A line with all zeroes
+&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;
+A line with blanks at the end
+&lt; &lt; &lt;
+</pre>
+</td></tr>
+<tr valign="top"><td>
+<pre>Input with absolutely 0 digits in it
+Well ... apart from that one ...
+</pre>
+</td><td>
+<pre>Input with absolutely &lt; digits in it
+Well ... apart from that one ...
+</pre>
+</td></tr>
+<tr valign="top"><td>
+<pre>1 2 4 8 16 32 64 128 256 512 1024
+2048 4096 8192 16384 32768 65536
+</pre>
+</td><td>
+<pre>&lt; &lt; &lt; &gt; &lt;&gt; &lt;&lt; &gt;&lt; &lt;&lt;&gt; &lt;5&gt; 5&lt;&lt; &lt;&lt;&lt;&lt;
+&lt;&lt;&lt;&gt; &lt;&lt;&gt;&gt; &gt;&lt;&gt;&lt; &lt;&gt;&lt;&gt;&lt; &lt;&lt;&gt;&gt;&gt; &gt;55&lt;&gt;
+</pre>
+</td></tr>
+</tbody></table>
+<p>
+When you think your program is working you can use <code>autotest</code> to run some simple automated tests:
+
+</p><pre class="command_line"><kbd class="shell">2041 autotest perl_digits</kbd>
+</pre>
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+     
+
+
+
+
+
+
+
+    When you are finished working on this exercise you must submit
+    your work by running <b>give</b>:
+
+
+
+<pre class="command_line"><kbd class="shell">give cs2041 lab04_perl_digits digits.pl</kbd>
+</pre>
+
+
+    
+        You must run give before <b>Tuesday 02 July 17:59:59</b> to obtain the marks for this lab exercise.
+        Note, this is an individual exercise, the work you submit with <b>give</b> must be entirely your own.
+    
+
+
+
+
+
+</div>
+</div>
+<div class="card">
+<div class="card-header">
+<h3 class="card-title">
+                Exercise: Echoing A Shell Exercise in Perl? (individual)
+            </h3>
+</div>
+<div class="card-body">
+<div class="alert alert-danger">
+        This is an individual exercise to complete by yourself.
+        </div>
+    
+
+
+
+
+
+
+
+
+
+
+Write a Perl script <code>echon.pl</code> which given exactly two arguments, an integer <i>n</i>
+and a string, prints the string <i>n</i> times. For example:
+
+<p>
+</p><pre class="command_line"><kbd class="shell">./echon.pl 5 hello</kbd>
+hello
+hello
+hello
+hello
+hello
+<kbd class="shell">./echon.pl 0 nothing</kbd>
+<kbd class="shell">./echon.pl 1 goodbye</kbd>
+goodbye
+</pre>
+<p>
+Your script should print exactly the error message below
+if it is not given exactly 2 arguments:
+</p><p>
+</p><pre class="command_line"><kbd class="shell">./echon.pl </kbd>
+Usage: ./echon.pl &lt;number of lines&gt; &lt;string&gt;
+<kbd class="shell">./echon.pl 1 2 3</kbd>
+Usage: ./echon.pl &lt;number of lines&gt; &lt;string&gt;
+</pre>
+<p>
+Also get your script to print this error message if
+its first argument isn't a non-negative integer:
+</p><p>
+</p><pre class="command_line"><kbd class="shell">./echon.pl hello world</kbd>
+./echon.pl: argument 1 must be a non-negative integer
+<kbd class="shell">./echon.pl -42 lines</kbd>
+./echon.pl: argument 1 must be a non-negative integer
+</pre>
+<p>
+</p>
+<p>
+When you think your program is working you can use <code>autotest</code> to run some simple automated tests:
+
+</p><pre class="command_line"><kbd class="shell">2041 autotest perl_echon</kbd>
+</pre>
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+     
+
+
+
+
+
+
+
+    When you are finished working on this exercise you must submit
+    your work by running <b>give</b>:
+
+
+
+<pre class="command_line"><kbd class="shell">give cs2041 lab04_perl_echon echon.pl</kbd>
+</pre>
+
+
+    
+        You must run give before <b>Tuesday 02 July 17:59:59</b> to obtain the marks for this lab exercise.
+        Note, this is an individual exercise, the work you submit with <b>give</b> must be entirely your own.
+    
+
+
+
+
+
+</div>
+</div>
+<div class="card">
+<div class="card-header">
+<h3 class="card-title">
+                Exercise: A Perl Tail (individual)
+            </h3>
+</div>
+<div class="card-body">
+<div class="alert alert-danger">
+        This is an individual exercise to complete by yourself.
+        </div>
+<h4>Perl file manipulation</h4>
+<p>
+The standard approach in Perl for dealing with a collection of files
+whose names are supplied as command line arguments, is something like:
+
+
+
+
+
+
+    
+        
+    
+
+
+
+    
+        </p><pre class="program language-clike"><code class=" language-clike">#<span class="token operator">!</span><span class="token operator">/</span>usr<span class="token operator">/</span>bin<span class="token operator">/</span>perl <span class="token operator">-</span>w
+foreach $arg <span class="token punctuation">(</span>@ARGV<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    <span class="token keyword">if</span> <span class="token punctuation">(</span>$arg eq <span class="token string">"--version"</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        print <span class="token string">"$0: version 0.1\n"</span><span class="token punctuation">;</span>
+        exit <span class="token number">0</span><span class="token punctuation">;</span>
+    # handle other options
+    # <span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span>
+    <span class="token punctuation">}</span> <span class="token keyword">else</span> <span class="token punctuation">{</span>
+        push @files<span class="token punctuation">,</span> $arg<span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span>
+
+foreach $file <span class="token punctuation">(</span>@files<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+    open F<span class="token punctuation">,</span> <span class="token string">'&lt;'</span><span class="token punctuation">,</span> $file or die <span class="token string">"$0: Can't open $file: $!\n"</span><span class="token punctuation">;</span>
+
+    # process F
+
+    close F<span class="token punctuation">;</span>
+<span class="token punctuation">}</span></code></pre>
+
+
+
+
+
+Write a Perl script to implement the Unix <code>tail</code> command.
+It should support the following features of <code>tail</code>:
+<p>
+</p><ul>
+<li> read from files supplied as command line arguments
+</li><li> read from standard input if no file name arguments are supplied
+</li><li> display the error message <code>tail.pl: can't open <i>FileName</i></code> for any unreadable file
+</li><li> display the last <i>N</i> lines of each file (default <i>N</i> = 10)
+</li><li> can adjust the number of lines displayed via an optional first argument <code>-</code><i>N</i>
+</li><li> if there is more than one named file, separate each by
+    <code>==&gt; <i>FileName</i> &lt;==</code>
+</li></ul>
+<p>
+To assist with testing your solution, there are three small test
+files: <a href="https://cgi.cse.unsw.edu.au/~cs2041/19T2//activities/perl_tail/t1.txt">t1.txt</a>, <a href="https://cgi.cse.unsw.edu.au/~cs2041/19T2//activities/perl_tail/t2.txt">t2.txt</a>, and
+<a href="https://cgi.cse.unsw.edu.au/~cs2041/19T2//activities/perl_tail/t3.txt">t3.txt</a>.  Copy these files to your current directory.
+
+</p><pre class="command_line"><kbd class="shell">cp /web/cs2041/19T2/activities/perl_tail/t?.txt .</kbd>
+</pre>
+
+Using these data files, your program
+should behave as follows:
+
+
+    
+        
+    
+
+
+
+
+
+<pre class="command_line" style="max-height: 60em;overflow:  auto;"><kbd class="shell">./tail.pl &lt;t1.txt</kbd>
+Data 1 ... Line 2
+Data 1 ... Line 3
+Data 1 ... Line 4
+Data 1 ... Line 5
+Data 1 ... Line 6
+Data 1 ... Line 7
+Data 1 ... Line 8
+Data 1 ... Line 9
+Data 1 ... Line 10
+Data 1 ... Last line
+<kbd class="shell">./tail.pl t1.txt</kbd>
+Data 1 ... Line 2
+Data 1 ... Line 3
+Data 1 ... Line 4
+Data 1 ... Line 5
+Data 1 ... Line 6
+Data 1 ... Line 7
+Data 1 ... Line 8
+Data 1 ... Line 9
+Data 1 ... Line 10
+Data 1 ... Last line
+<kbd class="shell">./tail.pl -5 t1.txt</kbd>
+Data 1 ... Line 7
+Data 1 ... Line 8
+Data 1 ... Line 9
+Data 1 ... Line 10
+Data 1 ... Last line
+<kbd class="shell">./tail.pl -5 t2.txt</kbd>
+A one line file.
+<kbd class="shell">./tail.pl -5 t1.txt t2.txt t3.txt</kbd>
+==&gt; t1.txt &lt;==
+Data 1 ... Line 7
+Data 1 ... Line 8
+Data 1 ... Line 9
+Data 1 ... Line 10
+Data 1 ... Last line
+==&gt; t2.txt &lt;==
+A one line file.
+==&gt; t3.txt &lt;==
+one
+word
+on
+each
+line
+<kbd class="shell">./tail.pl -2 tX.txt</kbd>
+./tail.pl: can't open tX.txt
+</pre>
+<b>Hint:</b> use the above template for Perl file processing to get started
+with your script. You <em>must</em> use Perl's <code>-w</code> flag
+in your script, and you must write your code in such a way as
+to ensure that no warning messages are produced.
+
+
+
+
+
+
+
+
+
+<p>
+When you think your program is working you can use <code>autotest</code> to run some simple automated tests:
+
+</p><pre class="command_line"><kbd class="shell">2041 autotest perl_tail</kbd>
+</pre>
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+     
+
+
+
+
+
+
+
+    When you are finished working on this exercise you must submit
+    your work by running <b>give</b>:
+
+
+
+<pre class="command_line"><kbd class="shell">give cs2041 lab04_perl_tail tail.pl</kbd>
+</pre>
+
+
+    
+        You must run give before <b>Tuesday 02 July 17:59:59</b> to obtain the marks for this lab exercise.
+        Note, this is an individual exercise, the work you submit with <b>give</b> must be entirely your own.
+    
+
+
+
+
+
+</div>
+</div>
+<div class="card">
+<div class="card-header">
+<h3 class="card-title">
+                Challenge Exercise: Shuffling Lines (individual)
+            </h3>
+</div>
+<div class="card-body">
+<div class="alert alert-danger">
+        This is an individual exercise to complete by yourself.
+        </div>
+    
+
+
+
+
+
+
+
+
+
+Write a Perl script <code>shuffle.pl</code> which prints its input with the
+lines in random order.
+
+For example, lets create a file containing the integers 0..4.
+
+<pre class="command_line"><kbd class="shell"> seq 0 4 &gt;numbers.txt</kbd></pre>
+
+
+Now if we run <code>shuffle.pl</code> taking its input from this file it should print the lines
+in a different order each time its run, for example:
+
+
+    
+        
+    
+
+
+
+
+
+<pre class="command_line" style="max-height: 32em;overflow:  auto;"><kbd class="shell">cat numbers.txt</kbd>
+0
+1
+2
+3
+4
+<kbd class="shell">./shuffle.pl &lt;numbers.txt</kbd>
+0
+4
+3
+2
+1
+<kbd class="shell">./shuffle.pl &lt;numbers.txt</kbd>
+4
+3
+0
+1
+2
+<kbd class="shell">./shuffle.pl &lt;numbers.txt</kbd>
+2
+4
+0
+3
+1
+</pre>
+
+You are not permitted to use <code>List::Util</code> (it contains a shuffle function).
+<p>
+Don't look for other people's solutions - see if you can come up with your own.
+
+<b>Hint:</b> the perl function <i>rand</i> returns a floating point number between 0 and its argument.
+For example:
+
+
+    
+        
+    
+
+
+
+
+
+</p><pre class="command_line" style="max-height: 32em;overflow:  auto;"><kbd class="shell">perl -e 'print rand(42), "\n"'</kbd>
+35.8075417916499
+</pre>
+<pre class="command_line" style="max-height: 32em;overflow:  auto;"><kbd class="shell">perl -e 'print rand(42), "\n"'</kbd>
+40.8355243656062
+</pre>
+<b>Hint:</b> perl ignores the fractional part of a number if you use it to index an array
+
+
+
+
+
+
+
+
+
+There is no autotest and no automarking of this question.
+<p>
+When you have completed demonstrate your work to another student in your lab
+and ask them to enter a
+<a href="https://cgi.cse.unsw.edu.au/~cs2041/19T2/peer_assess/lab04_perl_shuffle/">peer assessment here</a>
+</p><p>
+It is prefered you do this during your lab, but if this is not possible
+you may demonstrate your work to any other COMP(2041|9044) student before Tuesday 02 July 17:59:59.
+Note, you must also submit the work with give.
+</p><p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    When you are finished working on this exercise you must submit
+    your work by running <b>give</b>:
+
+
+
+</p><pre class="command_line"><kbd class="shell">give cs2041 lab04_perl_shuffle shuffle.pl</kbd>
+</pre>
+
+
+    
+        You must run give before <b>Tuesday 02 July 17:59:59</b> to obtain the marks for this lab exercise.
+        Note, this is an individual exercise, the work you submit with <b>give</b> must be entirely your own.
+    
+
+
+
+
+
+</div>
+</div>
+<div class="card">
+<div class="card-header">
+<h3 class="card-title">
+                Challenge Exercise: Testing a Non-determinate Program (individual)
+            </h3>
+</div>
+<div class="card-body">
+<div class="alert alert-danger">
+        This is an individual exercise to complete by yourself.
+        </div>
+<p>
+There is no dryrun test for <code>shuffle.pl</code>.
+Testing (pseudo)random programs is more difficult
+because there are multiple correct outputs for a given input.
+</p><p>
+Write a shell script <code>shuffle_test.sh</code> which tests <code>shuffle.pl</code>.
+</p><p>
+Try to test that all outputs are correct and all correct outputs are being generated.
+
+</p><div></div>
+<div></div>
+
+
+
+
+
+
+
+
+
+There is no autotest and no automarking of this question.
+<p>
+When you have completed demonstrate your work to another student in your lab
+and ask them to enter a
+<a href="https://cgi.cse.unsw.edu.au/~cs2041/19T2/peer_assess/lab04_shuffle_test/">peer assessment here</a>
+</p><p>
+It is prefered you do this during your lab, but if this is not possible
+you may demonstrate your work to any other COMP(2041|9044) student before Tuesday 02 July 17:59:59.
+Note, you must also submit the work with give.
+</p><p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    When you are finished working on this exercise you must submit
+    your work by running <b>give</b>:
+
+
+
+</p><pre class="command_line"><kbd class="shell">give cs2041 lab04_shuffle_test shuffle_test.sh</kbd>
+</pre>
+
+
+    
+        You must run give before <b>Tuesday 02 July 17:59:59</b> to obtain the marks for this lab exercise.
+        Note, this is an individual exercise, the work you submit with <b>give</b> must be entirely your own.
+    
+
+
+
+
+
+</div>
+</div>
+<div class="card">
+<div class="card-header">
+<h3 class="card-title">
+                Submission
+            </h3>
+</div>
+<div class="card-body">
+
+
+When you are finished each exercises make sure you submit your work by running <b>give</b>.
+<p>
+You can run <b>give</b> multiple times.
+Only your last submission will be marked.
+</p><p>
+Don't submit any exercises you haven't attempted.
+</p><p>
+If you are working at home, you may find it more convenient
+to upload your work via
+ <a href="https://cgi.cse.unsw.edu.au/~give/code/login.php?app=/~give/Student/give.php&amp;debug=get_authuser">give's web interface</a>.
+</p><p>
+Remember you have until
+
+<b>Tuesday 02 July 17:59:59</b>
+
+
+to submit your work.
+</p><p>
+You cannot obtain marks by e-mailing lab work to tutors or lecturers.
+</p><p>
+You check the files you have submitted <a href="https://cgi.cse.unsw.edu.au/~cs2041/19T2/student/">here</a>
+</p><p>
+Automarking will be run by the lecturer several days after the submission deadline
+for the test, using test cases that you haven't seen:
+different to the test cases <code><kbd>autotest</kbd></code> runs for
+you.
+</p><p>
+(Hint: do your own testing as well as running
+<code><kbd>autotest</kbd></code>)
+</p><p>
+After automarking is run by the lecturer you can
+<a href="https://cgi.cse.unsw.edu.au/~cs2041/19T2/student/">view it here</a>
+the resulting mark will also be available via
+<a href="https://cgi.cse.unsw.edu.au/~give/Student/sturec.php">via give's web interface</a>
+</p><p>
+</p><h4>Lab Marks</h4>
+<p>
+When all components of a lab  are automarked you should be able to view the
+the marks <a href="https://cgi.cse.unsw.edu.au/~give/Student/sturec.php">via give's web interface</a>
+or by running this command on a CSE machine:
+
+</p><pre class="command_line"><kbd class="shell">2041 classrun -sturec</kbd>
+</pre>
+
+The lab exercises for each week are worth in total 1 mark.
+<p>
+The best 10 of your 11 lab marks will be summed to give you a mark out of 9.
+If their sum exceeds 9 - your mark will be capped at 9.
+</p><p>
+</p><ul>
+<li> You can obtain full marks for the labs without completing challenge exercises
+</li><li> You can miss 1 lab without affecting your mark.
+</li></ul>
+</div>
+</div>
+</div>
+<footer class="mt-3 container text-center no-print">
+<p class="text-muted">
+<strong>COMP(2041|9044) 19T2: Software Construction</strong>
+is brought to you by <br>
+the <a href="https://www.cse.unsw.edu.au/">School of Computer Science and Engineering</a>
+at the <a href="https://www.unsw.edu.au/">University of New South Wales</a>, Sydney.<br>
+For all enquiries, please email the class account at
+<a href="mailto:@cse.unsw.edu.au">cs2041@cse.unsw.edu.au</a><br>
+<small>CRICOS Provider 00098G</small>
+</p>
+</footer>
+
+</body></html>
