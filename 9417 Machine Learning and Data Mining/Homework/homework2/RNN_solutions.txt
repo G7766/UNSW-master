@@ -1,0 +1,21 @@
+# setup for the current step
+curr = outputs.pop()
+layer_input = numpy.concatenate((curr, X[:, step, :]), axis=1)
+
+if step != self.input_size - 1:
+    #print("self.weights[0]:", self.weights[0].shape)
+    weight = self.weights[0][:64,:]
+else:
+    #print("self.weights[1]:", self.weights[1].shape)
+    weight = self.weights[1][:64,:]
+
+# calculate gradients
+gradients, dW, db = self.derivatives_of_hidden_layer(previous_gradients,layer_output,layer_input,weight)
+
+# update weights
+self.weights[0] += dW*self.learning_rate / X.shape[0]
+self.biases[0] += db*self.learning_rate / X.shape[0]
+
+# setup for the next step
+previous_gradients = gradients
+layer_output = curr

@@ -1,0 +1,8 @@
+Good explanation of PCA is here:
+
+<u> https :// towardsdatascience.com/a-step-by-step-explanation-of-principal-component-analysis-b836fb9c97e2 </u>
+
+And how exactly to calculate the eigenvectors and eigenvalues is here:
+
+<u></u> <u> https://lpsa.swarthmore.edu/MtrxVibe/EigMat/Matrix... </u>
+Reply
