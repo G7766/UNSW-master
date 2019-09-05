@@ -1,0 +1,12 @@
+a	4 file01.txt file02.txt file03.txt
+and	2 file01.txt file02.txt
+apache	2 file01.txt file03.txt
+clusters	2 file03.txt
+data	2 file01.txt file02.txt
+for	2 file02.txt file03.txt
+hadoop	2 file01.txt file03.txt
+is	2 file01.txt file03.txt
+it	2 file02.txt file03.txt
+of	6 file01.txt file02.txt file03.txt
+software	2 file01.txt file02.txt
+using	2 file01.txt file02.txt

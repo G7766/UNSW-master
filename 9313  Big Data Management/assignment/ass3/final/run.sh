@@ -1,0 +1,1 @@
+spark-submit --class "CaseIndex" --packages org.apache.spark:spark-core_2.11:2.4.3,org.scalaj:scalaj-http_2.11:2.3.0,org.scala-lang.modules:scala-xml_2.11:1.2.0,com.typesafe.play:play-json_2.11:2.7.4 --master local[2] /import/glass/3/z5143964/Ass34/target/scala-2.11/caseindex_2.11-1.0.jar /import/glass/3/z5143964/Ass34/cases_test
