@@ -1,0 +1,29 @@
+Week 1
+Attended lectures to figure out what was required of the course. Dont know anyone taking the course this semester so instead i prepared by reading the description of all the projects, and narrowing down based projects I was interested in. I also read some articles about some of those projects for more information.
+
+Week 2
+Had the first lab where we formed the group and discussed which subjects we were keen to do. Some people still werent sure which projects they wanted to do. Some had different ideas so we decided to take the weekend to do more research and meet early next Monday to come up with a plan. We informed the tutor we were keen on project 1 however, if we did want to change, we had to do so next week.
+
+Week 3
+Analyzed the requirement of the project with team members during meeting. Decided on what we wanted to do and how we would go about it especially since the project proposal was due end of the week. Spent most of the week with the project proposal. Was in charge of editing and making sure everyones part was up to scratch since I was scrum master.
+
+Week 4
+Learned how to crawl data from websites and finished the crawler part for the unsw handbook. Struggled with the different format of the handbook for different courses. Some subjects were missing crucial information.
+
+Week 5
+Updated the crawler part to make it can crawl the unsw timetable website. Difficultly in cleaning the data. Some courses dont have the timetable info up on the websites.
+
+Week 6
+Tested and fixed some bugs when crawling. Connect the crawler parameters and returned result with backend part. Created the databases for the all the info for courses and programs crawled.
+
+Week 7
+Updated the code that faced some issues with crashing and made an updating feature for the databases as it goes obsolete.
+
+Week 8
+Helped with a major redesign of the website. The html and css files were updated. Started on the knowledge database that will be used for query.
+
+Week 9
+Continued with little redesigns to improve the website, finised the knowledge database and prepared the final demo.
+
+Week 10
+Had the final demonstration and finished the final report.

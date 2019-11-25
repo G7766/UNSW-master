@@ -1,0 +1,30 @@
+Peiguo Guan
+z5143964
+
+Week 1
+Attended lectures to figure out the course outline, requirements and timeline of whole project. Looking through the description and requirements of all the projects, and focusing on the projects I was interested in. I look through some relative website about projects for more information.
+
+Week 2
+Attended the first lab and form the group. Met tutor and listened carefully about the introduction and detail of the projects. Arising some questions in my mind and deiscussed with team members. Showed my preference about projects and analysed the advantages and disadvantages.
+
+Week 3
+Combined all the ideas of team members during meeting and made the final decision of choosing the 1st project. The proposal task has been released and broke down the task to team members. Discussed project structure and allocate duties to the members. I finished my proposal in time.
+Week 4
+Builded basic API with Flask and learned the theory of dialogflow and how it works. Tried to train dialogflow on cloud and analysed the basic function it can achieve.
+
+Week 5
+Kept learning dialogflow and i finished the connection of Flask API and dialogflow API. Achieved a simple version of data interaction between a dialogflow and Flask. Designed a simple chatbot html file with javascript which can achieve message sent and responsed.
+
+Week 6
+Created different functions for different actions. There are four main target functions which are course, knowledge, weather, suggestion. Analysed the course db data format and created some basic intents in dialogflow, so as to successfully response to the users. Successsfully reply weather query by connecting to OpenWeather API.
+Week 7
+In order to increase the accuracy and ability of question query, added more intents and more entities in dialogflow(and found a way to automatically generated entities). Almost finished the course actions and using the similar ways to create knowledge actions.
+
+Week 8
+Since the decision has changed, we dont use the facebook as our UI present, so we decided to create our own webpage and  i helped to create Web frontend and backend, whih login and sign up function, and created all the interface. I used some time to beautify the chabot webpage and make the UI design more friendly.
+
+Week 9
+Completed all the actions in dialogflow, complete all the functions in different py file, and integrated the suggestion action part. Made some Little change of the code, and clear all the unnecessrary code and unnecessrary file in the whole project file.
+
+Week 10
+Had the final demonstration and finished the final report.

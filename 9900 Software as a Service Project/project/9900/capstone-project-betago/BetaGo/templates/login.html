@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>BetaGo Project Login</title>
+
+  <!-- other -->
+  <!-- Font Icon -->
+  <link rel="stylesheet" href="{{ url_for('static', filename='frontend/fonts/material-icon/css/material-design-iconic-font.min.css')}}">
+  <!-- Main css -->
+  <link rel="stylesheet" href="{{ url_for('static', filename='frontend/css/style.css')}}">
+</head>
+
+<body>
+  <!-- login -->
+  <!-- Sing in  Form -->
+  <div class="main">
+        <section class="sign-in">
+            <div class="container">
+                <div class="signin-content">
+                    <div class="signin-image">
+                        <figure><img src="{{ url_for('static', filename='frontend/img/signin.jpg')}}" alt="sign in image"></figure>
+                        <a href="{{ url_for('index')}}" style="display:inline-block; margin-left:50px; margin-right:50px;">Home</a>
+                        <a href="{{ url_for('sign_up')}}" class="signup-image-link" style="display:inline-block;">Sign up</a>
+                    </div>
+
+                    <div class="signin-form">
+                        <h2 class="form-title">Login</h2>
+                        <form method="POST" class="register-form" id="login-form">
+                            <div class="form-group">
+                                <label for="your_name"><i class="zmdi zmdi-account material-icons-name"></i></label>
+                                <input type="text" name="name" id="name" placeholder="Your zid"/>
+                            </div>
+                            <div class="form-group">
+                                <label for="your_pass"><i class="zmdi zmdi-lock"></i></label>
+                                <input type="password" name="pass" id="pass" placeholder="Password"/>
+                            </div>
+                            <div class="form-group form-button">
+                                <input type="submit" name="signin" id="signin" class="form-submit" value="Log in"/>
+						            {% if error %}
+							            <p style="color:red;">{{error}}</p>
+						            {% endif %}
+					        </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="{{ url_for('static', filename='frontend/vendor/jquery/jquery.min.js')}}"></script>
+  <script src="{{ url_for('static', filename='frontend/vendor/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="{{ url_for('static', filename='frontend/js/clean-blog.min.js')}}"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,29 @@
+Week 1
+Attended lectures to know about the course outline and requirements. Then I read the description of all the projects, and selected 3 projects I was most interested in. Finally, I found 2 other group members of the team.
+
+Week 2
+Attended the first lab, found the last member and formed the team. We listened from the detailed introduction of all the projects carefully and selected which subjects we were all interested. But 4 members had different ideas so we told the tutor we were keen on project 1 and project 9 as a backup plan. Besides, we agreed to read some papers and do more research during the following weekend and meet early next Monday to make the final decision.
+ 
+Week 3
+Made the final decision that we chose project 1 through voting and everyone agreed with it finally. We analyzed the requirement of the project 1 with team members during the second lab. We discussed our overall project structure and the first step we should do. Because the project proposal was due end of the week we also allocate duties to the members. I completed my part in the proposal during the weekend and helped the team leader double check every part is fine.
+
+Week 4
+Learned the knowledge about css and html because I know little about them before this project. Then I tried to start build the login and sign in websites templates. The challenge is that I have never do the frontend part during the other courses and projects, it is really difficult for me to get familiar with it. 
+
+Week 5
+Kept Learning the knowledge about css and html. And started to build the user database for the login and sign in function, finally I chose SQLAlchemy as my option.
+
+Week 6
+Finished the database part and the api for the login and sign in websites. With the help of my team member Peiguo Guan, we also finished the websites templates.
+
+Week 7
+Tested the code and then found some bugs and fixed them. Added some extra parts to made the websites more multifunctional and looks professional.
+
+Week 8
+Helped with final design of the website. The html and css files were updated.
+
+Week 9
+Continued with little changes of the code to improve the website and helped with preparing for the final presentation.
+
+Week 10
+Helped with the final demonstration and finished the final report.

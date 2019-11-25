@@ -1,0 +1,691 @@
+{
+    "id": "543402ce-5be5-4db3-bc4f-daf2ff17fe86",
+    "name": "course",
+    "isOverridable": true,
+    "entries": [
+        {
+            "value": "comp9020",
+            "synonyms": [
+                "COMP9020",
+                "Foundations of Computer Science",
+                "foundations of computer science",
+                "FOUNDATIONS OF COMPUTER SCIENCE",
+                "9020"
+            ]
+        },
+        {
+            "value": "comp9021",
+            "synonyms": [
+                "COMP9021",
+                "Principles of Programming",
+                "principles of programming",
+                "PRINCIPLES OF PROGRAMMING",
+                "9021"
+            ]
+        },
+        {
+            "value": "comp9321",
+            "synonyms": [
+                "COMP9321",
+                "Data Services Engineering",
+                "data services engineering",
+                "DATA SERVICES ENGINEERING",
+                "9321"
+            ]
+        },
+        {
+            "value": "comp9444",
+            "synonyms": [
+                "COMP9444",
+                "Neural Networks and Deep Learning",
+                "neural networks and deep learning",
+                "NEURAL NETWORKS AND DEEP LEARNING",
+                "9444"
+            ]
+        },
+        {
+            "value": "comp4121",
+            "synonyms": [
+                "COMP4121",
+                "Advanced and Parallel Algorithms",
+                "advanced and parallel algorithms",
+                "ADVANCED AND PARALLEL ALGORITHMS",
+                "4121"
+            ]
+        },
+        {
+            "value": "comp4141",
+            "synonyms": [
+                "COMP4141",
+                "Theory of Computation",
+                "theory of computation",
+                "THEORY OF COMPUTATION",
+                "4141"
+            ]
+        },
+        {
+            "value": "comp4161",
+            "synonyms": [
+                "COMP4161",
+                "Advanced Topics in Software Verification",
+                "advanced topics in software verification",
+                "ADVANCED TOPICS IN SOFTWARE VERIFICATION",
+                "4161"
+            ]
+        },
+        {
+            "value": "comp4418",
+            "synonyms": [
+                "COMP4418",
+                "Knowledge Representation and Reasoning",
+                "knowledge representation and reasoning",
+                "KNOWLEDGE REPRESENTATION AND REASONING",
+                "4418"
+            ]
+        },
+        {
+            "value": "comp4511",
+            "synonyms": [
+                "COMP4511",
+                "User Interface Design and Construction",
+                "user interface design and construction",
+                "USER INTERFACE DESIGN AND CONSTRUCTION",
+                "4511"
+            ]
+        },
+        {
+            "value": "comp6324",
+            "synonyms": [
+                "COMP6324",
+                "Internet of Things Service Design and Engineering",
+                "internet of things service design and engineering",
+                "INTERNET OF THINGS SERVICE DESIGN AND ENGINEERING",
+                "6324"
+            ]
+        },
+        {
+            "value": "comp6441",
+            "synonyms": [
+                "COMP6441",
+                "Security Engineering and Cyber Security",
+                "security engineering and cyber security",
+                "SECURITY ENGINEERING AND CYBER SECURITY",
+                "6441"
+            ]
+        },
+        {
+            "value": "comp6443",
+            "synonyms": [
+                "COMP6443",
+                "Web Application Security and Testing",
+                "web application security and testing",
+                "WEB APPLICATION SECURITY AND TESTING",
+                "6443"
+            ]
+        },
+        {
+            "value": "comp6445",
+            "synonyms": [
+                "COMP6445",
+                "Digital Forensics",
+                "digital forensics",
+                "DIGITAL FORENSICS",
+                "6445"
+            ]
+        },
+        {
+            "value": "comp6448",
+            "synonyms": [
+                "COMP6448",
+                "Security Engineering Masterclass",
+                "security engineering masterclass",
+                "SECURITY ENGINEERING MASTERCLASS",
+                "6448"
+            ]
+        },
+        {
+            "value": "comp6447",
+            "synonyms": [
+                "COMP6447",
+                "System and Software Security Assessment",
+                "system and software security assessment",
+                "SYSTEM AND SOFTWARE SECURITY ASSESSMENT",
+                "6447"
+            ]
+        },
+        {
+            "value": "comp6449",
+            "synonyms": [
+                "COMP6449",
+                "Security Engineering Professional Practice",
+                "security engineering professional practice",
+                "SECURITY ENGINEERING PROFESSIONAL PRACTICE",
+                "6449"
+            ]
+        },
+        {
+            "value": "comp6451",
+            "synonyms": [
+                "COMP6451",
+                "Cryptocurrency and Distributed Ledger Technologies",
+                "cryptocurrency and distributed ledger technologies",
+                "CRYPTOCURRENCY AND DISTRIBUTED LEDGER TECHNOLOGIES",
+                "6451"
+            ]
+        },
+        {
+            "value": "comp6452",
+            "synonyms": [
+                "COMP6452",
+                "Software Architecture for Blockchain Applications",
+                "software architecture for blockchain applications",
+                "SOFTWARE ARCHITECTURE FOR BLOCKCHAIN APPLICATIONS",
+                "6452"
+            ]
+        },
+        {
+            "value": "comp6714",
+            "synonyms": [
+                "COMP6714",
+                "Information Retrieval and Web Search",
+                "information retrieval and web search",
+                "INFORMATION RETRIEVAL AND WEB SEARCH",
+                "6714"
+            ]
+        },
+        {
+            "value": "comp6721",
+            "synonyms": [
+                "COMP6721",
+                "In-Formal Methods: The Lost Art",
+                "in-formal methods: the lost art",
+                "IN-FORMAL METHODS: THE LOST ART",
+                "6721"
+            ]
+        },
+        {
+            "value": "comp6733",
+            "synonyms": [
+                "COMP6733",
+                "Internet of Things Experimental Design Studio",
+                "internet of things experimental design studio",
+                "INTERNET OF THINGS EXPERIMENTAL DESIGN STUDIO",
+                "6733"
+            ]
+        },
+        {
+            "value": "comp6741",
+            "synonyms": [
+                "COMP6741",
+                "Parameterized and Exact Computation",
+                "parameterized and exact computation",
+                "PARAMETERIZED AND EXACT COMPUTATION",
+                "6741"
+            ]
+        },
+        {
+            "value": "comp6752",
+            "synonyms": [
+                "COMP6752",
+                "Modelling Concurrent Systems",
+                "modelling concurrent systems",
+                "MODELLING CONCURRENT SYSTEMS",
+                "6752"
+            ]
+        },
+        {
+            "value": "comp6771",
+            "synonyms": [
+                "COMP6771",
+                "Advanced C++ Programming",
+                "advanced c++ programming",
+                "ADVANCED C++ PROGRAMMING",
+                "6771"
+            ]
+        },
+        {
+            "value": "comp6841",
+            "synonyms": [
+                "COMP6841",
+                "Extended Security Engineering and Cyber Security",
+                "extended security engineering and cyber security",
+                "EXTENDED SECURITY ENGINEERING AND CYBER SECURITY",
+                "6841"
+            ]
+        },
+        {
+            "value": "comp6843",
+            "synonyms": [
+                "COMP6843",
+                "Extended Web Application Security and Testing",
+                "extended web application security and testing",
+                "EXTENDED WEB APPLICATION SECURITY AND TESTING",
+                "6843"
+            ]
+        },
+        {
+            "value": "comp6845",
+            "synonyms": [
+                "COMP6845",
+                "Extended Digital Forensics and Incident Response",
+                "extended digital forensics and incident response",
+                "EXTENDED DIGITAL FORENSICS AND INCIDENT RESPONSE",
+                "6845"
+            ]
+        },
+        {
+            "value": "comp9032",
+            "synonyms": [
+                "COMP9032",
+                "Microprocessors and Interfacing",
+                "microprocessors and interfacing",
+                "MICROPROCESSORS AND INTERFACING",
+                "9032"
+            ]
+        },
+        {
+            "value": "comp9044",
+            "synonyms": [
+                "COMP9044",
+                "Software Construction: Techniques and Tools",
+                "software construction: techniques and tools",
+                "SOFTWARE CONSTRUCTION: TECHNIQUES AND TOOLS",
+                "9044"
+            ]
+        },
+        {
+            "value": "comp9101",
+            "synonyms": [
+                "COMP9101",
+                "Design and Analysis of Algorithms",
+                "design and analysis of algorithms",
+                "DESIGN AND ANALYSIS OF ALGORITHMS",
+                "9101"
+            ]
+        },
+        {
+            "value": "comp9102",
+            "synonyms": [
+                "COMP9102",
+                "Programming Languages and Compilers",
+                "programming languages and compilers",
+                "PROGRAMMING LANGUAGES AND COMPILERS",
+                "9102"
+            ]
+        },
+        {
+            "value": "comp9153",
+            "synonyms": [
+                "COMP9153",
+                "Algorithmic Verification",
+                "algorithmic verification",
+                "ALGORITHMIC VERIFICATION",
+                "9153"
+            ]
+        },
+        {
+            "value": "comp9154",
+            "synonyms": [
+                "COMP9154",
+                "Foundations of Concurrency",
+                "foundations of concurrency",
+                "FOUNDATIONS OF CONCURRENCY",
+                "9154"
+            ]
+        },
+        {
+            "value": "comp9164",
+            "synonyms": [
+                "COMP9164",
+                "Concepts of Programming Languages",
+                "concepts of programming languages",
+                "CONCEPTS OF PROGRAMMING LANGUAGES",
+                "9164"
+            ]
+        },
+        {
+            "value": "comp9201",
+            "synonyms": [
+                "COMP9201",
+                "Operating Systems",
+                "operating systems",
+                "OPERATING SYSTEMS",
+                "9201"
+            ]
+        },
+        {
+            "value": "comp9211",
+            "synonyms": [
+                "COMP9211",
+                "Computer Architecture",
+                "computer architecture",
+                "COMPUTER ARCHITECTURE",
+                "9211"
+            ]
+        },
+        {
+            "value": "comp9222",
+            "synonyms": [
+                "COMP9222",
+                "Digital Circuits and Systems",
+                "digital circuits and systems",
+                "DIGITAL CIRCUITS AND SYSTEMS",
+                "9222"
+            ]
+        },
+        {
+            "value": "comp9242",
+            "synonyms": [
+                "COMP9242",
+                "Advanced Operating Systems",
+                "advanced operating systems",
+                "ADVANCED OPERATING SYSTEMS",
+                "9242"
+            ]
+        },
+        {
+            "value": "comp9243",
+            "synonyms": [
+                "COMP9243",
+                "Distributed Systems",
+                "distributed systems",
+                "DISTRIBUTED SYSTEMS",
+                "9243"
+            ]
+        },
+        {
+            "value": "comp9283",
+            "synonyms": [
+                "COMP9283",
+                "Extended Operating Systems",
+                "extended operating systems",
+                "EXTENDED OPERATING SYSTEMS",
+                "9283"
+            ]
+        },
+        {
+            "value": "comp9301",
+            "synonyms": [
+                "COMP9301",
+                "Cyber Security Project",
+                "cyber security project",
+                "CYBER SECURITY PROJECT",
+                "9301"
+            ]
+        },
+        {
+            "value": "comp9302",
+            "synonyms": [
+                "COMP9302",
+                "Cyber Security Project B",
+                "cyber security project b",
+                "CYBER SECURITY PROJECT B",
+                "9302"
+            ]
+        },
+        {
+            "value": "comp9311",
+            "synonyms": [
+                "COMP9311",
+                "Database Systems",
+                "database systems",
+                "DATABASE SYSTEMS",
+                "9311"
+            ]
+        },
+        {
+            "value": "comp9313",
+            "synonyms": [
+                "COMP9313",
+                "Big Data Management",
+                "big data management",
+                "BIG DATA MANAGEMENT",
+                "9313"
+            ]
+        },
+        {
+            "value": "comp9315",
+            "synonyms": [
+                "COMP9315",
+                "Database Systems Implementation",
+                "database systems implementation",
+                "DATABASE SYSTEMS IMPLEMENTATION",
+                "9315"
+            ]
+        },
+        {
+            "value": "comp9318",
+            "synonyms": [
+                "COMP9318",
+                "Data Warehousing and Data Mining",
+                "data warehousing and data mining",
+                "DATA WAREHOUSING AND DATA MINING",
+                "9318"
+            ]
+        },
+        {
+            "value": "comp9319",
+            "synonyms": [
+                "COMP9319",
+                "Web Data Compression and Search",
+                "web data compression and search",
+                "WEB DATA COMPRESSION AND SEARCH",
+                "9319"
+            ]
+        },
+        {
+            "value": "comp9322",
+            "synonyms": [
+                "COMP9322",
+                "Software Service Design and Engineering",
+                "software service design and engineering",
+                "SOFTWARE SERVICE DESIGN AND ENGINEERING",
+                "9322"
+            ]
+        },
+        {
+            "value": "comp9323",
+            "synonyms": [
+                "COMP9323",
+                "Software as a Service Project",
+                "software as a service project",
+                "SOFTWARE AS A SERVICE PROJECT",
+                "9323"
+            ]
+        },
+        {
+            "value": "comp9331",
+            "synonyms": [
+                "COMP9331",
+                "Computer Networks and Applications",
+                "computer networks and applications",
+                "COMPUTER NETWORKS AND APPLICATIONS",
+                "9331"
+            ]
+        },
+        {
+            "value": "comp9332",
+            "synonyms": [
+                "COMP9332",
+                "Network Routing and Switching",
+                "network routing and switching",
+                "NETWORK ROUTING AND SWITCHING",
+                "9332"
+            ]
+        },
+        {
+            "value": "comp9334",
+            "synonyms": [
+                "COMP9334",
+                "Capacity Planning of Computer Systems and Networks",
+                "capacity planning of computer systems and networks",
+                "CAPACITY PLANNING OF COMPUTER SYSTEMS AND NETWORKS",
+                "9334"
+            ]
+        },
+        {
+            "value": "comp9336",
+            "synonyms": [
+                "COMP9336",
+                "Mobile Data Networking",
+                "mobile data networking",
+                "MOBILE DATA NETWORKING",
+                "9336"
+            ]
+        },
+        {
+            "value": "comp9337",
+            "synonyms": [
+                "COMP9337",
+                "Securing Fixed and Wireless Networks",
+                "securing fixed and wireless networks",
+                "SECURING FIXED AND WIRELESS NETWORKS",
+                "9337"
+            ]
+        },
+        {
+            "value": "comp9414",
+            "synonyms": [
+                "COMP9414",
+                "Artificial Intelligence",
+                "artificial intelligence",
+                "ARTIFICIAL INTELLIGENCE",
+                "9414"
+            ]
+        },
+        {
+            "value": "comp9415",
+            "synonyms": [
+                "COMP9415",
+                "Computer Graphics",
+                "computer graphics",
+                "COMPUTER GRAPHICS",
+                "9415"
+            ]
+        },
+        {
+            "value": "comp9417",
+            "synonyms": [
+                "COMP9417",
+                "Machine Learning and Data Mining",
+                "machine learning and data mining",
+                "MACHINE LEARNING AND DATA MINING",
+                "9417"
+            ]
+        },
+        {
+            "value": "comp9418",
+            "synonyms": [
+                "COMP9418",
+                "Advanced Topics in Statistical Machine Learning",
+                "advanced topics in statistical machine learning",
+                "ADVANCED TOPICS IN STATISTICAL MACHINE LEARNING",
+                "9418"
+            ]
+        },
+        {
+            "value": "comp9434",
+            "synonyms": [
+                "COMP9434",
+                "Robotic Software Architecture",
+                "robotic software architecture",
+                "ROBOTIC SOFTWARE ARCHITECTURE",
+                "9434"
+            ]
+        },
+        {
+            "value": "comp9447",
+            "synonyms": [
+                "COMP9447",
+                "Security Engineering Workshop",
+                "security engineering workshop",
+                "SECURITY ENGINEERING WORKSHOP",
+                "9447"
+            ]
+        },
+        {
+            "value": "comp9511",
+            "synonyms": [
+                "COMP9511",
+                "Human Computer Interaction",
+                "human computer interaction",
+                "HUMAN COMPUTER INTERACTION",
+                "9511"
+            ]
+        },
+        {
+            "value": "comp9517",
+            "synonyms": [
+                "COMP9517",
+                "Computer Vision",
+                "computer vision",
+                "COMPUTER VISION",
+                "9517"
+            ]
+        },
+        {
+            "value": "comp9801",
+            "synonyms": [
+                "COMP9801",
+                "Extended Design & Analysis of Algorithms",
+                "extended design & analysis of algorithms",
+                "EXTENDED DESIGN & ANALYSIS OF ALGORITHMS",
+                "9801"
+            ]
+        },
+        {
+            "value": "comp9814",
+            "synonyms": [
+                "COMP9814",
+                "Extended Artificial Intelligence",
+                "extended artificial intelligence",
+                "EXTENDED ARTIFICIAL INTELLIGENCE",
+                "9814"
+            ]
+        },
+        {
+            "value": "comp9844",
+            "synonyms": [
+                "COMP9844",
+                "Extended Neural Networks and Deep Learning",
+                "extended neural networks and deep learning",
+                "EXTENDED NEURAL NETWORKS AND DEEP LEARNING",
+                "9844"
+            ]
+        },
+        {
+            "value": "comp9900",
+            "synonyms": [
+                "COMP9900",
+                "Information Technology Project",
+                "information technology project",
+                "INFORMATION TECHNOLOGY PROJECT",
+                "9900"
+            ]
+        },
+        {
+            "value": "comp9991",
+            "synonyms": [
+                "COMP9991",
+                "Research Project A",
+                "research project a",
+                "RESEARCH PROJECT A",
+                "9991"
+            ]
+        },
+        {
+            "value": "comp9992",
+            "synonyms": [
+                "COMP9992",
+                "Research Project B",
+                "research project b",
+                "RESEARCH PROJECT B",
+                "9992"
+            ]
+        }
+    ],
+    "isEnum": false,
+    "automatedExpansion": true,
+    "allowFuzzyExtraction": true,
+    "isRegexp": false
+}

@@ -1,0 +1,50 @@
+Taoran Sun
+z5150998
+Workdiary
+
+
+
+week1
+1.Through the lecture and the decription of the projects to know about the requirements of this course. 
+2.Find group members of the team. Deep reading interested project.
+
+week2
+1.Listening detailed introduction in lab from tutor. 
+2.Decided the most interested project and discuss with team member. 
+3.Read some paper and learn basic knowledge about chatbot.
+
+week3
+1.Made the final decision for project about chatbot. 
+2.Analyze the requirement of the project.
+3.Finish the proposal(just doing my part)
+4.Decide to use Dialogflow to do the chatbot.
+5.learn basic knowledge about dialogflow.
+
+week4
+1.Allocat job for every member.
+2.learn about recommendation system.
+
+week5
+1.Try to finish recommendation system.
+2.Think about how to do the knowledge base part.
+
+week6
+1.Finish recommendation system.
+2.learn Flask and css and html.
+
+week7
+1.Finish the algorithm and database of knowledge base part.
+2.Add recommendation system into dialog
+
+week8
+1.Finish the frontend and backend of knowledge base include login page and input page.
+
+week9
+1.Test the code of recommendation system and knowledge base and make them better.
+2.Add knowlege part in Dialogflow.
+3.Prepare presentation.
+
+week10
+1.Prepare presentation.
+2.Write the final report.
+3.Clear up the code.

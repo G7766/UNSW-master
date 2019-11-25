@@ -1,0 +1,28 @@
+{
+    "id": "4b4a021a-8541-49f3-a8be-808dea4b3651",
+    "name": "weather",
+    "isOverridable": true,
+    "entries": [
+        {
+            "value": "sunny",
+            "synonyms": [
+                "SUNNY",
+                "sun",
+                "happy",
+                "clear sky"
+            ]
+        },
+        {
+            "value": "rainy",
+            "synonyms": [
+                "rain",
+                "bad",
+                "not good"
+            ]
+        }
+    ],
+    "isEnum": false,
+    "automatedExpansion": true,
+    "allowFuzzyExtraction": true,
+    "isRegexp": false
+}
